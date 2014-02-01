@@ -7,6 +7,7 @@ Multichar_Symbols
 
 %<n%>              ! Имя существительное
 %<adj%>            ! Имя прилагательное
+%<num%>            ! Число
 %<prn%>            ! Местоимение
 
 %<p1%>             ! 1. лицо
@@ -30,6 +31,7 @@ Multichar_Symbols
 LEXICON Root
 
 Pronouns ; 
+Numerals ; 
 Adjectives ; 
 Nouns ; 
 
@@ -37,35 +39,56 @@ Nouns ;
 
 LEXICON PRON-MIN
 
-%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>: # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:н # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<par%>:игинэ # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:эхэ # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:игин # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:игиттэн # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<ins%>:игинэн # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<com%>:игинниин # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<comp%>:игиннээҕэр # ;
 
 LEXICON PRON-EN
 
-%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>: # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:н # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<par%>:йиигинэ # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:йиэхэ # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<acc%>:йигин # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:йигиттэн # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<ins%>:йигинэн # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<com%>:йигинниин # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<comp%>:йигиннээҕэр # ;
 
 LEXICON PRON-KINI
 
 %<prn%>%<pers%>%<p3%>%<hu%>%<sg%>%<nom%>: # ;
+%<prn%>%<pers%>%<p3%>%<hu%>%<sg%>%<par%>:тэ # ;
+%<prn%>%<pers%>%<p3%>%<hu%>%<sg%>%<dat%>:эхэ # ;
+%<prn%>%<pers%>%<p3%>%<hu%>%<sg%>%<acc%>:ни # ;
+%<prn%>%<pers%>%<p3%>%<hu%>%<sg%>%<abl%>:ттэн # ;
+%<prn%>%<pers%>%<p3%>%<hu%>%<sg%>%<ins%>:нэн # ;
+%<prn%>%<pers%>%<p3%>%<hu%>%<sg%>%<com%>:лиин # ;
+%<prn%>%<pers%>%<p3%>%<hu%>%<sg%>%<comp%>:тээҕэр # ;
 
 LEXICON PRON-OL
 
-%<prn%>%<pers%>%<p3%><sg%>%<nom%>: # ;
+%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>: # ;
 
 LEXICON PRON-BIHIGI
 
-%<prn%>%<pers%>%<p1%><pl%>%<nom%>: # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>: # ;
 
 LEXICON PRON-EHIGI
 
-%<prn%>%<pers%>%<p2%><pl%>%<nom%>: # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>: # ;
 
 LEXICON PRON-KINILER
 
-%<prn%>%<pers%>%<p3%>%<hu%><pl%>%<nom%>: # ;
+%<prn%>%<pers%>%<p3%>%<hu%>%<pl%>%<nom%>: # ;
 
 LEXICON PRON-OLLOR
 
-%<prn%>%<pers%>%<p3%><pl%>%<nom%>: # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<nom%>: # ;
 
 LEXICON N1
 
@@ -75,11 +98,15 @@ LEXICON A1
 
 %<adj%>: # 
 
+LEXICON NUM
+
+%<num%>: # ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Pronouns
 
-мин:мин PRON-MIN ; ! ""
+мин:ми PRON-MIN ; ! ""
 эн:эн PRON-EN ; ! ""
 кини:кини PRON-KINI ; ! ""
 ол:ол PRON-OL ; ! ""
@@ -87,6 +114,37 @@ LEXICON Pronouns
 эһиги:эһиги PRON-EHIGI ; ! ""
 кинилэр:кинилэр PRON-KINILER ; ! ""
 оллoр:оллoр PRON-OLLOR ; ! ""
+
+LEXICON Numerals
+
+нуул:нуул NUM ; ! ""
+биир:биир NUM ; ! "один"
+икки:икки NUM ; ! "два"
+үс:үс NUM ; ! "три"
+түөрт:түөрт NUM ; ! "четыре"
+биэс:биэс NUM ; ! "пять"
+алта:алта NUM ; ! "шесть"
+сэттэ:сэттэ NUM ; ! "семь"
+аҕыс:аҕыс NUM ; ! "восемь"
+тоҕус:тоҕус NUM ; ! "деветь"
+уон:уон NUM ; ! "десять"
+
+уон% биир:уон% биир NUM ; ! ""
+сүүрбэ:сүүрбэ NUM ; ! ""
+отут:отут NUM ; ! ""
+түөрт% уон:түөрт% уон NUM ; ! ""
+биэс% уон:биэс% уон NUM ; ! ""
+алта% уон:алта% уон NUM ; ! ""
+сэттэ% уон:сэттэ% уон NUM ; ! ""
+аҕыс% уон:аҕыс% уон NUM ; ! ""
+тоҕус% уон:тоҕус% уон NUM ; ! ""
+
+сүүс:сүүс NUM ; ! ""
+
+тыһыынча:тыһыынча NUM ; ! ""
+уон% тыһыынча:уон% тыһыынча NUM ; ! ""
+
+мөлүйүөн:мөлүйүөн NUM ; ! ""
 
 LEXICON Nouns 
 
