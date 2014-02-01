@@ -143,7 +143,11 @@ LEXICON NP-TOP
 
 LEXICON A1 
 
-%<adj%>: # 
+%<adj%>: #  ;
+
+LEXICON A3
+
+%<adj%>: # ;
 
 LEXICON NUM
 
@@ -1050,6 +1054,9 @@ Ypyмэччи:Ypyмэччи NP-ANT-F ; ! ""
 
 
 LEXICON Adjectives
+
+баар:баар A3 ; ! "есть"
+суох:суох A3 ; ! "нет"
 
 куһаҕан:куһаҕан A1 ; ! ""
 
