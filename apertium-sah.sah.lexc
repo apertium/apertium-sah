@@ -40,6 +40,8 @@ Multichar_Symbols
 %<lpar%>           ! 
 
 
+%{L%}              !
+%{A%}              !
 
 %>                 ! Граница морфемы
 
@@ -57,6 +59,51 @@ Adjectives ;
 Punctuation ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON CASES
+
+%<nom%>: # ; 
+
+LEXICON CASES-ETC
+
+CASES ;
+! GENPOSS-ETC ;
+
+LEXICON N-INFL-COMMON
+
+! POSS ;
+CASES-ETC ;
+! ABESS ;
+
+LEXICON SUBST
+
+N-INFL-COMMON ;
+%<pl%>:%>%{L%}%{A%}р N-INFL-COMMON ;
+
+LEXICON N1
+
+%<n%>%<attr%>: # ; 
+%<n%>: SUBST ;
+
+LEXICON NP-ANT-M 
+
+%<np%>%<ant%>%<m%>: # ;
+
+LEXICON NP-ANT-F
+
+%<np%>%<ant%>%<f%>: # ;
+
+LEXICON NP-TOP
+
+%<np%>%<top%>: # ;
+
+LEXICON A1 
+
+%<adj%>: # 
+
+LEXICON NUM
+
+%<num%>: # ;
 
 LEXICON PRON-MIN
 
@@ -111,29 +158,6 @@ LEXICON PRON-OLLOR
 
 %<prn%>%<pers%>%<p3%>%<pl%>%<nom%>: # ;
 
-LEXICON N1
-
-%<n%>: # ;
-
-LEXICON NP-ANT-M 
-
-%<np%>%<ant%>%<m%>: # ;
-
-LEXICON NP-ANT-F
-
-%<np%>%<ant%>%<f%>: # ;
-
-LEXICON NP-TOP
-
-%<np%>%<top%>: # ;
-
-LEXICON A1 
-
-%<adj%>: # 
-
-LEXICON NUM
-
-%<num%>: # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -823,6 +847,8 @@ LEXICON Nouns
 субуота:субуота N1 ; ! "суббота"
 баскыһыанньа:баскыһыанньа N1 ; ! "воскресенье"
 
+объект:объект N1 ; ! "объект"
+
 LEXICON ProperNouns
 
 Айаан:Айаан NP-ANT-M ; ! ""
@@ -892,8 +918,94 @@ LEXICON ProperNouns
 Мичийэ:Мичийэ NP-ANT-F ; ! ""
 Айгылаана:Айгылаана NP-ANT-F ; ! ""
 Ypyмэччи:Ypyмэччи NP-ANT-F ; ! ""
+Фазила:Фазила NP-ANT-F; ! ""
+
+Оксана:Оксана NP-ANT-F; ! "Oksana" (Greek)
+Олег:Олег NP-ANT-M; ! "Oleg" (Skandinavian)
+Ольга:Ольга NP-ANT-F; ! "OlʲGa" (Skandinavian)
+Отар:Отар NP-ANT-M; ! "Otar" (Kazakh)
+Раиса:Раиса NP-ANT-F; ! "Raisa" 
+Рамазан:Рамазан NP-ANT-M; ! "Ramazan" (Arabic)
+Рафаэль:Рафаэль NP-ANT-M; ! "Rafaelʲ" (Ancient Hebrew)
+Ричард:Ричард NP-ANT-M ; ! ""
+Роберт:Роберт NP-ANT-M ; ! ""
+Роза:Роза NP-ANT-F; ! "Roza" 
+Роман:Роман NP-ANT-M ; ! ""
+Руслан:Руслан NP-ANT-M; ! "Rıwslan" (Arabic)
+Рустам:Рустам NP-ANT-M ; ! ""
+Петр:Петр NP-ANT-M ; ! ""
+Петя:Петя NP-ANT-M ; ! ""
+Пётр:Пётр NP-ANT-M ; ! ""
+Платон:Платон NP-ANT-M ; ! ""
+Полина:Полина NP-ANT-F ; ! ""
+Галина:Галина NP-ANT-F; ! "Galıyna" 
+Геннадий:Геннадий NP-ANT-M ; ! "" 
+Георгий:Георгий NP-ANT-M ; ! "" 
+Геральд:Геральд NP-ANT-M ; ! ""
+Герман:Герман NP-ANT-M ; ! ""
+Гомер:Гомер NP-ANT-M ; ! ""
+Григориан:Григориан NP-ANT-M ; ! ""
+Вадим:Вадим NP-ANT-M; ! ""
+Валентина:Валентина NP-ANT-F; ! "Valentina" (Latin)
+Валентин:Валентин NP-ANT-M ; ! ""
+Валерий:Валерий NP-ANT-M; ! "Valeriy" (Latin)
+Варвара:Варвара NP-ANT-F ; ! ""
+Василий:Василий NP-ANT-M ; ! "" 
+Вацлав:Вацлав NP-ANT-M ; ! "" 
+Венера:Венера NP-ANT-F; ! "Venera" (Latin)
+Вера:Вера NP-ANT-F; ! "Vera" (Greek)
+Вероника:Вероника NP-ANT-F ; ! ""
+Виктор:Виктор NP-ANT-M; ! "Viktor" (Latin)
+Виктория:Виктория NP-ANT-F; ! "Viktoriya" (Latin)
+Виталий:Виталий NP-ANT-M ; ! "" 
+Владимир:Владимир NP-ANT-M ; ! "Vladimir"
+Владислав:Владислав NP-ANT-M ; ! ""
+Вячеслав:Вячеслав NP-ANT-M ; ! ""
+Лариса:Лариса NP-ANT-F; ! "Larıysa" (Greek)
+Лев:Лев NP-ANT-M ; ! ""
+Лена:Лена NP-ANT-F ; ! ""
+Леонардо:Леонардо NP-ANT-M ; ! ""
+Леонид:Леонид NP-ANT-M ; ! ""
+Лидия:Лидия NP-ANT-F ; ! ""
+Лилия:Лилия NP-ANT-F ; ! ""
+Лора:Лора NP-ANT-F; ! "Lora" (New word)
+Люба:Люба NP-ANT-F ; ! ""
+Любовь:Любовь NP-ANT-F ; ! ""
+Людмила:Людмила NP-ANT-F ; ! ""
+Феликс:Феликс NP-ANT-M ; ! ""
+Фидель:Фидель NP-ANT-M ; ! ""
+Ева:Ева NP-ANT-F ; ! ""
+Евгений:Евгений NP-ANT-M ; ! "Yevgeniy"
+Евгения:Евгения NP-ANT-F ; ! ""
+Егор:Егор NP-ANT-M; ! "Egor" (Greek)
+Екатерина:Екатерина NP-ANT-F ; ! ""
+Елена:Елена NP-ANT-F; ! "Elena" (Greek)
+Елизавета:Елизавета NP-ANT-F; ! "Elizaveta" (Skandinavian)
+Ефрем:Ефрем NP-ANT-M ; ! ""
+Шара:Шара NP-ANT-F; ! "Shara" (Kazakh)
+Зинаида:Зинаида NP-ANT-F; ! "Zıynaida" (Greek)
+Зинат:Зинат NP-ANT-F; ! "Zıynat" (Arabic)
+Зоя:Зоя NP-ANT-F; ! "Zoya" (Greek)
+Юлия:Юлия NP-ANT-F ; ! ""
+Юрий:Юрий NP-ANT-M ; ! ""
+Жанна:Жанна NP-ANT-F; ! "Janna" (Kazakh)
+Женя:Женя NP-ANT-F ; ! ""
+Женя:Женя NP-ANT-M ; ! ""
+Яна:Яна NP-ANT-F ; ! ""
+Николай:Николай NP-ANT-M ; ! ""
+
 
 Испания:Испания NP-TOP ; ! ""
+Чикаго:Чикаго NP-TOP ; ! "Chicago"
+Чад:Чад NP-TOP ; ! ""
+Черногория:Черногория NP-TOP ; ! ""
+Чехия:Чехия NP-TOP ; ! ""
+Чили:Чили NP-TOP ; ! ""
+Ню% Йорк:Ню% Йорк NP-TOP ; ! ""
+Цейлон:Цейлон NP-TOP ; ! ""
+Йорк:Йорк NP-TOP ; ! ""
+Қазақстан:Қазақстан NP-TOP ; ! "Kazakhstan" 
+
 
 LEXICON Adjectives
 
