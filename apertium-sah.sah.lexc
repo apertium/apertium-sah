@@ -41,7 +41,13 @@ Multichar_Symbols
 
 
 %{L%}              !
+%{G%}              !
+%{T%}              !
 %{A%}              !
+%{I%}              !
+%{n%}              !
+%{t%}              !
+%{i%}              !
 
 %>                 ! Граница морфемы
 
@@ -60,9 +66,20 @@ Punctuation ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON CASES-OBL
+
+%<par%>:%>%{T%}%{A%} # ;
+%<dat%>:%>%{G%}%{A%} # ;
+%<acc%>:%>%{n%}%{I%} # ;
+%<abl%>:%>%{t%}т%{A%}н # ;
+%<ins%>:%>%{i%}н%{A%}н # ;
+%<com%>:%>%{L%}%{I%}%{I%}н # ;
+!%<comp%>:%> # ;
+
 LEXICON CASES
 
 %<nom%>: # ; 
+CASES-OBL ; 
 
 LEXICON CASES-ETC
 
@@ -87,15 +104,15 @@ LEXICON N1
 
 LEXICON NP-ANT-M 
 
-%<np%>%<ant%>%<m%>: # ;
+%<np%>%<ant%>%<m%>: CASES ;
 
 LEXICON NP-ANT-F
 
-%<np%>%<ant%>%<f%>: # ;
+%<np%>%<ant%>%<f%>: CASES ;
 
 LEXICON NP-TOP
 
-%<np%>%<top%>: # ;
+%<np%>%<top%>: CASES ;
 
 LEXICON A1 
 
@@ -1040,4 +1057,12 @@ LEXICON Punctuation
 %)%<rpar%>:%) # ;
 %\%<sent%>:%\ # ;
 %/%<sent%>:%/ # ;
+
+! Temporary numeral lexicon
+<[%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9]+>  DIGITLEX ; ! Use/Circ
+
+LEXICON DIGITLEX
+
+%<num%>: # ; 
+!% й%.%<num%>:% й%. # ;  ! "год"
 
