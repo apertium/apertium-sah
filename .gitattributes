@@ -2,3 +2,4 @@
 /Makefile -text
 /apertium-sah.sah.lexc -text
 /apertium-sah.sah.twol -text
+dev/countstems.sh -text
