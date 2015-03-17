@@ -1,0 +1,16 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../../sah.autogen.hfst
+    Morph: ../../sah.automorf.hfst
+
+
+  "уот":
+    уот<n><nom> : уот
+    уот<n><acc> : уоту
+    уот<n><par> : уотта
+    уот<n><dat> : уокка
+    уот<n><abl> : уоттан
+    уот<n><ins> : уоттунан
+    уот<n><com> : уотт
+ 

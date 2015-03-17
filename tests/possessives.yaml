@@ -1,0 +1,57 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../../sah.autogen.hfst
+    Morph: ../../sah.automorf.hfst
+
+  "Simple possessives": 
+ 
+    эбэ<n><px1sg><nom> : эбэм
+    эбэ<n><px2sg><nom> : эбэҥ
+    эбэ<n><px3sp><nom> : эбэтэ
+    эбэ<n><px1pl><nom> : эбэбит
+    эбэ<n><px2pl><nom> : эбэҕит
+    эбэ<n><px3pl><nom> : эбэлэрэ
+
+  "Possessive and case": 
+
+    дьиэ<n><px1sg><nom> : дьиэм
+    дьиэ<n><px1sg><dat> : дьиэбэр
+
+    дьиэ<n><px3sp><nom> : дьиэтэ
+    дьиэ<n><px3sp><acc> : дьиэтин
+    дьиэ<n><px3sp><dat> : дьиэтигэр
+    дьиэ<n><px3sp><abl> : дьиэтиттэн
+
+    дьиэ<n><px1pl><nom> : дьиэбит
+    дьиэ<n><px1pl><dat> : дьиэбитигэр
+
+    дьиэ<n><px3pl><acc> : дьиэлэрин
+    дьиэ<n><px3pl><dat> : дьиэлэригэр
+
+    тыл<n><px3sg><nom> : тылы
+    тыл<n><px3sg><acc> : тылын
+    тыл<n><px3sg><dat> : тылыгар
+    тыл<n><px3sg><abl> : тылыттан
+    тыл<n><px3sg><ins> : тылынан
+
+    аат<n><px3sg><nom> : ааты
+    аат<n><px3sg><acc> : аатын
+    аат<n><px3sg><dat> : аатыгар
+    аат<n><px3sg><abl> : аатыттан
+    аат<n><px3sg><ins> : аатынан
+ 
+    үлэ<n><px1sg><abl> : үлэбиттэн 
+    үлэ<n><px2sg><abl> : үлэҕиттэн 
+
+  "Possessives with stem changes":
+
+    ат<n><px1sg><dat> : аппар
+    ат<n><px2sg><dat> : аккар
+
+    күүс<n><px3sg><ins> : күүһүнэн
+    күүс<n><px1pl><ins> : күүспүтүнэн
+
+  "Russian loans": 
+ 
+    очерк<n><px3sp><par> : очерката

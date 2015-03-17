@@ -85,6 +85,7 @@ LEXICON Root
 
 Pronouns ; 
 Conjunctions ;
+Postpositions ;
 Numerals ; 
 Nouns ; 
 ProperNouns ; 
@@ -118,6 +119,18 @@ LEXICON CASES-OBL
 %<com%>:%>%{L%}%{I%}%{I%}н # ;
 !%<comp%>:%> # ;
 
+LEXICON CASES-POSS-3SP
+
+%<nom%>: # ;
+%<par%>:%>н%{A%} # ;
+%<dat%>:%>%{G%}%{A%}р # ;
+%<acc%>:%>н # ;
+%<abl%>:%>%{t%}т%{A%}н # ;
+%<ins%>:%>н%{A%}н # ;
+%<com%>:%>н%{I%}н # ;
+!%<comp%>:%> # ;
+
+
 LEXICON CASES
 
 %<nom%>: # ; 
@@ -128,9 +141,9 @@ LEXICON POSS
 CASES-ETC ;
 %<px1sg%>:%>%{I%}м CASES-ETC ;
 %<px2sg%>:%>%{I%}ҥ CASES-ETC ;
-%<px3sp%>:%>%{t%}%{A%} CASES-ETC ;
-%<px1pl%>:%>%{B%}%{I%}т CASES-ETC ;
-%<px2pl%>:%>%{G%}%{I%}т CASES-ETC ;
+%<px3sp%>:%>%{t%}%{A%} CASES-POSS-3SP ;
+%<px1pl%>:%>%{B%}%{I%}т CASES-POSS-3SP ;
+%<px2pl%>:%>%{G%}%{I%}т CASES-POSS-3SP ;
 !%<px3pl%>:%>%{L%}%{A%}р%{A%} CASES-ETC ;
 
 LEXICON CASES-ETC
@@ -181,6 +194,8 @@ LEXICON A3
 LEXICON NUM
 
 %<num%>: # ;
+%<num%>%<ord%>:%>%{i%}с # ;
+%<num%>%<ord%>%<subst%>:%>%{i%}с FULL-NOMINAL-INFLECTION ;
 
 LEXICON PRON-MIN
 
@@ -272,10 +287,22 @@ LEXICON V-PERS-S2
 %<p2%>%<pl%>:%>г%{I%}т CLITICS-NO-COP ;
 !%<p3%>%<pl%>:%> CLITICS-NO-COP ;       ! FIXME: Check
 
+LEXICON V-PERS-AOR
+
+%<p1%>%<sg%>:%>б%{I%}н CLITICS-NO-COP ;
+%<p2%>%<sg%>:%>%{G%}%{I%}н CLITICS-NO-COP ;
+%<p3%>%<sg%>:%>р CLITICS-NO-COP ;
+%<p1%>%<pl%>:%>б%{I%}т CLITICS-NO-COP ;
+%<p2%>%<pl%>:%>%{G%}%{I%}т CLITICS-NO-COP ;
+!%<p3%>%<pl%>:%> CLITICS-NO-COP ;       ! FIXME: Check
+
+
 LEXICON V-FINITE-REGULAR_NEGATIVE
 
-%<aor%>:%>%{A%} V-PERS-S1 ;
+%<aor%>:%>%{A%} V-PERS-AOR ;
 %<ifi%>:%>%{T%}%{A%} V-PERS-S2 ;
+%<past%>:%>%{B%}%{I%}т V-PERS-S2 ; ! FIXME: check
+%<pros%>:%>%{I%}%{A%}%{G%} V-PERS-S2 ; ! FIXME: check
 
 LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
@@ -306,6 +333,10 @@ LEXICON CC
 
 %<cnjcoo%>: # ;
 
+LEXICON POST 
+
+%<post%>: # ; 
+
 LEXICON ABBR
 
 %<abbr%>: # ; 
@@ -316,6 +347,11 @@ LEXICON Conjunctions
 
 уонна:уонна CC ; ! "и"
 оттон:оттон CC ; ! "но"
+
+LEXICON Postpositions
+
+баран:баран POST ; ! "после"
+кытта:кытта POST ; ! "с" 
 
 LEXICON Pronouns
 
@@ -371,6 +407,8 @@ LEXICON Numerals
 LEXICON Nouns 
 
 орто:орто N1 ; ! "middle"
+
+киһи:киһи N1 ; ! "человек" ! FIXME: irreg dative
 
 аат:аат N1 ; ! "имя; прозвище; кличка"
 ааҥнааһын:ааҥнааһын N1 ; ! "набег; нападение"
@@ -531,7 +569,6 @@ LEXICON Nouns
 кинигэ:кинигэ N1 ; ! "книга"
 киргил:киргил N1 ; ! "орнитол. дятел"
 киэҥэ:киэҥэ N1 ; ! "ширина"
-киһи:киһи N1 ; ! "человек"
 кобра:кобра N1 ; ! "кобра"
 колокуонньа:колокуонньа N1 ; ! "архит. колокольня"
 конус:конус N1 ; ! "геометр. конус"
@@ -1134,6 +1171,12 @@ yy:yy N1 ; ! "вода"
 асчыт:асчыт N1 ; ! "cook"
 тараах:тараах N1 ; ! "comb"
 
+эбэ:эбэ N1 ; ! "grandmother"
+
+дойду:дойду N1 ; ! "земля, родина"
+дьон:дьон N1 ; ! ""
+аан:аан N1 ; ! "дверь"
+дьиэ:дьиэ N1 ; ! "дом"
 
 
 LEXICON ProperNouns
@@ -1303,6 +1346,8 @@ LEXICON Adjectives
 суох:суох A3 ; ! "нет"
 
 куһаҕан:куһаҕан A1 ; ! ""
+улуу:улуу A1 ; ! "большой"
+сөп:сөп A1 ; ! "правый" ! FIXME: check
 
 LEXICON Adverbs 
 
@@ -1311,10 +1356,15 @@ LEXICON Adverbs
 хайдах:хайдах ADV-ITG ; ! "как"
 хантан:хантан ADV-ITG ; ! "откуда"
 
+
+
 LEXICON Verbs
+
+буол:буол V-IV ; ! "быть"
 
 көр:көр V-TV ; ! "видеть"
 
+тур:тур V-IV ;  ! "stand"
 күл:күл  V-IV ; ! "laugh"
 өл:өл  V-IV ; ! "die"
 ис:ис  V-TV ; ! "drink"
