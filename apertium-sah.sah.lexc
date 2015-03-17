@@ -8,6 +8,7 @@ Multichar_Symbols
 %<n%>              ! Имя существительное
 %<adj%>            ! Имя прилагательное
 %<np%>             ! 
+%<cnjcoo%>         ! 
 %<num%>            ! Число
 %<prn%>            ! Местоимение
 %<v%>              ! Глагол
@@ -81,6 +82,7 @@ Multichar_Symbols
 LEXICON Root
 
 Pronouns ; 
+Conjunctions ;
 Numerals ; 
 Nouns ; 
 ProperNouns ; 
@@ -241,6 +243,11 @@ LEXICON PRON-DEM-BU
 %<prn%>%<dem%>%<sg%>%<nom%>:у # ;
 %<prn%>%<dem%>%<pl%>%<nom%>:а%>лар # ;
 
+LEXICON PRON-DEM-ITI
+
+%<prn%>%<dem%>%<sg%>%<nom%>: # ;
+%<prn%>%<dem%>%<pl%>%<nom%>:%>лэр # ;
+
 LEXICON PRON-ITG 
 
 %<prn%>%<itg%>: FULL-NOMINAL-INFLECTION ;
@@ -293,9 +300,17 @@ LEXICON ADV-ITG
 
 %<adv%>%<itg%>: CLITICS-INCL-COP ;
 
+LEXICON CC 
+
+%<cnjcoo%>: # ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Conjunctions 
+
+уонна:уонна CC ; ! "и"
+оттон:оттон CC ; ! "но"
 
 LEXICON Pronouns
 
@@ -310,6 +325,9 @@ LEXICON Pronouns
 
 бу:б PRON-DEM-BU ; ! ""
 субу:суб PRON-DEM-BU ; ! ""
+
+ити:ити PRON-DEM-ITI ; ! ""
+сити:сити PRON-DEM-ITI ; ! ""
 
 ким:ким PRON-ITG ; ! ""
 туох:туох PRON-ITG ; ! ""
