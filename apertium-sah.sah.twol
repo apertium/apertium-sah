@@ -1,22 +1,32 @@
 Alphabet
- A B Ç D E Ä F G H I J Ž K L M N Ň O Ö P R S Ş T U Ü W Y Ý Z
- a b ç d e ä f g h i j ž k l m n ň o ö p r s ş t u ü w y ý z
- %{A%}:a %>:0  ;
+
+   А Б В Г Д Е Ё Ж З И Й К Л М Н О Ө П Р С Т У Ү Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Һ Ҥ Ҕ
+   а б в г д е ё ж з и й к л м н о ө п р с т у ү ф х ц ч ш щ ъ ы ь э ю я һ ҥ ҕ
+
+   %{A%}:а %{A%}:э %{A%}:ө %{A%}:о
+   %{I%}:и %{I%}:у %{I%}:ү %{I%}:ы
+
+   %{L%}:л %{L%}:т %{L%}:д %{L%}:н
+   %{T%}:л %{T%}:т %{T%}:д %{T%}:н
+
+   %{B%}:б %{B%}:п %{B%}:м
+
+   %{G%}:г %{G%}:к %{G%}:ҕ %{G%}:х %{G%}:ҥ
+
+   %{i%}:0 
+
+   %{n%}:0 
+
+   %{t%}:0 
+
+   %>:0 ; 
 
 Sets
 
-Vowel = A E Ä I O Ö U Ü Y Ý 
-        a e ä i o ö u ü y ý ;
+Vow = Я Ю Ё А О Ы У Э Е И Ө Ү
+      я ю ё а о ы у э е и ө ү ;
 
-Rules 
+Rules
 
-"Remove suffix vowel with vowel-ending stem"
-i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;
-
-! Resources:
-! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
-! https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstHome
-! http://hfst.sourceforge.net/
-! http://wiki.apertium.org/wiki/Twol
-! http://wiki.apertium.org/wiki/Hfst
-
+"Delete morpheme boundary"
+%>:0 <=> _ ; 
