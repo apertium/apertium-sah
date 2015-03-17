@@ -1,5 +1,17 @@
 * text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
 /Makefile -text
+/NEWS -text
+/README -text
+/apertium-sah.pc.in -text
+/apertium-sah.post-sah.dix -text
 /apertium-sah.sah.lexc -text
+/apertium-sah.sah.rlx -text
 /apertium-sah.sah.twol -text
+/autogen.sh -text
+/configure.ac -text
 dev/countstems.sh -text
+/modes.xml -text
+/sah.prob -text svneol=unset#unset

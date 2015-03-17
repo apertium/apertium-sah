@@ -1,0 +1,60 @@
+AC_PREREQ(2.52)
+
+AC_INIT([apertium-sah], [0.1.0], [francis.tyers@uit.no])
+AM_INIT_AUTOMAKE([apertium-sah], [0.1.0], no-define)
+AC_PROG_LN_S
+AC_PROG_AWK
+
+dnl HFST support
+AH_TEMPLATE(HAVE_HFSTOSPELL, [Have HFSTOSPELL])
+AC_ARG_ENABLE(ospell, AC_HELP_STRING([--enable-ospell],
+        [enable HFST spellchecking backend]),
+        [hfstospell=${enableval}], [hfstospell=no])
+dnl must be AS_IF for some aclocals to pick PKG_CHECK_MODULES somehow.
+dnl AC_PROVIDE_IFELSE doesn't work on mac?
+AS_IF([test x$hfstospell = xyes], [
+      PKG_CHECK_MODULES([HFSTOSPELL], [hfstospell >= 0.2])
+          AC_DEFINE(HAVE_HFSTOSPELL, 1)
+          CXXFLAGS="$CXXFLAGS $HFSTOSPELL_CFLAGS"
+        ])
+AM_CONDITIONAL([HAVE_HFSTOSPELL], [test x$hfstospell = xyes])
+
+
+m4_define([required_apertium_version], [3.3.0])
+PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version)
+
+AC_PATH_PROG(HFSTLEXC, hfst-lexc, no)
+if test x$ac_cv_path_HFSTLEXC = x
+then
+  AC_MSG_ERROR([You don't have hfst-lexc installed.])
+fi
+if test x$ac_cv_path_HFSTLEXC = xno
+then
+  AC_MSG_ERROR([You don't have hfst-lexc installed.])
+fi
+
+AC_PATH_PROG(HFSTTWOL, hfst-twolc, no)
+if test x$ac_cv_path_HFSTTWOL = x
+then
+  AC_MSG_ERROR([You don't have hfst-twolc installed.])
+fi
+if test x$ac_cv_path_HFSTTWOL = xno
+then
+  AC_MSG_ERROR([You don't have hfst-twolc installed.])
+fi
+
+AC_PATH_PROG(CGCOMP, cg-comp, no)
+if test x$ac_cv_path_CGCOMP = x
+then
+  AC_MSG_ERROR([You don't have cg-comp installed.])
+fi
+if test x$ac_cv_path_CGPROC = xno
+then
+  AC_MSG_ERROR([You don't have cg-comp installed.])
+fi
+
+
+AP_MKINCLUDE
+
+AC_OUTPUT([Makefile apertium-sah.pc])
+
