@@ -30,3 +30,6 @@ Rules
 
 "Delete morpheme boundary"
 %>:0 <=> _ ; 
+
+"Vowel deletion"
+%{A%}:0 <=> _ %>: %{I%}: ; 
