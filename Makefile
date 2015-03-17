@@ -1,6 +1,6 @@
 all:	
 	if [ ! -d .deps ]; then mkdir .deps; fi
-	hfst-lexc apertium-sah.sah.lexc -o .deps/sah.lexc.hfst
+	hfst-lexc -v apertium-sah.sah.lexc -o .deps/sah.lexc.hfst
 	hfst-twolc apertium-sah.sah.twol -o .deps/sah.twol.hfst
 	hfst-compose-intersect -1 .deps/sah.lexc.hfst -2 .deps/sah.twol.hfst -o .deps/sah.autogen.hfst
 	hfst-invert .deps/sah.autogen.hfst -o .deps/sah.automorf.hfst

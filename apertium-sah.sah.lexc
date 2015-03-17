@@ -10,6 +10,7 @@ Multichar_Symbols
 %<np%>             ! 
 %<num%>            ! Число
 %<prn%>            ! Местоимение
+%<v%>              ! Глагол
 
 %<p1%>             ! 1. лицо
 %<p2%>             ! 2. лицо
@@ -19,6 +20,9 @@ Multichar_Symbols
  
 %<sg%>             ! Единственное число
 %<pl%>             ! Множественное число
+
+%<iv%>             ! 
+%<tv%>             ! 
 
 %<nom%>            !
 %<par%>            !
@@ -82,9 +86,19 @@ Nouns ;
 ProperNouns ; 
 Adjectives ; 
 
+Verbs ;
+
 Punctuation ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON CLIT-EMPH 
+
+# ;
+
+LEXICON CLITICS-NO-COP 
+
+# ;
 
 LEXICON CASES-OBL
 
@@ -209,6 +223,50 @@ LEXICON PRON-OLLOR
 
 %<prn%>%<pers%>%<p3%>%<pl%>%<nom%>: # ;
 
+LEXICON V-PERS-S1
+
+%<p1%>%<sg%>:%>б%{I%}н CLITICS-NO-COP ;
+%<p2%>%<sg%>:%>%{G%}%{I%}н CLITICS-NO-COP ;
+%<p3%>%<sg%>: CLITICS-NO-COP ;
+%<p1%>%<pl%>:%>б%{I%}т CLITICS-NO-COP ;
+%<p2%>%<pl%>:%>%{G%}%{I%}т CLITICS-NO-COP ;
+!%<p3%>%<pl%>:%> CLITICS-NO-COP ;       ! FIXME: Check
+
+LEXICON V-PERS-S2
+
+%<p1%>%<sg%>:%>%{I%}м CLITICS-NO-COP ;
+%<p2%>%<sg%>:%>%{I%}ҥ CLITICS-NO-COP ;
+%<p3%>%<sg%>: CLITICS-NO-COP ;
+%<p1%>%<pl%>:%>б%{I%}т CLITICS-NO-COP ;
+%<p2%>%<pl%>:%>г%{I%}т CLITICS-NO-COP ;
+!%<p3%>%<pl%>:%> CLITICS-NO-COP ;       ! FIXME: Check
+
+LEXICON V-FINITE-REGULAR_NEGATIVE
+
+%<aor%>:%>%{A%} V-PERS-S1 ;
+%<ifi%>:%>%{T%}%{A%} V-PERS-S2 ;
+
+LEXICON V-NONFINITE-REGULAR_NEGATIVE
+
+! Imperatives
+%<imp%>%<p2%>%<sg%>: CLIT-EMPH ;
+%<imp%>%<p2%>%<pl%>:%>{I}ҥ CLIT-EMPH ; 
+
+LEXICON V-COMMON
+
+V-FINITE-REGULAR_NEGATIVE ;
+
+V-NONFINITE-REGULAR_NEGATIVE ;
+
+LEXICON V-TV
+
+%<v%>%<tv%>: V-COMMON ;
+
+LEXICON V-IV
+
+%<v%>%<iv%>: V-COMMON ;
+
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -255,6 +313,8 @@ LEXICON Numerals
 мөлүйүөн:мөлүйүөн NUM ; ! ""
 
 LEXICON Nouns 
+
+орто:орто N1 ; ! "middle"
 
 аат:аат N1 ; ! "имя; прозвище; кличка"
 ааҥнааһын:ааҥнааһын N1 ; ! "набег; нападение"
@@ -998,6 +1058,27 @@ LEXICON Nouns
 провинция:провинция N1 ; ! ""
 революция:революция N1 ; ! ""
 
+aac:aac N1 ; ! "hunger"
+балыксыт:балыксыт N1 ; ! "fisherman"
+yy:yy N1 ; ! "вода"
+күөл:күөл N1 ; ! "озеро"
+мурун:мурун N1 ; ! "nose"
+баттах:баттах N1 ; ! "волосы"
+эт:эт N1 ; ! "meat"
+ынах:ынах N1 ; ! "cow"
+
+быһах:быһах N1 ; ! "knife"
+бытык:бытык N1 ; ! "mustache"
+кыһын:кыһын N1 ; ! "зима"
+кыс:кыс N1 ; ! "зима"
+үөрэтээччи:үөрэтээччи N1 ; ! "преподователь"
+үөрэнээччи:үөрэнээччи N1 ; ! "студент"
+сыл:сыл N1 ; ! "год"
+суол:суол N1 ; ! "дорога"
+асчыт:асчыт N1 ; ! "cook"
+тараах:тараах N1 ; ! "comb"
+
+
 
 LEXICON ProperNouns
 
@@ -1167,7 +1248,29 @@ LEXICON Adjectives
 
 куһаҕан:куһаҕан A1 ; ! ""
 
+LEXICON Verbs
 
+көр:көр V-TV ; ! "видеть"
+
+күл:күл  V-IV ; ! "laugh"
+өл:өл  V-IV ; ! "die"
+ис:ис  V-TV ; ! "drink"
+бил:бил  V-TV ; ! "know"
+үөрэн:үөрэн  V-TV ; ! "learn"
+үөрэт:үөрэт  V-TV ; ! "teach"
+ытыр:ытыр  V-TV ; ! "bite"
+хас:хас  V-TV ; ! "dig"
+тик:тик  V-TV ; ! "sew"
+кэл:кэл  V-IV ; ! "come"
+салаа:салаа  V-TV ; ! "lick"
+тараа:тараа  V-TV ; ! "comb"
+биэр:биэр  V-TV ; ! "give"
+бул:бул  V-TV ; ! "find"
+диэ:диэ  V-TV ; ! "say"
+киир:киир  V-IV ; ! "enter"
+иһит:иһит  V-TV ; ! "hear"
+ас:ас  V-TV ; ! "open"
+тут:тут  V-TV ; ! "hold"
 
 
 LEXICON Punctuation
