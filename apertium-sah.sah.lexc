@@ -218,6 +218,11 @@ LEXICON PRON-EHIGI
 LEXICON PRON-KINILER
 
 %<prn%>%<pers%>%<p3%>%<hu%>%<pl%>%<nom%>: # ;
+%<prn%>%<pers%>%<p3%>%<hu%>%<pl%>%<acc%>:и # ;
+%<prn%>%<pers%>%<p3%>%<hu%>%<pl%>%<dat%>:гэ # ;
+%<prn%>%<pers%>%<p3%>%<hu%>%<pl%>%<abl%>:тэн # ; ! FIXME: Check
+%<prn%>%<pers%>%<p3%>%<hu%>%<pl%>%<com%>:диин # ;
+!%<prn%>%<pers%>%<p3%>%<hu%>%<pl%>%<comp%>:диин # ;
 
 LEXICON PRON-OLLOR
 
