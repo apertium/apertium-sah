@@ -13,6 +13,7 @@ Multichar_Symbols
 %<prn%>            ! Местоимение
 %<v%>              ! Глагол
 %<abbr%>           ! 
+%<qst%>            ! 
 
 %<p1%>             ! 1. лицо
 %<p2%>             ! 2. лицо
@@ -53,6 +54,13 @@ Multichar_Symbols
 
 %<aor%>            !
 %<ifi%>            !
+%<past%>           !
+%<pros%>           !
+
+%<gna_perf%>       ! 
+%<gna_abes%>       ! 
+
+%<prc_impf%>       ! 
 
 %<sent%>           ! Sentence marker
 %<guio%>           ! Дефиз 
@@ -69,6 +77,7 @@ Multichar_Symbols
 %{T%}              !
 %{B%}              !
 %{A%}              !
+%{E%}              !
 %{I%}              !
 %{n%}              !
 %{t%}              !
@@ -83,9 +92,10 @@ Multichar_Symbols
 
 LEXICON Root
 
-Pronouns ; 
+Miscellaneous ;
 Conjunctions ;
 Postpositions ;
+Pronouns ; 
 Numerals ; 
 Nouns ; 
 ProperNouns ; 
@@ -121,7 +131,6 @@ LEXICON CASES-OBL
 
 LEXICON CASES-POSS-3SP
 
-%<nom%>: # ;
 %<par%>:%>н%{A%} # ;
 %<dat%>:%>%{G%}%{A%}р # ;
 %<acc%>:%>н # ;
@@ -130,17 +139,26 @@ LEXICON CASES-POSS-3SP
 %<com%>:%>н%{I%}н # ;
 !%<comp%>:%> # ;
 
+LEXICON CASES-POSS-12SG
 
-LEXICON CASES
+%<par%>:%>н%{A%} # ;
+%<acc%>:%>н # ;
+%<abl%>:%>тт%{A%}н # ;
+%<ins%>:%>н%{A%}н # ;
+%<com%>:%>н%{I%}н # ;
+!%<comp%>:%> # ;
+
+LEXICON CASES-NOM
 
 %<nom%>: # ; 
-CASES-OBL ; 
 
 LEXICON POSS-OBL
 
 CASES-ETC ;
-%<px1sg%>:%>%{B%}%{I%} CASES-ETC ;
-%<px2sg%>:%>%{G%}%{I%} CASES-ETC ;
+%<px1sg%>:%>%{B%}%{I%} CASES-POSS-12SG ;
+%<px1sg%>%<dat%>:%>%{B%}%{A%}р # ;
+%<px2sg%>:%>%{G%}%{I%} CASES-POSS-12SG ;
+%<px2sg%>%<dat%>:%>%{G%}%{A%}р # ; 
 %<px3sp%>:%>%{t%}%{I%} CASES-POSS-3SP ;
 %<px1pl%>:%>%{B%}%{I%}т%{I%} CASES-POSS-3SP ;
 %<px2pl%>:%>%{G%}%{I%}т%{I%} CASES-POSS-3SP ;
@@ -149,12 +167,12 @@ CASES-ETC ;
 LEXICON POSS-NOM
 
 CASES-ETC ;
-%<px1sg%>:%>%{I%}м CASES-ETC ;
-%<px2sg%>:%>%{I%}ҥ CASES-ETC ;
-%<px3sp%>:%>%{t%}%{A%} CASES-POSS-3SP ;
-%<px1pl%>:%>%{B%}%{I%}т CASES-POSS-3SP ;
-%<px2pl%>:%>%{G%}%{I%}т CASES-POSS-3SP ;
-!%<px3pl%>:%>%{L%}%{A%}р%{A%} CASES-ETC ;
+%<px1sg%>:%>%{i%}м CASES-NOM ;
+%<px2sg%>:%>%{i%}ҥ CASES-NOM ;
+%<px3sp%>:%>%{t%}%{A%} CASES-NOM ;
+%<px1pl%>:%>%{B%}%{I%}т CASES-NOM ;
+%<px2pl%>:%>%{G%}%{I%}т CASES-NOM ;
+!%<px3pl%>:%>%{L%}%{A%}р%{A%} CASES-NOM ;
 
 LEXICON CASES-ETC
 
@@ -165,7 +183,8 @@ LEXICON N-INFL-COMMON
 
 POSS-NOM ;
 POSS-OBL ;
-CASES-ETC ;
+CASES-NOM ;
+CASES-OBL ;
 ! ABESS ;
 
 LEXICON SUBST
@@ -184,15 +203,18 @@ LEXICON N1
 
 LEXICON NP-ANT-M 
 
-%<np%>%<ant%>%<m%>: CASES ;
+%<np%>%<ant%>%<m%>: CASES-NOM ;
+%<np%>%<ant%>%<m%>: CASES-OBL ;
 
 LEXICON NP-ANT-F
 
-%<np%>%<ant%>%<f%>: CASES ;
+%<np%>%<ant%>%<f%>: CASES-NOM ;
+%<np%>%<ant%>%<f%>: CASES-OBL ;
 
 LEXICON NP-TOP
 
-%<np%>%<top%>: CASES ;
+%<np%>%<top%>: CASES-NOM ;
+%<np%>%<top%>: CASES-OBL ;
 
 LEXICON A1 
 
@@ -334,11 +356,22 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 %<imp%>%<p2%>%<sg%>: CLIT-EMPH ;
 %<imp%>%<p2%>%<pl%>:%>{I}ҥ CLIT-EMPH ; 
 
+%<prc_impf%>:%>%{E%} CLITICS-NO-COP ; ! FIXME: check
+
+LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
+
+%<gna_perf%>:%>%{A%}н CLITICS-NO-COP ; ! FIXME: check
+%<gna_abes%>:%>%{B%}%{A%}кк%{A%} CLITICS-NO-COP ; ! FIXME: check
+
+
+
 LEXICON V-COMMON
 
 V-FINITE-REGULAR_NEGATIVE ;
 
 V-NONFINITE-REGULAR_NEGATIVE ;
+
+V-NONFINITE-IRREGULAR_NEGATIVE ;
 
 LEXICON V-TV
 
@@ -367,6 +400,10 @@ LEXICON ABBR
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON Miscellaneous
+
+дуо%<qst%>:дуо # ; 
+
 LEXICON Conjunctions 
 
 уонна:уонна CC ; ! "и"
@@ -377,6 +414,9 @@ LEXICON Postpositions
 баран:баран POST ; ! "после"
 кытта:кытта POST ; ! "с" 
 иһин:иһин POST ; ! "для"
+курдук:курдук POST ; ! "как"
+суох:суох POST ; ! "без"
+
 
 LEXICON Pronouns
 
@@ -431,7 +471,13 @@ LEXICON Numerals
 
 LEXICON Nouns 
 
+уст:уст N1 ; ! ""
+туһ:туһ N1 ; ! ""
+атт:атт N1 ; ! "" ! FIXME
 орто:орто N1 ; ! "middle"
+алын:алын N1 ; ! ""
+ис:ис N1 ; ! ""
+илин:илин N1 ; ! ""
 
 киһи:киһи N1 ; ! "человек" ! FIXME: irreg dative
 
@@ -2438,6 +2484,7 @@ LEXICON Verbs
 буол:буол V-IV ; ! "быть"
 
 көр:көр V-TV ; ! "видеть"
+диэ:диэ V-TV ; ! "говорить"
 
 тур:тур V-IV ;  ! "stand"
 күл:күл  V-IV ; ! "laugh"
