@@ -85,7 +85,7 @@ Numerals ;
 Nouns ; 
 ProperNouns ; 
 Adjectives ; 
-
+Adverbs ;
 Verbs ;
 
 Punctuation ; 
@@ -97,6 +97,10 @@ LEXICON CLIT-EMPH
 # ;
 
 LEXICON CLITICS-NO-COP 
+
+# ;
+
+LEXICON CLITICS-INCL-COP 
 
 # ;
 
@@ -140,6 +144,10 @@ LEXICON SUBST
 
 N-INFL-COMMON ;
 %<pl%>:%>%{L%}%{A%}р N-INFL-COMMON ;
+
+LEXICON FULL-NOMINAL-INFLECTION
+
+SUBST ;
 
 LEXICON N1
 
@@ -228,6 +236,15 @@ LEXICON PRON-OLLOR
 
 %<prn%>%<pers%>%<p3%>%<pl%>%<nom%>: # ;
 
+LEXICON PRON-DEM-BU 
+
+%<prn%>%<dem%>%<sg%>%<nom%>:у # ;
+%<prn%>%<dem%>%<pl%>%<nom%>:а%>лар # ;
+
+LEXICON PRON-ITG 
+
+%<prn%>%<itg%>: FULL-NOMINAL-INFLECTION ;
+
 LEXICON V-PERS-S1
 
 %<p1%>%<sg%>:%>б%{I%}н CLITICS-NO-COP ;
@@ -272,6 +289,11 @@ LEXICON V-IV
 %<v%>%<iv%>: V-COMMON ;
 
 
+LEXICON ADV-ITG
+
+%<adv%>%<itg%>: CLITICS-INCL-COP ;
+
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -285,6 +307,12 @@ LEXICON Pronouns
 эһиги:эһиги PRON-EHIGI ; ! ""
 кинилэр:кинилэр PRON-KINILER ; ! ""
 оллoр:оллoр PRON-OLLOR ; ! ""
+
+бу:б PRON-DEM-BU ; ! ""
+субу:суб PRON-DEM-BU ; ! ""
+
+ким:ким PRON-ITG ; ! ""
+туох:туох PRON-ITG ; ! ""
 
 LEXICON Numerals
 
@@ -1252,6 +1280,13 @@ LEXICON Adjectives
 суох:суох A3 ; ! "нет"
 
 куһаҕан:куһаҕан A1 ; ! ""
+
+LEXICON Adverbs 
+
+ханна:ханна ADV-ITG ; ! "где"
+тоҕо:тоҕо ADV-ITG ; ! "почему"
+хайдах:хайдах ADV-ITG ; ! "как"
+хантан:хантан ADV-ITG ; ! "откуда"
 
 LEXICON Verbs
 
