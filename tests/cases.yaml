@@ -1,0 +1,36 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../sah.autogen.hfst
+    Morph: ../sah.automorf.hfst
+
+Tests:
+  "Case front-vowel final": 
+    ийэ<n><nom> : ийэ
+    ийэ<n><acc> : ийэни
+    ийэ<n><par> : ийэтэ
+    ийэ<n><dat> : ийэҕэ
+    ийэ<n><abl> : ийэттэн
+    ийэ<n><ins> : ийэнэн
+    ийэ<n><com> : ийэлиин
+    ийэ<n><comp> : ийэтээҕэр
+
+  "Case back-vowel cons-final": 
+    уот<n><nom> : уот
+    уот<n><acc> : уоту
+    уот<n><par> : уотта
+    уот<n><dat> : уокка
+    уот<n><abl> : уоттан
+    уот<n><ins> : уотунан
+    уот<n><com> : уотлуун
+    уот<n><comp> : уоттааҕар
+
+  "Case back-vowel cons-final 2": 
+    ох<n><nom> : ох
+    ох<n><acc> : оҕу
+    ох<n><par> : охто
+    ох<n><dat> : охко
+    ох<n><abl> : охтон
+    ох<n><ins> : оҕунан
+    ох<n><com> : охтуун
+    ох<n><comp> : охтооҕор

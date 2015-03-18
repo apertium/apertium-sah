@@ -40,6 +40,7 @@ Multichar_Symbols
 %<px3sp%>          !
 %<px1pl%>          !
 %<px2pl%>          !
+%<px3pl%>          !
 
 %<subst%>          !
 %<attr%>           !
@@ -152,6 +153,16 @@ LEXICON CASES-NOM
 
 %<nom%>: # ; 
 
+LEXICON POSS-JNW
+
+CASES-ETC ;
+%<px1sg%>:%>%{i%}%{М%}%{ы%} CASES-NOM ;
+%<px2sg%>:%>%{i%}%{Ҥ%} CASES-NOM ;
+%<px3sp%>:%>%{t%}%{A%} CASES-NOM ;
+%<px1pl%>:%>%{B%}%{I%}т%{ы%} CASES-NOM ;
+%<px2pl%>:%>%{G%}%{I%}т%{ы%} CASES-NOM ;
+%<px3pl%>:%>%{L%}%{A%}р%{ы%} CASES-ETC ;
+
 LEXICON POSS-OBL
 
 CASES-ETC ;
@@ -183,6 +194,7 @@ LEXICON N-INFL-COMMON
 
 POSS-NOM ;
 POSS-OBL ;
+!POSS-JNW ;
 CASES-NOM ;
 CASES-OBL ;
 ! ABESS ;
@@ -614,6 +626,7 @@ LEXICON Nouns
 игии:игии N1 ; ! "напильник"
 идеал:идеал N1 ; ! "идеал"
 иирээнньит:иирээнньит N1 ; ! "разг. забияка, задира"
+ийэ:ийэ N1 ; ! "мать"
 илии:илии N1 ; ! "рука"
 иллэһии:иллэһии N1 ; ! "примирение"
 иллэһиннэрии:иллэһиннэрии N1 ; ! "примирение"

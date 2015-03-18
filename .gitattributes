@@ -15,5 +15,6 @@
 dev/countstems.sh -text
 /modes.xml -text
 /sah.prob -text svneol=unset#unset
+tests/cases.yaml -text
 tests/miscellaneous.yaml -text
 tests/possessives.yaml -text

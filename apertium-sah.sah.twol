@@ -5,21 +5,23 @@ Alphabet
 
    %{E%}:а %{E%}:э %{E%}:ө %{E%}:о
 
-   %{A%}:а %{A%}:э %{A%}:ө %{A%}:о
-   %{I%}:и %{I%}:у %{I%}:ү %{I%}:ы
+   !%{A%}:а %{A%}:э %{A%}:ө %{A%}:о
+   %{A%}:а
+   !%{I%}:и %{I%}:у %{I%}:ү %{I%}:ы
+   %{I%}:ы
 
    %{L%}:л %{L%}:т %{L%}:д %{L%}:н
-   %{T%}:т %{T%}:д %{T%}:л %{T%}:н
+   %{T%}:т ! %{T%}:д %{T%}:л %{T%}:н
 
    %{B%}:б %{B%}:п %{B%}:м
 
    %{G%}:г %{G%}:к %{G%}:ҕ %{G%}:х %{G%}:ҥ
 
-   %{i%}:0 %{i%}:и %{i%}:у %{i%}:ү %{i%}:ы
+   %{i%}:0 ! %{i%}:и %{i%}:у %{i%}:ү %{i%}:ы
 
-   %{n%}:0 
+   %{n%}:0 ! %{n%}:н
 
-   %{t%}:0 %{t%}:т
+   %{t%}:0 ! %{t%}:т
 
    %>:0 ; 
 
@@ -34,15 +36,60 @@ Nasal = М Н Ҥ
 VoicelessCns = П Т К Х С 
                п т к х с ;
 
+Cons = Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Һ Ҥ Ҕ
+       б в г д ж з й к л м н п р с т ф х ц ч ш щ һ ҥ ҕ ;
+
+
 Rules
 
-"Delete morpheme boundary"
-%>:0 <=> _ ; 
-
-"Vowel deletion"
-%{A%}:0 <=> _ %>: %{I%}: ; 
+!"Vowel deletion"
+!%{A%}:0 <=> _ %>: %{I%}: ; 
 
 "т:к assimilation"
 т:к <=> _ %>: %{G%}:  ;
 
 
+!!!== epenthesis ==!!!
+
+"т after a vowel"
+%{t%}:т <=> :Vow/:0 _ ;
+
+"н after a vowel"
+%{n%}:н <=> :Vow/:0 _ ;
+
+
+!!!== lenition ==!!!
+
+"х → ҕ intervocalically"
+х:ҕ <=> _ %>: :Vow/:0* ;
+
+
+!!!== Vowel Harmony ==!!!
+
+"vowel harmony for {i}"
+%{i%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
+         where Vx in ( а о ы у э е и ө ү )
+               Vy in ( ы у ы у и и и ү ү )
+         matched ;
+
+"vowel harmony for {I}"
+%{I%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
+         where Vx in ( а о ы у э е и ө ү )
+               Vy in ( ы у ы у и и и ү ү )
+         matched ;
+
+"vowel harmony for {A} except after уо and үө"
+%{A%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
+         except
+             :ү :ө [ :Cons* :Cons]/:0* _ ;
+             :у :о [ :Cons* :Cons]/:0* _ ;
+         where Vx in ( а о ы у э е и ө ү )
+               Vy in ( а о а а э э э ө ө )
+         matched ;
+
+"vowel harmony for {A} after уо"
+! shouldn't need a rule because it's the default а, but doesn't seem to work without one
+%{A%}:а <=> :у :о [ :Cons* :Cons ]/:0* _ ;
+
+"vowel harmony for {A} after үө"
+%{A%}:э <=> :ү :ө [ :Cons* :Cons ]/:0* _ ;
