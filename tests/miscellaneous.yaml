@@ -1,10 +1,10 @@
 Config:
   hfst:
     App: hfst-lookup
-    Gen: ../../sah.autogen.hfst
-    Morph: ../../sah.automorf.hfst
+    Gen: ../sah.autogen.hfst
+    Morph: ../sah.automorf.hfst
 
-
+Tests:
   "уот":
     уот<n><nom> : уот
     уот<n><acc> : уоту

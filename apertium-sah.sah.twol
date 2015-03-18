@@ -13,7 +13,7 @@ Alphabet
    %{L%}:л %{L%}:т %{L%}:д %{L%}:н
    %{T%}:т ! %{T%}:д %{T%}:л %{T%}:н
 
-   %{B%}:б %{B%}:п %{B%}:м
+   %{B%}:б ! %{B%}:п %{B%}:м
 
    %{G%}:г %{G%}:к %{G%}:ҕ %{G%}:х %{G%}:ҥ
 
@@ -45,8 +45,26 @@ Rules
 !"Vowel deletion"
 !%{A%}:0 <=> _ %>: %{I%}: ; 
 
+!!!== regressive assimilation ==!!!
+
 "т:к assimilation"
 т:к <=> _ %>: %{G%}:  ;
+
+"т:п assimilation"
+т:п <=> _ %>: %{B%}:  ;
+
+
+
+!!!== progressive assimilation ==!!!
+
+"{B} devoicing"
+%{B%}:п <=> :VoicelessCns/:0 _ ;
+
+"{B} nasalisation"
+%{B%}:м <=> :Nasal/:0 _ ;
+
+"{T} → л"
+%{T%}:л <=> :л/:0 _ ; 
 
 
 !!!== epenthesis ==!!!
@@ -62,6 +80,9 @@ Rules
 
 "х → ҕ intervocalically"
 х:ҕ <=> _ %>: :Vow/:0* ;
+
+"с → һ intervocalically"
+с:һ <=> _ %>: :Vow/:0* ;
 
 
 !!!== Vowel Harmony ==!!!
@@ -81,15 +102,15 @@ Rules
 "vowel harmony for {A} except after уо and үө"
 %{A%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
          except
-             :ү :ө [ :Cons* :Cons]/:0* _ ;
+             !:ү :ө [ :Cons* :Cons]/:0* _ ;
              :у :о [ :Cons* :Cons]/:0* _ ;
          where Vx in ( а о ы у э е и ө ү )
-               Vy in ( а о а а э э э ө ө )
+               Vy in ( а о а а э э э ө э )
          matched ;
 
 "vowel harmony for {A} after уо"
 ! shouldn't need a rule because it's the default а, but doesn't seem to work without one
 %{A%}:а <=> :у :о [ :Cons* :Cons ]/:0* _ ;
 
-"vowel harmony for {A} after үө"
-%{A%}:э <=> :ү :ө [ :Cons* :Cons ]/:0* _ ;
+!"vowel harmony for {A} after үө"
+!%{A%}:э <=> :ү :ө [ :Cons* :Cons ]/:0* _ ;
