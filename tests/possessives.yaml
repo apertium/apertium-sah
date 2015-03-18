@@ -1,9 +1,10 @@
 Config:
   hfst:
     App: hfst-lookup
-    Gen: ../../sah.autogen.hfst
-    Morph: ../../sah.automorf.hfst
+    Gen: ../sah.autogen.hfst
+    Morph: ../sah.automorf.hfst
 
+Tests:
   "Simple possessives": 
  
     эбэ<n><px1sg><nom> : эбэм
