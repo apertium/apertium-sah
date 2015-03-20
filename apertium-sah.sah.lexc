@@ -368,7 +368,7 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 ! Al>lAr  BAt>tAr
 
 %<aor%>:%>%{A%}%{р%} V-PERS-S1 ;
-%<neg%>%<aor%>:%>%{B%}%{A%}%{т%} V-PERS-S1 ; 
+%<neg%>%<aor%>:%>%{B%}%{A%}т V-PERS-S1 ; 
 
 LEXICON V-NONFINITE-REGULAR_NEGATIVE
 

@@ -23,7 +23,6 @@ Alphabet
 
    %{t%}:0 ! %{t%}:т
 
-   %{т%}:т 
    %{р%}:р
 
    %>:0 ; 
@@ -51,25 +50,14 @@ Rules
 !"Vowel deletion"
 !%{A%}:0 <=> _ %>: %{I%}: ; 
 
+
 !!!== regressive assimilation ==!!!
 
-"т:к assimilation"
-т:к <=> _ %>: %{G%}:  ;
-
-"т:п assimilation"
-т:п <=> _ %>: %{B%}:  ;
-
-"Assimilation in negative suffix"
-%{т%}:Cy <=> _ %>: Cx: ;
-       where Cx in ( %{B%} %{G%} %{L%} ) 
-             Cy in (   п     к     т ) 
+"т assimilation"
+т:Cy <=> _ %>: Cx: ;
+       where Cx in ( %{B%} %{G%} ) ! %{L%} ) 
+             Cy in (   п     к   ) !  т ) 
        matched ;  
-
-!# көр>{B}{A}{т}>б{I}н
-
-!# көр>{B}{A}{т}
-!@ к ө р >:0 {B}:б {A}:ө {т}:т
-
 
 
 !!!== progressive assimilation ==!!!
@@ -143,13 +131,4 @@ Rules
 
 !"vowel harmony for {A} after үө"
 !%{A%}:э <=> :ү :ө [ :Cons* :Cons ]/:0* _ ;
-
-!"Forward assimilation"
-!Cx:Cy <=> %{т%}:Cy >: _ ; 
-!       where Cx in ( б  л ) 
-!             Cy in ( п  т ) 
-!       matched ; 
-
-!# көр>{B}{A}{т}>б{I}н
-!# көр0 б  ө  п 0п ү н
 
