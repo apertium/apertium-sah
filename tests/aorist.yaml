@@ -7,20 +7,20 @@ Config:
 Tests:
 
   "Aorist front vowels": 
-    көр<v><iv><aor><p1><sg> : көрөбүн
-    көр<v><iv><aor><p2><sg> : көрөгүн
-    көр<v><iv><aor><p3><sg> : көрөр
-    көр<v><iv><aor><p1><pl> : көрөбүт
-    көр<v><iv><aor><p2><pl> : көрөгүт
-    көр<v><iv><aor><p3><pl> : көрөллөр
+    көр<v><tv><aor><p1><sg> : көрөбүн
+    көр<v><tv><aor><p2><sg> : көрөгүн
+    көр<v><tv><aor><p3><sg> : көрөр
+    көр<v><tv><aor><p1><pl> : көрөбүт
+    көр<v><tv><aor><p2><pl> : көрөгүт
+    көр<v><tv><aor><p3><pl> : көрөллөр
 
-  "Aorist negative back vowels":
-    көр<v><iv><neg><aor><p1><sg> : көрбөппүн
-    көр<v><iv><neg><aor><p2><sg> : көрбөккүн
-    көр<v><iv><neg><aor><p3><sg> : көрбөт
-    көр<v><iv><neg><aor><p1><pl> : көрбөппүт
-    көр<v><iv><neg><aor><p2><pl> : көрбөккүт
-    көр<v><iv><neg><aor><p3><pl> : көрбөттөр
+  "Aorist negattve back vowels":
+    көр<v><tv><neg><aor><p1><sg> : көрбөппүн
+    көр<v><tv><neg><aor><p2><sg> : көрбөккүн
+    көр<v><tv><neg><aor><p3><sg> : көрбөт
+    көр<v><tv><neg><aor><p1><pl> : көрбөппүт
+    көр<v><tv><neg><aor><p2><pl> : көрбөккүт
+    көр<v><tv><neg><aor><p3><pl> : көрбөттөр
 
   "Aorist back vowels": 
     олор<v><iv><aor><p1><sg> : олоробун
