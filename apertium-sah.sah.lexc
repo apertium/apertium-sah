@@ -322,7 +322,7 @@ LEXICON PRON-DEM-BU
 %<prn%>%<dem%>%<sg%>%<nom%>:у # ;
 %<prn%>%<dem%>%<pl%>%<nom%>:а%>лар # ;
 
-LEXICON PRON-DEM-III
+LEXICON PRON-DEM-ITI
 
 %<prn%>%<dem%>%<sg%>%<nom%>: # ;
 %<prn%>%<dem%>%<pl%>%<nom%>:%>лэр # ;
