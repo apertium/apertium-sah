@@ -1,0 +1,20 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../sah.autogen.hfst
+    Morph: ../sah.automorf.hfst
+
+Tests:
+  "Aorist and negative aorist": 
+    олор<v><tv><aor><p1><sg> : олоробун
+    олор<v><tv><aor><p2><sg> : олорогун
+    олор<v><tv><aor><p3><sg> : олорор
+    олор<v><tv><aor><p1><pl> : олоробут
+    олор<v><tv><aor><p2><pl> : олорогут
+    олор<v><tv><aor><p3><pl> : олороллор
+    олор<v><tv><neg><aor><p1><sg> : олорбоппун
+    олор<v><tv><neg><aor><p2><sg> : олорбоккун
+    олор<v><tv><neg><aor><p3><sg> : олорбот
+    олор<v><tv><neg><aor><p1><pl> : олорбоппут
+    олор<v><tv><neg><aor><p2><pl> : олорбоккут
+    олор<v><tv><neg><aor><p3><pl> : олорботтор
