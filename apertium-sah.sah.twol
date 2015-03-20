@@ -24,6 +24,7 @@ Alphabet
    %{t%}:0 ! %{t%}:т
 
    %{т%}:т 
+   %{р%}:р
 
    %>:0 ; 
 
@@ -37,6 +38,9 @@ Nasal = М Н Ҥ
 
 VoicelessCns = П Т К Х С 
                п т к х с ;
+
+Obs = Б В Г Д Ж З К П Р С Т Ф Х Ц Ч Ш Щ Һ Ҕ
+      б в г д ж з к п р с т ф х ц ч ш щ һ ҕ ;
 
 Cons = Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Һ Ҥ Ҕ
        б в г д ж з й к л м н п р с т ф х ц ч ш щ һ ҥ ҕ ;
@@ -55,6 +59,17 @@ Rules
 "т:п assimilation"
 т:п <=> _ %>: %{B%}:  ;
 
+"Assimilation in negative suffix"
+%{т%}:Cy <=> _ %>: Cx: ;
+       where Cx in ( %{B%} %{G%} %{L%} ) 
+             Cy in (   п     к     т ) 
+       matched ;  
+
+!# көр>{B}{A}{т}>б{I}н
+
+!# көр>{B}{A}{т}
+!@ к ө р >:0 {B}:б {A}:ө {т}:т
+
 
 
 !!!== progressive assimilation ==!!!
@@ -67,6 +82,18 @@ Rules
 
 "{T} → л"
 %{T%}:л <=> :л/:0 _ ; 
+
+
+!!!== deletion ==!!!
+
+"{р} deletes before obstruents or something"
+%{р%}:0 <=> _ :Obs/:0 ;
+
+
+!!!== assimilation ==!!!
+
+"{р} → л before л"
+%{р%}:л <=> _ [ :л | [ %{L%}: - :Obs ] ]/:0 ;
 
 
 !!!== epenthesis ==!!!
@@ -117,22 +144,11 @@ Rules
 !"vowel harmony for {A} after үө"
 !%{A%}:э <=> :ү :ө [ :Cons* :Cons ]/:0* _ ;
 
-"Assimilation in negative suffix"
-%{т%}:Cy <=> _ %>: Cx: ;
-       where Cx in ( б %{G%} л ) 
-             Cy in ( п   к   т ) 
-       matched ;  
-
-!# көр>{B}{A}{т}>б{I}н
-
-!# көр>{B}{A}{т}
-!@ к ө р >:0 {B}:б {A}:ө {т}:т
-
-"Forward assimilation"
-Cx:Cy <=> %{т%}:Cy >: _ ; 
-       where Cx in ( б  л ) 
-             Cy in ( п  т ) 
-       matched ; 
+!"Forward assimilation"
+!Cx:Cy <=> %{т%}:Cy >: _ ; 
+!       where Cx in ( б  л ) 
+!             Cy in ( п  т ) 
+!       matched ; 
 
 !# көр>{B}{A}{т}>б{I}н
 !# көр0 б  ө  п 0п ү н
