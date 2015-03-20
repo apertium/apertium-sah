@@ -45,6 +45,8 @@ Multichar_Symbols
 %<subst%>          !
 %<attr%>           !
 
+%<neg%>            !
+
 %<pers%>           !
 
 %<ant%>            !
@@ -83,6 +85,7 @@ Multichar_Symbols
 %{n%}              !
 %{t%}              !
 %{i%}              !
+%{т%}              ! 
 
 %                  !
 %-                 !
@@ -354,13 +357,25 @@ LEXICON V-PERS-AOR
 %<p2%>%<pl%>:%>%{G%}%{I%}т CLITICS-NO-COP ;
 !%<p3%>%<pl%>:%> CLITICS-NO-COP ;       ! FIXME: Check
 
-
 LEXICON V-FINITE-REGULAR_NEGATIVE
 
-%<aor%>:%>%{A%} V-PERS-AOR ;
 %<ifi%>:%>%{T%}%{A%} V-PERS-S2 ;
 %<past%>:%>%{B%}%{I%}т V-PERS-S2 ; ! FIXME: check
 %<pros%>:%>%{I%}%{A%}%{G%} V-PERS-S2 ; ! FIXME: check
+
+LEXICON V-FINITE-IRREGULAR_NEGATIVE
+
+!  aor    neg.aor
+!----------------
+! A>bIn   BAp>pIn
+! A>GIn   BAk>kIn
+! Ar      BAt
+! A>bIt   BAp>pIt
+! A>GIt   BAk>kIt
+! Al>lAr  BAt>tAr
+
+%<aor%>:%>%{A%} V-PERS-AOR ;
+%<neg%>%<aor%>:%>%{B%}%{A%}%{т%} V-PERS-S1 ; 
 
 LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
@@ -375,11 +390,11 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 %<gna_perf%>:%>%{A%}н CLITICS-NO-COP ; ! FIXME: check
 %<gna_abes%>:%>%{B%}%{A%}кк%{A%} CLITICS-NO-COP ; ! FIXME: check
 
-
-
 LEXICON V-COMMON
 
 V-FINITE-REGULAR_NEGATIVE ;
+
+V-FINITE-IRREGULAR_NEGATIVE ;
 
 V-NONFINITE-REGULAR_NEGATIVE ;
 
@@ -1661,7 +1676,7 @@ yy:yy N1 ; ! "вода"
 жирафа:жирафа N1 ; ! "giraffe"
 жнейка:жнейка N1 ; ! "harvester"
 жюпи:жюпи N1 ; ! "jury"
-завод:завод N1 ; ! "factory [<Russ.]"
+завод:завод N1 ; ! "завод"
 звонок:звонок N1 ; ! "bell"
 игии:игии N1 ; ! "file"
 идэ:идэ N1 ; ! "specialty"
@@ -2588,7 +2603,10 @@ yy:yy N1 ; ! "вода"
 эһэ:эһэ N1 ; ! "bear;"
 эһэ:эһэ N1 ; ! "grandfather"
 ээҕэ:ээҕэ N1 ; ! "sarcasm;"
-юрист:юрист N1 ; ! "lawyer, jurist [<Russ.]"
+юрист:юрист N1 ; ! "юрист"
+
+саха:саха N1 ; ! ""
+өрөспүүбүлүкэ:өрөспүүбүлүкэ N1 ; ! "республика"
 
 LEXICON ProperNouns
 
