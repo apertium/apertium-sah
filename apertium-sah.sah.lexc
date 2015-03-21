@@ -289,10 +289,6 @@ LEXICON PRON-KINI
 %<prn%>%<pers%>%<p3%>%<hu%>%<sg%>%<com%>:лиин # ;
 %<prn%>%<pers%>%<p3%>%<hu%>%<sg%>%<comp%>:тээҕэр # ;
 
-LEXICON PRON-OL
-
-%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>: # ;
-
 LEXICON PRON-BIHIGI
 
 %<prn%>%<pers%>%<p1%>%<hu%>%<pl%>%<nom%>:ги # ;
@@ -323,14 +319,17 @@ LEXICON PRON-KINILER
 %<prn%>%<pers%>%<p3%>%<hu%>%<pl%>%<com%>:диин # ;
 !%<prn%>%<pers%>%<p3%>%<hu%>%<pl%>%<comp%>:диин # ;
 
-LEXICON PRON-OLLOR
-
-%<prn%>%<pers%>%<p3%>%<pl%>%<nom%>: # ;
 
 LEXICON PRON-DEM-BU 
 
 %<prn%>%<dem%>%<sg%>%<nom%>:у # ;
 %<prn%>%<dem%>%<pl%>%<nom%>:а%>лар # ;
+
+LEXICON PRON-DEM-OL
+
+%<prn%>%<dem%>%<sg%>%<nom%>:л # ;
+!%<prn%>%<dem%>%<sg%>:н # ;
+%<prn%>%<dem%>%<pl%>%<nom%>:ллор # ;
 
 LEXICON PRON-DEM-ITI
 
@@ -473,13 +472,12 @@ LEXICON Pronouns
 мин:ми PRON-MIN ; ! ""
 эн:эн PRON-EN ; ! ""
 кини:кини PRON-KINI ; ! ""
-ол:ол PRON-OL ; ! ""
 биһиги:биһи PRON-BIHIGI ; ! ""
 эһиги:эһи PRON-EHIGI ; ! ""
 кинилэр:кинилэр PRON-KINILER ; ! ""
-оллoр:оллoр PRON-OLLOR ; ! ""
 
 бу:б PRON-DEM-BU ; ! ""
+ол:о PRON-DEM-OL ; ! ""
 субу:суб PRON-DEM-BU ; ! ""
 
 ити:ити PRON-DEM-ITI ; ! ""
@@ -2790,6 +2788,7 @@ Ypyмэччи:Ypyмэччи NP-ANT-F ; ! ""
 Йорк:Йорк NP-TOP ; ! ""
 Қазақстан:Қазақстан NP-TOP ; ! "Kazakhstan" 
 Россия:Россия NP-TOP ; ! ""
+Арассыыйа:Арассыыйа NP-TOP ; ! ""
 
 Якутск:Якутск NP-TOP ; ! ""
 
@@ -3227,6 +3226,7 @@ LEXICON Verbs
 кырбаа:кырбаа V-TV ; ! " to cut into pieces to strike, beat;"
 таһаар:таһаар V-TV ; ! " to publish"
 тулуй:тулуй V-TV ; ! " to endure, tolerate;"
+төрөө:төрөө V-IV ; ! "родиться"
 
 
 !аахай:аахай V-XV ; ! " to pay attention, take account"
