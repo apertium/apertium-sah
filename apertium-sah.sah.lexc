@@ -14,6 +14,7 @@ Multichar_Symbols
 %<v%>              ! Глагол
 %<abbr%>           ! 
 %<qst%>            ! 
+%<cop%>            ! 
 
 %<p1%>             ! 1. лицо
 %<p2%>             ! 2. лицо
@@ -55,6 +56,7 @@ Multichar_Symbols
 %<f%>              !
 %<m%>              !
 
+%<evid%>           !
 %<aor%>            !
 %<ifi%>            !
 %<past%>           !
@@ -99,6 +101,7 @@ Multichar_Symbols
 LEXICON Root
 
 Miscellaneous ;
+Copula ;
 Conjunctions ;
 Postpositions ;
 Pronouns ; 
@@ -435,6 +438,10 @@ LEXICON ABBR
 LEXICON Miscellaneous
 
 дуо%<qst%>:дуо # ; 
+
+LEXICON Copula
+
+э%<cop%>%<aor%>%<evid%>:эбит V-PERS-S1 ;
 
 LEXICON Conjunctions 
 
@@ -3162,6 +3169,7 @@ LEXICON Adverbs
 хантан:хантан ADV-ITG ; ! "откуда"
 
 олус:олус ADV ; ! ""
+эмиэ:эмиэ ADV ; ! ""
 
 
 LEXICON Verbs
