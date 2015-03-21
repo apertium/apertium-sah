@@ -323,11 +323,14 @@ LEXICON PRON-KINILER
 LEXICON PRON-DEM-BU 
 
 %<prn%>%<dem%>%<sg%>%<nom%>:у # ;
+!%<prn%>%<dem%>%<sg%>%<par%>:манна # ;
 %<prn%>%<dem%>%<pl%>%<nom%>:а%>лар # ;
 
 LEXICON PRON-DEM-OL
 
 %<prn%>%<dem%>%<sg%>%<nom%>:л # ;
+!%<prn%>%<dem%>%<sg%>%<par%>:нно # ;
+!%<prn%>%<dem%>%<sg%>%<abl%>:нтон # ;
 !%<prn%>%<dem%>%<sg%>:н # ;
 %<prn%>%<dem%>%<pl%>%<nom%>:ллор # ;
 
@@ -465,6 +468,8 @@ LEXICON Postpositions
 иһин:иһин POST ; ! "для"
 курдук:курдук POST ; ! "как"
 суох:суох POST ; ! "без"
+кэнниттэн:кэнниттэн POST ; ! "after"
+диэри:диэри POST ; ! "before, up to"
 
 
 LEXICON Pronouns
@@ -482,6 +487,8 @@ LEXICON Pronouns
 
 ити:ити PRON-DEM-ITI ; ! ""
 сити:сити PRON-DEM-ITI ; ! ""
+
+!ханнык:ханнык DET-ITG ; ! "which"
 
 ким:ким PRON-ITG ; ! ""
 туох:туох PRON-ITG ; ! ""
@@ -2640,6 +2647,8 @@ LEXICON ProperNouns
 Айхал:Айхал NP-ANT-M ; ! ""
 Айхан:Айхан NP-ANT-M ; ! ""
 Айыы:Айыы NP-ANT-M ; ! ""
+Александр:Александр NP-ANT-M ; ! ""
+Алексей:Алексей NP-ANT-M ; ! ""
 Алгый:Алгый NP-ANT-M ; ! ""
 Бэргэн:Бэргэн NP-ANT-M ; ! ""
 Дархан:Дархан NP-ANT-M ; ! ""
@@ -2782,7 +2791,7 @@ Ypyмэччи:Ypyмэччи NP-ANT-F ; ! ""
 Чикаго:Чикаго NP-TOP ; ! "Chicago"
 Чад:Чад NP-TOP ; ! ""
 Черногория:Черногория NP-TOP ; ! ""
-Чехия:Чехия NP-TOP ; ! ""
+Чехия:Чехия NP-TOP ; ! "Moscow"
 Чили:Чили NP-TOP ; ! ""
 Нью% Йорк:Нью% Йорк NP-TOP ; ! ""
 Цейлон:Цейлон NP-TOP ; ! ""
@@ -2790,8 +2799,11 @@ Ypyмэччи:Ypyмэччи NP-ANT-F ; ! ""
 Қазақстан:Қазақстан NP-TOP ; ! "Kazakhstan" 
 Россия:Россия NP-TOP ; ! ""
 Арассыыйа:Арассыыйа NP-TOP ; ! ""
+Париж:Париж NP-TOP ; ! "Paris"
+Америка:Америка NP-TOP ; ! "America"
 
 Якутск:Якутск NP-TOP ; ! ""
+Москва:Москва NP-TOP ; ! "Moscow"
 
 
 LEXICON Adjectives
@@ -3110,6 +3122,7 @@ LEXICON Adjectives
 үчүгиий%-үчүгэй:үчүгиий%-үчүгэй  A4 ; ! " very good;"
 үчүгэй:үчүгэй  A4 ; ! " good;"
 үчүгэй%-үчүгэй:үчүгэй%-үчүгэй  A4 ; ! " very good;"
+үөһээ:үөһээ A4 ; ! "upper, above(?)"
 хабыр:хабыр  A4 ; ! " rude, sharp"
 халлаан% күөҕэ:халлаан% күөҕэ  A4 ; ! " blue;"
 халтархай:халтархай  A4 ; ! " slippery"
@@ -3178,11 +3191,14 @@ LEXICON Adverbs
 хайдах:хайдах ADV-ITG ; ! "как"
 хантан:хантан ADV-ITG ; ! "откуда"
 
-олус:олус ADV ; ! ""
-эмиэ:эмиэ ADV ; ! ""
+олус:олус ADV ; ! "quite"
+эмиэ:эмиэ ADV ; ! "еще"
+бииргэ:бииргэ ADV ; ! "together"
 
 
 LEXICON Verbs
+
+! сыт:сыт V-AUX ; ! "do something for a moment"
 
 буол:буол V-IV ; ! "быть"
 
@@ -3228,7 +3244,8 @@ LEXICON Verbs
 таһаар:таһаар V-TV ; ! " to publish"
 тулуй:тулуй V-TV ; ! " to endure, tolerate;"
 төрөө:төрөө V-IV ; ! "родиться"
-сыт:сыт V-IV ; ! ""
+сыт:сыт V-IV ; ! "lie"
+оҥор:оҥор V-TV ; ! "do"
 
 
 !аахай:аахай V-XV ; ! " to pay attention, take account"
