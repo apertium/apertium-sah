@@ -9,6 +9,7 @@ Multichar_Symbols
 %<adj%>            ! Имя прилагательное
 %<np%>             ! 
 %<cnjcoo%>         ! 
+%<cnjadv%>         ! 
 %<num%>            ! Число
 %<prn%>            ! Местоимение
 %<v%>              ! Глагол
@@ -425,6 +426,11 @@ LEXICON CC
 
 %<cnjcoo%>: # ;
 
+
+LEXICON CA
+
+%<cnjadv%>: # ;
+
 LEXICON POST 
 
 %<post%>: # ; 
@@ -448,6 +454,8 @@ LEXICON Conjunctions
 да:да CC ; ! "also"
 уонна:уонна CC ; ! "и"
 оттон:оттон CC ; ! "но"
+
+эбит:эбит CA ; ! "если"
 
 LEXICON Postpositions
 
