@@ -137,7 +137,7 @@ Rules
 "vowel harmony for {a} except after уо and үө"
 %{a%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
          except
-             !:ү :ө [ :Cons* :Cons]/:0* _ ;
+             :ү :ө [ :Cons* :Cons]/:0* _ ;
              :у :о [ :Cons* :Cons]/:0* _ ;
          where Vx in ( а о ы у э е и ө ү )
                Vy in ( а о а а э э э ө э )
