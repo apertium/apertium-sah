@@ -117,8 +117,8 @@ Rules
 
 "intervocalic lenition"
 Cx:Cy <=> _ %>: :Vow/:0* ;
-      where Cx in ( х с к )
-            Cy in ( ҕ һ г )
+      where Cx in ( х с к п )
+            Cy in ( ҕ һ г б )
       matched ;
 
 !!!== Vowel Harmony ==!!!
