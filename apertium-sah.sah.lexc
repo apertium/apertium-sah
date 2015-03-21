@@ -413,6 +413,11 @@ LEXICON ADV-ITG
 
 %<adv%>%<itg%>: CLITICS-INCL-COP ;
 
+LEXICON ADV
+
+%<adv%>: CLITICS-INCL-COP ;
+
+
 LEXICON CC 
 
 %<cnjcoo%>: # ;
@@ -2608,6 +2613,8 @@ yy:yy N1 ; ! "вода"
 
 саха:саха N1 ; ! ""
 өрөспүүбүлүкэ:өрөспүүбүлүкэ N1 ; ! "республика"
+сыллаахха:сыллаахха N1 ; ! "anniversary"
+улуус:улуус N1 ; ! ""
 
 LEXICON ProperNouns
 
@@ -3154,6 +3161,7 @@ LEXICON Adverbs
 хайдах:хайдах ADV-ITG ; ! "как"
 хантан:хантан ADV-ITG ; ! "откуда"
 
+олус:олус ADV ; ! ""
 
 
 LEXICON Verbs
