@@ -23,7 +23,7 @@ Alphabet
 
    %{t%}:0 ! %{t%}:т
 
-   %{a%}:а
+   %{a%}:0
 
    %{р%}:р
 
@@ -133,4 +133,20 @@ Rules
 
 !"vowel harmony for {A} after үө"
 !%{A%}:э <=> :ү :ө [ :Cons* :Cons ]/:0* _ ;
+
+"vowel harmony for {a} except after уо and үө"
+%{a%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
+         except
+             !:ү :ө [ :Cons* :Cons]/:0* _ ;
+             :у :о [ :Cons* :Cons]/:0* _ ;
+         where Vx in ( а о ы у э е и ө ү )
+               Vy in ( а о а а э э э ө э )
+         matched ;
+
+"vowel harmony for {a} after уо"
+! shouldn't need a rule because it's the default а, but doesn't seem to work without one
+%{a%}:а <=> :у :о [ :Cons* :Cons ]/:0* _ ;
+
+"vowel harmony for {a} after үө"
+%{a%}:э <=> :ү :ө [ :Cons* :Cons ]/:0* _ ;
 
