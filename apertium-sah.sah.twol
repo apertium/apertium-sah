@@ -10,7 +10,7 @@ Alphabet
    !%{I%}:и %{I%}:у %{I%}:ү %{I%}:ы
    %{I%}:ы
 
-   %{L%}:л %{L%}:т %{L%}:д %{L%}:н
+   %{L%}:л ! %{L%}:т %{L%}:д %{L%}:н
    %{T%}:т ! %{T%}:д %{T%}:л %{T%}:н
 
    %{B%}:б ! %{B%}:п %{B%}:м
@@ -37,6 +37,9 @@ Vow = Я Ю Ё А О Ы У Э Е И Ө Ү
 Nasal = М Н Ҥ
         м н ҥ ;
 
+HighSonCns = Й Р
+             й р ;
+
 VoicelessCns = П Т К Х С 
                п т к х с ;
 
@@ -61,6 +64,10 @@ Rules
              Cy in (   п     к   ) !  т ) 
        matched ;  
 
+"{р} → л before л"
+%{р%}:л <=> _ [ :л | [ %{L%}: - :Obs ] ]/:0 ;
+
+
 
 !!!== progressive assimilation ==!!!
 
@@ -82,17 +89,20 @@ Rules
 "{G} after voiceless consonants besides х"
 %{G%}:к <=> [ :VoicelessCns - :х]/:0 _ ;
 
+"{L} after voiceless consonants"
+%{L%}:т <=> :VoicelessCns/:0 _ ;
+
+"{L} after й, р"
+%{L%}:д <=> :HighSonCns/:0 _ ;
+
+"{L} after nasals"
+%{L%}:н <=> :Nasal/:0 _ ;
+
 
 !!!== deletion ==!!!
 
 "{р} deletes before obstruents or something"
 %{р%}:0 <=> _ :Obs/:0 ;
-
-
-!!!== assimilation ==!!!
-
-"{р} → л before л"
-%{р%}:л <=> _ [ :л | [ %{L%}: - :Obs ] ]/:0 ;
 
 
 !!!== epenthesis ==!!!
