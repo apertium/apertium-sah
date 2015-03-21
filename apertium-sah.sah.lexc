@@ -62,6 +62,7 @@ Multichar_Symbols
 
 %<gna_perf%>       ! 
 %<gna_abes%>       ! 
+%<gna_caus%>       ! 
 
 %<prc_impf%>       ! 
 
@@ -85,7 +86,7 @@ Multichar_Symbols
 %{n%}              !
 %{t%}              !
 %{i%}              !
-%{т%}              ! 
+%{a%}              ! 
 %{р%}              ! 
 
 %                  !
@@ -385,8 +386,9 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
 LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 
-%<gna_perf%>:%>%{A%}н CLITICS-NO-COP ; ! FIXME: check
+%<gna_perf%>:%>%{a%}н CLITICS-NO-COP ; ! FIXME: check
 %<gna_abes%>:%>%{B%}%{A%}кк%{A%} CLITICS-NO-COP ; ! FIXME: check
+%<gna_caus%>:%>%{B%}%{I%}чч%{A%} CLITICS-NO-COP ; ! FIXME: check
 
 LEXICON V-COMMON
 
@@ -431,6 +433,7 @@ LEXICON Miscellaneous
 
 LEXICON Conjunctions 
 
+да:да CC ; ! "also"
 уонна:уонна CC ; ! "и"
 оттон:оттон CC ; ! "но"
 
