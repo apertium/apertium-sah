@@ -71,23 +71,23 @@ Rules
 
 !!!== progressive assimilation ==!!!
 
-"{B} devoicing"
-%{B%}:п <=> :VoicelessCns/:0 _ ;
+!"{B} devoicing"
+!%{B%}:п <=> :VoicelessCns/:0 _ ;
 
-"{B} nasalisation"
-%{B%}:м <=> :Nasal/:0 _ ;
+!"{B} nasalisation"
+!%{B%}:м <=> :Nasal/:0 _ ;
 
 "{T} → л"
 %{T%}:л <=> :л/:0 _ ; 
 
-"{T} after й, р"
-%{T%}:д <=> :HighSonCns/:0 _ ; 
+!"{T} after й, р"
+!%{T%}:д <=> :HighSonCns/:0 _ ; 
 
-"{T} after nasals"
-%{T%}:н <=> :Nasal/:0 _ ;
+!"{T} after nasals"
+!%{T%}:н <=> :Nasal/:0 _ ;
 
-"{G} after nasals"
-%{G%}:ҥ <=> :Nasal/:0 _ ;
+!"{G} after nasals"
+!%{G%}:ҥ <=> :Nasal/:0 _ ;
 
 "{G} after х"
 %{G%}:х <=> :х/:0 _ ;
@@ -95,14 +95,33 @@ Rules
 "{G} after voiceless consonants besides х"
 %{G%}:к <=> [ :VoicelessCns - :х]/:0 _ ;
 
-"{L} after voiceless consonants"
-%{L%}:т <=> :VoicelessCns/:0 _ ;
+!"{L} after voiceless consonants"
+!%{L%}:т <=> :VoicelessCns/:0 _ ;
 
-"{L} after й, р"
-%{L%}:д <=> :HighSonCns/:0 _ ;
+!"{L} after й, р"
+!%{L%}:д <=> :HighSonCns/:0 _ ;
 
-"{L} after nasals"
-%{L%}:н <=> :Nasal/:0 _ ;
+!"{L} after nasals"
+!%{L%}:н <=> :Nasal/:0 _ ;
+
+"Assimilation after nasals"
+Cx:Cy <=> :Nasal/:0 _ ;
+      where Cx in ( %{L%} %{T%} %{G%} %{B%} )
+            Cy in (   н     н     ҥ     м   )
+      matched ;
+
+"Assimilation after high-sonority obstruents"
+Cx:Cy <=> :HighSonCns/:0 _ ;
+      where Cx in ( %{L%} %{T%} )
+            Cy in (   д     д   )
+      matched ;
+
+"Assimilation after voiceless consonants"
+Cx:Cy <=> :VoicelessCns/:0 _ ;
+      where Cx in ( %{L%} %{B%} )
+            Cy in (   т     п   )
+      matched ;
+
 
 
 !!!== deletion ==!!!
