@@ -80,6 +80,12 @@ Rules
 "{T} → л"
 %{T%}:л <=> :л/:0 _ ; 
 
+"{T} after й, р"
+%{T%}:д <=> :HighSonCns/:0 _ ; 
+
+"{T} after nasals"
+%{T%}:н <=> :Nasal/:0 _ ;
+
 "{G} after nasals"
 %{G%}:ҥ <=> :Nasal/:0 _ ;
 
