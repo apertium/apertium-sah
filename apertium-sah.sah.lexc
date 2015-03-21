@@ -50,6 +50,7 @@ Multichar_Symbols
 %<neg%>            !
 
 %<pers%>           !
+%<dem%>            !
 
 %<ant%>            !
 %<top%>            !
@@ -317,7 +318,6 @@ LEXICON PRON-EHIGI
 %<prn%>%<pers%>%<p2%>%<hu%>%<pl%>%<com%>:гинниин # ;
 !%<prn%>%<pers%>%<p2%>%<hu%>%<pl%>%<comp%>:тээҕэр # ;
 
-
 LEXICON PRON-KINILER
 
 %<prn%>%<pers%>%<p3%>%<hu%>%<pl%>%<nom%>: # ;
@@ -327,25 +327,83 @@ LEXICON PRON-KINILER
 %<prn%>%<pers%>%<p3%>%<hu%>%<pl%>%<com%>:диин # ;
 !%<prn%>%<pers%>%<p3%>%<hu%>%<pl%>%<comp%>:диин # ;
 
+LEXICON PRON-DEM-BU-COMMON
 
-LEXICON PRON-DEM-BU 
+бу%<prn%>%<dem%>%<sg%>%<dat%>:маныаха # ;
+бу%<prn%>%<dem%>%<sg%>%<acc%>:маны # ;
+бу%<prn%>%<dem%>%<sg%>%<abl%>:мантан # ;
+бу%<prn%>%<dem%>%<sg%>%<ins%>:манан # ;
+бу%<prn%>%<dem%>%<sg%>%<com%>:манныын # ;
+бу%<prn%>%<dem%>%<sg%>%<comp%>:маннааҕар # ;
 
-%<prn%>%<dem%>%<sg%>%<nom%>:у # ;
-!%<prn%>%<dem%>%<sg%>%<par%>:манна # ;
-%<prn%>%<dem%>%<pl%>%<nom%>:а%>лар # ;
+!бу%<prn%>%<dem%>%<sg%>%<ins%>:манна # ; ! FIXME
+
+бу%<prn%>%<dem%>%<pl%>%<nom%>:ба%>лар # ;
+бу%<prn%>%<dem%>%<pl%>%<dat%>:ба%>ларга # ;
+бу%<prn%>%<dem%>%<pl%>%<acc%>:ба%>лары # ;
+бу%<prn%>%<dem%>%<pl%>%<abl%>:ба%>лартан # ;
+бу%<prn%>%<dem%>%<pl%>%<ins%>:ба%>ларынан # ;
+бу%<prn%>%<dem%>%<pl%>%<com%>:ба%>лардыын # ;
+бу%<prn%>%<dem%>%<pl%>%<comp%>:ба%>лардааҕар # ;
+
+LEXICON PRON-DEM-BU
+
+PRON-DEM-BU-COMMON ;
+бу%<prn%>%<dem%>%<sg%>%<nom%>:бу # ;
+
+LEXICON PRON-DEM-SUBU
+
+су:са PRON-DEM-BU-COMMON ;
+субу%<prn%>%<dem%>%<sg%>%<nom%>:субу # ;
+
+LEXICON PRON-DEM-OL-COMMON
+
+%<prn%>%<dem%>%<sg%>%<nom%>:л # ;
+%<prn%>%<dem%>%<sg%>%<dat%>:нуоха # ;
+%<prn%>%<dem%>%<sg%>%<acc%>:ну # ;
+%<prn%>%<dem%>%<sg%>%<abl%>:нтон # ;
+%<prn%>%<dem%>%<sg%>%<com%>:ннуун # ;
+%<prn%>%<dem%>%<sg%>%<comp%>:оннооҕор # ;
+
+!%<prn%>%<dem%>%<sg%>%<ins%>:нно # ; ! FIXME
+
+%<prn%>%<dem%>%<pl%>%<nom%>:лор # ;
+%<prn%>%<dem%>%<pl%>%<dat%>:лорго # ;
+%<prn%>%<dem%>%<pl%>%<acc%>:лору # ;
+%<prn%>%<dem%>%<pl%>%<abl%>:лортон # ;
+%<prn%>%<dem%>%<pl%>%<ins%>:лорунан # ;
+%<prn%>%<dem%>%<pl%>%<com%>:лордуун # ;
+%<prn%>%<dem%>%<pl%>%<comp%>:лордооҕор # ;
 
 LEXICON PRON-DEM-OL
 
-%<prn%>%<dem%>%<sg%>%<nom%>:л # ;
-!%<prn%>%<dem%>%<sg%>%<par%>:нно # ;
-!%<prn%>%<dem%>%<sg%>%<abl%>:нтон # ;
-!%<prn%>%<dem%>%<sg%>:н # ;
-%<prn%>%<dem%>%<pl%>%<nom%>:ллор # ;
+PRON-DEM-OL-COMMON ;
+%<prn%>%<dem%>%<sg%>%<ins%>:нон # ;
+
+LEXICON PRON-DEM-SOL
+
+PRON-DEM-OL-COMMON ;
+%<prn%>%<dem%>%<sg%>%<ins%>:нок # ;
 
 LEXICON PRON-DEM-ITI
 
 %<prn%>%<dem%>%<sg%>%<nom%>: # ;
+%<prn%>%<dem%>%<sg%>%<dat%>:%>ниэхэ # ;
+%<prn%>%<dem%>%<sg%>%<acc%>:%>ни # ;
+%<prn%>%<dem%>%<sg%>%<abl%>:%>нтэн # ;
+%<prn%>%<dem%>%<sg%>%<ins%>:%>нэн # ;
+%<prn%>%<dem%>%<sg%>%<com%>:%>нниин # ;
+%<prn%>%<dem%>%<sg%>%<comp%>:%>ннээҕэр # ;
+
+!%<prn%>%<dem%>%<sg%>%<nom%>:%>ннэ # ; ! FIXME
+
 %<prn%>%<dem%>%<pl%>%<nom%>:%>лэр # ;
+%<prn%>%<dem%>%<pl%>%<dat%>:%>лэр%>гэ # ;
+%<prn%>%<dem%>%<pl%>%<acc%>:%>лэр%>и # ;
+%<prn%>%<dem%>%<pl%>%<abl%>:%>лэр%>тэн # ;
+%<prn%>%<dem%>%<pl%>%<ins%>:%>лэр%>инэн # ;
+%<prn%>%<dem%>%<pl%>%<com%>:%>лэр%>диин # ;
+%<prn%>%<dem%>%<pl%>%<comp%>:%>лэр%>дээҕэр # ;
 
 LEXICON PRON-ITG 
 
@@ -491,12 +549,14 @@ LEXICON Pronouns
 эһиги:эһи PRON-EHIGI ; ! ""
 кинилэр:кинилэр PRON-KINILER ; ! ""
 
-бу:б PRON-DEM-BU ; ! ""
-ол:о PRON-DEM-OL ; ! ""
-субу:суб PRON-DEM-BU ; ! ""
-
+PRON-DEM-BU ; ! ""
 ити:ити PRON-DEM-ITI ; ! ""
+ол:о PRON-DEM-OL ; ! ""
+
+PRON-DEM-SUBU ; ! ""
 сити:сити PRON-DEM-ITI ; ! ""
+сол:со PRON-DEM-SOL ; ! ""
+
 
 !ханнык:ханнык DET-ITG ; ! "which"
 
