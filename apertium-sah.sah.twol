@@ -15,7 +15,7 @@ Alphabet
 
    %{B%}:б ! %{B%}:п %{B%}:м
 
-   %{G%}:г %{G%}:к %{G%}:ҕ %{G%}:х %{G%}:ҥ
+   %{G%}:г ! %{G%}:к %{G%}:ҕ %{G%}:х %{G%}:ҥ
 
    %{i%}:0 ! %{i%}:и %{i%}:у %{i%}:ү %{i%}:ы
 
@@ -73,6 +73,15 @@ Rules
 "{T} → л"
 %{T%}:л <=> :л/:0 _ ; 
 
+"{G} after nasals"
+%{G%}:ҥ <=> :Nasal/:0 _ ;
+
+"{G} after х"
+%{G%}:х <=> :х/:0 _ ;
+
+"{G} after voiceless consonants besides х"
+%{G%}:к <=> [ :VoicelessCns - :х]/:0 _ ;
+
 
 !!!== deletion ==!!!
 
@@ -97,12 +106,20 @@ Rules
 
 !!!== lenition ==!!!
 
-"х → ҕ intervocalically"
-х:ҕ <=> _ %>: :Vow/:0* ;
+!"х → ҕ intervocalically"
+!х:ҕ <=> _ %>: :Vow/:0* ;
+!
+!"с → һ intervocalically"
+!с:һ <=> _ %>: :Vow/:0* ;
+!
+!"к → г intervocalically"
+!к:г <=> _ %>: :Vow/:0* ;
 
-"с → һ intervocalically"
-с:һ <=> _ %>: :Vow/:0* ;
-
+"intervocalic lenition"
+Cx:Cy <=> _ %>: :Vow/:0* ;
+      where Cx in ( х с к )
+            Cy in ( ҕ һ г )
+      matched ;
 
 !!!== Vowel Harmony ==!!!
 
