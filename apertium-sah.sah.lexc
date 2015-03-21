@@ -69,6 +69,9 @@ Multichar_Symbols
 
 %<prc_impf%>       ! 
 
+%<qst%>            !
+%<mod_ass%>        !
+
 %<sent%>           ! Sentence marker
 %<guio%>           ! Дефиз 
 %<cm%>             ! 
@@ -122,6 +125,11 @@ LEXICON CLIT-EMPH
 # ;
 
 LEXICON CLITICS-NO-COP 
+
+%+дуо%<qst%>:%>% дуо # ;
+%+ини%<mod_ass%>:%>% ини # ;
+%+дии%<mod_ass%>:%>% дии # ;
+%+ээ%<mod_ass%>:%>% ээ # ;
 
 # ;
 
