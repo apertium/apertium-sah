@@ -9,6 +9,7 @@ Multichar_Symbols
 %<adj%>            ! Имя прилагательное
 %<np%>             ! 
 %<cnjcoo%>         ! 
+%<det%>            ! 
 %<cnjadv%>         ! 
 %<num%>            ! Число
 %<prn%>            ! Местоимение
@@ -36,6 +37,8 @@ Multichar_Symbols
 %<abl%>            !
 %<ins%>            !
 %<com%>            !
+%<comp%>           !
+%<loc%>            ! FIXME: check
 
 %<px1sg%>          !
 %<px2sg%>          !
@@ -51,6 +54,7 @@ Multichar_Symbols
 
 %<pers%>           !
 %<dem%>            !
+%<ind%>            !
 %<itg%>            !
 
 %<ant%>            !
@@ -100,6 +104,8 @@ Multichar_Symbols
 %{a%}              ! 
 %{р%}              ! 
 
+%{ъ%}              ! 
+
 %                  !
 %-                 !
 %>                 ! Граница морфемы
@@ -113,6 +119,7 @@ Miscellaneous ;
 Copula ;
 Conjunctions ;
 Postpositions ;
+Determiners ;
 Pronouns ; 
 Numerals ; 
 Nouns ; 
@@ -122,6 +129,7 @@ Adverbs ;
 Verbs ;
 Abbreviations ;
 Punctuation ; 
+Guesser ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -207,10 +215,22 @@ CASES-ETC ;
 %<px2pl%>:%>%{G%}%{I%}т CASES-NOM ;
 !%<px3pl%>:%>%{L%}%{A%}р%{A%} CASES-NOM ;
 
+LEXICON ATTR-SUBST 
+
+%<attr%>: # ;
+%<subst%>: CASES-NOM ;
+%<subst%>: CASES-OBL ;
+%<subst%>%<pl%>:%>%{L%}%{A%}р CASES-NOM ;
+%<subst%>%<pl%>:%>%{L%}%{A%}р CASES-OBL ;
+
+LEXICON GENPOSS-ETC
+
+%<loc%>:%>%{T%}%{A%}%{A%}ҕ%{I%} ATTR-SUBST ; ! FIXME: check
+
 LEXICON CASES-ETC
 
 CASES ;
-! GENPOSS-ETC ;
+GENPOSS-ETC ;
 
 LEXICON N-INFL-COMMON
 
@@ -256,13 +276,34 @@ LEXICON NP-PAT-VICH
 %<np%>%<pat%>%<m%>:вич NP-COMMON ;
 %<np%>%<pat%>%<f%>:вна NP-COMMON ;
 
+LEXICON NP-COG-OBIN-FEM
+
+%<np%>%<cog%>%<f%>:а NP-COMMON ;
+
+LEXICON NP-COG-OB
+
+! For cognoms ending with -ов, -ев
+! They derive feminine equivalets taking -а /I.S./
+! Also, even the ев ones are normally pronounced
+!    (and take harmony) as if they end in йыф/йып
+
+%<np%>%<cog%>%<m%>: NP-COMMON ;                       ! Dir/LR
+
+NP-COG-OBIN-FEM ;
+
 LEXICON NP-TOP
 
 %<np%>%<top%>: NP-COMMON ; 
+%<np%>%<top%>: GENPOSS-ETC ; 
 
 LEXICON A1 
 
 %<adj%>: #  ;
+
+LEXICON A2
+
+%<adj%>: # ;
+%<adj%>%<subst%>: FULL-NOMINAL-INFLECTION ;
 
 LEXICON A3
 
@@ -272,12 +313,23 @@ LEXICON A4
 
 %<adj%>: # ;
 
+LEXICON A9
+
+%<adj%>: # ;
+
+
 
 LEXICON NUM
 
 %<num%>: # ;
 %<num%>%<ord%>:%>%{i%}с # ;
 %<num%>%<ord%>%<subst%>:%>%{i%}с FULL-NOMINAL-INFLECTION ;
+
+LEXICON NUM-ROMAN
+
+%<num%>%<ord%>: # ;
+
+
 
 LEXICON PRON-MIN
 
@@ -350,7 +402,7 @@ LEXICON PRON-DEM-BU-COMMON
 бу%<prn%>%<dem%>%<sg%>%<com%>:манныын # ;
 бу%<prn%>%<dem%>%<sg%>%<comp%>:маннааҕар # ;
 
-!бу%<prn%>%<dem%>%<sg%>%<ins%>:манна # ; ! FIXME
+бу%<prn%>%<dem%>%<sg%>%<loc%>:манна # ; ! FIXME: is this an adverb ?
 
 бу%<prn%>%<dem%>%<pl%>%<nom%>:ба%>лар # ;
 бу%<prn%>%<dem%>%<pl%>%<dat%>:ба%>ларга # ;
@@ -379,7 +431,7 @@ LEXICON PRON-DEM-OL-COMMON
 %<prn%>%<dem%>%<sg%>%<com%>:ннуун # ;
 %<prn%>%<dem%>%<sg%>%<comp%>:оннооҕор # ;
 
-!%<prn%>%<dem%>%<sg%>%<ins%>:нно # ; ! FIXME
+%<prn%>%<dem%>%<sg%>%<loc%>:нно # ; ! FIXME: is this an adverb?
 
 %<prn%>%<dem%>%<pl%>%<nom%>:лор # ;
 %<prn%>%<dem%>%<pl%>%<dat%>:лорго # ;
@@ -409,7 +461,7 @@ LEXICON PRON-DEM-ITI
 %<prn%>%<dem%>%<sg%>%<com%>:%>нниин # ;
 %<prn%>%<dem%>%<sg%>%<comp%>:%>ннээҕэр # ;
 
-!%<prn%>%<dem%>%<sg%>%<nom%>:%>ннэ # ; ! FIXME
+%<prn%>%<dem%>%<sg%>%<loc%>:%>ннэ # ; ! FIXME: is this an adverb ?
 
 %<prn%>%<dem%>%<pl%>%<nom%>:%>лэр # ;
 %<prn%>%<dem%>%<pl%>%<dat%>:%>лэр%>гэ # ;
@@ -521,6 +573,10 @@ LEXICON POST
 
 %<post%>: # ; 
 
+LEXICON DET-IND 
+
+%<det%>%<ind%>: # ;
+
 LEXICON ABBR
 
 %<abbr%>: # ; 
@@ -547,6 +603,7 @@ LEXICON Conjunctions
 эбит:эбит CA ; ! "если"
 
 LEXICON Postpositions
+! FIXME: These should all be checked for compositionality
 
 баран:баран POST ; ! "после"
 кытта:кытта POST ; ! "с" 
@@ -556,6 +613,8 @@ LEXICON Postpositions
 кэнниттэн:кэнниттэн POST ; ! "after"
 диэри:диэри POST ; ! "before, up to"
 дылы:дылы POST ; ! "вроде, как"
+кэннэ:кэннэ POST ; ! "помимо, кроме"
+иннинэ:иннинэ POST ; ! "до, перед"
 
 
 LEXICON Pronouns
@@ -580,6 +639,11 @@ PRON-DEM-SUBU ; ! ""
 
 ким:ким PRON-ITG ; ! ""
 туох:туох PRON-ITG ; ! ""
+
+LEXICON Determiners
+
+сорох:сорох DET-IND ; ! "некоторый"
+эмэ:эмэ DET-IND ; ! "some, any"
 
 LEXICON Numerals
 
@@ -611,6 +675,34 @@ LEXICON Numerals
 уон% тыһыынча:уон% тыһыынча NUM ; ! ""
 
 мөлүйүөн:мөлүйүөн NUM ; ! ""
+
+C:C NUM-ROMAN ; ! ""
+D:D NUM-ROMAN ; ! ""
+DC:DC NUM-ROMAN ; ! ""
+I:I NUM-ROMAN ; ! ""
+II:II NUM-ROMAN ; ! ""
+III:III NUM-ROMAN ; ! ""
+IV:IV NUM-ROMAN ; ! ""
+V:V NUM-ROMAN ; ! ""
+VI:VI NUM-ROMAN ; ! ""
+VII:VII NUM-ROMAN ; ! ""
+VIII:VIII NUM-ROMAN ; ! ""
+IX:IX NUM-ROMAN ; ! ""
+L:L NUM-ROMAN ; ! ""
+M:M NUM-ROMAN ; ! ""
+X:X NUM-ROMAN ; ! ""
+XI:XI NUM-ROMAN ; ! ""
+XII:XII NUM-ROMAN ; ! ""
+XIII:XIII NUM-ROMAN ; ! ""
+XIV:XIV NUM-ROMAN ; ! ""
+XV:XV NUM-ROMAN ; ! ""
+XVI:XVI NUM-ROMAN ; ! ""
+XVII:XVII NUM-ROMAN ; ! ""
+XVIII:XVIII NUM-ROMAN ; ! ""
+XIX:XIX NUM-ROMAN ; ! ""
+XX:XX NUM-ROMAN ; ! ""
+XXI:XXI NUM-ROMAN ; ! ""
+
 
 LEXICON Nouns 
 
@@ -1314,7 +1406,6 @@ LEXICON Nouns
 доллар:доллар N1 ; ! ""
 инженер:инженер N1 ; ! ""
 режиссер:режиссер N1 ; ! ""
-компьютер:компьютер N1 ; ! ""
 фольклор:фольклор N1 ; ! ""
 профессор:профессор N1 ; ! ""
 император:император N1 ; ! ""
@@ -1401,7 +1492,7 @@ yy:yy N1 ; ! "вода"
 аас:аас N1 ; ! "hunger"
 аата:аата N1 ; ! "comp. title;"
 аат:аат N1 ; ! "name, fame;"
-аат-суол:аат-суол N1 ; ! "fame;"
+аат%-суол:аат%-суол N1 ; ! "fame;"
 аат% тыл:аат% тыл N1 ; ! "noun;"
 аах:аах N1 ; ! "document, paper;"
 аба:аба N1 ; ! "grief, annoyance bitterness;"
@@ -1412,7 +1503,7 @@ yy:yy N1 ; ! "вода"
 автомобиль:автомобиль N1 ; ! "automobile, car"
 аҕа:аҕа N1 ; ! "father;"
 аҕабыыт:аҕабыыт N1 ; ! "priest"
-аҕа-ий̃э:аҕа-ий̃э N1 ; ! "parents"
+аҕа%-ий̃э:аҕа%-ий̃э N1 ; ! "parents"
 аҕас:аҕас N1 ; ! "sister"
 агроном:агроном N1 ; ! "agronomist, agricultural specialist"
 аҕыныах:аҕыныах N1 ; ! "salve"
@@ -1478,7 +1569,7 @@ yy:yy N1 ; ! "вода"
 ассыын:ассыын N1 ; ! "1.9 ft."
 асчыт:асчыт N1 ; ! "cook, chef;"
 атас:атас N1 ; ! "friend;"
-атас-доҕор:атас-доҕор N1 ; ! "friends"
+атас%-доҕор:атас%-доҕор N1 ; ! "friends"
 ат:ат N1 ; ! "horse;"
 атах:атах N1 ; ! "foot, leg;"
 атах% таҥаһа:атах% таҥаһа N1 ; ! "footwear"
@@ -1491,7 +1582,7 @@ yy:yy N1 ; ! "вода"
 атыы:атыы N1 ; ! "commerce, trade"
 атыыр:атыыр N1 ; ! "stallion;"
 атыыр% оҕус:атыыр% оҕус N1 ; ! "stud bull"
-атыыр% оҕус:атыыр% оҕус N1 ; ! "stud-bull;"
+атыыр% оҕус:атыыр% оҕус N1 ; ! "stud%-bull;"
 атыыр% сибиинньэ:атыыр% сибиинньэ N1 ; ! "boar;"
 аудитория:аудитория N1 ; ! "audience"
 аһаҕас% дорҕоон:аһаҕас% дорҕоон N1 ; ! "vowel"
@@ -1506,7 +1597,7 @@ yy:yy N1 ; ! "вода"
 аһыы% сүөргэй:аһыы% сүөргэй N1 ; ! "sour cream;"
 ача:ача N1 ; ! "mountain sedge"
 баайар% массыына:баайар% массыына N1 ; ! "baler"
-баай-күүс:баай-күүс N1 ; ! "power;"
+баай%-күүс:баай%-күүс N1 ; ! "power;"
 баак:баак N1 ; ! "fact"
 баан:баан N1 ; ! "bank"
 баанньык:баанньык N1 ; ! "bath, bathhouse"
@@ -1608,7 +1699,7 @@ yy:yy N1 ; ! "вода"
 ботуруон:ботуруон N1 ; ! "cartridge, shell"
 бөтүүк:бөтүүк N1 ; ! "cock, rooster"
 бөх:бөх N1 ; ! "garbage, trash, junk, rubbish;"
-бөх-сах:бөх-сах N1 ; ! "rubbish"
+бөх%-сах:бөх%-сах N1 ; ! "rubbish"
 бөһүөлэк:бөһүөлэк N1 ; ! "village, settlement, inhabited place"
 бочугурас:бочугурас N1 ; ! "hazel grouse, ruffed grouse"
 бүгүдьэх:бүгүдьэх N1 ; ! "gadfly"
@@ -1638,9 +1729,9 @@ yy:yy N1 ; ! "вода"
 бурдук% астааһына:бурдук% астааһына N1 ; ! "threshing;"
 бурдук:бурдук N1 ; ! "crop;"
 бурдук% быһаачы:бурдук% быһаачы N1 ; ! "reaper, harvester;"
-бурдук% быһыыта:бурдук% быһыыта N1 ; ! "reaping, harvesting, grain-cutting;"
+бурдук% быһыыта:бурдук% быһыыта N1 ; ! "reaping, harvesting, grain%-cutting;"
 бурдук% үүннэрии:бурдук% үүннэрии N1 ; ! "agriculture, husbandry;"
-бурдук% ыһар% сир:бурдук% ыһар% сир N1 ; ! "agricultural field, crop-field"
+бурдук% ыһар% сир:бурдук% ыһар% сир N1 ; ! "agricultural field, crop%-field"
 буруй:буруй N1 ; ! "guilt;"
 буруо:буруо N1 ; ! "smoke;"
 бүрүүкэ:бүрүүкэ N1 ; ! "pants, trousers"
@@ -1685,7 +1776,7 @@ yy:yy N1 ; ! "вода"
 быһыйа:быһыйа N1 ; ! "small knife;"
 быһыт:быһыт N1 ; ! "passage;  dam, dike"
 быһыы:быһыы N1 ; ! "piece, shape, character;"
-быһыы-майгы:быһыы-майгы N1 ; ! "state of affairs"
+быһыы%-майгы:быһыы%-майгы N1 ; ! "state of affairs"
 быччын:быччын N1 ; ! "muscle"
 быыбар:быыбар N1 ; ! "election ;"
 быыл:быыл N1 ; ! "dust"
@@ -1768,9 +1859,9 @@ yy:yy N1 ; ! "вода"
 дьиссипилиннэ:дьиссипилиннэ N1 ; ! "discipline"
 дьиэ:дьиэ N1 ; ! "house, home;"
 дьиэ% сууйааччы:дьиэ% сууйааччы N1 ; ! "cleaner;"
-дьиэ-уот:дьиэ-уот N1 ; ! "home, family;"
+дьиэ%-уот:дьиэ%-уот N1 ; ! "home, family;"
 дьиэһит:дьиэһит N1 ; ! "housekeeper"
-дьол:дьол N1 ; ! "happiness, welfare, well-being;"
+дьол:дьол N1 ; ! "happiness, welfare, well%-being;"
 дьөлөҕөс:дьөлөҕөс N1 ; ! "hole"
 дьон:дьон N1 ; ! "people, relatives ;"
 дьукаах:дьукаах N1 ; ! "neighbor"
@@ -1780,8 +1871,8 @@ yy:yy N1 ; ! "вода"
 дьулуур:дьулуур N1 ; ! "diligence, aspiration;"
 дьуолка:дьуолка N1 ; ! "fir tree, Christmas tree"
 дьууппа:дьууппа N1 ; ! "skirt, slip"
-дьүһүн-бодо:дьүһүн-бодо N1 ; ! "appearance"
-дьүһүн-бодо:дьүһүн-бодо N1 ; ! "appearance;  awkwardness"
+дьүһүн%-бодо:дьүһүн%-бодо N1 ; ! "appearance"
+дьүһүн%-бодо:дьүһүн%-бодо N1 ; ! "appearance;  awkwardness"
 дьүһүн:дьүһүн N1 ; ! "appearance;"
 дьуһуурунай:дьуһуурунай N1 ; ! "officer of the day, man on duty"
 дьылҕа:дьылҕа N1 ; ! "destiny, fate"
@@ -1812,7 +1903,7 @@ yy:yy N1 ; ! "вода"
 ил:ил N1 ; ! "friendship, amity, peace;"
 илим:илим N1 ; ! "net web ;"
 илин:илин N1 ; ! "front"
-им-дьим:им-дьим N1 ; ! "silence, quiet"
+им%-дьим:им%-дьим N1 ; ! "silence, quiet"
 им:им N1 ; ! "sunset, afterglow"
 иҥиир:иҥиир N1 ; ! "sinew"
 иҥсэ:иҥсэ N1 ; ! "greed"
@@ -1820,7 +1911,7 @@ yy:yy N1 ; ! "вода"
 ини:ини N1 ; ! "brother"
 инни:инни N1 ; ! "brother"
 инньэ:инньэ N1 ; ! "needle;"
-инньэлик:инньэлик N1 ; ! "needle-case, needle cushion"
+инньэлик:инньэлик N1 ; ! "needle%-case, needle cushion"
 иннэ:иннэ N1 ; ! "needle;"
 инструктар:инструктар N1 ; ! "instructor"
 ириҥэ:ириҥэ N1 ; ! "pus;"
@@ -1842,7 +1933,7 @@ yy:yy N1 ; ! "вода"
 итэҕэс:итэҕэс N1 ; ! "lack, insufficiency"
 иһитиннэрии:иһитиннэрии N1 ; ! "information"
 иһит:иһит N1 ; ! "container, bottle, kitchenware, casserole, dishes, crockery;"
-иһит-комуос:иһит-комуос N1 ; ! "kitchenware;"
+иһит%-комуос:иһит%-комуос N1 ; ! "kitchenware;"
 иһэҥэ:иһэҥэ N1 ; ! "stirrup"
 иччи:иччи N1 ; ! "internal spirit;  master;  ghost"
 иэдьэгэй:иэдьэгэй N1 ; ! "cottage cheese"
@@ -1855,7 +1946,7 @@ yy:yy N1 ; ! "вода"
 капитан:капитан N1 ; ! "captain"
 карта:карта N1 ; ! "map"
 карточка:карточка N1 ; ! "file card"
-киий̃ит:киий̃ит N1 ; ! "daughter-in-law"
+киий̃ит:киий̃ит N1 ; ! "daughter%-in%-law"
 кии:кии N1 ; ! "manure, dung, droppings"
 киилэ:киилэ N1 ; ! "kilo, kilogram"
 киин:киин N1 ; ! "navel;  center"
@@ -1868,10 +1959,10 @@ yy:yy N1 ; ! "вода"
 килиэп:килиэп N1 ; ! "bread"
 киллэһик:киллэһик N1 ; ! "patch"
 километр:километр N1 ; ! "kilometer"
-килэҥ:килэҥ N1 ; ! "shine;  snow-crusted ground"
+килэҥ:килэҥ N1 ; ! "shine;  snow%-crusted ground"
 кингиэ% кумааҕы:кингиэ% кумааҕы N1 ; ! "papers, documents"
 кинигэ:кинигэ N1 ; ! "book ;"
-киньиит:киньиит N1 ; ! "daughter-in-law"
+киньиит:киньиит N1 ; ! "daughter%-in%-law"
 киоск:киоск N1 ; ! "stall, kiosk"
 кирилиэс:кирилиэс N1 ; ! "staircase, stairs;  ladder"
 кир:кир N1 ; ! "dirt, filth;"
@@ -1899,11 +1990,11 @@ yy:yy N1 ; ! "вода"
 көннөрөөччү:көннөрөөччү N1 ; ! "rectifier;"
 конституция:конституция N1 ; ! "constitution"
 концерт:концерт N1 ; ! "concert"
-кооператив:кооператив N1 ; ! "co-op, co-operative"
+кооператив:кооператив N1 ; ! "co%-op, co%-operative"
 көппөх:көппөх N1 ; ! "jetsam"
 көрдөрүү:көрдөрүү N1 ; ! "index"
 көр:көр N1 ; ! "fun;"
-көр-нар:көр-нар N1 ; ! "fun"
+көр%-нар:көр%-нар N1 ; ! "fun"
 көрүҥ:көрүҥ N1 ; ! "appearance;"
 көрүҥэ:көрүҥэ N1 ; ! "version"
 көрүнньүк:көрүнньүк N1 ; ! "gallery"
@@ -1913,7 +2004,7 @@ yy:yy N1 ; ! "вода"
 көстүрүүҥкэ:көстүрүүҥкэ N1 ; ! "pot"
 көстүүм:көстүүм N1 ; ! "suit"
 көтөр:көтөр N1 ; ! "bird;"
-көтөр-сүүрэр:көтөр-сүүрэр N1 ; ! "animals, animal kingdom, Animalia"
+көтөр%-сүүрэр:көтөр%-сүүрэр N1 ; ! "animals, animal kingdom, Animalia"
 көтүтэр% массыына:көтүтэр% массыына N1 ; ! "winnower"
 көх:көх N1 ; ! "enthusiasm, initiative"
 көхө:көхө N1 ; ! "hatrack, coatstand"
@@ -1950,7 +2041,7 @@ yy:yy N1 ; ! "вода"
 куобах:куобах N1 ; ! "hare, rabbit"
 куоҕас:куоҕас N1 ; ! "loon"
 күөгү:күөгү N1 ; ! "pole"
-куолай:куолай N1 ; ! "esophagus, food-pipe"
+куолай:куолай N1 ; ! "esophagus, food%-pipe"
 куолас:куолас N1 ; ! "ear of grain"
 куолас:куолас N1 ; ! "voice, vote ;"
 күөл:күөл N1 ; ! "lake"
@@ -1985,13 +2076,13 @@ yy:yy N1 ; ! "вода"
 күрээтинньик:күрээтинньик N1 ; ! "chicken coop"
 кус:кус N1 ; ! "duck;"
 күс:күс N1 ; ! "fall"
-кус-хаас:кус-хаас N1 ; ! "water fowl;"
+кус%-хаас:кус%-хаас N1 ; ! "water fowl;"
 кусчут:кусчут N1 ; ! "bird dog;"
 кутаа:кутаа N1 ; ! "bonfire, campfire"
 кута:кута N1 ; ! "swamp"
 куттал:куттал N1 ; ! "fear, danger;"
 кутуйах:кутуйах N1 ; ! "mouse"
-күтүөт:күтүөт N1 ; ! "son-in-law"
+күтүөт:күтүөт N1 ; ! "son%-in%-law"
 кутурук:кутурук N1 ; ! "tail"
 күтэр:күтэр N1 ; ! "muskrat"
 куукула:куукула N1 ; ! "doll"
@@ -1999,7 +2090,7 @@ yy:yy N1 ; ! "вода"
 куул:куул N1 ; ! "bag;  matting"
 куурусса:куурусса N1 ; ! "fowl"
 күүс:күүс N1 ; ! "strength;"
-күүс-уох:күүс-уох N1 ; ! "strength, power, might;"
+күүс%-уох:күүс%-уох N1 ; ! "strength, power, might;"
 кууча:кууча N1 ; ! "heap, pile"
 күһүн:күһүн N1 ; ! "fall"
 куччут:куччут N1 ; ! "bird dog;"
@@ -2053,7 +2144,7 @@ yy:yy N1 ; ! "вода"
 кыыс:кыыс N1 ; ! "girl, daughter"
 кэбиһиилээх% от:кэбиһиилээх% от N1 ; ! "haystack"
 кэккэ:кэккэ N1 ; ! "row, rank"
-кэкэ-бука:кэкэ-бука N1 ; ! "Krüper’s nuthatch"
+кэкэ%-бука:кэкэ%-бука N1 ; ! "Krüper’s nuthatch"
 кэлии% барыы:кэлии% барыы N1 ; ! "going;"
 кэлин:кэлин N1 ; ! "back , behind"
 кэлтэһэ:кэлтэһэ N1 ; ! "stye"
@@ -2084,7 +2175,7 @@ yy:yy N1 ; ! "вода"
 луук:луук N1 ; ! "onion"
 луук% лыглыйа:луук% лыглыйа N1 ; ! "barnacle goose"
 лэппиэcкэ:лэппиэcкэ N1 ; ! "pastry, cookie"
-маҕаас:маҕаас N1 ; ! "white-faced cow"
+маҕаас:маҕаас N1 ; ! "white%-faced cow"
 маҕана:маҕана N1 ; ! "peg, post"
 магаһыын:магаһыын N1 ; ! "shop, store"
 майаҕас:майаҕас N1 ; ! "lake salmon"
@@ -2128,7 +2219,7 @@ yy:yy N1 ; ! "вода"
 муҥ:муҥ N1 ; ! "suffering, hardship;"
 муҥурдаах:муҥурдаах N1 ; ! "large intestine"
 муҥур:муҥур N1 ; ! "weasel"
-муҥха:муҥха N1 ; ! "seine, drag-net"
+муҥха:муҥха N1 ; ! "seine, drag%-net"
 мунду:мунду N1 ; ! "loach"
 муннук:муннук N1 ; ! "corner"
 мунньак:мунньак N1 ; ! "meeting"
@@ -2199,7 +2290,7 @@ yy:yy N1 ; ! "вода"
 өйүө:өйүө N1 ; ! "provisions, energy sack for the road;"
 ойуур:ойуур N1 ; ! "forest"
 олбуор% аана:олбуор% аана N1 ; ! "gate"
-олбуор:олбуор N1 ; ! "court, court-yard, yard, compound;"
+олбуор:олбуор N1 ; ! "court, court%-yard, yard, compound;"
 өл:өл N1 ; ! "exterior part of a carp"
 олом:олом N1 ; ! "ford"
 оломто:оломто N1 ; ! "basis, foundation"
@@ -2240,7 +2331,7 @@ yy:yy N1 ; ! "вода"
 остуолба:остуолба N1 ; ! "post, pole, column"
 остуол:остуол N1 ; ! "table"
 остуорас:остуорас N1 ; ! "watchman"
-от-мас:от-мас N1 ; ! "vegetation;"
+от%-мас:от%-мас N1 ; ! "vegetation;"
 отон:отон N1 ; ! "berry"
 өтөн:өтөн N1 ; ! "wild dove, pigeon"
 өт:өт N1 ; ! "forest fire"
@@ -2271,7 +2362,7 @@ yy:yy N1 ; ! "вода"
 председатель:председатель N1 ; ! "president"
 принцип:принцип N1 ; ! "principle"
 промышленность:промышленность N1 ; ! "industry"
-протокол]% борошко:протокол]% борошко N1 ; ! "calf"
+протокол% борошко:протокол% борошко N1 ; ! "calf"
 пуочта:пуочта N1 ; ! "mail"
 пуун:пуун N1 ; ! "point, period"
 рабочай:рабочай N1 ; ! "worker"
@@ -2293,7 +2384,7 @@ yy:yy N1 ; ! "вода"
 салҕааһын:салҕааһын N1 ; ! "continuing;  addition"
 самыыр:самыыр N1 ; ! "rain;"
 санаа:санаа N1 ; ! "though"
-саҥа-иҥэ:саҥа-иҥэ N1 ; ! "speech;"
+саҥа%-иҥэ:саҥа%-иҥэ N1 ; ! "speech;"
 саҥардааһын:саҥардааһын N1 ; ! "comp. update"
 саҥа:саҥа N1 ; ! "speech;"
 сап:сап N1 ; ! "thread;"
@@ -2335,7 +2426,7 @@ yy:yy N1 ; ! "вода"
 сөтөл:сөтөл N1 ; ! "cough;"
 сото:сото N1 ; ! "shank, tibia"
 соттор:соттор N1 ; ! "towel"
-столовая]% остоолбо:столовая]% остоолбо N1 ; ! "pillar, column"
+столовая% остоолбо:столовая% остоолбо N1 ; ! "pillar, column"
 студен:студен N1 ; ! "[<Russ.]"
 субурҕа:субурҕа N1 ; ! "sheaf of wheat"
 сүбэ:сүбэ N1 ; ! "advice;"
@@ -2348,16 +2439,16 @@ yy:yy N1 ; ! "вода"
 суорат:суорат N1 ; ! "sour milk, yogurt"
 суорҕан:суорҕан N1 ; ! "blanket"
 суор:суор N1 ; ! "raven;"
-суор-тураах:суор-тураах N1 ; ! "carrion-crows"
+суор%-тураах:суор%-тураах N1 ; ! "carrion%-crows"
 суос:суос N1 ; ! "strictness, airs"
 суо:суо N1 ; ! "greatness, respectability"
-сурах-саддьык:сурах-саддьык N1 ; ! "gossip, rumors"
+сурах%-саддьык:сурах%-саддьык N1 ; ! "gossip, rumors"
 сурах:сурах N1 ; ! "news;"
 сүргэ:сүргэ N1 ; ! "mood"
 сүрдьүгэс:сүрдьүгэс N1 ; ! "as a basis for a fence"
 сүр:сүр N1 ; ! "scarecrow"
 сүр:сүр N1 ; ! "soul, eternal spirit;  core"
-сурук-бичик:сурук-бичик N1 ; ! "alphabet"
+сурук%-бичик:сурук%-бичик N1 ; ! "alphabet"
 сурук:сурук N1 ; ! "writing, letter ;"
 сүрэх:сүрэх N1 ; ! "heart;"
 сут:сут N1 ; ! "hunger"
@@ -2372,7 +2463,7 @@ yy:yy N1 ; ! "вода"
 сымыйаччы:сымыйаччы N1 ; ! "liar"
 сымыыт:сымыыт N1 ; ! "egg"
 сырай:сырай N1 ; ! "dial cf сирэй face"
-сыт-сымар:сыт-сымар N1 ; ! "odor, bad smell"
+сыт%-сымар:сыт%-сымар N1 ; ! "odor, bad smell"
 сыт:сыт N1 ; ! "odor, smell;"
 сыттык:сыттык N1 ; ! "pillow"
 сыһыан:сыһыан N1 ; ! "attitude"
@@ -2391,7 +2482,7 @@ yy:yy N1 ; ! "вода"
 таламаһа:таламаһа N1 ; ! "comp. interface"
 талба:талба N1 ; ! "comp. menu"
 таҥара:таҥара N1 ; ! "God, god"
-таҥас-сап:таҥас-сап N1 ; ! "clothes, clothing"
+таҥас%-сап:таҥас%-сап N1 ; ! "clothes, clothing"
 таҥас:таҥас N1 ; ! "clothes, clothing;"
 таптал:таптал N1 ; ! "love"
 тараах:тараах N1 ; ! "comb"
@@ -2430,8 +2521,8 @@ yy:yy N1 ; ! "вода"
 тоһоҕо:тоһоҕо N1 ; ! "nail, tack"
 тохтобул:тохтобул N1 ; ! "stop"
 тоһуур:тоһуур N1 ; ! "ambush;"
-труба]% дурда:труба]% дурда N1 ; ! "stronghold, refuge, shelter, cover, hut;   duckblind"
-түбүк-садьык:түбүк-садьык N1 ; ! "worries, troubles, fuss"
+труба% дурда:труба% дурда N1 ; ! "stronghold, refuge, shelter, cover, hut;   duckblind"
+түбүк%-садьык:түбүк%-садьык N1 ; ! "worries, troubles, fuss"
 түбүк:түбүк N1 ; ! "worry;"
 туйах:туйах N1 ; ! "hoof"
 тула:тула N1 ; ! "environs"
@@ -2475,7 +2566,7 @@ yy:yy N1 ; ! "вода"
 тыатааҕы:тыатааҕы N1 ; ! "euph. bear"
 тыа:тыа N1 ; ! "countryside"
 тылбаасчыт:тылбаасчыт N1 ; ! "translator"
-тыл-өс:тыл-өс N1 ; ! "speech, language, hearsay, gossip;"
+тыл%-өс:тыл%-өс N1 ; ! "speech, language, hearsay, gossip;"
 тыл:тыл N1 ; ! "tongue, language, word;"
 тыын:тыын N1 ; ! "breath"
 тыы:тыы N1 ; ! "skiff, boat"
@@ -2495,10 +2586,10 @@ yy:yy N1 ; ! "вода"
 уллуҥ:уллуҥ N1 ; ! "sole , foot"
 үллэһик:үллэһик N1 ; ! "partition"
 үлүк:үлүк N1 ; ! "stock, share"
-үлэ-иис:үлэ-иис N1 ; ! "work, occupation"
+үлэ%-иис:үлэ%-иис N1 ; ! "work, occupation"
 үлэ:үлэ N1 ; ! "work;"
-үлэ-хамнас:үлэ-хамнас N1 ; ! "style;"
-үлэ-хамнас:үлэ-хамнас N1 ; ! "work, professional activities;"
+үлэ%-хамнас:үлэ%-хамнас N1 ; ! "style;"
+үлэ%-хамнас:үлэ%-хамнас N1 ; ! "work, professional activities;"
 үлэһит:үлэһит N1 ; ! "worker"
 үлэх:үлэх N1 ; ! "contract, order"
 умнас:умнас N1 ; ! "stem, stalk"
@@ -2518,7 +2609,7 @@ yy:yy N1 ; ! "вода"
 уот:уот N1 ; ! "fire;"
 уох:уох N1 ; ! "might, power;"
 үөһү:үөһү N1 ; ! "top, upper part"
-үп-ас:үп-ас N1 ; ! "fortune, prosperity;"
+үп%-ас:үп%-ас N1 ; ! "fortune, prosperity;"
 үп:үп N1 ; ! "money;"
 урамньый:урамньый N1 ; ! "art"
 үргээ:үргээ N1 ; ! "to pick"
@@ -2549,9 +2640,9 @@ yy:yy N1 ; ! "вода"
 үүт:үүт N1 ; ! "hole"
 үүт:үүт N1 ; ! "milk"
 уу:уу N1 ; ! "water;"
-уу-хаар:уу-хаар N1 ; ! "lies, untruth"
-уу-хаар:уу-хаар N1 ; ! "snow;"
-уу-хаар:уу-хаар N1 ; ! "snow"
+уу%-хаар:уу%-хаар N1 ; ! "lies, untruth"
+уу%-хаар:уу%-хаар N1 ; ! "snow;"
+уу%-хаар:уу%-хаар N1 ; ! "snow"
 ууһут:ууһут N1 ; ! "swimmer"
 уһан:уһан N1 ; ! "handicraft"
 үһүйээн:үһүйээн N1 ; ! "legend"
@@ -2560,7 +2651,7 @@ yy:yy N1 ; ! "вода"
 футбуол:футбуол N1 ; ! "football, soccer"
 фэрма:фэрма N1 ; ! "farm"
 хаан:хаан N1 ; ! "blood"
-хаар-самыыр:хаар-самыыр N1 ; ! "weather"
+хаар%-самыыр:хаар%-самыыр N1 ; ! "weather"
 хаарты:хаарты N1 ; ! "cards"
 хаарты% хаартыска:хаарты% хаартыска N1 ; ! "picture, photograph"
 хаар:хаар N1 ; ! "snow;"
@@ -2640,7 +2731,7 @@ yy:yy N1 ; ! "вода"
 чучуна:чучуна N1 ; ! "yeti, abominable snowman"
 чэй:чэй N1 ; ! "tea"
 чэр:чэр N1 ; ! "scar, callous;"
-чэрэниилэ% иһитэ:чэрэниилэ% иһитэ N1 ; ! "inkstand, ink-holder"
+чэрэниилэ% иһитэ:чэрэниилэ% иһитэ N1 ; ! "inkstand, ink%-holder"
 чэрэниилэ% иһитэ:чэрэниилэ% иһитэ N1 ; ! "inkstand, inkholder;"
 чэрэниилэ:чэрэниилэ N1 ; ! ";"
 шарик:шарик N1 ; ! "balloon"
@@ -2677,7 +2768,7 @@ yy:yy N1 ; ! "вода"
 ыһаары:ыһаары N1 ; ! "fried food"
 ыһыах:ыһыах N1 ; ! "summer solstice holiday"
 ыыраах:ыыраах N1 ; ! "division of a hoof"
-ыыс-быдаан:ыыс-быдаан N1 ; ! "dense darkness, heavy mist"
+ыыс%-быдаан:ыыс%-быдаан N1 ; ! "dense darkness, heavy mist"
 ыыс:ыыс N1 ; ! "smoke;"
 эбиилик:эбиилик N1 ; ! "bonus, addition"
 эбии:эбии N1 ; ! "addition;"
@@ -2705,9 +2796,9 @@ yy:yy N1 ; ! "вода"
 эриэппэ:эриэппэ N1 ; ! "turnip"
 эр% санаа:эр% санаа N1 ; ! "courage;"
 эртэбэс:эртэбэс N1 ; ! "boot"
-эрэй-буруй:эрэй-буруй N1 ; ! "suffering, hardship"
+эрэй%-буруй:эрэй%-буруй N1 ; ! "suffering, hardship"
 эрэй:эрэй N1 ; ! "suffering, misery, trouble, hardship;"
-эрэкэрдииһи:эрэкэрдииһи N1 ; ! "record-breaker"
+эрэкэрдииһи:эрэкэрдииһи N1 ; ! "record%-breaker"
 эр:эр N1 ; ! "male;"
 эрэсиинэ:эрэсиинэ N1 ; ! "resin"
 эрэт:эрэт N1 ; ! "fellow, good lad"
@@ -2715,9 +2806,8 @@ yy:yy N1 ; ! "вода"
 этиҥ:этиҥ N1 ; ! "thunder;"
 этин:этин N1 ; ! "sentence, proposition"
 эттик:эттик N1 ; ! "body"
-этчит:этчит N1 ; ! "butcher, meat-cutter;"
-этэрбэс:этэрбэс N1 ; ! "boot, soft-soled shoe"
-эт:эт N1 ; ! "flesh, meat;"
+этчит:этчит N1 ; ! "butcher, meat%-cutter;"
+этэрбэс:этэрбэс N1 ; ! "boot, soft%-soled shoe"
 эһэ:эһэ N1 ; ! "bear;"
 эһэ:эһэ N1 ; ! "grandfather"
 ээҕэ:ээҕэ N1 ; ! "sarcasm;"
@@ -2806,7 +2896,6 @@ yy:yy N1 ; ! "вода"
 турок:турок N1 ; ! "турок"
 сыана:сыана N1 ; ! "цена, стоимость"
 сөкүүндэ:сөкүүндэ N1 ; ! "секунда"
-лингвист:лингвист N1 ; ! "лингвист."
 айааччы:айааччы N1 ; ! "творец, создатель"
 хан:хан N1 ; ! "хан"
 үрүйэ:үрүйэ N1 ; ! "ручей"
@@ -3067,7 +3156,26 @@ yy:yy N1 ; ! "вода"
 аттакы:аттакы N1 ; ! "скопец"
 аксиома:аксиома N1 ; ! "аксиома"
 
+компьютер:компьютер%{ъ%} N1 ; ! ""
+лингвистика:лингвистика N1 ; ! ""
+лингвист:лингвист%{ъ%} N1 ; ! ""
+социолингвистика:социолингвистика N1 ; ! ""
+идея:идея N1 ; ! ""
+теория:теория N1 ; ! ""
+сайдыы:сайдыы N1 ; ! "развитие; общество"
+кут:кут N1 ; ! "душа"
+этии:этии N1 ; ! "выступление, предложение"
+култуура:култуура N1 ; ! ""
+общество:общество N1 ; ! ""
+сойуус:сойуус N1 ; ! "союз"
+аармыйа:аармыйа N1 ; ! "армия"
+субъект:субъект N1 ; ! "субъект"
+
 LEXICON ProperNouns
+
+Михаил:Михаил NP-ANT-M ; ! ""
+Иннокентий:Иннокентий NP-ANT-M ; ! ""
+Афанасий:Афанасий NP-ANT-M ; ! ""
 
 Айаан:Айаан NP-ANT-M ; ! ""
 Айаал:Айаал NP-ANT-M ; ! ""
@@ -3103,6 +3211,15 @@ LEXICON ProperNouns
 Эрхаан:Эрхаан NP-ANT-M ; ! ""
 Үргэл:Үргэл NP-ANT-M ; ! ""
 Харысхан:Харысхан NP-ANT-M ; ! ""
+
+Степан:Степан NP-ANT-M ; ! ""
+Андрей:Андрей NP-ANT-M ; ! ""
+Сергей:Сергей NP-ANT-M ; ! ""
+Семен:Семен NP-ANT-M ; ! ""
+Дмитрий:Дмитрий NP-ANT-M ; ! ""
+
+Анна:Анна NP-ANT-F ; ! ""
+Мария:Мария NP-ANT-F ; ! ""
 
 Айсена:Айсена NP-ANT-F ; ! ""
 Алдаана:Алдаана NP-ANT-F ; ! ""
@@ -3396,6 +3513,12 @@ Ypyмэччи:Ypyмэччи NP-ANT-F ; ! ""
 Юхимович:Юхимо NP-PAT-VICH ; ! ""
 Яковлевич:Яковле NP-PAT-VICH ; ! ""
 
+Попов:Попов NP-COG-OB ; ! ""
+Иванов:Иванов NP-COG-OB ; ! ""
+Васильев:Васильев NP-COG-OB ; ! ""
+Алексеев:Алексеев NP-COG-OB ; ! ""
+Слепцов:Слепцов NP-COG-OB ; ! ""
+Павлов:Павлов NP-COG-OB ; ! ""
 
 Испания:Испания NP-TOP ; ! ""
 Чикаго:Чикаго NP-TOP ; ! "Chicago"
@@ -3412,7 +3535,12 @@ Ypyмэччи:Ypyмэччи NP-ANT-F ; ! ""
 Париж:Париж NP-TOP ; ! "Paris"
 Америка:Америка NP-TOP ; ! "America"
 
+Африка:Африка NP-TOP ; ! ""
 Азия:Азия NP-TOP ; ! ""
+Европа:Европа NP-TOP ; ! ""
+Эуропа:Эуропа NP-TOP ; ! ""
+Сибиир:Сибиир NP-TOP ; ! ""
+
 Франция:Франция NP-TOP ; ! ""
 Германия:Германия NP-TOP ; ! ""
 Якутия:Якутия NP-TOP ; ! ""
@@ -3492,9 +3620,24 @@ Ypyмэччи:Ypyмэччи NP-ANT-F ; ! ""
 Чувашия:Чувашия NP-TOP ; ! ""
 
 
+Дьокуускай:Дьокуускай NP-TOP ; ! "Якутск"
 Якутск:Якутск NP-TOP ; ! ""
 Москва:Москва NP-TOP ; ! "Moscow"
 
+Амма:Амма NP-TOP ; ! ""
+Алдан:Алдан NP-TOP ; ! ""
+Нам:Нам NP-TOP ; ! ""
+Ньурба:Ньурба NP-TOP ; ! ""
+Сунтаар:Сунтаар NP-TOP ; ! ""
+Чурапчы:Чурапчы NP-TOP ; ! ""
+Өлүөнэ:Өлүөнэ NP-TOP ; ! ""
+Халыма:Халыма NP-TOP ; ! ""
+Өлүөхүмэ:Өлүөхүмэ NP-TOP ; ! ""
+
+Дьоппуон:Дьоппуон NP-TOP ; ! ""
+Кытай:Кытай NP-TOP ; ! ""
+Украина:Украина NP-TOP ; ! ""
+Лондон:Лондон NP-TOP ; ! ""
 
 LEXICON Adjectives
 
@@ -3505,6 +3648,67 @@ LEXICON Adjectives
 улуу:улуу A1 ; ! "большой"
 сөп:сөп A1 ; ! "правый" ! FIXME: check
 
+кыһыл:кыһыл A2 ; ! "красный"
+күөх:күөх A2 ; ! "синий, зелёный"
+
+сэбиэскэй:сэбиэсскэй A9 ; ! "" ! Dir/LR ! Use/Sub
+сэбиэскэй:сэбиэскэй A9 ; ! "" 
+прикладной:прикладной A9 ; ! ""
+авиационнай:авиационнай A9 ; ! ""
+автономнай:автономнай A9 ; ! ""
+административнай:административнай A9 ; ! ""
+академическай:академическай A9 ; ! ""
+английскай:английскай A9 ; ! ""
+атомнай:атомнай A9 ; ! ""
+генеральнай:генеральнай A9 ; ! ""
+государственнай:государственнай A9 ; ! ""
+гражданскай:гражданскай A9 ; ! ""
+гуманитарнай:гуманитарнай A9 ; ! ""
+драматическай:драматическай A9 ; ! ""
+историческай:историческай A9 ; ! ""
+кандидатскай:кандидатскай A9 ; ! ""
+квадратнай:квадратнай A9 ; ! ""
+коллежскай:коллежскай A9 ; ! ""
+культурнай:культурнай A9 ; ! ""
+литературнай:литературнай A9 ; ! ""
+математическай:математическай A9 ; ! ""
+материальнай:материальнай A9 ; ! ""
+мобильнай:мобильнай A9 ; ! ""
+музыкальнай:музыкальнай A9 ; ! ""
+муниципальнай:муниципальнай A9 ; ! ""
+народнай:народнай A9 ; ! ""
+научнай:научнай A9 ; ! ""
+национальнай:национальнай A9 ; ! ""
+норуодунай:норуодунай A9 ; ! ""
+олимпийскай:олимпийскай A9 ; ! ""
+операционнай:операционнай A9 ; ! ""
+официальнай:официальнай A9 ; ! ""
+педагогическай:педагогическай A9 ; ! ""
+политическай:политическай A9 ; ! ""
+полярнай:полярнай A9 ; ! ""
+популярнай:популярнай A9 ; ! ""
+православнай:православнай A9 ; ! ""
+психологическай:психологическай A9 ; ! ""
+реальнай:реальнай A9 ; ! ""
+революционнай:революционнай A9 ; ! ""
+региональнай:региональнай A9 ; ! ""
+республиканскай:республиканскай A9 ; ! ""
+советскай:советскай A9 ; ! ""
+социалистическай:социалистическай A9 ; ! ""
+социальнай:социальнай A9 ; ! ""
+спортивнай:спортивнай A9 ; ! ""
+техническай:техническай A9 ; ! ""
+транспортнай:транспортнай A9 ; ! ""
+туристическай:туристическай A9 ; ! ""
+федеральнай:федеральнай A9 ; ! ""
+филологическай:филологическай A9 ; ! ""
+христианскай:христианскай A9 ; ! ""
+экономическай:экономическай A9 ; ! ""
+электроннай:электроннай A9 ; ! ""
+юридическай:юридическай A9 ; ! ""
+
+
+нөҥүө:нөҥүө A4 ; ! "следующий"
 аайы:аайы  A4 ; ! " each, every;"
 аар%-маар:аар%-маар  A4 ; ! " stupid"
 аах%-маах:аах%-маах  A4 ; ! " stupid"
@@ -3881,11 +4085,22 @@ LEXICON Adverbs
 хайдах:хайдах ADV-ITG ; ! "как"
 хантан:хантан ADV-ITG ; ! "откуда"
 
+аны:аны ADV ; ! "сейчас"
+
 олус:олус ADV ; ! "quite"
 эмиэ:эмиэ ADV ; ! "еще"
 бииргэ:бииргэ ADV ; ! "вместе"
 өссө:өссө ADV ; ! "еще"
 дьөссө:дьөссө ADV ; ! "еще"
+
+бастаан:бастаан  ADV ; ! " from the beginning, at first;"
+билигин:билигин  ADV ; ! " now, presently"
+букатын:букатын  ADV ; ! " quite, wholly, completely, exactly"
+былыр:былыр  ADV ; ! " formerly, anciently;"
+бэрт:бэрт  ADV ; ! " very;"
+куруук:куруук  ADV ; ! " constantly, continually"
+оннук:оннук  ADV ; ! " so, thus, that way"
+урут:урут  ADV ; ! " previously, before;"
 
 
 LEXICON Verbs
@@ -3895,6 +4110,7 @@ LEXICON Verbs
 буол:буол V-IV ; ! "быть"
 
 көр:көр V-TV ; ! "видеть"
+көрдөр:көрдөр V-TV ; ! "показывать" ! Mor/Caus
 диэ:диэ V-TV ; ! "говорить"
 
 тур:тур V-IV ;  ! "stand"
@@ -3939,6 +4155,11 @@ LEXICON Verbs
 сыт:сыт V-IV ; ! "lie"
 оҥор:оҥор V-TV ; ! "do"
 гын:гын V-TV ; ! "делать"
+уларый:уларый V-IV ; ! "изменяться" 
+таарый:таарый V-IV ; ! "прикасаться"
+кут:кут V-TV ; ! "лить"
+эт:эт V-TV ; ! "говорить; сказать"
+бүт:бүт V-IV ; ! "кончать"
 
 !аал:аал V-XV ; ! "rub"
 !абар:абар V-XV ; ! "be annoyed"
@@ -4056,6 +4277,7 @@ LEXICON Verbs
 ыт:ыт V-TV ; ! "shoot, fire"
 ыһаар:ыһаар V-TV ; ! "fry, grill;"
 ыыт:ыыт V-TV ; ! "send, dispatch"
+үөскэт:үөскэт V-TV ; ! "рождать"
 
 
 !аахай:аахай V-XV ; ! " pay attention, take account"
@@ -4103,7 +4325,10 @@ LEXICON Abbreviations
 м³:м³ ABBR ; ! "m³"
 м³:м3 ABBR ; ! "m³" Dir/LR
 
+мөл:мөл ABBR ; ! ""
 млн:млн ABBR ; ! ""
+тыс%.:тыс%. ABBR ; ! ""
+сс%.:сс%. ABBR ; ! ""
 
 
 LEXICON Punctuation
@@ -4140,4 +4365,40 @@ LEXICON DIGITLEX
 
 %<num%>: # ; 
 !% й%.%<num%>:% й%. # ;  ! "год"
+
+LEXICON NP-UNK 
+
+%<np%>%<unk%>: # ;
+
+LEXICON GUESS-QUEUE
+
+<(a | b | c | d | e | f | g | h | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z | ö | ə | é | í | ï | ü )+> NP-UNK ;
+
+LEXICON Guesser
+
+A:A GUESS-QUEUE ; 
+B:B GUESS-QUEUE ; 
+C:C GUESS-QUEUE ; 
+D:D GUESS-QUEUE ; 
+E:E GUESS-QUEUE ; 
+F:F GUESS-QUEUE ; 
+G:G GUESS-QUEUE ; 
+H:H GUESS-QUEUE ; 
+J:J GUESS-QUEUE ; 
+K:K GUESS-QUEUE ; 
+L:L GUESS-QUEUE ; 
+M:M GUESS-QUEUE ; 
+N:N GUESS-QUEUE ; 
+O:O GUESS-QUEUE ; 
+P:P GUESS-QUEUE ; 
+Q:Q GUESS-QUEUE ; 
+R:R GUESS-QUEUE ; 
+S:S GUESS-QUEUE ; 
+T:T GUESS-QUEUE ; 
+U:U GUESS-QUEUE ; 
+V:V GUESS-QUEUE ; 
+W:W GUESS-QUEUE ; 
+X:X GUESS-QUEUE ; 
+Y:Y GUESS-QUEUE ; 
+Z:Z GUESS-QUEUE ; 
 

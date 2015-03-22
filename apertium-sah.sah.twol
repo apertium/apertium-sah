@@ -27,6 +27,8 @@ Alphabet
 
    %{р%}:р
 
+   %{ъ%}:0
+
    %>:0 ; 
 
 
@@ -68,6 +70,8 @@ Rules
 "{р} → л before л"
 %{р%}:л <=> _ [ :л | [ %{L%}: - :Obs ] ]/:0 ;
 
+"н assimilation"
+н:ҥ <=> _ %>: :ҥ ; 
 
 
 !!!== progressive assimilation ==!!!
@@ -115,6 +119,7 @@ Cx:Cy <=> :VoicelessCns/:0 _ ;
 "н after a vowel"
 %{n%}:н <=> :Vow/:0 _ ;
 
+!@ и д е я >:0 {n}:н {I}:ы
 
 !!!== lenition ==!!!
 
@@ -124,40 +129,48 @@ Cx:Cy <=> _ %>: :Vow/:0* ;
             Cy in ( ҕ һ г б )
       matched ;
 
-
 !!!== Vowel Harmony ==!!!
 
 "vowel harmony for {i}"
 %{i%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
          except 
-             _ %>: %{A%}: ;
-         where Vx in ( а о ы у э е и ө ү )
-               Vy in ( ы у ы у и и и ү ү )
+             _ %>: %{A%}: ; ! because {i}:0 >:0 {A}: 
+         where Vx in ( а о ы у э е и ө ү я )
+               Vy in ( ы у ы у и и и ү ү ы )
          matched ;
 
 !@ э:э {T}:т {i}:0 >:0 {A}:э
 
 "vowel harmony for {I}"
 %{I%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
-         where Vx in ( а о ы у э е и ө ү )
-               Vy in ( ы у ы у и и и ү ү )
+         where Vx in ( а о ы у э е и ө ү я )
+               Vy in ( ы у ы у и и и ү ү ы )
          matched ;
 
 "vowel harmony for {A} except after уо and үө"
 %{A%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
+             :Vx _ ; 
          except
              !:ү :ө [ :Cons* :Cons]/:0* _ ;
              :у :о [ :Cons* :Cons]/:0* _ ;
-         where Vx in ( а о ы у э е и ө ү )
-               Vy in ( а о а а э э э ө э )
+             %{ъ%}: %>: [ :Cons* ]/:0* _ ; 
+         where Vx in ( а о ы у э е и ө ү я )
+               Vy in ( а о а а э э э ө э а )
          matched ;
 
 "vowel harmony for {A} after уо"
 ! shouldn't need a rule because it's the default а, but doesn't seem to work without one
 %{A%}:а <=> :у :о [ :Cons* :Cons ]/:0* _ ;
+           %{ъ%}: %>: [ :Cons* ]/:0* _ ;            
+
+!компьютер{ъ}>{L}{A}р
+
+!@ Д ь о к у у с к а й >:0 {T}:д {A}:а {A}:а ҕ {I}:ы
 
 !"vowel harmony for {A} after үө"
 !%{A%}:э <=> :ү :ө [ :Cons* :Cons ]/:0* _ ;
+!         except
+!             %{ъ%}: %>: [ :Cons* :Cons ]/:0* _ ; 
 
 "vowel harmony for {a} except after уо and үө"
 %{a%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
