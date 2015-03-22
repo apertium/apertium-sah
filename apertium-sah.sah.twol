@@ -129,9 +129,13 @@ Cx:Cy <=> _ %>: :Vow/:0* ;
 
 "vowel harmony for {i}"
 %{i%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
+         except 
+             _ %>: %{A%}: ;
          where Vx in ( а о ы у э е и ө ү )
                Vy in ( ы у ы у и и и ү ү )
          matched ;
+
+!@ э:э {T}:т {i}:0 >:0 {A}:э
 
 "vowel harmony for {I}"
 %{I%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
