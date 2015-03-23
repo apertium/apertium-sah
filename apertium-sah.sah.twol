@@ -27,6 +27,7 @@ Alphabet
 
    %{р%}:р
 
+   %{☭%}:0
    %{ъ%}:0
 
    %>:0 ; 
@@ -103,7 +104,11 @@ Cx:Cy <=> :VoicelessCns/:0 _ ;
 "{G} after voiceless consonants besides х"
 %{G%}:к <=> [ :VoicelessCns - :х]/:0 _ ;
 
+! FIXME: incomplete
+"{G} intervocalically"
+%{G%}:ҕ <=> :а %>: _ :а ;  
 
+!@ Е в р о п а >:0 {G}:ҕ {A}:а
 
 !!!== deletion ==!!!
 
@@ -143,6 +148,8 @@ Cx:Cy <=> _ %>: :Vow/:0* ;
 
 "vowel harmony for {I}"
 %{I%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
+         except
+          %{ъ%}: %>: [ :Cons* ]/:0* _ ;
          where Vx in ( а о ы у э е и ө ү я )
                Vy in ( ы у ы у и и и ү ү ы )
          matched ;
@@ -157,6 +164,7 @@ Cx:Cy <=> _ %>: :Vow/:0* ;
          where Vx in ( а о ы у э е и ө ү я )
                Vy in ( а о а а э э э ө э а )
          matched ;
+
 
 "vowel harmony for {A} after уо"
 ! shouldn't need a rule because it's the default а, but doesn't seem to work without one
@@ -177,8 +185,8 @@ Cx:Cy <=> _ %>: :Vow/:0* ;
          except
              :ү :ө [ :Cons* :Cons]/:0* _ ;
              :у :о [ :Cons* :Cons]/:0* _ ;
-         where Vx in ( а о ы у э е и ө ү )
-               Vy in ( а о а а э э э ө э )
+         where Vx in ( а о ы у э е и ө ү я )
+               Vy in ( а о а а э э э ө э а )
          matched ;
 
 "vowel harmony for {a} after уо"
@@ -187,4 +195,9 @@ Cx:Cy <=> _ %>: :Vow/:0* ;
 
 "vowel harmony for {a} after үө"
 %{a%}:э <=> :ү :ө [ :Cons* :Cons ]/:0* _ ;
+
+"vowel harmony for {I} after back harmony marker"
+! shouldn't need a rule because it's the default а, but doesn't seem to work without one
+%{I%}:ы <=> %{ъ%}: %>: [ :Cons* ]/:0* _ ;            
+
 
