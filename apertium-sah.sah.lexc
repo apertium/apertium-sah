@@ -617,6 +617,14 @@ LEXICON POST
 
 %<post%>: # ; 
 
+LEXICON DET-ITG
+
+%<det%>%<itg%>: # ;
+
+LEXICON DET-QNT
+
+%<det%>%<qnt%>: # ;
+
 LEXICON DET-IND 
 
 %<det%>%<ind%>: # ;
@@ -689,6 +697,7 @@ PRON-DEM-SUBU ; ! ""
 
 
 !ханнык:ханнык DET-ITG ; ! "which"
+хас:хас DET-ITG ; ! "сколько"
 
 ким:ким PRON-ITG ; ! ""
 туох:туох PRON-ITG ; ! ""
@@ -698,6 +707,8 @@ LEXICON Determiners
 
 сорох:сорох DET-IND ; ! "некоторый"
 эмэ:эмэ DET-IND ; ! "some, any"
+
+хас% биирдии:хас% биирдии DET-QNT ; ! "каждый" ! FIXME: check: def ?
 
 LEXICON Numerals
 
@@ -3264,6 +3275,7 @@ yy:yy N1 ; ! "вода"
 личность:личность%{☭%} N1 ; ! ""
 ассамблея:ассамблея N1 ; ! ""
 
+
 LEXICON ProperNouns
 
 Михаил:Михаил NP-ANT-M ; ! ""
@@ -3911,8 +3923,10 @@ LEXICON Adjectives
 тыллаах:тыллаах A4 ; ! ""
 тутулуктаах:тутулуктаах A4 ; ! ""
 үтүөлээх:үтүөлээх A4 ; ! ""
+көҥүллээх:көҥүллээх A4 ; ! ""
 нэһилиэнньэлээх:нэһилиэнньэлээх A4 ; ! ""
 дьиҥнээх:дьиҥнээх A4 ; ! ""
+бырааптаах:бырааптаах A4 ; ! "в праве" ! FIXME: check categorisation
 
 
 нөҥүө:нөҥүө A4 ; ! "следующий"
