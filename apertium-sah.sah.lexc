@@ -10,6 +10,7 @@ Multichar_Symbols
 %<np%>             ! 
 %<cnjcoo%>         ! 
 %<det%>            ! 
+%<ij%>             ! 
 %<cnjadv%>         ! 
 %<num%>            ! Число
 %<prn%>            ! Местоимение
@@ -130,6 +131,7 @@ ProperNouns ;
 Adjectives ; 
 Adverbs ;
 Verbs ;
+Interjections ; 
 Abbreviations ;
 Punctuation ; 
 Guesser ; 
@@ -321,6 +323,7 @@ LEXICON NP-TOP-ASSR
 LEXICON A1 
 
 %<adj%>: #  ;
+%<adj%>%<subst%>: FULL-NOMINAL-INFLECTION ;
 
 LEXICON A2
 
@@ -606,7 +609,6 @@ LEXICON CC
 
 %<cnjcoo%>: # ;
 
-
 LEXICON CA
 
 %<cnjadv%>: # ;
@@ -619,6 +621,10 @@ LEXICON DET-IND
 
 %<det%>%<ind%>: # ;
 
+LEXICON INTERJ
+
+%<ij%>: # ; 
+
 LEXICON ABBR
 
 %<abbr%>: # ; 
@@ -628,6 +634,7 @@ LEXICON ABBR
 LEXICON Miscellaneous
 
 дуо%<qst%>:дуо # ; 
+дуу%<qst%>:дуу # ; ! FIXME:Check
 
 LEXICON Copula
 
@@ -658,6 +665,7 @@ LEXICON Postpositions
 кэннэ:кэннэ POST ; ! "помимо, кроме"
 иннинэ:иннинэ POST ; ! "до, перед"
 өттүгэр:өттүгэр POST ; ! ""
+тэҥэ:тэҥэ POST ; ! "как"
 
 
 LEXICON Pronouns
@@ -3737,6 +3745,21 @@ Ypyмэччи:Ypyмэччи NP-ANT-F ; ! ""
 Украина:Украина NP-TOP ; ! ""
 Лондон:Лондон NP-TOP ; ! ""
 
+Казахстан:Казахстан NP-TOP ; ! ""
+Кыргызстан:Кыргызстан NP-TOP ; ! ""
+Узбекистан:Узбекистан NP-TOP ; ! ""
+Татарстан:Татарстан NP-TOP ; ! ""
+Пакистан:Пакистан NP-TOP ; ! ""
+Дагестан:Дагестан NP-TOP ; ! ""
+Афганистан:Афганистан NP-TOP ; ! ""
+Башкортостан:Башкортостан NP-TOP ; ! ""
+Тадьикистан:Таджикистан NP-TOP ; ! "" ! Dir/LR ! Use/Sub
+Тадьикистан:Тадьикистан NP-TOP ; ! ""
+Хапхаастан:Хапхаастан NP-TOP ; ! ""
+Түркменистан:Туркменистан NP-TOP ; ! "" ! Dir/LR ! Use/Sub
+Түркменистан:Түркменистан NP-TOP ; ! "" 
+
+
 Сан% Паулу:Сан% Паулу NP-TOP ; ! ""
 Сан% Томе:Сан% Томе NP-TOP ; ! ""
 Сан% Хосе:Сан% Хосе NP-TOP ; ! ""
@@ -3777,9 +3800,13 @@ LEXICON Adjectives
 куһаҕан:куһаҕан A1 ; ! ""
 улуу:улуу A1 ; ! "большой"
 сөп:сөп A1 ; ! "правый" ! FIXME: check
+үчүгэй:үчүгэй  A1 ; ! " good;"
+
+хаҥас:хаҥас A1 ; ! "левый"
 
 кыһыл:кыһыл A2 ; ! "красный"
 күөх:күөх A2 ; ! "синий, зелёный"
+
 
 сэбиэскэй:сэбиэсскэй A9 ; ! "" ! Dir/LR ! Use/Sub
 сэбиэскэй:сэбиэскэй A9 ; ! "" 
@@ -3892,7 +3919,6 @@ LEXICON Adjectives
 аччыгый:аччыгый  A4 ; ! " small, tiny"
 аччык:аччык  A4 ; ! " hungry"
 баай% дуол:баай% дуол  A4 ; ! " rich, wealthy"
-баар:баар  A4 ; ! " comp. active"
 багдаҕар:багдаҕар  A4 ; ! " broadshouldered"
 баллырҕас:баллырҕас  A4 ; ! " blabbering"
 балыгымсак:балыгымсак  A4 ; ! " fish%-loving, piscivorous"
@@ -4165,7 +4191,6 @@ LEXICON Adjectives
 уустук:уустук  A4 ; ! " complicated;"
 уһун:уһун  A4 ; ! " long, tall"
 үчүгиий%-үчүгэй:үчүгиий%-үчүгэй  A4 ; ! " very good;"
-үчүгэй:үчүгэй  A4 ; ! " good;"
 үчүгэй%-үчүгэй:үчүгэй%-үчүгэй  A4 ; ! " very good;"
 үөһээ:үөһээ A4 ; ! "upper, above(?)"
 хабыр:хабыр  A4 ; ! " rude, sharp"
@@ -4228,6 +4253,7 @@ LEXICON Adjectives
 этиһиик:этиһиик  A4 ; ! " quarrelsome, argumentative"
 ээҕий:ээҕий  A4 ; ! " sarcastic"
 
+уһун:уһун A4 ; ! "длинный"
 
 LEXICON Adverbs 
 
@@ -4238,6 +4264,8 @@ LEXICON Adverbs
 
 аны:аны ADV ; ! "сейчас"
 наар:наар ADV ; ! "всегда"
+дьэ:дьэ ADV ; ! "наконец"
+сотору:сотору ADV ; ! "скоро, сейчас"
 
 олус:олус ADV ; ! "quite"
 эмиэ:эмиэ ADV ; ! "еще"
@@ -4245,6 +4273,7 @@ LEXICON Adverbs
 өссө:өссө ADV ; ! "еще"
 дьөссө:дьөссө ADV ; ! "еще"
 халты:халты ADV ; ! "вскользь"
+аһара:аһара ADV ; ! "очень"
 
 бастаан:бастаан  ADV ; ! " from the beginning, at first;"
 билигин:билигин  ADV ; ! " now, presently"
@@ -4257,7 +4286,10 @@ LEXICON Adverbs
 
 төттөрү:төттөрү ADV ; ! "back"
 
+толору:толору ADV ; ! "полно" ! FIXME: adj ?
+
 үчүгэйдик:үчүгэйдик ADV-DIK ; ! "хорошо"
+киэҥник:киэҥник ADV-DIK ; ! "широко"
 
 LEXICON Verbs
 
@@ -4269,6 +4301,7 @@ LEXICON Verbs
 көрдөр:көрдөр V-TV ; ! "показывать" ! Mor/Caus
 диэ:диэ V-TV ; ! "говорить"
 
+кыай:кыай V-TV ; ! "be able;  win, succeed, overcome, conquer, destroy;"
 тур:тур V-IV ;  ! "stand"
 күл:күл  V-IV ; ! "laugh"
 өл:өл  V-IV ; ! "die"
@@ -4330,6 +4363,8 @@ LEXICON Verbs
 түс:түс V-IV ; ! ""
 биллэр:биллэр V-TV ; ! "communicate"
 сир:сир V-TV ; ! "disdain, reject"
+уһун:уһун V-IV ; ! "плавать"
+тиий:тиий V-IV ; ! "добираться"
 
 !аал:аал V-XV ; ! "rub"
 !абар:абар V-XV ; ! "be annoyed"
@@ -4340,7 +4375,7 @@ LEXICON Verbs
 !араар:араар V-XV ; ! "separate, take apart;"
 арый:арый V-TV ; ! "open"
 !астан:астан V-XV ; ! "be prepared , yield"
-!аһар:аһар V-XV ; ! "let through, allow pass"
+аһар:аһар V-TV ; ! "let through, allow pass"
 !аһат:аһат V-XV ; ! "feed"
 !аһый:аһый V-XV ; ! "go sour;"
 !баай:баай V-XV ; ! "tie, bind;"
@@ -4367,7 +4402,6 @@ LEXICON Verbs
 !кут:кут V-XV ; ! "pour, scatter, spread"
 !куур:куур V-XV ; ! "dry, cause dry;"
 !куур:куур V-XV ; ! "perform a shaman’s ritual"
-!кыай:кыай V-XV ; ! "be able;  win, succeed, overcome, conquer, destroy;"
 кыбыт:кыбыт V-TV ; ! "insert;"
 !кыһый:кыһый V-XV ; ! "itch, be vexed;"
 !кыһый:кыһый V-XV ; ! "resent"
@@ -4507,6 +4541,10 @@ LEXICON Verbs
 бырах:бырах V-TV ; ! "cast, throw"
 бараа:бараа V-TV ; ! "spend"
 
+LEXICON Interjections
+
+дьэ:дьэ INTERJ ; 
+
 LEXICON Abbreviations
 
 кг:кг ABBR ; ! "kg"
@@ -4536,7 +4574,9 @@ LEXICON Abbreviations
 мөл:мөл ABBR ; ! ""
 млн:млн ABBR ; ! ""
 млрд:млрд ABBR ; ! ""
+тыһ:тыһ ABBR ; ! ""
 тыс%.:тыс%. ABBR ; ! ""
+
 сс%.:сс%. ABBR ; ! ""
 
 уо%.д%.а%.:уо%.д%.а%. ABBR ; ! ""

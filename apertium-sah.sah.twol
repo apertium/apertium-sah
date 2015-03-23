@@ -72,7 +72,7 @@ Rules
 %{р%}:л <=> _ [ :л | [ %{L%}: - :Obs ] ]/:0 ;
 
 "н assimilation"
-н:ҥ <=> _ %>: :ҥ ; 
+н:ҥ <=> _ (%{ъ%}:) %>: :ҥ ; 
 
 
 !!!== progressive assimilation ==!!!
