@@ -6,7 +6,7 @@ Config:
 
 Tests:
 
-  "Aorist front vowels": 
+  "Aorist front vowels, consonant stem": 
     көр<v><tv><aor><p1><sg> : көрөбүн
     көр<v><tv><aor><p2><sg> : көрөгүн
     көр<v><tv><aor><p3><sg> : көрөр
@@ -14,7 +14,7 @@ Tests:
     көр<v><tv><aor><p2><pl> : көрөгүт
     көр<v><tv><aor><p3><pl> : көрөллөр
 
-  "Aorist negattve back vowels":
+  "Aorist negative back vowels, consonant stem":
     көр<v><tv><neg><aor><p1><sg> : көрбөппүн
     көр<v><tv><neg><aor><p2><sg> : көрбөккүн
     көр<v><tv><neg><aor><p3><sg> : көрбөт
@@ -22,7 +22,7 @@ Tests:
     көр<v><tv><neg><aor><p2><pl> : көрбөккүт
     көр<v><tv><neg><aor><p3><pl> : көрбөттөр
 
-  "Aorist back vowels": 
+  "Aorist back vowels, consonant stem": 
     олор<v><iv><aor><p1><sg> : олоробун
     олор<v><iv><aor><p2><sg> : олорогун
     олор<v><iv><aor><p3><sg> : олорор
@@ -30,10 +30,27 @@ Tests:
     олор<v><iv><aor><p2><pl> : олорогут
     олор<v><iv><aor><p3><pl> : олороллор
 
-  "Aorist negative back vowels":
+  "Aorist negative back vowels, consonant stem":
     олор<v><iv><neg><aor><p1><sg> : олорбоппун
     олор<v><iv><neg><aor><p2><sg> : олорбоккун
     олор<v><iv><neg><aor><p3><sg> : олорбот
     олор<v><iv><neg><aor><p1><pl> : олорбоппут
     олор<v><iv><neg><aor><p2><pl> : олорбоккут
     олор<v><iv><neg><aor><p3><pl> : олорботтор
+
+  "Aorist front vowel, vowel stem"
+    диэ<v><tv><aor><p1><sg> : диибин
+    диэ<v><tv><aor><p2><sg> : диигин
+    диэ<v><tv><aor><p3><sg> : диир
+    диэ<v><tv><aor><p3><pl> : дииллэр
+
+  "Aorist negative front vowel, vowel stem"
+    диэ<v><tv><neg><aor><p3><sg> : диэбэт
+
+  "Aorist back vowel, vowel stem"
+    сатаа<v><tv><aor><p3><sg> : сатыыбын
+    сатаа<v><tv><aor><p3><sg> : сатыыр
+    сатаа<v><tv><aor><p3><pl> : сатыыллар
+
+  "Aorist negative back vowel, vowel stem"
+    сатаа<v><tv><neg><aor><p3><sg> : сатаабат
