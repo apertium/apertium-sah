@@ -553,6 +553,8 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 ! A>GIt   BAk>kIt
 ! Al>lAr  BAt>tAr
 
+! TODO: Stem-final vowels merge with the initial suffix vowel into {I}
+
 %<aor%>:%>%{A%}%{р%} V-PERS-S1 ;
 %<neg%>%<aor%>:%>%{B%}%{A%}т V-PERS-S1 ; 
 
@@ -643,6 +645,10 @@ LEXICON Miscellaneous
 
 дуо%<qst%>:дуо # ; 
 дуу%<qst%>:дуу # ; ! FIXME:Check
+
+ини%<mod_ass%>:ини # ;
+дии%<mod_ass%>:дии # ; ! "ведь, же"
+ээ%<mod_ass%>:ээ # ;
 
 LEXICON Copula
 
@@ -1635,8 +1641,7 @@ yy:yy N1 ; ! "вода"
 арыт:арыт N1 ; ! "interval, interstice, distance, space between"
 арыы:арыы N1 ; ! "butter, oil, grease;"
 арыы:арыы N1 ; ! "island"
-ас:ас N1 ; ! "food;"
-ас:ас N1 ; ! "hair"
+ас:ас N1 ; ! "food; hair"
 ассыын:ассыын N1 ; ! "1.9 ft."
 асчыт:асчыт N1 ; ! "cook, chef;"
 атас:атас N1 ; ! "friend;"
@@ -3275,6 +3280,13 @@ yy:yy N1 ; ! "вода"
 личность:личность%{☭%} N1 ; ! ""
 ассамблея:ассамблея N1 ; ! ""
 
+вице%-премьер:вице%-премьер%{☭%} N1 ; ! ""
+вице%-бэрэсидьиэн:вице%-бэрэсидьиэн N1 ; ! ""
+вице%-бэрэсидьиэн:вице%-президент N1 ; ! "" ! Dir/LR ! Use/Sub
+вице%-бэрэсидьиэн:вице%-президен N1 ; ! "" ! Dir/LR ! Use/Sub
+вице%-спикер:вице%-спикер N1 ; ! ""
+вице%-күбүрүнээтэр:вице%-күбүрүнээтэр N1 ; ! ""
+вице%-күбүрүнээтэр:вице%-губернатор%{☭%} N1 ; ! "" ! Dir/LR ! Use/Sub
 
 LEXICON ProperNouns
 
@@ -4305,6 +4317,7 @@ LEXICON Adverbs
 хайдах:хайдах ADV-ITG ; ! "как"
 хантан:хантан ADV-ITG ; ! "откуда"
 
+бүгүн:бүгүн ADV ; ! "сегодня"
 аны:аны ADV ; ! "сейчас"
 наар:наар ADV ; ! "всегда"
 дьэ:дьэ ADV ; ! "наконец"
@@ -4361,7 +4374,6 @@ LEXICON Verbs
 тараа:тараа  V-TV ; ! "comb"
 биэр:биэр  V-TV ; ! "give"
 бул:бул  V-TV ; ! "find"
-диэ:диэ  V-TV ; ! "say"
 киир:киир  V-IV ; ! "enter"
 иһит:иһит  V-TV ; ! "hear"
 ас:ас  V-TV ; ! "open"
@@ -4409,6 +4421,7 @@ LEXICON Verbs
 сир:сир V-TV ; ! "disdain, reject"
 уһун:уһун V-IV ; ! "плавать"
 тиий:тиий V-IV ; ! "добираться"
+үлэлээ:үлэлээ V-TV ; ! "работать"
 
 !аал:аал V-XV ; ! "rub"
 !абар:абар V-XV ; ! "be annoyed"
@@ -4426,13 +4439,12 @@ LEXICON Verbs
 !бай:бай V-XV ; ! "become rich"
 !бар:бар V-XV ; ! "brew"
 бар:бар V-IV ; ! "go, leave, depart;"
-!бар гын:бар гын V-XV ; ! "roar"
-!бат:бат V-XV ; ! "chase, pursue, drive"
-!бат:бат V-XV ; ! "fit into"
+бар% гын:бар% гын V-IV ; ! "roar"
+бат:бат V-TV ; ! "chase, pursue, drive"
 !баһый:баһый V-XV ; ! "master"
-!бил:бил V-XV ; ! "know;"
-!бөт:бөт V-XV ; ! "hiccup"
-!бул:бул V-XV ; ! "find, locate, get;"
+бил:бил V-TV ; ! "know;"
+бөт:бөт V-IV ; ! "hiccup"
+бул:бул V-TV ; ! "find, locate, get;"
 !буой:буой V-XV ; ! "forbid, prohibit;  quiet, calm, stop"
 !бутуй:бутуй V-XV ; ! "mix, stir"
 !буһар:буһар V-XV ; ! "cook"
@@ -4442,23 +4454,23 @@ LEXICON Verbs
 !көҕөр:көҕөр V-XV ; ! "become blue"
 көм:көм V-TV ; ! "bury"
 !көн:көн V-XV ; ! "straighten, become straight;"
-!куот:куот V-XV ; ! "run away from, outrun;"
+куот:куот V-IV ; ! "run away from, outrun;"
 !кут:кут V-XV ; ! "pour, scatter, spread"
-!куур:куур V-XV ; ! "dry, cause dry;"
+куур:куур V-TV ; ! "dry, cause dry;"
 !куур:куур V-XV ; ! "perform a shaman’s ritual"
 кыбыт:кыбыт V-TV ; ! "insert;"
 !кыһый:кыһый V-XV ; ! "itch, be vexed;"
 !кыһый:кыһый V-XV ; ! "resent"
 !кыыр:кыыр V-XV ; ! "act as a shaman"
-!ой:ой V-XV ; ! "jump"
-!өйдөт:өйдөт V-XV ; ! "explain;"
-!өлөр:өлөр V-XV ; ! "earn, gain;  overwork, produce"
+ой:ой V-IV ; ! "jump"
+өйдөт:өйдөт V-TV ; ! "explain"
+өлөр:өлөр V-TV ; ! "earn, gain;  overwork, produce"
 өлөр:өлөр V-TV ; ! "kill, slay;"
 өлөрт:өлөрт V-TV ; ! "murder;"
 өр:өр V-TV ; ! "knit"
-!оргуй:оргуй V-XV ; ! "boil, seethe;"
-!оргут:оргут V-XV ; ! "boil, make boil"
-!охтор:охтор V-XV ; ! "make fall, cause fall"
+оргуй:оргуй V-IV ; ! "boil, seethe;"
+оргут:оргут V-TV ; ! "boil, make boil" ! Mor/Caus
+охтор:охтор V-TV ; ! "make fall, cause fall" ! Mor/Caus
 саай:саай V-TV ; ! "hit;"
 !санат:санат V-XV ; ! "remind, resemble"
 !сим:сим V-XV ; ! "blink"
@@ -4469,28 +4481,27 @@ LEXICON Verbs
 !сот:сот V-XV ; ! "wipe, clean;"
 !соһуй:соһуй V-XV ; ! "be surprised;"
 !сууй:сууй V-XV ; ! "wash;"
-!сылай:сылай V-XV ; ! "become tired;"
-!сылай:сылай V-XV ; ! "tire, become tired;"
+сылай:сылай V-IV ; ! "become tired;"
 !сылай, сылааһыр:сылай, сылааһыр V-XV ; ! "become warm, warm up"
 !сытый:сытый V-XV ; ! "rot;"
 !сыыл:сыыл V-XV ; ! "crawl"
 !таай:таай V-XV ; ! "guess"
 !таал:таал V-XV ; ! "be petrified"
-!та гын:та гын V-XV ; ! "tap"
+та% гын:та% гын V-IV ; ! "tap"
 !тал:тал V-XV ; ! "elect, choose, select;"
 тат:тат V-TV ; ! "pull"
-!тоҥ:тоҥ V-XV ; ! "freeze;"
-!тоҥор:тоҥор V-XV ; ! "make freeze;"
+тоҥ:тоҥ V-IV ; ! "freeze;"
+тоҥор:тоҥор V-TV ; ! "make freeze;" ! Mor/Caus
 !тот:тот V-XV ; ! "eat one’s fill, glut oneself;"
 тоһуй:тоһуй V-TV ; ! "ambush"
 !тулун:тулун V-XV ; ! "be pulled out"
 тут:тут V-TV ; ! "hold, seize, grab, catch"
 туур:туур V-TV ; ! "handle, heft;  pull out"
-!умай:умай V-XV ; ! "burn"
+умай:умай V-IV ; ! "burn"
 !уй:уй V-XV ; ! "support, support the weight of"
 !улаат:улаат V-XV ; ! "grow"
-!умай:умай cf убай V-XV ; ! "burn;"
-!умат:умат V-XV ; ! "make/cause burn"
+убай:убай V-IV ; ! "burn;"
+умат:умат V-TV ; ! "make/cause burn" ! Mor/Caus
 уҥ:уҥ V-IV ; ! "faint"
 уор:уор V-TV ; ! "steal"
 !уст:уст V-XV ; ! "float;"
@@ -4513,7 +4524,7 @@ LEXICON Verbs
 !хор:хор V-XV ; ! "furrow;"
 !хорут:хорут V-XV ; ! "plough"
 !хоһуй:хоһуй V-XV ; ! "sing in a poem"
-!ча гын:ча гын V-XV ; ! "laugh"
+ча% гын:ча% гын V-IV ; ! "laugh"
 чочуй:чочуй V-TV ; ! "improve, perfect, sharpen"
 !чугуй:чугуй V-XV ; ! "recede, back down;"
 ый:ый V-TV ; ! "point at"
@@ -4528,23 +4539,22 @@ LEXICON Verbs
 
 
 !аахай:аахай V-XV ; ! " pay attention, take account"
-!абыраа:абыраа V-XV ; ! " save, rescue, help out"
+абыраа:абыраа V-TV ; ! " save, rescue, help out"
 !аҕал:аҕал V-XV ; ! " give, deliver, yield, bring forth"
-!аҕыйаа:аҕыйаа V-XV ; ! " dwindle, lessen"
+аҕыйаа:аҕыйаа V-IV ; ! " dwindle, lessen"
 !араар:араар V-XV ; ! " separate, take apart;"
-!атаҕастаа:атаҕастаа V-XV ; ! " offend, hurt"
+атаҕастаа:атаҕастаа V-TV ; ! " offend, hurt"
 !аһар:аһар V-XV ; ! " let through, allow pass"
-!баалаа:баалаа V-XV ; ! " force, compel"
+баалаа:баалаа V-TV ; ! " force, compel"
 !бай:бай V-XV ; ! " become rich"
-!бараа:бараа V-XV ; ! " spend"
-!былдьаа:былдьаа V-XV ; ! " take away, deprive, remove"
+былдьаа:былдьаа V-TV ; ! " take away, deprive, remove"
 !бытарый:бытарый V-XV ; ! " be crumbled up;"
 !долгуй:долгуй V-XV ; ! " surge, rise in waves, be agitated;"
 !дьаһай:дьаһай V-XV ; ! " manage, govern;"
 !кыай:кыай V-XV ; ! " be able;  win, succeed, overcome, conquer, destroy;"
 !кыайтар:кыайтар V-XV ; ! " lose;"
 !олохсуй:олохсуй V-XV ; ! " settle"
-!саҕалаа:саҕалаа V-XV ; ! " begin"
+саҕалаа:саҕалаа V-TV ; ! " begin"
 !сахсый:сахсый V-XV ; ! " shake up"
 !таай:таай V-XV ; ! " guess"
 !тойомсуй:тойомсуй V-XV ; ! " act bossy"
@@ -4552,7 +4562,7 @@ LEXICON Verbs
 !уларый:уларый V-XV ; ! " change"
 !утар:утар V-XV ; ! " oppose, object"
 !хамсаа:хамсаа V-XV ; ! " move;"
-!ыллаа:ыллаа V-XV ; ! " sing"
+ыллаа:ыллаа V-TV ; ! " sing"
 
 бас:бас V-TV ; ! "fetch"
 баай:баай V-TV ; ! "tie, bind"
@@ -4584,6 +4594,42 @@ LEXICON Verbs
 өйдүө:өйдүө V-TV ; ! "remember, have in mind understand"
 бырах:бырах V-TV ; ! "cast, throw"
 бараа:бараа V-TV ; ! "spend"
+
+кэпсээ:кэпсээ V-TV ; ! "tell, narrate"
+эмтээ:эмтээ V-TV ; ! "treat medically"
+таптаа:таптаа V-TV ; ! "любить"
+анаа:анаа V-TV ; ! "appoint, set, fix"
+астаа:астаа V-TV ; ! "cook, prepare"
+атыылаа:атыылаа V-TV ; ! "sell"
+балыктаа:балыктаа V-TV ; ! "fish"
+быыбардаа:быыбардаа V-TV ; ! "elect"
+быыһаа:быыһаа V-TV ; ! "save"
+
+хамсаа:хамсаа V-IV ; ! "move"
+кыстаа:кыстаа V-IV ; ! "spend winter"
+бастаа:бастаа V-IV ; ! "become first"
+
+бэлэмнээ:бэлэмнээ V-TV ; ! "prepare, make ready"
+бэрэбиэркэлээ:бэрэбиэркэлээ V-TV ; ! "examine, check, verify"
+кэтээ:кэтээ V-TV ; ! "guard, watch over"
+мэһэйдээ:мэһэйдээ V-TV ; ! "annoy, bother"
+сэргээ:сэргээ V-IV ; ! "show interest"
+элбээ:элбээ V-IV ; ! "multiply, increase"
+
+көмүскээ:көмүскээ V-TV ; ! "to defend, protect"
+
+бултаа:бултаа V-TV ; ! "to hunt, catch"
+отчуоттаа:отчуоттаа V-TV ; ! "to report, give an account on"
+толкуйдаа:толкуйдаа V-TV ; ! "to think"
+
+уруһуйдаа:уруһуйдаа V-TV ; ! "to paint, draw"
+баттаа:баттаа V-TV ; ! "to press, oppress, pursue"
+хамнаа:хамнаа V-IV ; ! "to move"
+
+тохтоо:тохтоо V-TV ; ! "to stop"
+холбоо:холбоо V-TV ; ! "to connect"
+
+
 
 LEXICON Interjections
 
@@ -4620,6 +4666,8 @@ LEXICON Abbreviations
 млрд:млрд ABBR ; ! ""
 тыһ:тыһ ABBR ; ! ""
 тыс%.:тыс%. ABBR ; ! ""
+
+солк%.:солк%. ABBR ; ! "руб."
 
 сс%.:сс%. ABBR ; ! ""
 
