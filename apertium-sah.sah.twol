@@ -38,6 +38,15 @@ Sets
 Vow = Я Ю Ё А О Ы У Э Е И Ө Ү
       я ю ё а о ы у э е и ө ү ;
 
+RealVow = А О Ы У Э И Ө Ү
+          а о ы у э и ө ү ;
+
+LowVow = Я Ё А О Э Е Ө
+         я ё а о э е ө ;
+
+HighVow = Ю Ы У И Ү
+          ю ы у и ү ;
+
 Nasal = М Н Ҥ
         м н ҥ ;
 
@@ -105,11 +114,6 @@ Cx:Cy <=> :VoicelessCns/:0 _ ;
 "{G} after voiceless consonants besides х"
 %{G%}:к <=> [ :VoicelessCns - :х]/:0 _ ;
 
-! FIXME: incomplete
-"{G} intervocalically"
-%{G%}:ҕ <=> :а %>: _ :а ;  
-
-!@ Е в р о п а >:0 {G}:ҕ {A}:а
 
 !!!== deletion ==!!!
 
@@ -124,8 +128,8 @@ Cx:Cy <=> :VoicelessCns/:0 _ ;
 
 "н after a vowel"
 %{n%}:н <=> :Vow/:0 _ ;
+            !@ и д е я >:0 {n}:н {I}:ы
 
-!@ и д е я >:0 {n}:н {I}:ы
 
 !!!== lenition ==!!!
 
@@ -134,6 +138,11 @@ Cx:Cy <=> _ %>: :Vow/:0* ;
       where Cx in ( х с к п )
             Cy in ( ҕ һ г б )
       matched ;
+
+"{G} after low vowel"
+%{G%}:ҕ <=> :LowVow/:0 _ ;
+            !@ Е в р о п а >:0 {G}:ҕ {A}:а
+
 
 !!!== Vowel Harmony ==!!!
 
@@ -157,29 +166,32 @@ Cx:Cy <=> _ %>: :Vow/:0* ;
 
 "vowel harmony for {A} except after уо and үө"
 %{A%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
-             :Vx _ ; 
+             :Cons :Vx _ ; 
          except
              !:ү :ө [ :Cons* :Cons]/:0* _ ;
              :у :о [ :Cons* :Cons]/:0* _ ;
+             ! :Vow :Vow %>: _ ; 
+             !    ! for verb stems ending in long vowel or diphthong
              %{ъ%}: %>: [ :Cons* ]/:0* _ ; 
          where Vx in ( а о ы у э е и ө ү я )
                Vy in ( а о а а э э э ө э а )
          matched ;
 
 
-"vowel harmony for {A} after уо"
-! shouldn't need a rule because it's the default а, but doesn't seem to work without one
-%{A%}:а <=> :у :о [ :Cons* :Cons ]/:0* _ ;
-           %{ъ%}: %>: [ :Cons* ]/:0* _ ;            
+"{A} deletes after long vowels and diphthongs and triggers other stuff"
+%{A%}:0 <=> :RealVow :RealVow %>: _ ;
 
-!компьютер{ъ}>{L}{A}р
+"first element of diphthongs and long vowels immediately before {A}"
+Vx:Vy <=> _ :RealVow %>: %{A%}: ;
+      where Vx in ( а о э ө )
+            Vy in ( ы у и ү )
+      matched ;
 
-!@ Д ь о к у у с к а й >:0 {T}:д {A}:а {A}:а ҕ {I}:ы
-
-!"vowel harmony for {A} after үө"
-!%{A%}:э <=> :ү :ө [ :Cons* :Cons ]/:0* _ ;
-!         except
-!             %{ъ%}: %>: [ :Cons* :Cons ]/:0* _ ; 
+"second element of diphthongs and long vowels immediately before {A}"
+Vx:Vy <=> :RealVow _ %>: %{A%}: ;
+      where Vx in ( а о э ө )
+            Vy in ( ы у и ү )
+      matched ;
 
 "vowel harmony for {a} except after уо and үө"
 %{a%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
@@ -190,15 +202,35 @@ Cx:Cy <=> _ %>: :Vow/:0* ;
                Vy in ( а о а а э э э ө э а )
          matched ;
 
-"vowel harmony for {a} after уо"
-! shouldn't need a rule because it's the default а, but doesn't seem to work without one
-%{a%}:а <=> :у :о [ :Cons* :Cons ]/:0* _ ;
-
 "vowel harmony for {a} after үө"
 %{a%}:э <=> :ү :ө [ :Cons* :Cons ]/:0* _ ;
 
+!FIXME 
 "vowel harmony for {I} after back harmony marker"
-! shouldn't need a rule because it's the default а, but doesn't seem to work without one
 %{I%}:ы <=> %{ъ%}: %>: [ :Cons* ]/:0* _ ;            
+
+
+
+!!!== Defaults that shouldn't be necessary ==!!!
+
+"{G} after high vowel"
+%{G%}:г <=> :HighVow/:0 _ ;
+            :HighSonCns/:0 _ ;
+
+"vowel harmony for {A} after уо"
+! shouldn't need a rule because it's the default а, but doesn't seem to work without one
+%{A%}:а <=> :у :о [ :Cons* :Cons ]/:0* _ ;
+            %{ъ%}: %>: [ :Cons* ]/:0* _ ;            
+               !компьютер{ъ}>{L}{A}р
+               !@ Д ь о к у у с к а й >:0 {T}:д {A}:а {A}:а ҕ {I}:ы
+
+!"vowel harmony for {A} after үө"
+!%{A%}:э <=> :ү :ө [ :Cons* :Cons ]/:0* _ ;
+!         except
+!             %{ъ%}: %>: [ :Cons* :Cons ]/:0* _ ; 
+
+"vowel harmony for {a} after уо"
+! shouldn't need a rule because it's the default а, but doesn't seem to work without one
+%{a%}:а <=> :у :о [ :Cons* :Cons ]/:0* _ ;
 
 
