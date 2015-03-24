@@ -38,19 +38,19 @@ Tests:
     олор<v><iv><neg><aor><p2><pl> : олорбоккут
     олор<v><iv><neg><aor><p3><pl> : олорботтор
 
-  "Aorist front vowel, vowel stem"
+  "Aorist front vowel, vowel stem":
     диэ<v><tv><aor><p1><sg> : диибин
     диэ<v><tv><aor><p2><sg> : диигин
     диэ<v><tv><aor><p3><sg> : диир
     диэ<v><tv><aor><p3><pl> : дииллэр
 
-  "Aorist negative front vowel, vowel stem"
+  "Aorist negative front vowel, vowel stem":
     диэ<v><tv><neg><aor><p3><sg> : диэбэт
 
-  "Aorist back vowel, vowel stem"
+  "Aorist back vowel, vowel stem":
     сатаа<v><tv><aor><p3><sg> : сатыыбын
     сатаа<v><tv><aor><p3><sg> : сатыыр
     сатаа<v><tv><aor><p3><pl> : сатыыллар
 
-  "Aorist negative back vowel, vowel stem"
+  "Aorist negative back vowel, vowel stem":
     сатаа<v><tv><neg><aor><p3><sg> : сатаабат
