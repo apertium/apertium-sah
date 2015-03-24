@@ -71,8 +71,9 @@ Rules
 "{р} → л before л"
 %{р%}:л <=> _ [ :л | [ %{L%}: - :Obs ] ]/:0 ;
 
-"н assimilation"
-н:ҥ <=> _ (%{ъ%}:) %>: :ҥ ; 
+
+"н→ҥ assimilation"
+н:ҥ <=> _ :ҥ/:0 ; 
 
 
 !!!== progressive assimilation ==!!!

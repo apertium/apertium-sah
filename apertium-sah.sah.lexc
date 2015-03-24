@@ -534,7 +534,7 @@ LEXICON V-PERS-IFI
 %<p3%>%<sg%>:%>%{A%} CLITICS-NO-COP ;
 %<p1%>%<pl%>:%>%{I%}б%{I%}т CLITICS-NO-COP ;
 %<p2%>%<pl%>:%>%{I%}г%{I%}т CLITICS-NO-COP ;
-%<p3%>%<pl%>:%>%{L%}%{A%}р CLITICS-NO-COP ; ! FIXME: Check
+%<p3%>%<pl%>:%>%{I%}%{L%}%{A%}р CLITICS-NO-COP ; ! FIXME: Check
 
 LEXICON V-FINITE-REGULAR_NEGATIVE
 
