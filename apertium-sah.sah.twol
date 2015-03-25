@@ -234,6 +234,9 @@ Vx:Vy <=> :RealVow _ %>: %{A%}: ;
 "{G} after high vowel"
 %{G%}:г <=> :HighVow/:0 _ ;
             :HighSonCns/:0 _ ;
+            :л/:0 _ ;  
+
+!@ с ы л >:0 {G}:г {A}:а
 
 "vowel harmony for {A} after уо"
 ! shouldn't need a rule because it's the default а, but doesn't seem to work without one
