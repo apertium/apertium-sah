@@ -103,7 +103,6 @@ Multichar_Symbols
 %{T%}              !
 %{B%}              !
 %{A%}              !
-%{E%}              !
 %{I%}              !
 %{n%}              !
 %{t%}              !
@@ -584,7 +583,7 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 %<imp%>%<p2%>%<sg%>: CLIT-EMPH ;
 %<imp%>%<p2%>%<pl%>:%>{I}ҥ CLIT-EMPH ; 
 
-%<prc_impf%>:%>%{E%} CLITICS-NO-COP ; ! FIXME: check
+%<prc_impf%>:%>%{A%} CLITICS-NO-COP ; ! FIXME: check
 
 %<gpr_past%>:%>%{B%}%{I%}т CLITICS-NO-COP ; ! FIXME: check
 
