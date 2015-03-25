@@ -78,7 +78,11 @@ Multichar_Symbols
 
 %<gna_perf%>       ! 
 %<gna_abes%>       ! 
-%<gna_caus%>       ! 
+%<gna_caus%>       ! -BIччI
+%<gna_goal%>       ! -AAрI
+%<gna_nond%>       ! -A илик
+
+%<ger_pros%>       ! -IEх
 
 %<gpr_aor%>        ! 
 
@@ -111,7 +115,7 @@ Multichar_Symbols
 %{a%}              ! 
 %{р%}              ! 
 
-%{☭%}         ! Used to tell the phonology about a Russian word
+%{☭%}              ! Used to tell the phonology about a Russian word
 %{ъ%}              ! 
 
 %                  !
@@ -585,6 +589,8 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
 %<prc_impf%>:%>%{A%} CLITICS-NO-COP ; ! FIXME: check
 
+%<gna_cond%>:%>т%{A%}р V-PERS-S2 ;
+
 %<gpr_past%>:%>%{B%}%{I%}т CLITICS-NO-COP ; ! FIXME: check
 
 LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
@@ -598,6 +604,10 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 %<gna_perf%>:%>%{a%}н CLITICS-NO-COP ; ! FIXME: check
 %<gna_abes%>:%>%{B%}%{A%}кк%{A%} CLITICS-NO-COP ; ! FIXME: check
 %<gna_caus%>:%>%{B%}%{I%}чч%{A%} CLITICS-NO-COP ; ! FIXME: check
+!%<gna_goal%>:%>%{A%}%{A%}р%{I%} CLITICS-NO-COP ; ! "in order to" ! FIXME: check 
+%<gna_nond%>:%>%{A%}% илик CLITICS-NO-COP ; ! FIXME: check
+
+!%<ger_pros%>:%>%{I%}%{A%}х SUBST ; 
 
 LEXICON V-COMMON
 
@@ -641,6 +651,11 @@ LEXICON CA
 LEXICON POST 
 
 %<post%>: # ; 
+
+LEXICON DET-DEM
+
+%<det%>%<dem%>: # ;
+
 
 LEXICON DET-ITG
 
@@ -725,8 +740,6 @@ PRON-DEM-SUBU ; ! ""
 сол:со PRON-DEM-SOL ; ! ""
 
 
-!ханнык:ханнык DET-ITG ; ! "which"
-хас:хас DET-ITG ; ! "сколько"
 
 ким:ким PRON-ITG ; ! ""
 туох:ту PRON-ITG-TUOH ; ! ""
@@ -737,7 +750,12 @@ LEXICON Determiners
 сорох:сорох DET-IND ; ! "некоторый"
 эмэ:эмэ DET-IND ; ! "some, any"
 
+!ханнык:ханнык DET-ITG ; ! "which"
+хас:хас DET-ITG ; ! "сколько"
+
 хас% биирдии:хас% биирдии DET-QNT ; ! "каждый" ! FIXME: check: def ?
+
+били:били DET-DEM ; ! "тот, тот самый"
 
 LEXICON Numerals
 
@@ -2068,7 +2086,6 @@ yy:yy N1 ; ! "вода"
 кир:кир N1 ; ! "dirt, filth;"
 кирпииччэ:кирпииччэ N1 ; ! "brick"
 кирээдэ:кирээдэ N1 ; ! "bed"
-киһи:киһи N1 ; ! "man"
 киэп:киэп N1 ; ! "form, shape"
 киэпкэ:киэпкэ N1 ; ! "baseball cap"
 киэргэ:киэргэ N1 ; ! "arch. jewel"
@@ -3311,6 +3328,8 @@ yy:yy N1 ; ! "вода"
 вице%-спикер:вице%-спикер N1 ; ! ""
 вице%-күбүрүнээтэр:вице%-күбүрүнээтэр N1 ; ! ""
 вице%-күбүрүнээтэр:вице%-губернатор%{☭%} N1 ; ! "" ! Dir/LR ! Use/Sub
+
+гардероб:гардероб%{☭%} N1 ; ! ""
 
 LEXICON ProperNouns
 
@@ -4675,7 +4694,7 @@ LEXICON Verbs
 ыраастаа:ыраастаа V-TV ; ! "чистить"
 
 эм:эм V-TV ; ! "сосать"
-
+куттан:куттан V-IV ; ! "be scared"
 
 LEXICON Interjections
 

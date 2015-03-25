@@ -83,9 +83,12 @@ Rules
 %{р%}:л <=> _ [ :л | [ %{L%}: - :Obs ] ]/:0 ;
 
 
+! FIXME: These two rules should probably be generalised
 "н→ҥ assimilation"
 н:ҥ <=> _ :ҥ/:0 ; 
 
+"н→м assimilation"
+н:м <=> _ %>: %{B%}: ; 
 
 !!!== progressive assimilation ==!!!
 
