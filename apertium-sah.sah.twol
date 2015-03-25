@@ -19,6 +19,8 @@ Alphabet
 
    %{i%}:0 ! %{i%}:и %{i%}:у %{i%}:ү %{i%}:ы
 
+   %{y%}:0 ! %{y%}:и %{y%}:у %{y%}:ү %{y%}:ы
+
    %{n%}:0 ! %{n%}:н
 
    %{t%}:0 ! %{t%}:т
@@ -134,10 +136,13 @@ Cx:Cy <=> :VoicelessCns/:0 _ ;
 !!!== lenition ==!!!
 
 "intervocalic lenition"
-Cx:Cy <=> _ %>: :Vow/:0* ;
+Cx:Cy <=>      _ %>: :Vow/:0* ;
+          :Vow _ %{y%}:Vow :Cons* .#. ; 
       where Cx in ( х с к п )
             Cy in ( ҕ һ г б )
       matched ;
+
+!@ и с:һ {y}:и т
 
 "{G} after low vowel"
 %{G%}:ҕ <=> :LowVow/:0 _ ;
@@ -155,6 +160,21 @@ Cx:Cy <=> _ %>: :Vow/:0* ;
          matched ;
 
 !@ э:э {T}:т {i}:0 >:0 {A}:э
+
+"Epenthesis in some stems"
+%{y%}:0 <=> _ [ :Cons :Vow ]/[ :0 | %>: ] ;
+
+!@ ис{y}т>{A}{р}
+
+"vowel harmony for {y}"
+%{y%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
+         except 
+                                      _ [ :Cons :Vow ]/[ :0 | %>: ] ;
+         where Vx in ( а о ы у э е и ө ү я )
+               Vy in ( ы у ы у и и и ү ү ы )
+         matched ;
+
+!@ ис{y}т
 
 "vowel harmony for {I}"
 %{I%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;

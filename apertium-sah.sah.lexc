@@ -10,6 +10,7 @@ Multichar_Symbols
 %<np%>             ! 
 %<cnjcoo%>         ! 
 %<det%>            ! 
+%<adv%>            ! 
 %<ij%>             ! 
 %<cnjadv%>         ! 
 %<num%>            ! Число
@@ -72,11 +73,14 @@ Multichar_Symbols
 %<aor%>            !
 %<ifi%>            !
 %<past%>           !
+%<imp%>            !
 %<pros%>           !
 
 %<gna_perf%>       ! 
 %<gna_abes%>       ! 
 %<gna_caus%>       ! 
+
+%<gpr_aor%>        ! 
 
 %<prc_aor%>        ! 
 %<prc_impf%>       ! 
@@ -104,6 +108,7 @@ Multichar_Symbols
 %{n%}              !
 %{t%}              !
 %{i%}              !
+%{y%}              !
 %{a%}              ! 
 %{р%}              ! 
 
@@ -508,6 +513,17 @@ LEXICON PRON-DEM-ITI
 %<prn%>%<dem%>%<pl%>%<com%>:%>лэр%>диин # ;
 %<prn%>%<dem%>%<pl%>%<comp%>:%>лэр%>дээҕэр # ;
 
+LEXICON PRON-ITG-TUOH
+! FIXME: imcomplete paradigm
+
+%<prn%>%<itg%>%<nom%>:ох # ; 
+%<prn%>%<itg%>%<dat%>:охха # ; 
+%<prn%>%<itg%>%<acc%>:гу # ; 
+%<prn%>%<itg%>%<abl%>:охтан # ; 
+!%<prn%>%<itg%>%<ins%>: # ; 
+!%<prn%>%<itg%>%<com%>: # ; 
+!%<prn%>%<itg%>%<comp%>: # ; 
+
 LEXICON PRON-ITG 
 
 %<prn%>%<itg%>: FULL-NOMINAL-INFLECTION ;
@@ -520,7 +536,6 @@ LEXICON V-PERS-S1
 %<p1%>%<pl%>:%>%{B%}%{I%}т CLITICS-NO-COP ;
 %<p2%>%<pl%>:%>%{G%}%{I%}т CLITICS-NO-COP ;
 %<p3%>%<pl%>:%>%{L%}%{A%}р CLITICS-NO-COP ;        ! FIXME: Check
-%<p3%>%<pl%>: CLITICS-NO-COP ; ! Dir-LR            ! FIXME: Check
 
 LEXICON V-PERS-S2
 
@@ -576,6 +591,10 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 
 %<prc_aor%>:%>%{A%}%{р%} CLITICS-NO-COP ; !FIXME:check
+
+! Ыллыыр чыычаах "a singing bird"
+%<gpr_aor%>:%>%{A%}%{р%} # ; !FIXME:check
+%<neg%>%<gpr_aor%>:%>%{B%}%{A%}т # ; 
 
 %<gna_perf%>:%>%{a%}н CLITICS-NO-COP ; ! FIXME: check
 %<gna_abes%>:%>%{B%}%{A%}кк%{A%} CLITICS-NO-COP ; ! FIXME: check
@@ -711,7 +730,7 @@ PRON-DEM-SUBU ; ! ""
 хас:хас DET-ITG ; ! "сколько"
 
 ким:ким PRON-ITG ; ! ""
-туох:туох PRON-ITG ; ! ""
+туох:ту PRON-ITG-TUOH ; ! ""
 төһө:төһө PRON-ITG ; ! "" FIXME: check
 
 LEXICON Determiners
@@ -798,6 +817,7 @@ LEXICON Nouns
 илин:илин N1 ; ! ""
 
 киһи:киһи N1 ; ! "человек" ! FIXME: irreg dative
+эр% киһи:эр% киһи N1 ; ! "мужчина"
 
 аат:аат N1 ; ! "имя; прозвище; кличка"
 ааҥнааһын:ааҥнааһын N1 ; ! "набег; нападение"
@@ -1312,6 +1332,7 @@ LEXICON Nouns
 халампаас:халампаас N1 ; ! "бинокль"
 халандаар:халандаар N1 ; ! "календарь"
 халлаан:халлаан N1 ; ! "небо"
+халлаан:хал% лаан N1 ; ! "небо" ! Dir/LR
 халтаһа:халтаһа N1 ; ! "веко"
 хамелеон:хамелеон N1 ; ! "хамелеон"
 хамыйах:хамыйах N1 ; ! "ложка"
@@ -1542,7 +1563,6 @@ LEXICON Nouns
 революция:революция N1 ; ! ""
 
 aac:aac N1 ; ! "hunger"
-балыксыт:балыксыт N1 ; ! "fisherman"
 yy:yy N1 ; ! "вода"
 күөл:күөл N1 ; ! "озеро"
 мурун:мурун N1 ; ! "nose"
@@ -1700,9 +1720,9 @@ yy:yy N1 ; ! "вода"
 баланыысса:баланыысса N1 ; ! "hospital"
 балбаах:балбаах N1 ; ! "heap"
 балта:балта N1 ; ! "hammer"
-балтым:балтым N1 ; ! "my younger sister"
+!балтым:балтым N1 ; ! "my younger sister"
 балык:балык N1 ; ! "fish;"
-балыксыт:балыксыт N1 ; ! "fisherman;"
+балыксыт:балыксыт N1 ; ! "fisherman"
 балыкчыт:балыкчыт N1 ; ! "fisherman;"
 балыс:балыс N1 ; ! "sister ;"
 балыыта:балыыта N1 ; ! "valyuta, currency"
@@ -4323,10 +4343,17 @@ LEXICON Adverbs
 хантан:хантан ADV-ITG ; ! "откуда"
 
 бүгүн:бүгүн ADV ; ! "сегодня"
+сарсын:сарсын ADV ; ! "завтра"
+
 аны:аны ADV ; ! "сейчас"
 наар:наар ADV ; ! "всегда"
+арыт:арыт ADV; ! "иногда"
+оччоҕо:оччоҕо ADV ; ! "тогда"
 дьэ:дьэ ADV ; ! "наконец"
 сотору:сотору ADV ; ! "скоро, сейчас"
+эмискэ:эмискэ ADV; ! "вдруг"
+күнүс:күнүс ADV ; ! "днём"
+төгүл:төгүл ADV ; ! "периодически"
 
 олус:олус ADV ; ! "quite"
 эмиэ:эмиэ ADV ; ! "еще"
@@ -4380,10 +4407,11 @@ LEXICON Verbs
 биэр:биэр  V-TV ; ! "give"
 бул:бул  V-TV ; ! "find"
 киир:киир  V-IV ; ! "enter"
-иһит:иһит  V-TV ; ! "hear"
 ас:ас  V-TV ; ! "open"
 тут:тут  V-TV ; ! "hold"
 олор:олор V-IV ; ! "live"
+
+иһит:ис%{y%}т  V-TV ; ! "hear"
 
 аһаа:аһаа V-TV ; ! " to eat"
 салай:салай V-TV ; ! " to manage, direct, lead, run;"
@@ -4402,6 +4430,7 @@ LEXICON Verbs
 таһаар:таһаар V-TV ; ! " to publish"
 тулуй:тулуй V-TV ; ! " to endure, tolerate;"
 төрөө:төрөө V-IV ; ! "родиться"
+төрөт:төрөт V-IV ; ! "родить" ! Mor/Caus
 сыт:сыт V-IV ; ! "lie"
 оҥор:оҥор V-TV ; ! "do"
 гын:гын V-TV ; ! "делать"
@@ -4509,12 +4538,12 @@ LEXICON Verbs
 умат:умат V-TV ; ! "make/cause burn" ! Mor/Caus
 уҥ:уҥ V-IV ; ! "faint"
 уор:уор V-TV ; ! "steal"
-!уст:уст V-XV ; ! "float;"
+уст:уст V-IV ; ! "float;"
 !утар:утар V-XV ; ! "oppose, object"
 !уур:уур V-XV ; ! "place, put decree;"
 !уурай:уурай V-XV ; ! "stop, be dismissed;"
 !уурат:уурат V-XV ; ! "dismiss, make stop"
-!уһаар:уһаар V-XV ; ! "cause float"
+уһаар:уһаар V-TV ; ! "cause float"
 !уһуй:уһуй V-XV ; ! "teach, train, habituate to"
 !уһул:уһул V-XV ; ! "take off, dismiss"
 !хаай:хаай V-XV ; ! "lock up, lock in"
@@ -4524,8 +4553,8 @@ LEXICON Verbs
 !хат:хат V-XV ; ! "become dry;"
 !хат:хат V-XV ; ! "twist, weave"
 холоо:холоо V-TV ; ! "compare;"
-!хомой:хомой V-XV ; ! "be sad, become sad"
-!хон:хон V-XV ; ! "stay over night, spend the night;"
+хомой:хомой V-IV ; ! "be sad, become sad"
+хон:хон V-IV ; ! "stay over night, spend the night;"
 !хор:хор V-XV ; ! "furrow;"
 !хорут:хорут V-XV ; ! "plough"
 !хоһуй:хоһуй V-XV ; ! "sing in a poem"
@@ -4633,12 +4662,26 @@ LEXICON Verbs
 
 тохтоо:тохтоо V-TV ; ! "to stop"
 холбоо:холбоо V-TV ; ! "to connect"
+оонньоо:оонньоо V-TV ; ! "играть"
 
+кэпсэт:кэпсэт V-IV ; ! "разговаривать"
+сиэ:сиэ V-TV ; ! "есть"
+
+аҕал:аҕал V-TV ; ! "дать"
+кэт:кэт V-TV ; ! "одевать"
+
+уҕул:уҕул V-TV ; ! "снимать"
+таҕыс:таҕыс V-IV ; ! "выходить"
+
+ыраастаа:ыраастаа V-TV ; ! "чистить"
+
+эм:эм V-TV ; ! "сосать"
 
 
 LEXICON Interjections
 
 дьэ:дьэ INTERJ ; 
+баһыыба:баһыыба INTERJ ; ! "спасибо"
 
 LEXICON Abbreviations
 
