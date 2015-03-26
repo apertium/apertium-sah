@@ -19,3 +19,4 @@ tests/aorist.yaml -text
 tests/cases.yaml -text
 tests/miscellaneous.yaml -text
 tests/possessives.yaml -text
+tests/russian.yaml -text
