@@ -184,7 +184,9 @@ Cx:Cy <=>      _ %>: :Vow/:0* ;
          matched ;
 
 
-! факультет{☭}>{n}{I}
+!!FIX! ф а к у л ь т е т {☭}:0 >:0 {n}: {I}:
+
+!@ б у о л >:0 {I}:у {A}:а х >:0 т {A}:а {A}:а х
 
 "vowel harmony for {A} except after уо and үө"
 %{A%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
@@ -247,6 +249,7 @@ Vx:Vy <=> :RealVow _ %>: %{A%}: ;
             %{ъ%}: %>: [ :Cons* ]/:0* _ ;            
                !компьютер{ъ}>{L}{A}р
                !@ Д ь о к у у с к а й >:0 {T}:д {A}:а {A}:а ҕ {I}:ы
+
 
 !"vowel harmony for {A} after үө"
 !%{A%}:э <=> :ү :ө [ :Cons* :Cons ]/:0* _ ;

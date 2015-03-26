@@ -78,6 +78,7 @@ Multichar_Symbols
 %<imp%>            !
 %<pros%>           !
 %<epis%>           !
+%<nec%>           !
 
 %<gna_perf%>       ! 
 %<gna_abes%>       ! 
@@ -625,6 +626,8 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 !  -IAG суоҕа (-ыа(х)-P2 суоҕа) 
 
 %<epis%>:%>%{B%}%{I%}тт%{A%}%{A%}х V-PERS-S1 ; ! FIXME: check
+
+%<nec%>:%>%{I%}%{A%}х%>т%{A%}%{A%}х V-PERS-S1 ; ! FIXME: check
 
 LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
