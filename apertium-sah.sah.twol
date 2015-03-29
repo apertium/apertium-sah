@@ -55,8 +55,8 @@ Nasal = М Н Ҥ
 HighSonCns = Й Р
              й р ;
 
-VoicelessCns = П Т К Х С 
-               п т к х с ;
+VoicelessCns = П Т К Х С З В
+               п т к х с з в ;
 
 Obs = Б В Г Д Ж З К П Р С Т Ф Х Ц Ч Ш Щ Һ Ҕ
       б в г д ж з к п р с т ф х ц ч ш щ һ ҕ ;
@@ -178,7 +178,8 @@ Cx:Cy <=>      _ %>: :Vow/:0* ;
 "vowel harmony for {I}"
 %{I%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
          except
-          [ %{ъ%}: | %{☭%}: ]  %>: [ :Cons* ]/:0* _ ;
+             ! [ %{ъ%}: | %{☭%}: ]  %>: [ :Cons* ]/:0* _ ;
+             %{☭%}: [ :Cons* :Cons ]/:0* _ ;
          where Vx in ( а о ы у э е и ө ү я )
                Vy in ( ы у ы у и и и ү ү ы )
          matched ;
@@ -196,7 +197,8 @@ Cx:Cy <=>      _ %>: :Vow/:0* ;
              :у :о [ :Cons* :Cons]/:0* _ ;
              ! :Vow :Vow %>: _ ; 
              !    ! for verb stems ending in long vowel or diphthong
-             %{ъ%}: %>: [ :Cons* ]/:0* _ ; 
+             !%{ъ%}: %>: [ :Cons* ]/:0* _ ; 
+             %{☭%}: [ :Cons* :Cons ]/:0* _ ;
          where Vx in ( а о ы у э е и ө ү я )
                Vy in ( а о а а э э э ө э а )
          matched ;
@@ -230,7 +232,8 @@ Vx:Vy <=> :RealVow _ %>: %{A%}: ;
 
 !FIXME 
 "vowel harmony for {I} after back harmony marker"
-%{I%}:ы <=> [ %{ъ%}: | %{☭%}: ] %>: [ :Cons* ]/:0* _ ;            
+%{I%}:ы <=> %{☭%}: [ :Cons* :Cons ]/:0* _ ;
+            ! [ %{ъ%}: | %{☭%}: ] %>: [ :Cons* ]/:0* _ ;            
 
 
 
@@ -246,7 +249,8 @@ Vx:Vy <=> :RealVow _ %>: %{A%}: ;
 "vowel harmony for {A} after уо"
 ! shouldn't need a rule because it's the default а, but doesn't seem to work without one
 %{A%}:а <=> :у :о [ :Cons* :Cons ]/:0* _ ;
-            %{ъ%}: %>: [ :Cons* ]/:0* _ ;            
+            ! %{ъ%}: %>: [ :Cons* ]/:0* _ ;            
+            %{☭%}: [ :Cons* :Cons ]/:0* _ ;
                !компьютер{ъ}>{L}{A}р
                !@ Д ь о к у у с к а й >:0 {T}:д {A}:а {A}:а ҕ {I}:ы
 
