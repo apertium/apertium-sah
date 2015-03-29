@@ -176,10 +176,10 @@ Cx:Cy <=>      _ %>: :Vow/:0* ;
 
 
 "vowel harmony for {I}"
-%{I%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
-         except
-             ! [ %{ъ%}: | %{☭%}: ]  %>: [ :Cons* ]/:0* _ ;
-             %{☭%}: [ :Cons* :Cons ]/:0* _ ;
+%{I%}:Vy <=> :Vx [ :Cons* :Cons ]/[ :0 - %{☭%}: ]* _ ;
+         ! except
+         !    ! [ %{ъ%}: | %{☭%}: ]  %>: [ :Cons* ]/:0* _ ;
+         !    %{☭%}: [ :Cons* :Cons ]/:0* _ ;
          where Vx in ( а о ы у э е и ө ү я )
                Vy in ( ы у ы у и и и ү ү ы )
          matched ;
@@ -191,7 +191,7 @@ Cx:Cy <=>      _ %>: :Vow/:0* ;
 
 "vowel harmony for {A} except after уо and үө"
 %{A%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
-             :Cons :Vx _ ; 
+             :Cons :Vx _ ;  ! FIXME: When does this happen?
          except
              !:ү :ө [ :Cons* :Cons]/:0* _ ;
              :у :о [ :Cons* :Cons]/:0* _ ;
@@ -232,8 +232,10 @@ Vx:Vy <=> :RealVow _ %>: %{A%}: ;
 
 !FIXME 
 "vowel harmony for {I} after back harmony marker"
-%{I%}:ы <=> %{☭%}: [ :Cons* :Cons ]/:0* _ ;
+%{I%}:ы <=> :Vow [ :Cons* :Cons ]/:0* _ ;
             ! [ %{ъ%}: | %{☭%}: ] %>: [ :Cons* ]/:0* _ ;            
+        except
+            :Vow [ :Cons* :Cons ]/[ :0 - %{☭%}: ]* _ ;
 
 
 
