@@ -177,6 +177,7 @@ Cx:Cy <=>      _ %>: :Vow/:0* ;
 
 "vowel harmony for {I}"
 %{I%}:Vy <=> :Vx [ :Cons* :Cons ]/[ :0 - %{☭%}: ]* _ ;
+             %{I%}:Vx _ ;
          ! except
          !    ! [ %{ъ%}: | %{☭%}: ]  %>: [ :Cons* ]/:0* _ ;
          !    %{☭%}: [ :Cons* :Cons ]/:0* _ ;
@@ -191,7 +192,8 @@ Cx:Cy <=>      _ %>: :Vow/:0* ;
 
 "vowel harmony for {A} except after уо and үө"
 %{A%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
-             :Cons :Vx _ ;  ! FIXME: When does this happen?
+             ! :Cons :Vx _ ;  ! FIXME: When does this happen?
+             %{A%}:Vx _ ;
          except
              !:ү :ө [ :Cons* :Cons]/:0* _ ;
              :у :о [ :Cons* :Cons]/:0* _ ;
