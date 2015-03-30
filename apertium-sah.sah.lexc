@@ -81,6 +81,7 @@ Multichar_Symbols
 %<imp%>            !
 %<pros%>           !
 %<epis%>           !
+%<resl%>           !
 %<nec%>           !
 
 %<gna_perf%>       ! 
@@ -636,7 +637,7 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 %<neg%>%<aor%>:%>%{B%}%{A%}т V-PERS-S1 ; 
 
 %<past%>:%>%{B%}%{I%}т V-PERS-S2 ; ! FIXME: check
-%<neg%>%<past%>:%>%{B%}%{A%}т%{A%}х V-PERS-S1 ; ! FIXME: check -S1 or -S2 ?
+%<neg%>%<past%>:%>%{B%}%{A%}т%{A%}х V-PERS-S2 ; ! FIXME: check -S1 or -S2 ?
 
 %<pii%>:%>%{A%}%{р%}% эт V-PERS-S2 ; ! Dir/LR
 %<neg%>%<pii%>:%>%{B%}%{A%}т% эт V-PERS-S2 ;  ! Dir/LR
@@ -649,7 +650,12 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 
 %<epis%>:%>%{B%}%{I%}тт%{A%}%{A%}х V-PERS-S1 ; ! FIXME: check
 
+!%<nec%>:%>%{А%}р%>д%{A%}%{A%}х V-PERS-S1 ; ! FIXME: check
+
 %<nec%>:%>%{I%}%{A%}х%>т%{A%}%{A%}х V-PERS-S1 ; ! FIXME: check
+
+%<resl%>:%>%{B%}%{I%}т V-PERS-S1 ; ! FIXME: check
+%<neg%>%<resl%>:%>%{B%}%{A%}т%{A%}х V-PERS-S1 ; ! FIXME: check -S1 or -S2 ?
 
 LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
@@ -3524,6 +3530,7 @@ yy:yy N1 ; ! "вода"
 видеоклип:видеоклип N5 ; ! ""
 номох:номох N1 ; ! "повесть"
 учуонай:учуонай N1 ; ! "учённый"
+бириис:бириис N1 ; ! "приз"
 
 LEXICON ProperNouns
 
@@ -5308,6 +5315,8 @@ LEXICON Verbs
 кыһан:кыһан V-IV ; ! "стараться"
 
 тэбээ:тэбээ V-TV ; ! "shake off"
+
+ууһаа:ууһаа V-IV ; ! ""
 
 LEXICON Interjections
 
