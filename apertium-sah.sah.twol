@@ -195,7 +195,7 @@ Cx:Cy <=>      _ %>: :Vow/:0* ;
              ! :Cons :Vx _ ;  ! FIXME: When does this happen?
              %{A%}:Vx _ ;
          except
-             !:ү :ө [ :Cons* :Cons]/:0* _ ;
+             :ү :ө [ :Cons* :Cons]/:0* _ ;
              :у :о [ :Cons* :Cons]/:0* _ ;
              ! :Vow :Vow %>: _ ; 
              !    ! for verb stems ending in long vowel or diphthong
@@ -276,8 +276,8 @@ Vx:Vy <=> :RealVow _ %>: %{A%}: ;
                !@ Д ь о к у у с к а й >:0 {T}:д {A}:а {A}:а ҕ {I}:ы
 
 
-!"vowel harmony for {A} after үө"
-!%{A%}:э <=> :ү :ө [ :Cons* :Cons ]/:0* _ ;
+"vowel harmony for {A} after үө"
+%{A%}:э <=> :ү :ө [ :Cons* :Cons ]/:0* _ ;
 !         except
 !             %{ъ%}: %>: [ :Cons* :Cons ]/:0* _ ; 
 
