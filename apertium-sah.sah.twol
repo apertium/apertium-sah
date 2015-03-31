@@ -178,7 +178,7 @@ Cx:Cy <=>      _ %>: :Vow/:0* ;
 "vowel harmony for {I}"
 %{I%}:Vy <=> :Vx [ :Cons* :Cons ]/[ :0 - %{☭%}: ]* _ ;
              %{I%}:Vx _ ;
-         ! except
+         except
          !    ! [ %{ъ%}: | %{☭%}: ]  %>: [ :Cons* ]/:0* _ ;
          !    %{☭%}: [ :Cons* :Cons ]/:0* _ ;
          where Vx in ( а о ы у э е и ө ү я )
@@ -186,7 +186,7 @@ Cx:Cy <=>      _ %>: :Vow/:0* ;
          matched ;
 
 
-!!FIX! ф а к у л ь т е т {☭}:0 >:0 {n}: {I}:
+!!FIXME! ф а к у л ь т е т {☭}:0 >:0 {n}: {I}:
 
 !@ б у о л >:0 {I}:у {A}:а х >:0 т {A}:а {A}:а х
 
@@ -207,18 +207,29 @@ Cx:Cy <=>      _ %>: :Vow/:0* ;
 
 "{A} as part of {I}{A}"
 %{A%}:Vy <=> %{I%}:Vx _ ;
+         except
+             :RealVow :RealVow %>: %{I%}:Vx _ ;
          where Vx in ( и ү ы у )
                Vy in ( э ө а о )
          matched ;
 
-"{A} deletes after long vowels and diphthongs and triggers other stuff"
-%{A%}:0 <=> :RealVow :RealVow %>: _ ;
+"{A} deletes after long vowels and diphthongs and triggers other stuff (and as part of {I}{A})"
+%{A%}:0 <=> :RealVow :RealVow %>: (%{I%}:) _ ;
 
-"first element of diphthongs and long vowels immediately before {A}"
-Vx:Vy <=> _ :RealVow %>: %{A%}: ;
+"{I} deletes after long vowels and diphthongs and triggers other stuff"
+%{I%}:0 <=> :RealVow :RealVow %>: _ ;
+
+"first element of diphthongs and long vowels immediately before ({I}){A}"
+Vx:Vy <=> _ :RealVow %>: (%{I%}:) %{A%}: ;
       where Vx in ( а о э ө )
             Vy in ( ы у и ү )
       matched ;
+
+!"first element of diphthongs and long vowels immediately before {I}{A}"
+!Vx:Vy <=> _ :RealVow %>: %{I%}: %{A%}: ;
+!      where Vx in ( э а о ө )
+!            Vy in ( и ы у ү )
+!      matched ;
 
 "second element of diphthongs and long vowels immediately before {A}"
 Vx:Vy <=> :RealVow _ %>: %{A%}: ;
