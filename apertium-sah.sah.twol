@@ -205,6 +205,12 @@ Cx:Cy <=>      _ %>: :Vow/:0* ;
                Vy in ( а о а а э э э ө э а )
          matched ;
 
+"{A} as part of {I}{A}"
+%{A%}:Vy <=> %{I%}:Vx _ ;
+         where Vx in ( и ү ы у )
+               Vy in ( э ө а о )
+         matched ;
+
 "{A} deletes after long vowels and diphthongs and triggers other stuff"
 %{A%}:0 <=> :RealVow :RealVow %>: _ ;
 
