@@ -141,7 +141,7 @@ Cx:Cy <=> :VoicelessCns/:0 _ ;
 !!!== lenition ==!!!
 
 "intervocalic lenition"
-Cx:Cy <=>      _ %>: :Vow/:0* ;
+Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
           :Vow _ %{y%}:Vow ; 
       where Cx in ( х с к п )
             Cy in ( ҕ һ г б )
