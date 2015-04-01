@@ -193,7 +193,7 @@ Cx:Cy <=>      _ %>: :Vow/:0* ;
 !@ б у о л >:0 {I}:у {A}:а х >:0 т {A}:а {A}:а х
 
 "vowel harmony for {A} except after уо and үө"
-%{A%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
+%{A%}:Vy <=> :Vx [ :Cons* :Cons ]/[ :0 - %{☭%}: ]* _ ;
              ! :Cons :Vx _ ;  ! FIXME: When does this happen?
              %{A%}:Vx _ ;
          except
@@ -273,9 +273,16 @@ Vx:Vy <=> :RealVow _ %>: %{A%}: ;
 ! shouldn't need a rule because it's the default а, but doesn't seem to work without one
 %{A%}:а <=> :у :о [ :Cons* :Cons ]/:0* _ ;
             ! %{ъ%}: %>: [ :Cons* ]/:0* _ ;            
-            %{☭%}: [ :Cons* :Cons ]/:0* _ ;
+            :Vow [ :Cons* :Cons %{☭%}: ]/[ :0 - %{☭%}: ]* _ ;
+            :Vow [ :Cons* %{☭%}: :Cons ]/[ :0 - %{☭%}: ]* _ ;
+            :Vow [ %{☭%}: :Cons* :Cons ]/[ :0 - %{☭%}: ]* _ ;
+            ! :Cons/[ :0 - %{☭%}: ] %{☭%}: _ ;
+            ! %{☭%}: :Cons/[ :0 - %{☭%}: ] _ ;
+            ! :Vow %{☭%}: [ :Cons* :Cons ]/[ :0 - %{☭%}: ]* _ ;
                !компьютер{ъ}>{L}{A}р
                !@ Д ь о к у у с к а й >:0 {T}:д {A}:а {A}:а ҕ {I}:ы
+            ! :Vow [ :Cons* :Cons ]/[ :0 - %{☭%}: ]* %{☭%}: _ ;
+            ! :Vow [ :Cons* %{☭%}: :Cons ]/[ :0 - %{☭%}: ]* _ ;
         except
             :ү :ө [ :Cons* :Cons ]/:0* _ ;
                ! protects against үө forms with %{☭%} (haha!)
