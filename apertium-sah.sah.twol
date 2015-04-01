@@ -75,9 +75,11 @@ Rules
 
 "т assimilation"
 т:Cy <=> _ %>: Cx: ;
-       where Cx in ( %{B%} %{G%} ) ! %{L%} ) 
-             Cy in (   п     к   ) !  т ) 
-       matched ;  
+     except
+         [ :н | :с ] _ %>: ;
+     where Cx in ( %{B%} %{G%} ) ! %{L%} ) 
+           Cy in (   п     к   ) !  т ) 
+     matched ;  
 
 "{р} → л before л"
 %{р%}:л <=> _ [ :л | [ %{L%}: - :Obs ] ]/:0 ;
@@ -292,3 +294,5 @@ Vx:Vy <=> :RealVow _ %>: %{A%}: ;
 !%{y%}:0 <=> _ [ :Cons :Vow ]/[ :0 | %>: ] ;
 !   !@ ис{y}т>{A}{р}
 
+"Delete т after н or с when not at the end of a word"
+т:0 <=> [ :н | :с ] _ %>: ;
