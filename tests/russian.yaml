@@ -51,11 +51,12 @@ Tests:
     университет<n><px3sp><dat> : университетыгар
     университет<n><px3sp><acc> : университетын
 
-  "Russian loans ending in -нт":
+  "Russian loans ending in consonant cluster with т":
     департамент<n><nom> : департамент
     департамент<n><par> : департамента
     департамент<n><px3sp><nom> : департамена
-
-  "Russian loans ending in -ст":
     коммунист<n><nom> : коммунист
     коммунист<n><pl><nom> : коммунистар
+    субъект<n><nom> : субъект
+    субъект<n><px3sp><nom> : субъега
+    субъект<n><pl><nom> : субъектар
