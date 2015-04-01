@@ -76,7 +76,7 @@ Rules
 "т assimilation"
 т:Cy <=> _ %>: Cx: ;
      except
-         [ :н | :с ] _ %>: ;
+         [ :н | :с ] _ %>:/[ :0 - %>: ] ;
      where Cx in ( %{B%} %{G%} ) ! %{L%} ) 
            Cy in (   п     к   ) !  т ) 
      matched ;  
@@ -95,7 +95,7 @@ Rules
 !!!== progressive assimilation ==!!!
 
 "Assimilation after nasals"
-Cx:Cy <=> :Nasal/:0 _ ;
+Cx:Cy <=> :Nasal [ :0 - т: ]* _ ;
       where Cx in ( %{L%} %{T%} %{G%} %{B%} )
             Cy in (   н     н     ҥ     м   )
       matched ;
@@ -295,4 +295,4 @@ Vx:Vy <=> :RealVow _ %>: %{A%}: ;
 !   !@ ис{y}т>{A}{р}
 
 "Delete т after н or с when not at the end of a word"
-т:0 <=> [ :н | :с ] _ %>: ;
+т:0 <=> [ :н | :с ] _ %>:/[ :0 - %>: ] ;
