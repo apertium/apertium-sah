@@ -142,12 +142,14 @@ Cx:Cy <=> :VoicelessCns/:0 _ ;
 
 "intervocalic lenition"
 Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
+             !@ и с:һ {y}:и т
+          ! :Vow/:0* _ :0* %>: :0* :Vow ;
+          !    !е к:__ т:0 {☭}:0 >:0 {t}:0 {A}:а
           :Vow _ %{y%}:Vow ; 
       where Cx in ( х с к п )
             Cy in ( ҕ һ г б )
       matched ;
 
-!@ и с:һ {y}:и т
 
 "{G} after low vowel"
 %{G%}:ҕ <=> :LowVow/:0 _ ;
