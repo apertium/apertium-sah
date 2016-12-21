@@ -21,3 +21,4 @@ tests/miscellaneous.yaml -text
 tests/necessitative.yaml -text
 tests/possessives.yaml -text
 tests/russian.yaml -text
+texts/puupankki/puupankki.sah.conllu -text

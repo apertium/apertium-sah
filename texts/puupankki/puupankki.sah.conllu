@@ -1,0 +1,1837 @@
+# 		igt: i26059 | Trans: He was bitten by the dog'{due to his fault: `He let the dog bite'};
+1	kini	_	PRON	_	_	_	_	_	Gloss=he
+2	yk-ka	_	NOUN	_	Case=Dat	_	_	_	Gloss=dog-Dat
+3	ytyr-tar-byt-o	_	VERB	_	Person=3|Number=Sing|Tense=Past	_	_	_	Gloss=bite-Caus-Past.Res-3.Sg
+
+# 		igt: i33666 | Trans: 
+1	taaj-ïlïn-t-ta	_	VERB	_	_	_	_	_	Gloss=solve-[passive]-[past-3sg]
+
+# 		igt: i36661 | Trans: 
+1	bihigi	_	PRON	_	Person=1|Number=Plur|Case=Nom	_	_	_	Gloss=1PL.NOM
+2	khaam-a-byt	_	VERB	_	Person=1|Number=Plur|Tense=Pres	_	_	_	Gloss=walk-PRS-1PL
+
+# 		igt: i36662 | Trans: You (pl) are walking.
+1	ehigi	_	PRON	_	Person=2|Number=Plur|Case=Nom	_	_	_	Gloss=2PL.NOM
+2	khaam-a-qyt	_	VERB	_	Person=2|Number=Plur|Tense=Pres	_	_	_	Gloss=walk-PRS-2PL
+
+# 		igt: i36664 | Trans: You (pl) are washing us.
+1	ehigi	_	PRON	_	Person=2|Number=Plur|Case=Nom	_	_	_	Gloss=2PL.NOM
+2	bihigi-ni	_	PRON	_	Person=1|Number=Plur|Case=Acc	_	_	_	Gloss=1PL-ACC
+3	suuj-a-qyt	_	VERB	_	Person=2|Number=Plur|Tense=Pres	_	_	_	Gloss=wash-PRS-2PL
+
+# 		igt: i36669 | Trans: 
+1	beqehee	_	ADV	_	_	_	_	_	Gloss=yesterday
+2	,	,	PUNCT	_	_	_	punct	_	_
+3	bihigi	_	PRON	_	Person=1|Number=Plur|Case=Nom	_	_	_	Gloss=1PL.NOM
+4	xahyat-y	_	NOUN	_	Case=Acc	_	_	_	Gloss=newspaper-ACC
+5	aax-ty-byt	_	VERB	_	Person=1|Number=Plur|Tense=Past	_	_	_	Gloss=read-PST-1PL
+
+# 		igt: i41731 | Trans: speak with each other; quarrel, sqaubble
+1	et-is-	_	VERB	_	Voice=Rcp	_	_	_	Gloss=say-RECP-
+
+# 		igt: i87409 | Trans: I picked {a specific/the} yellow flower
+1	Min	_	PRON	_	_	_	_	_	Gloss=I
+2	saharxaj	_	ADJ	_	_	_	_	_	Gloss=yellow
+3	sibekki-ni	_	NOUN	_	Case=Acc	_	_	_	Gloss=flower-acc
+4	ürgee-ti-m	_	VERB	_	Person=1|Number=Sing|Tense=Past	_	_	_	Gloss=pick-past-1sg
+
+# 		igt: i87413 | Trans: Sardaana cut Aisen's finger
+1	Sardaana	_	PROPN	_	_	_	_	_	Gloss=Sardaana
+2	Aisen	_	PROPN	_	_	_	_	_	Gloss=Aisen
+3	tarbaq-yn	_	NOUN	_	Person=3|Case=Acc	_	_	_	Gloss=finger-3.acc
+4	bys-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=cut-past.3
+
+# 		igt: i87414 | Trans: Sardaana cooked soup for Ookko's father
+1	Sardaana	_	PROPN	_	_	_	_	_	Gloss=Sardaana
+2	Ookko	_	PROPN	_	_	_	_	_	Gloss=Ookko
+3	aqa-tygar	_	NOUN	_	Person=3|Case=Dat	_	_	_	Gloss=father-3.dat
+4	miin	_	NOUN	_	_	_	_	_	Gloss=soup
+5	astaa-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=cook-past.3
+
+# 		igt: i87415 | Trans: Kündül picked grass for his cow (for his own benefit)
+1	Kündül	_	PROPN	_	_	_	_	_	Gloss=Kündül
+2	ynaq-ar	_	NOUN	_	Person=3|Case=Dat	_	_	_	Gloss=cow-3.dat
+3	ot	_	NOUN	_	_	_	_	_	Gloss=grass
+4	ürge-n-ne	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=pick-refl-past.3
+
+# 		igt: i87421 | Trans: Sardaana made Michil wash his hands
+1	Sardaana	_	PROPN	_	_	_	_	_	Gloss=Sardaana
+2	Michil-ge	_	PROPN	_	Case=Dat	_	_	_	Gloss=Michil-dat
+3	ilii-tin	_	NOUN	_	Person=3|Case=Acc	_	_	_	Gloss=hand-3.acc
+4	suu-n-nar-da	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=wash-refl-caus-past.3
+
+# 		igt: i87422 | Trans: Sardaana made Michil sew a coat for his own (Michil's) benefit
+1	Sardaana	_	PROPN	_	_	_	_	_	Gloss=Sardaana
+2	Michil-ge	_	PROPN	_	Case=Dat	_	_	_	Gloss=Michil-dat
+3	son	_	NOUN	_	_	_	_	_	Gloss=coat
+4	tig-in-ner-de	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=sew-refl-caus-past.3
+
+# 		igt: i87423 | Trans: Sardaana made Michil sew a coat for her own (Sardaana's) benefit
+1	Sardaana	_	PROPN	_	_	_	_	_	Gloss=Sardaana
+2	Michil-ge	_	PROPN	_	Case=Dat	_	_	_	Gloss=Michil-dat
+3	son	_	NOUN	_	_	_	_	_	Gloss=coat
+4	tik-ter-in-ne	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=sew-caus-refl-past.3
+
+# 		igt: i87424 | Trans: The news was read
+1	Sonun-nar	_	NOUN	_	Number=Plur	_	_	_	Gloss=news-pl
+2	aaq-ylyn-ny-lar	_	VERB	_	Number=Plur|Voice=Pass|Tense=Past	_	_	_	Gloss=read-pass-past-pl
+
+# 		igt: i87425 | Trans: The news was read
+1	Sonun-nar-y	_	NOUN	_	Case=Acc|Number=Plur	_	_	_	Gloss=news-pl-acc
+2	aaq-ylyn-na	_	VERB	_	Person=3|Voice=Pass|Tense=Past	_	_	_	Gloss=read-pass-past.3
+
+# 		igt: i87427 | Trans: Windows will be broken on purpose with stones
+1	Tünnük-ter-i	_	NOUN	_	Case=Acc|Number=Plur	_	_	_	Gloss=Window-pl-acc
+2	sorujan	_	ADV	_	_	_	_	_	Gloss=on.purpose
+3	taah-ynan	_	NOUN	_	Case=Ins	_	_	_	Gloss=stone-instrum
+4	aldjat-yll-yaq-a	_	VERB	_	Person=3|Tense=Fut|Voice=Pass	_	_	_	Gloss=break-pass-fut-3
+
+# 		igt: i87432 | Trans: The radio broke completely
+1	Radio	_	NOUN	_	_	_	_	_	Gloss=Radio
+2	aldjan-an	_	VERB	_	VerbForm=Ger	_	_	_	Gloss=break-ger
+3	xaal-la	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=remain-past.3
+
+# 		igt: i87433 | Trans: The cat completely finished the fish (ate all of the fish)
+1	Kuoska	_	NOUN	_	_	_	_	_	Gloss=Cat
+2	balyg-y	_	NOUN	_	Case=Acc	_	_	_	Gloss=fish-acc
+3	sie-n	_	VERB	_	VerbForm=Ger	_	_	_	Gloss=eat-ger
+4	kebis-te	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=throw-past.3
+
+# 		igt: i115860 | Trans: 
+1	bihigi	_	NOUN	_	Person=1|Number=Plur|Case=Nom	_	_	_	Gloss=1PL.NOM
+2	khaam-a-byt	_	VERB	_	Person=1|Number=Plur|Tense=Pres	_	_	_	Gloss=walk-PRS-1PL
+
+# 		igt: i115861 | Trans: You (pl) are walking.
+1	ehigi	_	PRON	_	Person=2|Number=Plur|Case=Nom	_	_	_	Gloss=2PL.NOM
+2	khaam-a-qyt	_	VERB	_	Person=2|Number=Plur|Tense=Pres	_	_	_	Gloss=walk-PRS-2PL
+
+# 		igt: i115863 | Trans: You (pl) are washing us.
+1	ehigi	_	PRON	_	Person=2|Number=Plur|Case=Nom	_	_	_	Gloss=2PL.NOM
+2	bihigi-ni	_	PRON	_	Person=1|Number=Plur|Case=Acc	_	_	_	Gloss=1PL-ACC
+3	suuj-a-qyt	_	VERB	_	Person=2|Number=Plur|Tense=Pres	_	_	_	Gloss=wash-PRS-2PL
+
+# 		igt: i115868 | Trans: 
+1	beqehee	_	ADV	_	_	_	_	_	Gloss=yesterday
+2	,	,	PUNCT	_	_	_	punct	_	_
+3	bihigi	_	PRON	_	Person=1|Number=Plur|Case=Nom	_	_	_	Gloss=1PL.NOM
+4	xahyat-y	_	NOUN	_	Case=Acc	_	_	_	Gloss=newspaper-ACC
+5	aax-ty-byt	_	VERB	_	Person=1|Number=Plur|Tense=Past	_	_	_	Gloss=read-PST-1PL
+
+# 		igt: i118032 | Trans: If it goes on like that, it looks like (our) ice will break this night
+1	manan	_	NOUN	_	Case=Ins	_	_	_	Gloss=this.INSTR
+2	buollayna	_	VERB	_	_	_	_	_	Gloss=if
+3	,	,	PUNCT	_	_	_	punct	_	_
+4	any	_	ADV	_	_	_	_	_	Gloss=now
+5	tüün	_	NOUN	_	_	_	_	_	Gloss=night
+6	bihigi	_	PRON	_	_	_	_	_	Gloss=we
+7	muus-put	_	NOUN	_	Person=1|Number=Plur	_	_	_	Gloss=ice-POSS.1PL
+8	xams-aaraj	_	VERB	_	_	_	_	_	Gloss=move-GAJ
+
+# 		igt: i145605 | Trans: The army liberated the town.
+1	Armija	_	NOUN	_	_	_	_	_	Gloss=Army
+2	kuorat-y	_	NOUN	_	Case=Acc	_	_	_	Gloss=town-acc
+3	bosxoloo-to	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=liberate-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145606 | Trans: the army's liberation of the town
+1	Armija	_	NOUN	_	_	_	_	_	Gloss=Army
+2	kuorat-y	_	NOUN	_	Case=Acc	_	_	_	Gloss=town-acc
+3	bosxoloo-hun-a	_	VERB	_	Person=3	_	_	_	Gloss=liberate-nominalizer-3
+
+# 		igt: i145607 | Trans: red and yellow flowers
+1	kyhyl	_	ADJ	_	_	_	_	_	Gloss=red
+2	uonna	_	CCONJ	_	_	_	_	_	Gloss=and
+3	saharxaj	_	ADJ	_	_	_	_	_	Gloss=yellow
+4	sibekki-ler	_	NOUN	_	Number=Plur	_	_	_	Gloss=flower-pl
+
+# 		igt: i145608 | Trans: provide with red and yellow flowers
+1	kyhyl	_	ADJ	_	_	_	_	_	Gloss=red
+2	uonna	_	CCONJ	_	_	_	_	_	Gloss=and
+3	saharxaj	_	ADJ	_	_	_	_	_	Gloss=yellow
+4	sibekki-ler-dee	_	VERB	_	Number=Plur	_	_	_	Gloss=flower-pl-verbalizer
+
+# 		igt: i145612 | Trans: Sardaana reads the book.
+1	Sardaana	_	PROPN	_	_	_	_	_	Gloss=Sardaana
+2	kinige-ni	_	NOUN	_	Case=Acc	_	_	_	Gloss=book-acc
+3	aaq-ar	_	VERB	_	Tense=Aor	_	_	_	Gloss=read-aor
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145613 | Trans: reading the book
+1	kinige-ni	_	NOUN	_	Case=Acc	_	_	_	Gloss=book-acc
+2	aaq-yy	_	VERB	_	Case=Nom	_	_	_	Gloss=read-nom
+
+# 		igt: i145614 | Trans: Sardaana's reading the book
+1	Sardaana	_	PROPN	_	_	_	_	_	Gloss=Sardaana
+2	kinige-ni	_	NOUN	_	Case=Acc	_	_	_	Gloss=book-acc
+3	aaq-yy-ta	_	VERB	_	Person=3|Case=Nom	_	_	_	Gloss=read-nom-3
+
+# 		igt: i145616 | Trans: Sardaana made Lena scold Erel.
+1	Sardaana	_	PROPN	_	_	_	_	_	Gloss=Sardaana
+2	Lena-qa	_	PROPN	_	Case=Dat	_	_	_	Gloss=Lena-dat
+3	Erel-i	_	PROPN	_	Case=Acc	_	_	_	Gloss=Erel-acc
+4	möx-tör-dö	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=scold-caus-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145618 | Trans: Keskil was chosen.
+1	Keskil	_	PROPN	_	_	_	_	_	Gloss=Keskil
+2	tal-ylyn-na	_	VERB	_	Person=3|Voice=Pass|Tense=Past	_	_	_	Gloss=choose-pass-past.3
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145620 | Trans: The manager of the company came.
+1	Terilte-ni	_	NOUN	_	Case=Acc	_	_	_	Gloss=Company-acc
+2	salaj-aaccy	_	NOUN	_	_	_	_	_	Gloss=manage-nomagent
+3	kel-le	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=come-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145622 | Trans: We worked as writers at the editorial office.
+1	Redaktsija-qa	_	NOUN	_	Case=Dat	_	_	_	Gloss=Editorial.office-dat
+2	suruj-aaccy-laa-ty-byt	_	VERB	_	Person=1|Number=Plur|Tense=Past	_	_	_	Gloss=write-nomagent-verb-past-1pl
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145623 | Trans: We provided the editorial office with a writer.
+1	Redaktsija-ny	_	NOUN	_	Case=Acc	_	_	_	Gloss=Editorial.office-acc
+2	suruj-aaccy-laa-ty-byt	_	VERB	_	Person=1|Number=Plur|Tense=Past	_	_	_	Gloss=write-nomagent-verb-past-1pl
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145624 | Trans: Sargy endures heat.
+1	Sargy	_	PROPN	_	_	_	_	_	Gloss=Sargy
+2	itii-ni	_	NOUN	_	Case=Acc	_	_	_	Gloss=heat-acc
+3	tuluj-ar	_	VERB	_	Tense=Aor	_	_	_	Gloss=endure-aor
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145625 | Trans: Sargy is capable of enduring heat.
+1	Sargy	_	PROPN	_	_	_	_	_	Gloss=Sargy
+2	itii-ni	_	NOUN	_	Case=Acc	_	_	_	Gloss=heat-acc
+3	tuluj-umtuo	_	VERB	_	_	_	_	_	Gloss=endure-able
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145639 | Trans: You are his/hers.
+1	En	_	PRON	_	_	_	_	_	Gloss=You
+2	kiniene-qin	_	PRON	_	Person=2|Number=Sing	_	_	_	Gloss=his/hers-2sg
+3	(kini	_	PRON	_	_	_	_	_	Gloss=(s/he
+4	kien-e-qin)	_	PRON	_	Person=3	_	_	_	Gloss=KIEN-3-2sg)
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145648 | Trans: By the way, there was an episode in the past when I won in the lottery.
+1	Min	_	PRON	_	_	_	_	_	Gloss=I
+2	lotereja-qa	_	NOUN	_	Case=Dat	_	_	_	Gloss=lottery-dat
+3	süüj-büt-teex-pin	_	VERB	_	Person=1|Number=Sing|Tense=Past	_	_	_	Gloss=win-rem.past-LAAX-1sg
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145649 | Trans: By the way, there had been an episode in the past when I won in the
+1	Min	_	PROPN	_	_	_	_	_	Gloss=I
+2	lotereja-qa	_	NOUN	_	Case=Dat	_	_	_	Gloss=lottery-dat
+3	süüj-büt-teex	_	VERB	_	Tense=Past	_	_	_	Gloss=win-rem.past-LAAX
+4	e-ti-m	_	AUX	_	Person=1|Number=Sing|Tense=Past	_	_	_	Gloss=aux-past-1sg
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145650 | Trans: I must buy a book.
+1	Min	_	PRON	_	_	_	_	_	Gloss=I
+2	kinige	_	NOUN	_	_	_	_	_	Gloss=book
+3	atyylah-ar-daax-pyn	_	VERB	_	Person=1|Number=Sing	_	_	_	Gloss=buy-aorist-LAAX-1sg
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145651 | Trans: I must buy a book.
+1	Min	_	PRON	_	_	_	_	_	Gloss=I
+2	kinige	_	NOUN	_	_	_	_	_	Gloss=book
+3	atyylah-yax-taax-pyn	_	VERB	_	Person=1|Number=Sing|Tense=Fut	_	_	_	Gloss=buy-future-LAAX-1sg
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145661 | Trans: Mende cleared the yard of snow.
+1	Mende	_	PROPN	_	_	_	_	_	Gloss=Mende
+2	telgehe-ni	_	NOUN	_	Case=Acc	_	_	_	Gloss=yard-acc
+3	xaar-daa-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=snow-LAA-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145662 | Trans: Mende filled the bucket with snow (e.g. to boil it).
+1	Mende	_	PROPN	_	_	_	_	_	Gloss=Mende
+2	soluur-u	_	NOUN	_	Case=Acc	_	_	_	Gloss=bucket-acc
+3	xaar-daa-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=snow-LAA-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145686 | Trans: I know that the book is on the chair.
+1	Min	_	PRON	_	_	_	_	_	Gloss=I
+2	kinige-ni	_	NOUN	_	Case=Acc	_	_	_	Gloss=book-acc
+3	oloppos-ko	_	NOUN	_	Case=Dat	_	_	_	Gloss=chair-dat
+4	baar	_	ADJ	_	_	_	_	_	Gloss=copulaEXIST
+5	dien	_	PART	_	_	_	_	_	Gloss=DIEN
+6	bil-e-bin	_	VERB	_	Person=1|Number=Sing|Tense=Aor	_	_	_	Gloss=know-aor-1sg
+7	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145687 | Trans: Ookko  has what used to be a house.
+1	Ookko-qo	_	PROPN	_	Case=Dat	_	_	_	Gloss=Ookko-dat
+2	urukku	_	ADJ	_	_	_	_	_	Gloss=former
+3	balaqan-a	_	NOUN	_	Person=3	_	_	_	Gloss=house-3
+4	baar	_	ADJ	_	_	_	_	_	Gloss=copulaEXIST
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145695 | Trans: Lookut knows that I have your book.
+1	Lookut	_	PROPN	_	_	_	_	_	Gloss=Lookut
+2	en	_	PRON	_	_	_	_	_	Gloss=you
+3	kinige-q-in	_	NOUN	_	Person=2|Number=Sing|Case=Acc	_	_	_	Gloss=book-2sg-acc
+4	miexe	_	PRON	_	Case=Dat	_	_	_	Gloss=me.dat
+5	baar	_	ADJ	_	_	_	_	_	Gloss=copulaEXIST
+6	dien	_	PART	_	_	_	_	_	Gloss=DIEN
+7	bil-er	_	VERB	_	Tense=Aor	_	_	_	Gloss=know-aor
+
+# 		igt: i145696 | Trans: I lent out the teacher's book to Sargy.
+1	Min	_	PRON	_	_	_	_	_	Gloss=I
+2	Sargy-ga	_	PROPN	_	Case=Dat	_	_	_	Gloss=Sargy-dat
+3	[üöreteecci	_	NOUN	_	_	_	_	_	Gloss=teacher
+4	kinige-tin]	_	NOUN	_	Person=3|Case=Acc	_	_	_	Gloss=book-3.acc
+5	ularsy-byt-ym	_	VERB	_	Person=1|Number=Sing|Tense=Past	_	_	_	Gloss=lend-past-1sg
+
+# 		igt: i145698 | Trans: Aisen's father's father's father's father
+1	Aisen	_	PROPN	_	_	_	_	_	Gloss=Aisen
+2	aqa-tyn	_	NOUN	_	Person=3|Case=Gen	_	_	_	Gloss=father-3.gen
+3	aqa-tyn	_	NOUN	_	Person=3|Case=Gen	_	_	_	Gloss=father-3.gen
+4	aqa-tyn	_	NOUN	_	Person=3|Case=Gen	_	_	_	Gloss=father-3.gen
+5	aqa-ta	_	NOUN	_	Person=3	_	_	_	Gloss=father-3
+
+# 		igt: i145708 | Trans: He has all his teeth.
+1	Kini	_	PRON	_	_	_	_	_	Gloss=He
+2	ajaq-ar	_	NOUN	_	Person=3|Case=Dat	_	_	_	Gloss=mouth-3.dat
+3	tiih-e	_	NOUN	_	Person=3	_	_	_	Gloss=teeth-3
+4	bary-ta	_	PRON	_	Person=3|Case=All	_	_	_	Gloss=all-3
+5	baar	_	ADJ	_	_	_	_	_	Gloss=copulaEXIST
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145737 | Trans: I painted the front of the house.
+1	Djie	_	NOUN	_	_	_	_	_	Gloss=house
+2	inn-in	_	NOUN	_	Person=3|Case=Acc	_	_	_	Gloss=front-3.acc
+3	kyraaskalaa-ty-m	_	VERB	_	Person=1|Number=Sing|Tense=Past	_	_	_	Gloss=paint-past.1sg
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145745 | Trans: I passed very close to the house.
+1	Djie	_	NOUN	_	_	_	_	_	Gloss=House
+2	adjas	_	ADV	_	_	_	_	_	Gloss=totally
+3	tah-ynan	_	NOUN	_	Person=3|Case=Ins	_	_	_	Gloss=outside-3.instrum
+4	aas-ty-m	_	VERB	_	Person=1|Number=Sing|Voice=Pass|Tense=Past	_	_	_	Gloss=pass-past-1sg
+
+# 		igt: i145760 | Trans: the big farm I own/*built/*like/*live next to/*burnt/*where I work, etc.
+1	Min	_	PRON	_	_	_	_	_	Gloss=I
+2	ulaxan	_	ADJ	_	_	_	_	_	Gloss=big
+3	ferma-m	_	NOUN	_	Person=1|Number=Sing	_	_	_	Gloss=farm-1sg
+
+# 		igt: i145812 | Trans: `waters and snows'54
+1	uu-lar	_	NOUN	_	Number=Plur	_	_	_	Gloss=water-pl
+2	­	_	_	_	_	_	_	_	Gloss=­
+3	xaar-dar	_	NOUN	_	Number=Plur	_	_	_	Gloss=snow-pl
+
+# 		igt: i145813 | Trans: `provide with water and snow; make wet
+1	uu-laa	_	VERB	_	_	_	_	_	Gloss=water-verb
+2	­	_	_	_	_	_	_	_	Gloss=­
+3	xaar-daa	_	VERB	_	_	_	_	_	Gloss=snow-verb
+
+# 		igt: i145814 | Trans: `wet, rainy weather
+1	uu-laax	_	ADJ	_	_	_	_	_	Gloss=water-adj
+2	­	_	_	_	_	_	_	_	Gloss=­
+3	xaar-daax	_	ADJ	_	_	_	_	_	Gloss=snow-adj
+4	xallaan	_	NOUN	_	_	_	_	_	Gloss=weather
+
+# 		igt: i145815 | Trans: #`wet, rainy person
+1	uu-laax	_	ADJ	_	_	_	_	_	Gloss=water-adj
+2	­	_	_	_	_	_	_	_	Gloss=­
+3	xaar-daax	_	ADJ	_	_	_	_	_	Gloss=snow-adj
+4	kihi	_	NOUN	_	_	_	_	_	Gloss=person
+
+# 		igt: i145816 | Trans: 
+1	uu-xaar	_	NOUN	_	_	_	_	_	Gloss=water-snow
+2	xallaan	_	NOUN	_	_	_	_	_	Gloss=weather
+
+# 		igt: i145818 | Trans: `I saw that old style house.
+1	Bili	_	DET	_	_	_	_	_	Gloss=that
+2	urukku	_	ADJ	_	_	_	_	_	Gloss=former
+3	balaqan-y	_	NOUN	_	Case=Acc	_	_	_	Gloss=house-acc
+4	kör-dü-m	_	VERB	_	Person=1|Number=Sing|Tense=Past	_	_	_	Gloss=see-past-1sg
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145820 | Trans: A/The child/Children came.
+1	Oqo	_	NOUN	_	_	_	_	_	Gloss=Child
+2	kel-le	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=come-past.3
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145822 | Trans: I picked the yellow flower.
+1	Min	_	PRON	_	_	_	_	_	Gloss=I
+2	saharxaj	_	ADJ	_	_	_	_	_	Gloss=yellow
+3	sibekki-ni	_	NOUN	_	Case=Acc	_	_	_	Gloss=flower-acc
+4	ürgee-ti-m	_	VERB	_	Person=1|Number=Sing|Tense=Past	_	_	_	Gloss=pick-past-1sg
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145830 | Trans: This person is young, sociable, compassionate and gullible.
+1	Bu	_	DET	_	_	_	_	_	Gloss=this
+2	kihi	_	NOUN	_	_	_	_	_	Gloss=person
+3	eder	_	ADJ	_	_	_	_	_	Gloss=young,
+4	,	,	PUNCT	_	_	_	punct	_	_
+5	djon-umsax	_	ADJ	_	_	_	_	_	Gloss=people-adj,
+6	,	,	PUNCT	_	_	_	punct	_	_
+7	ahyn-ygas	_	ADJ	_	_	_	_	_	Gloss=feel.sorry-adj
+8	uonna	_	CCONJ	_	_	_	_	_	Gloss=and
+9	ös	_	NOUN	_	_	_	_	_	Gloss=word
+10	kiir-bex	_	ADJ	_	_	_	_	_	Gloss=enter-adj
+
+# 		igt: i145831 | Trans: This person is a chess player and the director of school 2.
+1	Bu	_	DET	_	_	_	_	_	Gloss=This
+2	kihi	_	NOUN	_	_	_	_	_	Gloss=person
+3	saaxymatcyt	_	NOUN	_	_	_	_	_	Gloss=chess.player
+4	da	_	CCONJ	_	_	_	_	_	Gloss=and
+5	ikkis	_	NUM	_	_	_	_	_	Gloss=second
+6	oskuola	_	NOUN	_	_	_	_	_	Gloss=school
+7	direktor-a	_	NOUN	_	Person=3	_	_	_	Gloss=director-3
+8	da	_	CCONJ	_	_	_	_	_	Gloss=and
+9	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145848 | Trans: *`We are fishermen.
+1	Bihigi	_	PRON	_	_	_	_	_	Gloss=We
+2	balyksyt	_	NOUN	_	_	_	_	_	Gloss=fisherman
+3	buolabyt	_	VERB	_	Person=1|Number=Plur|Tense=Aor	_	_	_	Gloss=be(come)-aor-1pl
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145849 | Trans: We are fishermen.
+1	Bihigi	_	PRON	_	_	_	_	_	Gloss=We
+2	balyksyt-tar	_	NOUN	_	_	_	_	_	Gloss=fisherman
+3	buol-a-byt	_	VERB	_	Person=1|Number=Plur|Tense=Aor	_	_	_	Gloss=be-aor-1pl
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145854 | Trans: You are clever.
+1	En	_	PRON	_	_	_	_	_	Gloss=You
+2	öjdööx-xün	_	ADJ	_	_	_	_	_	Gloss=clever-2sgPRED
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145855 | Trans: That you are clever is known to us.
+1	En	_	PRON	_	_	_	_	_	Gloss=You
+2	öjdööq-ün	_	ADJ	_	_	_	_	_	Gloss=clever-2sgPOSS
+3	bihiexe	_	PRON	_	Case=Dat	_	_	_	Gloss=we.dat
+4	biller	_	VERB	_	_	_	_	_	Gloss=is.known
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145856 | Trans: You are a chess player.
+1	En	_	PRON	_	_	_	_	_	Gloss=You
+2	saaxymatcyk-kyn	_	NOUN	_	_	_	_	_	Gloss=chess.player-2sgPRED
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145857 | Trans: Your chess player is known to us (if you are a trainer).
+1	En	_	PRON	_	_	_	_	_	Gloss=You
+2	saaxymatcyt-yn	_	NOUN	_	_	_	_	_	Gloss=chess.player-2sgPOSS
+3	bihiexe	_	PRON	_	Case=Dat	_	_	_	Gloss=we.dat
+4	biller	_	VERB	_	_	_	_	_	Gloss=is.known
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145858 | Trans: That you are a chess player is known to us.'5
+1	En	_	PRON	_	_	_	_	_	Gloss=You
+2	saaxymatcyt	_	NOUN	_	_	_	_	_	Gloss=chess.player
+3	buol-ar-yn	_	VERB	_	Tense=Aor	_	_	_	Gloss=be-aor-2sgPOSS
+4	bihiexe	_	PRON	_	Case=Dat	_	_	_	Gloss=we.dat
+5	biller	_	VERB	_	_	_	_	_	Gloss=is.known
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145859 | Trans: Ajaal did not go.
+1	Ajaal	_	PROPN	_	_	_	_	_	Gloss=Ajaal
+2	bar-ba-ta	_	VERB	_	Person=3|Polarity=Neg|Tense=Past	_	_	_	Gloss=go-neg-past.3
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145860 | Trans: 
+1	Suu-n-ullu-ba-ta	_	VERB	_	Person=3|Polarity=Neg|Voice=Pass|Tense=Past	_	_	_	Gloss=wash-refl-pass-neg-past.3
+2	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145868 | Trans: We are not strong.
+1	Bihigi	_	PRON	_	_	_	_	_	Gloss=We
+2	küüs-tee-x	_	VERB	_	_	_	_	_	Gloss=strength-verb-adj
+3	buol-ba-tax-pyt	_	VERB	_	Person=1|Number=Plur|Polarity=Neg	_	_	_	Gloss=be-neg-subj-1pl
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145871 | Trans: Food is not very abundant.
+1	As	_	NOUN	_	_	_	_	_	Gloss=Food
+2	dep-delej	_	ADJ	_	_	_	_	_	Gloss=red-abundant
+3	buol-ba-tax	_	VERB	_	Polarity=Neg	_	_	_	Gloss=be-neg-subj
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145872 | Trans: It is not the case that food is not abundant.
+1	As	_	NOUN	_	_	_	_	_	Gloss=Food
+2	delej-e	_	ADJ	_	Person=3	_	_	_	Gloss=abundant-3
+3	suox	_	ADJ	_	_	_	_	_	Gloss=no
+4	buol-ba-tax	_	VERB	_	Polarity=Neg	_	_	_	Gloss=be-neg-subj
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145874 | Trans: This animal is not a lynx.
+1	Bu	_	DET	_	_	_	_	_	Gloss=This
+2	kyyl	_	NOUN	_	_	_	_	_	Gloss=animal
+3	beder	_	NOUN	_	_	_	_	_	Gloss=lynx
+4	buol-ba-tax	_	VERB	_	Polarity=Neg	_	_	_	Gloss=be-neg-subj
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145875 | Trans: You are slow.
+1	Ehigi	_	PRON	_	_	_	_	_	Gloss=you
+2	bytaa-yt	_	ADJ	_	Person=2|Number=Plur	_	_	_	Gloss=slow-2pl
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145876 | Trans: You are not slow.
+1	Ehigi	_	PRON	_	_	_	_	_	Gloss=you
+2	bytaan-a	_	ADJ	_	Person=3	_	_	_	Gloss=slow-3
+3	suox-xut	_	ADJ	_	Person=2|Number=Plur	_	_	_	Gloss=not-2pl
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145877 | Trans: You are very slow.
+1	Ehigi	_	PRON	_	_	_	_	_	Gloss=you
+2	byp-bytaa-yt	_	ADJ	_	Person=2|Number=Plur	_	_	_	Gloss=red-slow-2pl
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145878 | Trans: You are very slow.
+1	Ehigi	_	PRON	_	_	_	_	_	Gloss=you
+2	nahaa	_	ADV	_	_	_	_	_	Gloss=very
+3	bytaa-yt	_	ADJ	_	Person=2|Number=Plur	_	_	_	Gloss=slow-2pl
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145879 | Trans: You are not very slow.
+1	Ehigi	_	PRON	_	_	_	_	_	Gloss=You
+2	nahaa	_	ADV	_	_	_	_	_	Gloss=very
+3	bytaan-a	_	ADJ	_	Person=3	_	_	_	Gloss=slow-3
+4	suox-xut	_	ADJ	_	Person=2|Number=Plur	_	_	_	Gloss=not-2pl
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145881 | Trans: This shop's clients are schoolchildren (emphasized).
+1	[Bu	_	DET	_	_	_	_	_	Gloss=[this
+2	maqahyyn	_	NOUN	_	_	_	_	_	Gloss=shop
+3	klien-nar-a]	_	NOUN	_	Number=Plur	_	_	_	Gloss=client-pl-3]
+4	[oskuola	_	NOUN	_	_	_	_	_	Gloss=[school
+5	oqo-lor-o]	_	NOUN	_	Number=Plur	_	_	_	Gloss=child-pl-3]
+6	buol-al-lar	_	VERB	_	Number=Plur|Tense=Aor	_	_	_	Gloss=be-aor-pl
+
+# 		igt: i145882 | Trans: This shop's clients are young.
+1	Bu	_	DET	_	_	_	_	_	Gloss=this
+2	maqahyyn	_	NOUN	_	_	_	_	_	Gloss=shop
+3	klien-nar-a	_	NOUN	_	Person=3|Number=Plur	_	_	_	Gloss=client-pl-3
+4	eder-der	_	ADJ	_	Number=Plur	_	_	_	Gloss=young-pl
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145883 | Trans: This shop's clients are young (emphasized).
+1	Bu	_	DET	_	_	_	_	_	Gloss=this
+2	maqahyyn	_	NOUN	_	_	_	_	_	Gloss=shop
+3	klien-nar-a	_	NOUN	_	Person=3|Number=Plur	_	_	_	Gloss=client-pl-3
+4	eder	_	ADJ	_	_	_	_	_	Gloss=young
+5	buol-al-lar	_	VERB	_	Number=Plur|Tense=Aor	_	_	_	Gloss=be-aor-pl
+
+# 		igt: i145884 | Trans: Species of this kind of animal are in general tall.
+1	Bu	_	DET	_	_	_	_	_	Gloss=This
+2	kyyl	_	NOUN	_	_	_	_	_	Gloss=animal
+3	uhun	_	ADJ	_	_	_	_	_	Gloss=tall
+4	buol-ar	_	VERB	_	Tense=Aor	_	_	_	Gloss=be-aor
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145885 | Trans: Kesha is (generally) tall (=In general, for events/situations that
+1	Kesha	_	PROPN	_	_	_	_	_	Gloss=Kesha
+2	uhun	_	ADJ	_	_	_	_	_	Gloss=tall
+3	buol-ar	_	VERB	_	Tense=Aor	_	_	_	Gloss=be-aor
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145886 | Trans: Kesha usually eats meat in the morning.
+1	Kesha	_	PROPN	_	_	_	_	_	Gloss=Kesha
+2	sarsyarda	_	NOUN	_	_	_	_	_	Gloss=morning
+3	et	_	NOUN	_	_	_	_	_	Gloss=meat
+4	sii-r	_	VERB	_	Tense=Aor	_	_	_	Gloss=eat-aor
+5	buol-ar	_	VERB	_	Tense=Aor	_	_	_	Gloss=be-aor
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145887 | Trans: Kesha eats meat in the morning.
+1	Kesha	_	PROPN	_	_	_	_	_	Gloss=Kesha
+2	sarsyarda	_	NOUN	_	_	_	_	_	Gloss=morning
+3	et	_	NOUN	_	_	_	_	_	Gloss=meat
+4	sii-r	_	VERB	_	Tense=Aor	_	_	_	Gloss=eat-aor
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145889 | Trans: We are the best fishermen of the kolkhoz.
+1	Bihigi	_	PRON	_	_	_	_	_	Gloss=We
+2	kolxuos	_	NOUN	_	_	_	_	_	Gloss=kolkhoz
+3	basty	_	ADJ	_	_	_	_	_	Gloss=best
+4	balyksyt-tar-a-byt	_	NOUN	_	Person=1|Number=Plur|Person=3|Number=Plur	_	_	_	Gloss=fisherman-pl-3-1pl
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145890 | Trans: 
+1	Bihigi	_	PRON	_	_	_	_	_	Gloss=We
+2	kolxuos	_	NOUN	_	_	_	_	_	Gloss=kolkhoz
+3	basty	_	ADJ	_	_	_	_	_	Gloss=best
+4	balyksyt-tar-a	_	NOUN	_	Person=3|Number=Plur	_	_	_	Gloss=fisherman-pl-3
+5	buol-a-byt	_	VERB	_	Person=1|Number=Plur|Tense=Aor	_	_	_	Gloss=be-aor-1pl
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145894 | Trans: You read/will read.
+1	En	_	PRON	_	_	_	_	_	Gloss=You
+2	aaq-a-qyn	_	VERB	_	Person=2|Number=Sing|Tense=Aor	_	_	_	Gloss=read-aor-2sg
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145899 | Trans: It turns out I won in the lottery (comes as a surprise).
+1	Min	_	PRON	_	_	_	_	_	Gloss=I
+2	lotereja-qa	_	NOUN	_	Case=Dat	_	_	_	Gloss=lottery-dat
+3	süüj-büp-pün	_	VERB	_	Person=1|Number=Sing|Tense=Past	_	_	_	Gloss=win-rem.past-1sg
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145900 | Trans: By the way, there was an episode in the past when I won in the lottery.
+1	Min	_	PRON	_	_	_	_	_	Gloss=I
+2	lotereja-qa	_	NOUN	_	Case=Dat	_	_	_	Gloss=lottery-dat
+3	süüj-büt-teex-pin	_	VERB	_	Person=1|Number=Sing|Tense=Past	_	_	_	Gloss=win-rem.past-LAAX-1sg
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145901 | Trans: Ölöksöj saw Aisen (not so long ago).
+1	Ölöksöj	_	PROPN	_	_	_	_	_	Gloss=Ölöksöj
+2	Aisen-y	_	PROPN	_	Case=Acc	_	_	_	Gloss=Aisen-acc
+3	kör-dö	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=see-immed.past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145923 | Trans: (All of a sudden) Yesterday we received a letter from Saaska.
+1	Bihigi	_	PRON	_	_	_	_	_	Gloss=We
+2	beqehee	_	ADV	_	_	_	_	_	Gloss=yesterday
+3	Saaska-ttan	_	PROPN	_	Case=Abl	_	_	_	Gloss=Saaska-abl
+4	suruk	_	NOUN	_	_	_	_	_	Gloss=letter
+5	tut	_	VERB	_	_	_	_	_	Gloss=receive
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145925 | Trans: Yesterday, suddenly, we jumped (once/repeatedly).
+1	Bihigi	_	PRON	_	_	_	_	_	Gloss=We
+2	beqehee	_	ADV	_	_	_	_	_	Gloss=yesterday
+3	ystan	_	VERB	_	_	_	_	_	Gloss=jump
+4	(=ystan-ny-byt)	_	VERB	_	Tense=Past	_	_	_	Gloss=(=jump-immed.past-1pl)
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145926 | Trans: 
+1	Min	_	PRON	_	_	_	_	_	Gloss=I
+2	vasa-ny	_	NOUN	_	Case=Acc	_	_	_	Gloss=vase-acc
+3	aldjat-ty-m	_	VERB	_	Person=1|Number=Sing|Tense=Past	_	_	_	Gloss=break-immed.past-1sg
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145931 | Trans: The chair kept/keeps breaking.
+1	Oloppos	_	NOUN	_	_	_	_	_	Gloss=Chair
+2	aldjan	_	VERB	_	_	_	_	_	Gloss=break
+3	da	_	CCONJ	_	_	_	_	_	Gloss=DA
+4	aldjan	_	VERB	_	_	_	_	_	Gloss=break
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145933 | Trans: We will be the best fishermen of the kolkhoz.
+1	Bihigi	_	PRON	_	_	_	_	_	Gloss=We
+2	kolxuos	_	NOUN	_	_	_	_	_	Gloss=kolkhoz
+3	basty	_	ADJ	_	_	_	_	_	Gloss=best
+4	balyksyt-tar-a	_	NOUN	_	Person=3|Number=Plur	_	_	_	Gloss=fisherman-pl-3
+5	buol-uox-put	_	VERB	_	Person=1|Number=Plur|Tense=Fut	_	_	_	Gloss=be-fut-1pl
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145934 | Trans: We were the best fishermen of the kolkhoz.
+1	Bihigi	_	PRON	_	_	_	_	_	Gloss=We
+2	kolxuos	_	NOUN	_	_	_	_	_	Gloss=kolkhoz
+3	basty	_	ADJ	_	_	_	_	_	Gloss=best
+4	balyksyt-tar-a	_	NOUN	_	Person=3|Number=Plur	_	_	_	Gloss=fisherman-pl-3
+5	e-ti-bit	_	AUX	_	Person=1|Number=Plur|Tense=Past	_	_	_	Gloss=aux-immed.past-1pl
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145941 | Trans: We know that you are clean.
+1	En	_	PRON	_	_	_	_	_	Gloss=You
+2	yraas-k-yn	_	ADJ	_	Person=2|Number=Sing|Case=Acc	_	_	_	Gloss=clean-2sg-acc
+3	bil-e-bit	_	VERB	_	Person=1|Number=Plur|Tense=Aor	_	_	_	Gloss=know-aor-1pl
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145943 | Trans: Present/future: `It is known that you work in the bank.
+1	En	_	PRON	_	_	_	_	_	Gloss=You
+2	baa-a	_	NOUN	_	Case=Dat	_	_	_	Gloss=bank-dat
+3	ülelii-r-i	_	VERB	_	Person=2|Number=Sing|Tense=Aor	_	_	_	Gloss=work-aor-2sg
+4	bil-l-er	_	VERB	_	Voice=Pass|Tense=Aor	_	_	_	Gloss=know-pass-aor
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145956 | Trans: the girl who is interesting to Sargy
+1	Sargy-ga	_	PROPN	_	Case=Dat	_	_	_	Gloss=Sargy-dat
+2	interiehinej	_	ADJ	_	_	_	_	_	Gloss=interesting
+3	kyys	_	NOUN	_	_	_	_	_	Gloss=girl
+
+# 		igt: i145957 | Trans: the girl who helps Sargy
+1	Sargy-ga	_	PROPN	_	Case=Dat	_	_	_	Gloss=Sargy-dat
+2	kömölöh-ör	_	VERB	_	Tense=Aor	_	_	_	Gloss=help-aor
+3	kyys	_	NOUN	_	_	_	_	_	Gloss=girl
+
+# 		igt: i145958 | Trans: the girl whom Künnej helps
+1	Künnej	_	PROPN	_	_	_	_	_	Gloss=Künnej
+2	kömölöh-ör	_	VERB	_	Tense=Aor	_	_	_	Gloss=help-aor
+3	kyyh-a	_	NOUN	_	Person=3	_	_	_	Gloss=girl-3
+
+# 		igt: i145965 | Trans: Ookko came with an old man.
+1	Ookko	_	PROPN	_	_	_	_	_	Gloss=Ookko
+2	oqonnjor-duun	_	NOUN	_	Case=Com	_	_	_	Gloss=old.man-comit
+3	kel-le	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=come-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145967 | Trans: Ookko came with an old man.
+1	Ookko	_	PROPN	_	_	_	_	_	Gloss=Ookko
+2	oqonnjor-duun	_	NOUN	_	Case=Com	_	_	_	Gloss=old.man-comit
+3	kel-is-te	_	VERB	_	Person=3|Case=Com|Tense=Past	_	_	_	Gloss=come-comit-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145968 | Trans: an old man with whom Ookko came
+1	Ookko	_	PROPN	_	_	_	_	_	Gloss=Ookko
+2	kel-si-bit	_	VERB	_	Case=Com|Tense=Past	_	_	_	Gloss=come-comit-past
+3	oqonnjor-o	_	NOUN	_	Person=3	_	_	_	Gloss=old.man-3
+
+# 		igt: i145969 | Trans: The boy and the girl went to the town.
+1	Uol	_	NOUN	_	_	_	_	_	Gloss=boy
+2	uonna	_	CCONJ	_	_	_	_	_	Gloss=and
+3	kyys	_	NOUN	_	_	_	_	_	Gloss=girl
+4	kuorak-ka	_	NOUN	_	Case=Dat	_	_	_	Gloss=town-dat
+5	bar-dy-lar	_	VERB	_	Number=Plur|Tense=Past	_	_	_	Gloss=go-past-pl
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145971 | Trans: the girl and the boy who went to the town
+1	kuorak-ka	_	NOUN	_	Case=Dat	_	_	_	Gloss=town-dat
+2	bar-byt	_	VERB	_	Tense=Past	_	_	_	Gloss=go-past
+3	uol	_	NOUN	_	_	_	_	_	Gloss=boy
+4	uonna	_	CCONJ	_	_	_	_	_	Gloss=and
+5	kyys	_	NOUN	_	_	_	_	_	Gloss=girl
+
+# 		igt: i145972 | Trans: Saaska is stupider than Baaska.
+1	Saaska	_	PROPN	_	_	_	_	_	Gloss=Saaska
+2	Baaska-taaqar	_	PROPN	_	_	_	_	_	Gloss=Baaska-compar
+3	aax-maax	_	ADJ	_	_	_	_	_	Gloss=stupid
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145976 | Trans: 
+1	Symnaqas	_	ADJ	_	_	_	_	_	Gloss=soft
+2	xara	_	ADJ	_	_	_	_	_	Gloss=black
+3	oloppos	_	NOUN	_	_	_	_	_	Gloss=chair
+
+# 		igt: i145979 | Trans: `Ookko's old style house
+1	Ookko	_	PROPN	_	_	_	_	_	Gloss=Ookko
+2	urukku	_	ADJ	_	_	_	_	_	Gloss=former
+3	balaqana	_	NOUN	_	Person=3	_	_	_	Gloss=house-3
+
+# 		igt: i145980 | Trans: `I saw that old style house.
+1	Bili	_	DET	_	_	_	_	_	Gloss=that
+2	urukku	_	ADJ	_	_	_	_	_	Gloss=former
+3	balaqan-y	_	NOUN	_	Case=Acc	_	_	_	Gloss=house-acc
+4	kör-dü-m	_	VERB	_	Person=1|Number=Sing|Tense=Past	_	_	_	Gloss=see-past-1sg
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145990 | Trans: 
+1	bulcut2	_	NOUN	_	_	_	_	_	Gloss=hunter
+2	buol-ba-tax	_	VERB	_	Polarity=Neg	_	_	_	Gloss=be-neg-subj
+3	bulcut1	_	NOUN	_	_	_	_	_	Gloss=hunter
+4	kihi	_	NOUN	_	_	_	_	_	Gloss=person
+
+# 		igt: i145996 | Trans: Kesha eats meat in the morning.
+1	Kesha	_	PROPN	_	_	_	_	_	Gloss=Kesha
+2	sarsyarda	_	NOUN	_	_	_	_	_	Gloss=morning
+3	et	_	NOUN	_	_	_	_	_	Gloss=meat
+4	sii-r	_	VERB	_	Tense=Aor	_	_	_	Gloss=eat-aor
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i145999 | Trans: Kesha usually eats meat in the morning.
+1	Kesha	_	PROPN	_	_	_	_	_	Gloss=Kesha
+2	sarsyarda	_	NOUN	_	_	_	_	_	Gloss=morning
+3	et	_	NOUN	_	_	_	_	_	Gloss=meat
+4	sii-r	_	VERB	_	Tense=Aor	_	_	_	Gloss=eat-aor
+5	buol-ar	_	VERB	_	Tense=Aor	_	_	_	Gloss=be-aor
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146000 | Trans: This shop's clients are young.
+1	Bu	_	DET	_	_	_	_	_	Gloss=this
+2	maqahyyn	_	NOUN	_	_	_	_	_	Gloss=shop
+3	klien-nar-a	_	NOUN	_	Person=3|Number=Plur	_	_	_	Gloss=client-pl-3
+4	eder-der	_	ADJ	_	Number=Plur	_	_	_	Gloss=young-pl
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146001 | Trans: This shop's clients are young (emphasized).
+1	Bu	_	DET	_	_	_	_	_	Gloss=this
+2	maqahyyn	_	NOUN	_	_	_	_	_	Gloss=shop
+3	klien-nar-a	_	NOUN	_	Person=3|Number=Plur	_	_	_	Gloss=client-pl-3
+4	eder	_	ADJ	_	_	_	_	_	Gloss=young
+5	buol-al-lar	_	VERB	_	Number=Plur|Tense=Aor	_	_	_	Gloss=be-aor-pl
+
+# 		igt: i146003 | Trans: This shop's clients are schoolchildren (emphasized).
+1	[Bu	_	DET	_	_	_	_	_	Gloss=[this
+2	maqahyyn	_	NOUN	_	_	_	_	_	Gloss=shop
+3	klien-nar-a]	_	NOUN	_	Number=Plur	_	_	_	Gloss=client-pl-3]
+4	[oskuola	_	NOUN	_	_	_	_	_	Gloss=[school
+5	oqo-lor-o]	_	NOUN	_	Number=Plur	_	_	_	Gloss=child-pl-3]
+6	buol-al-lar	_	VERB	_	Number=Plur|Tense=Aor	_	_	_	Gloss=be-aor-pl
+
+# 		igt: i146006 | Trans: He walks slowly.
+1	Kini	_	PRON	_	_	_	_	_	Gloss=He
+2	bytaan-nyk	_	ADV	_	_	_	_	_	Gloss=slow-adv
+3	xaam-ar	_	VERB	_	Tense=Aor	_	_	_	Gloss=walk-aor
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146007 | Trans: He walks very slowly.
+1	Kini	_	PRON	_	_	_	_	_	Gloss=He
+2	bytaan	_	ADJ	_	_	_	_	_	Gloss=slow
+3	baqajy-tyk	_	ADV	_	_	_	_	_	Gloss=very-adv
+4	xaam-ar	_	VERB	_	Tense=Aor	_	_	_	Gloss=walk-aor
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146008 | Trans: 
+1	Kini	_	PRON	_	_	_	_	_	Gloss=He
+2	bytaan	_	ADJ	_	_	_	_	_	Gloss=slow
+3	baqajytyk	_	ADV	_	_	_	_	_	Gloss=very-adv
+4	uonna	_	CCONJ	_	_	_	_	_	Gloss=and
+5	naqyl	_	ADJ	_	_	_	_	_	Gloss=calm
+6	baqajytyk	_	ADV	_	_	_	_	_	Gloss=very-adv
+7	saarar	_	VERB	_	Tense=Aor	_	_	_	Gloss=speak-aor
+8	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146009 | Trans: He speaks very slowly and very calmly.
+1	Kini	_	PRON	_	_	_	_	_	Gloss=He
+2	[[bytaan	_	ADJ	_	_	_	_	_	Gloss=[[slow
+3	uonna	_	CCONJ	_	_	_	_	_	Gloss=and
+4	naqyl]	_	ADJ	_	_	_	_	_	Gloss=calm]
+5	baqajytyk]	_	ADV	_	_	_	_	_	Gloss=very-adv]
+6	saarar	_	VERB	_	Tense=Aor	_	_	_	Gloss=speak-aor
+7	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146015 | Trans: Length is not known.
+1	Uhun-a	_	ADJ	_	Person=3	_	_	_	Gloss=Long-3
+2	bil-li-bet	_	VERB	_	Polarity=Neg|Voice=Pass|Tense=Aor	_	_	_	Gloss=know-pass-neg.aor
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146017 | Trans: The boot's length is not known.
+1	Eterbes	_	NOUN	_	_	_	_	_	Gloss=Boot
+2	uhun-a	_	ADJ	_	Person=3	_	_	_	Gloss=long-3
+3	bil-li-bet	_	VERB	_	Polarity=Neg|Voice=Pass|Tense=Aor	_	_	_	Gloss=know-pass-neg.aor
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146018 | Trans: Skiing (in general, done by anyone, including myself) is good.
+1	Xajyhardyy-r	_	VERB	_	Tense=Aor	_	_	_	Gloss=Ski-aor
+2	ücügej	_	ADJ	_	_	_	_	_	Gloss=good
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146019 | Trans: I like skiing (in general, done by anyone, including myself).
+1	Xajyhardyyr-y	_	VERB	_	Case=Acc|Tense=Aor	_	_	_	Gloss=Ski-aor-acc
+2	söbülüü-bün	_	VERB	_	Person=1|Number=Sing|Tense=Aor	_	_	_	Gloss=like.aor-1sg
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146021 | Trans: It is bad when people/things are slow.'63
+1	Bytaan	_	ADJ	_	_	_	_	_	Gloss=Slow
+2	kuhaqan	_	ADJ	_	_	_	_	_	Gloss=bad
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146022 | Trans: Nobody likes when people/things are slow.
+1	Bytaan-y	_	ADJ	_	Case=Acc	_	_	_	Gloss=Slow-acc
+2	kim	_	PRON	_	_	_	_	_	Gloss=who
+3	da	_	ADV	_	_	_	_	_	Gloss=particle
+4	söbülee-bet	_	VERB	_	Polarity=Neg|Tense=Aor	_	_	_	Gloss=like-neg.aor
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146024 | Trans: It is bad when people are slow.
+1	Bytaan	_	ADJ	_	_	_	_	_	Gloss=Slow
+2	buol-ar	_	VERB	_	_	_	_	_	Gloss=be-aorist
+3	kuhaqan	_	ADJ	_	_	_	_	_	Gloss=bad
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146025 | Trans: Nobody likes when people are slow.
+1	Bytaan	_	ADJ	_	_	_	_	_	Gloss=Slow
+2	buol-ar-y	_	VERB	_	Case=Acc|Tense=Aor	_	_	_	Gloss=be-aor-acc
+3	kim	_	PRON	_	_	_	_	_	Gloss=who
+4	da	_	ADV	_	_	_	_	_	Gloss=particle
+5	söbülee-bet	_	VERB	_	Polarity=Neg|Tense=Aor	_	_	_	Gloss=like-neg.aor
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146027 | Trans: I broke the chair.
+1	Min	_	PRON	_	_	_	_	_	Gloss=I
+2	oloppoh-u	_	NOUN	_	Case=Acc	_	_	_	Gloss=chair-acc
+3	aldjat-ty-m	_	VERB	_	Person=1|Number=Sing|Tense=Past	_	_	_	Gloss=break-past-1sg
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146028 | Trans: The chair broke.
+1	Oloppos	_	NOUN	_	_	_	_	_	Gloss=Chair
+2	aldjan-na	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=break-past.3
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146036 | Trans: The girl played with a doll.
+1	Kyys	_	NOUN	_	_	_	_	_	Gloss=girl
+2	kuukula-nan	_	NOUN	_	Case=Ins	_	_	_	Gloss=doll-instr
+3	oonnjoo-to	_	VERB	_	Tense=Past	_	_	_	Gloss=play-past
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146039 | Trans: Michil works in order to earn money.
+1	Micil	_	PROPN	_	_	_	_	_	Gloss=Micil
+2	xarcy	_	NOUN	_	_	_	_	_	Gloss=money
+3	ölör-öörü	_	VERB	_	_	_	_	_	Gloss=earn-purp
+4	ülel-iir	_	VERB	_	Tense=Pres	_	_	_	Gloss=work-pres
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146041 | Trans: Erel helped (lit. worked together with others) at the farm during
+1	Erel	_	PROPN	_	_	_	_	_	Gloss=Erel
+2	sajyn	_	NOUN	_	_	_	_	_	Gloss=summer
+3	ferma-qa	_	NOUN	_	Case=Dat	_	_	_	Gloss=farm-dat
+4	ülele-s-te	_	VERB	_	Person=3|Case=Com|Tense=Past	_	_	_	Gloss=work-comit-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146045 | Trans: Kesha made Aisen make Keskil work.
+1	Kesha	_	PROPN	_	_	_	_	_	Gloss=Kesha
+2	Aise-a	_	PROPN	_	Case=Dat	_	_	_	Gloss=Aisen-dat
+3	Keskil-i	_	PROPN	_	Case=Acc	_	_	_	Gloss=Keskil-acc
+4	ülele-t-ter-de	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=work-caus-caus-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146046 | Trans: Kesha made Aisen make Keskil rich.
+1	Kesha	_	PROPN	_	_	_	_	_	Gloss=Kesha
+2	Aise-a	_	PROPN	_	Case=Dat	_	_	_	Gloss=Aisen-dat
+3	Keskil-i	_	PROPN	_	Case=Acc	_	_	_	Gloss=Keskil-acc
+4	baj-yt-tar-da	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=become.rich-caus-caus-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146047 | Trans: 
+1	Keskil	_	PROPN	_	_	_	_	_	Gloss=Keskil
+2	bu	_	DET	_	_	_	_	_	Gloss=this
+3	kinige-ni	_	NOUN	_	Case=Acc	_	_	_	Gloss=book-acc
+4	tal-la	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=choose-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146048 | Trans: Aisen made Keskil choose this book.
+1	Aisen	_	PROPN	_	_	_	_	_	Gloss=Aisen
+2	Keskil-ge	_	PROPN	_	Case=Dat	_	_	_	Gloss=Keskil-dat
+3	bu	_	DET	_	_	_	_	_	Gloss=this
+4	kinigeni	_	NOUN	_	Case=Acc	_	_	_	Gloss=book-acc
+5	tal-lar-da	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=choose-caus-past.3
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146050 | Trans: 
+1	Keskil	_	PROPN	_	_	_	_	_	Gloss=Keskil
+2	miin-i	_	NOUN	_	Case=Acc	_	_	_	Gloss=soup-acc
+3	soj-ut-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=cool-caus-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146051 | Trans: Aisen made Keskil cool the soup.
+1	Aisen	_	PROPN	_	_	_	_	_	Gloss=Aisen
+2	Keskil-ge	_	PROPN	_	Case=Dat	_	_	_	Gloss=Keskil-dat
+3	miin-i	_	NOUN	_	Case=Acc	_	_	_	Gloss=soup-acc
+4	soj-ut-tar-da	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=cool-caus-caus-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146052 | Trans: Lena made Aisen make Keskil cool the soup.
+1	Lena	_	PROPN	_	_	_	_	_	Gloss=Lena
+2	Aisen-ynan	_	PROPN	_	Case=Ins	_	_	_	Gloss=A.-instrum
+3	Keskil-ge	_	PROPN	_	Case=Dat	_	_	_	Gloss=K.-dat
+4	miin-i	_	NOUN	_	Case=Acc	_	_	_	Gloss=soup-acc
+5	soj-ut-tar-tar-da	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=cool-caus-caus-caus-past.3
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146053 | Trans: `Kesha did not make Aisen become rich.
+1	Kesha	_	PROPN	_	_	_	_	_	Gloss=Kesha
+2	Aisen-y	_	PROPN	_	Case=Acc	_	_	_	Gloss=Aisen-acc
+3	baj-yp-pa-ta	_	VERB	_	Person=3|Polarity=Neg|Tense=Past	_	_	_	Gloss=become.rich-caus-neg-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146054 | Trans: `Kesha did not make Aisen work (Kesha did nothing).
+1	Kesha	_	PROPN	_	_	_	_	_	Gloss=Kesha
+2	Aisen-y	_	PROPN	_	Case=Acc	_	_	_	Gloss=Aisen-acc
+3	ülele-p-pe-te	_	VERB	_	Person=3|Polarity=Neg|Tense=Past	_	_	_	Gloss=work-caus-neg-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146056 | Trans: Kesha slowly made Aisen work quickly.
+1	Kesha	_	PROPN	_	_	_	_	_	Gloss=Kesha
+2	bytaannyk	_	ADV	_	_	_	_	_	Gloss=slowly
+3	Aisen-y	_	PROPN	_	Case=Acc	_	_	_	Gloss=Aisen-acc
+4	türgennik	_	ADV	_	_	_	_	_	Gloss=quickly
+5	ülele-t-te	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=work-caus-past.3
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146059 | Trans: The nail was hit into a wooden pole.
+1	Tohoqo	_	NOUN	_	_	_	_	_	Gloss=Nail
+2	baqana-qa	_	NOUN	_	Case=Dat	_	_	_	Gloss=wooden.pole-dat
+3	saaj-ylyn-na	_	VERB	_	Person=3|Voice=Pass|Tense=Past	_	_	_	Gloss=hit-pass-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146064 | Trans: The czar oppresses the people.
+1	Yraaxtaaqy	_	NOUN	_	_	_	_	_	Gloss=Czar
+2	noruot-u	_	NOUN	_	Case=Acc	_	_	_	Gloss=people-acc
+3	batt-yyr	_	VERB	_	Tense=Aor	_	_	_	Gloss=oppress-aor
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146066 | Trans: Lena made Sardaana read the letter.
+1	Lena	_	PROPN	_	_	_	_	_	Gloss=Lena
+2	Sardaana-ny	_	PROPN	_	Case=Acc	_	_	_	Gloss=Sardaana-acc
+3	surug-u	_	NOUN	_	Case=Acc	_	_	_	Gloss=letter-acc
+4	aax-tar-da	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=read-caus-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146068 | Trans: 
+1	Sargy	_	PROPN	_	_	_	_	_	Gloss=Sargy
+2	ytaa-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=cry-past.3
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146069 | Trans: You made Sargy cry.
+1	En	_	PRON	_	_	_	_	_	Gloss=You
+2	Sargy-ny	_	PROPN	_	Case=Acc	_	_	_	Gloss=Sargy-acc
+3	yta-t-ty-	_	VERB	_	Person=2|Number=Sing|Tense=Past	_	_	_	Gloss=cry-caus-past-2sg
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146070 | Trans: 
+1	Sargy	_	PROPN	_	_	_	_	_	Gloss=Sargy
+2	taas	_	NOUN	_	_	_	_	_	Gloss=clothes
+3	tal-la	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=choose-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146074 | Trans: Micil is being obstinate.
+1	Micil	_	PROPN	_	_	_	_	_	Gloss=Micil
+2	ösöh-ör	_	VERB	_	Tense=Aor	_	_	_	Gloss=be.obstinate-aor
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146075 | Trans: Micil opposes this.
+1	Micil	_	PROPN	_	_	_	_	_	Gloss=Micil
+2	iti-ni	_	PRON	_	Case=Acc	_	_	_	Gloss=this-acc
+3	ösöh-ör	_	VERB	_	Tense=Aor	_	_	_	Gloss=oppose-aor
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146076 | Trans: Sargy made Micil oppose (her/something).
+1	Sargy	_	PROPN	_	_	_	_	_	Gloss=Sargy
+2	Micil-i	_	PROPN	_	Case=Acc	_	_	_	Gloss=Micil-acc
+3	ösöhün-ner-de	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=oppose-caus-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146077 | Trans: 
+1	Ookko	_	PROPN	_	_	_	_	_	Gloss=Ookko
+2	kini-ni	_	PRON	_	Case=Acc	_	_	_	Gloss=he-acc
+3	semelee-te	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=reproach-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146078 | Trans: 
+1	Bajbal	_	PROPN	_	_	_	_	_	Gloss=Bajbal
+2	Ookko-qo	_	PROPN	_	Case=Dat	_	_	_	Gloss=Ookko-dat
+3	kini-ni	_	PRON	_	Case=Acc	_	_	_	Gloss=he-acc
+4	semele-t-te	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=reproach-caus-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146079 | Trans: Ajaal made Sargy eat berries.
+1	Ajaal	_	PROPN	_	_	_	_	_	Gloss=Ajaal
+2	Sargy-ga	_	PROPN	_	Case=Dat	_	_	_	Gloss=Sargy-dat
+3	oton	_	NOUN	_	_	_	_	_	Gloss=berry
+4	sie-t-te.	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=eat-caus-past.3.
+5	Keskil	_	PROPN	_	_	_	_	_	Gloss=Keskil
+6	emie	_	ADV	_	_	_	_	_	Gloss=too
+7	onnuk	_	ADV	_	_	_	_	_	Gloss=so
+8	gyn-na	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=do-past.3
+9	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146080 | Trans: 
+1	Keskil	_	PROPN	_	_	_	_	_	Gloss=Keskil
+2	bu	_	DET	_	_	_	_	_	Gloss=this
+3	kinige-ni	_	NOUN	_	Case=Acc	_	_	_	Gloss=book-acc
+4	tal-la	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=choose-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146081 | Trans: Aisen made Keskil choose this book.
+1	Aisen	_	PROPN	_	_	_	_	_	Gloss=Aisen
+2	Keskil-ge	_	PROPN	_	Case=Dat	_	_	_	Gloss=Keskil-dat
+3	bu	_	DET	_	_	_	_	_	Gloss=this
+4	kinigeni	_	NOUN	_	Case=Acc	_	_	_	Gloss=book-acc
+5	tal-lar-da	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=choose-caus-past.3
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146082 | Trans: Lena made Aisen make Keskil choose this book.
+1	Lena	_	PROPN	_	_	_	_	_	Gloss=Lena
+2	Aisen-ynan	_	PROPN	_	Case=Ins	_	_	_	Gloss=A.-instrum
+3	Keskil-ge	_	PROPN	_	Case=Dat	_	_	_	Gloss=K.-dat
+4	bu	_	DET	_	_	_	_	_	Gloss=this
+5	kinigeni	_	NOUN	_	Case=Acc	_	_	_	Gloss=book-acc
+6	tal-lar-tar-da	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=choose-caus-caus-past.3
+7	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146083 | Trans: 
+1	Lena	_	PROPN	_	_	_	_	_	Gloss=Lena
+2	Aana-qa	_	PROPN	_	Case=Dat	_	_	_	Gloss=Aana-dat
+3	kini-ni	_	PRON	_	Case=Acc	_	_	_	Gloss=she-acc
+4	möx-tör-dö	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=scold-caus-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146084 | Trans: 
+1	Erel	_	PROPN	_	_	_	_	_	Gloss=Erel
+2	Lena-nan	_	PROPN	_	Case=Ins	_	_	_	Gloss=Lena-instrum
+3	Aana-qa	_	PROPN	_	Case=Dat	_	_	_	Gloss=Aana-dat
+4	kini-ni	_	PRON	_	Case=Acc	_	_	_	Gloss=she-acc
+5	möx-tör-tör-dö	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=scold-caus-caus-past.3
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146086 | Trans: Sardaana made Erel read the book.
+1	Sardaana	_	PROPN	_	_	_	_	_	Gloss=Sardaana
+2	Erel-ge	_	PROPN	_	Case=Dat	_	_	_	Gloss=Erel-dat
+3	kinige-ni	_	NOUN	_	Case=Acc	_	_	_	Gloss=book-acc
+4	aax-tar-da	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=read-caus-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146087 | Trans: The book was made to be read by Erel.
+1	Kinige	_	NOUN	_	_	_	_	_	Gloss=Book
+2	Erel-ge	_	PROPN	_	Case=Dat	_	_	_	Gloss=Erel-dat
+3	aax-tar-ylyn-na	_	VERB	_	Person=3|Voice=Pass|Tense=Past	_	_	_	Gloss=read-caus-pass-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146088 | Trans: making Erel read the book
+1	Erel-ge	_	PROPN	_	Case=Dat	_	_	_	Gloss=Erel-dat
+2	kinige-ni	_	NOUN	_	Case=Acc	_	_	_	Gloss=book-acc
+3	aax-tar-yy	_	VERB	_	Case=Nom	_	_	_	Gloss=read-caus-nom
+
+# 		igt: i146089 | Trans: Aisen made Sardaana make Erel read the book.
+1	Aisen	_	PROPN	_	_	_	_	_	Gloss=Aisen
+2	Sardaana-nan	_	PROPN	_	Case=Ins	_	_	_	Gloss=Sardaana-instrum
+3	Erel-ge	_	PROPN	_	Case=Dat	_	_	_	Gloss=Erel-dat
+4	kinige-ni	_	NOUN	_	Case=Acc	_	_	_	Gloss=book-acc
+5	aax-tar-tar-da	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=read-caus-caus-past.3
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146092 | Trans: Lena ironed her clothes (for her own benefit).
+1	Lena	_	PROPN	_	_	_	_	_	Gloss=Lena
+2	taah-yn	_	NOUN	_	Case=Acc	_	_	_	Gloss=clothes-acc
+3	ötüükte-n-ne	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=iron-refl-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146093 | Trans: Sargy made Lena iron her clothes (for Lena's benefit).
+1	Sargy	_	PROPN	_	_	_	_	_	Gloss=Sargy
+2	Lena-qa	_	PROPN	_	Case=Dat	_	_	_	Gloss=Lena-dat
+3	taah-yn	_	NOUN	_	Case=Acc	_	_	_	Gloss=clothes-acc
+4	ötüükte-n-ner-de	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=iron-refl-caus-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146100 | Trans: I picked {a specific/the} yellow flower.
+1	Min	_	PRON	_	_	_	_	_	Gloss=I
+2	saharxaj	_	ADJ	_	_	_	_	_	Gloss=yellow
+3	sibekki-ni	_	NOUN	_	Case=Acc	_	_	_	Gloss=flower-acc
+4	ürgee-ti-m	_	VERB	_	Person=1|Number=Sing|Tense=Past	_	_	_	Gloss=pick-past-1sg
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146124 | Trans: Sardaana cut Aisen's finger.
+1	Sardaana	_	PROPN	_	_	_	_	_	Gloss=Sardaana
+2	Aisen	_	PROPN	_	_	_	_	_	Gloss=Aisen
+3	tarbaq-yn	_	NOUN	_	Person=3|Case=Acc	_	_	_	Gloss=finger-3.acc
+4	bys-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=cut-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146125 | Trans: Sardaana cooked soup for Ookko's father
+1	Sardaana	_	PROPN	_	_	_	_	_	Gloss=Sardaana
+2	Ookko	_	PROPN	_	_	_	_	_	Gloss=Ookko
+3	aqa-tygar	_	NOUN	_	Person=3|Case=Dat	_	_	_	Gloss=father-3.dat
+4	miin	_	NOUN	_	_	_	_	_	Gloss=soup
+5	astaa-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=cook-past.3
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146126 | Trans: Kündül picked grass for his cow (for his own benefit).
+1	Kündül	_	PROPN	_	_	_	_	_	Gloss=Kündül
+2	ynaq-ar	_	NOUN	_	Person=3|Case=Dat	_	_	_	Gloss=cow-3.dat
+3	ot	_	NOUN	_	_	_	_	_	Gloss=grass
+4	ürge-n-ne	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=pick-refl-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146127 | Trans: Kündül picked grass for his cow.
+1	Kündül	_	PROPN	_	_	_	_	_	Gloss=Kündül
+2	ynaq-ar	_	NOUN	_	Person=3|Case=Dat	_	_	_	Gloss=cow-3.dat
+3	ot	_	NOUN	_	_	_	_	_	Gloss=grass
+4	ürgee-te	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=pick-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146137 | Trans: Sardaana made Michil wash his/her hands.
+1	Sardaana	_	PROPN	_	_	_	_	_	Gloss=Sardaana
+2	Michil-ge	_	PROPN	_	Case=Dat	_	_	_	Gloss=Michil-dat
+3	ilii-tin	_	NOUN	_	Person=3|Case=Acc	_	_	_	Gloss=hand-3.acc
+4	suu-n-nar-da	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=wash-refl-caus-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146138 | Trans: Sardaana made Michil sew a coat for his own (Michil's) benefit.
+1	Sardaana	_	PROPN	_	_	_	_	_	Gloss=Sardaana
+2	Michil-ge	_	PROPN	_	Case=Dat	_	_	_	Gloss=Michil-dat
+3	son	_	NOUN	_	_	_	_	_	Gloss=coat
+4	tig-in-ner-de	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=sew-refl-caus-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146139 | Trans: Sardaana made Michil sew a coat for her own (Sardaana's)
+1	Sardaana	_	PROPN	_	_	_	_	_	Gloss=Sardaana
+2	Michil-ge	_	PROPN	_	Case=Dat	_	_	_	Gloss=Michil-dat
+3	son	_	NOUN	_	_	_	_	_	Gloss=coat
+4	tik-ter-in-ne	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=sew-caus-refl-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146140 | Trans: The news was read.
+1	Sonun-nar	_	NOUN	_	Number=Plur	_	_	_	Gloss=news-pl
+2	aaq-ylyn-ny-lar	_	VERB	_	Number=Plur|Voice=Pass|Tense=Past	_	_	_	Gloss=read-pass-past-pl
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146141 | Trans: The news were read.
+1	Sonun-nar-y	_	NOUN	_	Case=Acc|Number=Plur	_	_	_	Gloss=news-pl-acc
+2	aaq-ylyn-na	_	VERB	_	Person=3|Voice=Pass|Tense=Past	_	_	_	Gloss=read-pass-past.3
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146143 | Trans: Windows will be broken on purpose with stones.
+1	Tünnük-ter-i	_	NOUN	_	Case=Acc|Number=Plur	_	_	_	Gloss=Window-pl-acc
+2	sorujan	_	ADV	_	_	_	_	_	Gloss=on.purpose
+3	taah-ynan	_	NOUN	_	Case=Ins	_	_	_	Gloss=stone-instrum
+4	aldjat-yll-yaq-a	_	VERB	_	Person=3|Tense=Fut|Voice=Pass	_	_	_	Gloss=break-pass-fut-3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146148 | Trans: The radio broke completely
+1	Radio	_	NOUN	_	_	_	_	_	Gloss=Radio
+2	aldjan-an	_	VERB	_	VerbForm=Ger	_	_	_	Gloss=break-ger
+3	xaal-la	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=remain-past.3
+
+# 		igt: i146149 | Trans: The cat completely finished the fish (ate all of the fish)
+1	Kuoska	_	NOUN	_	_	_	_	_	Gloss=Cat
+2	balyg-y	_	NOUN	_	Case=Acc	_	_	_	Gloss=fish-acc
+3	sie-n	_	VERB	_	VerbForm=Ger	_	_	_	Gloss=eat-ger
+4	kebis-te	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=throw-past.3
+
+# 		igt: i146156 | Trans: I read a (specific/*non-specific) book.
+1	Min	_	PRON	_	_	_	_	_	Gloss=I
+2	biir	_	DET	_	_	_	_	_	Gloss=one
+3	kinige-ni	_	NOUN	_	Case=Acc	_	_	_	Gloss=book-acc
+4	aax-ty-m	_	VERB	_	Person=1|Number=Sing|Tense=Past	_	_	_	Gloss=read-past-1sg
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146157 | Trans: A (specific/*non-specific) book was read.
+1	Biir	_	DET	_	_	_	_	_	Gloss=One
+2	kinige-ni	_	NOUN	_	Case=Acc	_	_	_	Gloss=book-acc
+3	aaq-ylyn-na	_	VERB	_	Person=3|Voice=Pass|Tense=Past	_	_	_	Gloss=read-pass-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146158 | Trans: A (specific/non-specific) book was read.
+1	Biir	_	DET	_	_	_	_	_	Gloss=One
+2	kinige	_	NOUN	_	_	_	_	_	Gloss=book
+3	aaq-ylyn-na	_	VERB	_	Person=3|Voice=Pass|Tense=Past	_	_	_	Gloss=read-pass-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146159 | Trans: 
+1	Erel	_	PROPN	_	_	_	_	_	Gloss=Erel
+2	ilii-tin	_	NOUN	_	Person=3|Case=Acc	_	_	_	Gloss=hand-3.acc
+3	suu-n-na	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=wash-refl-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146161 | Trans: 
+1	Erel	_	PROPN	_	_	_	_	_	Gloss=Erel
+2	suorat-y	_	NOUN	_	Case=Acc	_	_	_	Gloss=yoghurt-acc
+3	minnjit-in-ne	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=sweeten-refl-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146173 | Trans: Misha and Masha each defeated the other five times.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	uonna	_	CCONJ	_	_	_	_	_	Gloss=and
+3	Masha	_	PROPN	_	_	_	_	_	Gloss=Masha
+4	beje	_	PRON	_	_	_	_	_	Gloss=self
+5	beje-ler-in	_	PRON	_	Person=3|Case=Acc|Number=Plur	_	_	_	Gloss=self-pl-3.acc
+6	bieste	_	NUM	_	_	_	_	_	Gloss=five.times
+7	xot-tu-lar	_	VERB	_	Number=Plur|Tense=Past	_	_	_	Gloss=defeat-past-pl
+8	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146174 | Trans: Misha and Masha hugged each other five times.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	uonna	_	CCONJ	_	_	_	_	_	Gloss=and
+3	Masha	_	PROPN	_	_	_	_	_	Gloss=Masha
+4	beje	_	PRON	PRON	_	_	_	_	Gloss=self
+5	beje-ler-in	_	PRON	_	Person=3|Case=Acc|Number=Plur	_	_	_	Gloss=self-pl-3.acc
+6	bieste	_	NUM	_	_	_	_	_	Gloss=five.times
+7	kuus-tu-lar	_	VERB	_	Number=Plur|Tense=Past	_	_	_	Gloss=hug-past-pl
+8	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146175 | Trans: Misha and Masha pushed each other five times.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	uonna	_	CCONJ	_	_	_	_	_	Gloss=and
+3	Masha	_	PROPN	_	_	_	_	_	Gloss=Masha
+4	bieste	_	NUM	_	_	_	_	_	Gloss=five.times
+5	annjyala-s-ty-lar	_	VERB	_	Number=Plur|Tense=Past	_	_	_	Gloss=push-rec-past-pl
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146176 | Trans: Misha and Masha distracted each other five times.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	uonna	_	CCONJ	_	_	_	_	_	Gloss=and
+3	Masha	_	PROPN	_	_	_	_	_	Gloss=Masha
+4	bieste	_	NUM	_	_	_	_	_	Gloss=five.times
+5	araldjyt-ys-ty-lar	_	VERB	_	Number=Plur|Tense=Past	_	_	_	Gloss=distract-rec-past-pl
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146177 | Trans: Misha and Masha each defeated the other five times.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	uonna	_	CCONJ	_	_	_	_	_	Gloss=and
+3	Masha	_	PROPN	_	_	_	_	_	Gloss=Masha
+4	bieste	_	NUM	_	_	_	_	_	Gloss=five.times
+5	xot-us-tu-lar	_	VERB	_	Number=Plur|Tense=Past	_	_	_	Gloss=defeat-rec-past-pl
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146178 | Trans: Misha and Masha each defeated the other five times.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	uonna	_	CCONJ	_	_	_	_	_	Gloss=and
+3	Masha	_	PROPN	_	_	_	_	_	Gloss=Masha
+4	beje	_	PRON	_	_	_	_	_	Gloss=self
+5	beje-ler-in	_	PRON	_	Person=3|Case=Acc|Number=Plur	_	_	_	Gloss=self-pl-3.acc
+6	bieste	_	NUM	_	_	_	_	_	Gloss=five.times
+7	xot-us-tu-lar	_	VERB	_	Number=Plur|Tense=Past	_	_	_	Gloss=defeat-rec-past-pl
+8	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146188 | Trans: Misha and Masha each built a house for the other's parents.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	uonna	_	CCONJ	_	_	_	_	_	Gloss=and
+3	Masha	_	PROPN	_	_	_	_	_	Gloss=Masha
+4	töröppüt-ter-iger	_	NOUN	_	Person=3|Case=Dat|Number=Plur	_	_	_	Gloss=parent-pl-3.dat
+5	djie-ler-i	_	NOUN	_	Case=Acc|Number=Plur	_	_	_	Gloss=house-pl-acc
+6	tut-us-tu-lar	_	VERB	_	Number=Plur|Tense=Past	_	_	_	Gloss=build-rec-past-pl
+7	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146189 | Trans: Misha came.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	kel-le	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=come-past.3
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146191 | Trans: Ookko came with an old man.
+1	Ookko	_	PROPN	_	_	_	_	_	Gloss=Ookko
+2	oqonnjor-duun	_	NOUN	_	Case=Com	_	_	_	Gloss=old.man-comit
+3	kel-le	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=come-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146194 | Trans: Ookko came with an old man.
+1	Ookko	_	PROPN	_	_	_	_	_	Gloss=Ookko
+2	oqonnjor-duun	_	NOUN	_	Case=Com	_	_	_	Gloss=old.man-comit
+3	kel-is-te	_	VERB	_	Person=3|Case=Com|Tense=Past	_	_	_	Gloss=come-comit-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146195 | Trans: an old man with whom Ookko came
+1	Ookko	_	PROPN	_	_	_	_	_	Gloss=Ookko
+2	kel-si-bit	_	VERB	_	Case=Com|Tense=Past	_	_	_	Gloss=come-comit-past
+3	oqonnjor-o	_	NOUN	_	Person=3	_	_	_	Gloss=old.man-3
+
+# 		igt: i146196 | Trans: Misha used abusive language with Masha (Misha and Masha used
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	Masha-lyyn	_	PROPN	_	Case=Com	_	_	_	Gloss=Masha-comit
+3	üöq-üs-te	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=curse-rec-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146199 | Trans: Misha and Masha each built a house for the other's parents.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	uonna	_	CCONJ	_	_	_	_	_	Gloss=and
+3	Masha	_	PROPN	_	_	_	_	_	Gloss=Masha
+4	töröppüt-ter-iger	_	NOUN	_	Person=3|Case=Dat|Number=Plur	_	_	_	Gloss=parent-pl-3.dat
+5	djie-ler-i	_	NOUN	_	Case=Acc|Number=Plur	_	_	_	Gloss=house-pl-acc
+6	tut-us-tu-lar	_	VERB	_	Number=Plur|Tense=Past	_	_	_	Gloss=build-rec-past-pl
+7	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146201 | Trans: Misha reckoned with Masha.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	Masha-lyyn	_	PROPN	_	Case=Com	_	_	_	Gloss=Masha-comit
+3	aaq-ys-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=read-rec-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146202 | Trans: Misha and Masha read each other's books.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	uonna	_	CCONJ	_	_	_	_	_	Gloss=and
+3	Masha	_	PROPN	_	_	_	_	_	Gloss=Masha
+4	kinige-ler-in	_	NOUN	_	Person=3|Case=Acc|Number=Plur	_	_	_	Gloss=book-pl-3.acc
+5	aaq-ys-ty-lar	_	VERB	_	Number=Plur|Tense=Past	_	_	_	Gloss=read-rec-past-pl
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146203 | Trans: Misha is acquainted with Masha.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	Masha-lyyn	_	PROPN	_	Case=Com	_	_	_	Gloss=Masha-comit
+3	bil-s-er	_	VERB	_	Tense=Aor	_	_	_	Gloss=know-rec-aor
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146205 | Trans: Misha met with Masha.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	Masha-lyyn	_	PROPN	_	Case=Com	_	_	_	Gloss=Masha-comit
+3	kör-üs-te	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=see-rec-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146206 | Trans: Misha and Masha looked after each other's children.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	uonna	_	CCONJ	_	_	_	_	_	Gloss=and
+3	Masha	_	PROPN	_	_	_	_	_	Gloss=Masha
+4	oqo-lor-un	_	NOUN	_	Person=3|Case=Acc|Number=Plur	_	_	_	Gloss=child-pl-3.acc
+5	kör-üs-tü-ler	_	VERB	_	Number=Plur|Tense=Past	_	_	_	Gloss=see-rec-past-pl
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146210 | Trans: `I made the children all cry together one after another.'     (distributive)
+1	Min	_	PRON	_	_	_	_	_	Gloss=I
+2	oqolor-u	_	NOUN	_	_	_	_	_	Gloss=childrenacc
+3	yta-h-yn-nar-dy-m	_	VERB	_	Person=1|Number=Sing|Gender=Neut|Tense=Past	_	_	_	Gloss=cry-s-n-caus-past-1sg
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146211 | Trans: Misha despises Masha (taking after someone else who is the main
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	Masha-ny	_	PROPN	_	Case=Acc	_	_	_	Gloss=Masha-acc
+3	sene-h-er	_	VERB	_	Tense=Aor	_	_	_	Gloss=despise-s-aor
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146212 | Trans: Misha pushed with Masha.'                       (lexical reciprocal)
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	Masha-lyyn	_	PROPN	_	Case=Com	_	_	_	Gloss=Masha-comit
+3	annjyala-s-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=push-s-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146214 | Trans: Misha and Masha built a house for each other.'  (syntactic reciprocal)
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	uonna	_	CCONJ	_	_	_	_	_	Gloss=and
+3	Masha	_	PROPN	_	_	_	_	_	Gloss=Masha
+4	djie	_	NOUN	_	_	_	_	_	Gloss=house
+5	tut-us-tu-lar	_	VERB	_	Number=Plur|Tense=Past	_	_	_	Gloss=build-s-past-pl
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146215 | Trans: Kesha made Lusha cry.
+1	Kesha	_	PROPN	_	_	_	_	_	Gloss=Kesha
+2	Lusha-ny	_	PROPN	_	Case=Acc	_	_	_	Gloss=Lusha-acc
+3	yta-t-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=cry-caus-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146216 | Trans: Aisen made/let Sardaana reprimand Lena.
+1	Aisen	_	PROPN	_	_	_	_	_	Gloss=Aisen
+2	Sardaana-qa	_	PROPN	_	Case=Dat	_	_	_	Gloss=Sardaana-dat
+3	Lena-ny	_	PROPN	_	Case=Acc	_	_	_	Gloss=Lena-acc
+4	semele-t-te	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=reprimand-caus-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146217 | Trans: Aisen made/*let Sardaana reprimand Lena.
+1	Aisen	_	PROPN	_	_	_	_	_	Gloss=Aisen
+2	Sardaana-ny	_	PROPN	_	Case=Acc	_	_	_	Gloss=Sardaana-acc
+3	Lena-ny	_	PROPN	_	Case=Acc	_	_	_	Gloss=Lena-acc
+4	semele-t-te	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=reprimand-caus-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146218 | Trans: Aisen made/*let Sardaana reprimand Lena.
+1	Aisen	_	PROPN	_	_	_	_	_	Gloss=Aisen
+2	Sardaana-nan	_	PROPN	_	Case=Ins	_	_	_	Gloss=Sardaana-instrum
+3	Lena-ny	_	PROPN	_	Case=Acc	_	_	_	Gloss=Lena-acc
+4	semele-t-te	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=reprimand-caus-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146219 | Trans: Keskil made Aisen make Sardaana reprimand Lena.
+1	Keskil	_	PROPN	_	_	_	_	_	Gloss=Keskil
+2	Aisen-ynan	_	PROPN	_	Case=Ins	_	_	_	Gloss=Aisen-instrum
+3	Sardaana-qa	_	PROPN	_	Case=Dat	_	_	_	Gloss=Sardaana-dat
+4	Lena-ny	_	PROPN	_	Case=Acc	_	_	_	Gloss=Lena-acc
+5	semele-t-ter-de	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=reprimand-caus-caus-past.3
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146221 | Trans: Keskil made the horse walk.
+1	Keskil	_	PROPN	_	_	_	_	_	Gloss=Keskil
+2	at-y	_	NOUN	_	Case=Acc	_	_	_	Gloss=horse-acc
+3	xaam-tar-da	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=walk-caus-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146224 | Trans: Misha made Masha scold Lusha.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	Masha-ny	_	PROPN	_	Case=Acc	_	_	_	Gloss=Masha-acc
+3	Lusha-ny	_	PROPN	_	Case=Acc	_	_	_	Gloss=Lusha-acc
+4	möx-tör-dö	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=scold-caus-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146226 | Trans: Sardaana made Erel read the book.
+1	Sardaana	_	PROPN	_	_	_	_	_	Gloss=Sardaana
+2	Erel-inen	_	PROPN	_	Case=Ins	_	_	_	Gloss=Erel-instrum
+3	kinige-ni	_	NOUN	_	Case=Acc	_	_	_	Gloss=book-acc
+4	aax-tar-da	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=read-caus-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146229 | Trans: Misha made/let Masha clean up the room.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	Masha-qa	_	PROPN	_	Case=Dat	_	_	_	Gloss=Masha-dat
+3	xoh-u	_	NOUN	_	Case=Acc	_	_	_	Gloss=room-acc
+4	xomuj-tar-da	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=clean.up-caus-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146230 | Trans: Misha made/*let Masha clean up the room.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	Masha-ny	_	PROPN	_	Case=Acc	_	_	_	Gloss=Masha-acc
+3	xoh-u	_	NOUN	_	Case=Acc	_	_	_	Gloss=room-acc
+4	xomuj-tar-da	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=clean.up-caus-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146231 | Trans: I kicked Keskil's leg.
+1	Min	_	PRON	_	_	_	_	_	Gloss=I
+2	Keskil	_	PROPN	_	_	_	_	_	Gloss=Keskil
+3	ataq-yn	_	NOUN	_	Person=3|Case=Acc	_	_	_	Gloss=leg-3.acc
+4	tep-ti-m	_	VERB	_	Person=1|Number=Sing|Tense=Past	_	_	_	Gloss=kick-past-1sg
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146232 | Trans: I kicked Keskil on the leg.
+1	Min	_	PRON	_	_	_	_	_	Gloss=I
+2	Keskil-i	_	PROPN	_	Case=Acc	_	_	_	Gloss=Keskil-acc
+3	ataq-yn	_	NOUN	_	Person=3|Case=Acc	_	_	_	Gloss=leg-3.acc
+4	tep-ti-m	_	VERB	_	Person=1|Number=Sing|Tense=Past	_	_	_	Gloss=kick-past-1sg
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146249 | Trans: 
+1	Kini	_	PRON	_	_	_	_	_	Gloss=He
+2	ehigi	_	PRON	_	_	_	_	_	Gloss=you
+3	kyajtar-dy-gyt	_	VERB	_	Person=2|Number=Plur|Tense=Past	_	_	_	Gloss=become.defeated-past-2pl
+4	dien	_	VERB	_	_	_	_	_	Gloss=COMP
+5	isti-bit	_	VERB	_	Tense=Past	_	_	_	Gloss=hear-past
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146250 | Trans: 
+1	Kini	_	PRON	_	_	_	_	_	Gloss=He
+2	ehigi-ni	_	PRON	_	Case=Acc	_	_	_	Gloss=you-acc
+3	kyajtar-dy-gyt	_	VERB	_	Person=2|Number=Plur|Tense=Past	_	_	_	Gloss=become.defeated-past-2pl
+4	dien	_	VERB	_	_	_	_	_	Gloss=COMP
+5	isti-bit	_	VERB	_	Tense=Past	_	_	_	Gloss=hear-past
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146251 | Trans: He heard that you lost.
+1	Kini	_	PRON	_	_	_	_	_	Gloss=He
+2	ehigi-ni	_	PRON	_	Case=Acc	_	_	_	Gloss=you-acc
+3	kyajtar-dy-lar	_	VERB	_	Number=Plur|Tense=Past	_	_	_	Gloss=become.defeated-past-pl
+4	dien	_	VERB	_	_	_	_	_	Gloss=COMP
+5	isti-bit	_	VERB	_	Tense=Past	_	_	_	Gloss=hear-past
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146258 | Trans: The news that Aisen is not coming made Keskil sad.
+1	[Aisen	_	PROPN	_	_	_	_	_	Gloss=[Aisen
+2	kel-be-t	_	VERB	_	Polarity=Neg|Tense=Aor	_	_	_	Gloss=come-neg-aor
+3	dien]	_	VERB	_	_	_	_	_	Gloss=DIEN]
+4	sonun	_	NOUN	_	_	_	_	_	Gloss=news
+5	Keskil-i	_	PROPN	_	Case=Acc	_	_	_	Gloss=Keskil-acc
+6	xomot-to	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=make.sad-past.3
+7	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146262 | Trans: KP-DP-complement: `Keskil knows Aisen.
+1	Keskil	_	PROPN	_	_	_	_	_	Gloss=Keskil
+2	Aisen-y	_	PROPN	_	Case=Acc	_	_	_	Gloss=Aisen-acc
+3	bil-er	_	VERB	_	Tense=Aor	_	_	_	Gloss=know-aor
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146282 | Trans: Ergis put the book on the shelf.
+1	Ergis	_	PROPN	_	_	_	_	_	Gloss=Ergis
+2	kinige-ni	_	NOUN	_	Case=Acc	_	_	_	Gloss=book-acc
+3	dolbuur-ga	_	NOUN	_	Case=Dat	_	_	_	Gloss=shelf-dat
+4	uur-da	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=put-past.3
+
+# 		igt: i146283 | Trans: Misha went to the town.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	kuorat-taa-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=town-LAA-past.3
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146284 | Trans: Misha went to the town.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	kuorak-ka	_	NOUN	_	Case=Dat	_	_	_	Gloss=town-dat
+3	bar-da	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=go-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146285 | Trans: Ergis put a book/books on the shelf.
+1	Ergis	_	PROPN	_	_	_	_	_	Gloss=Ergis
+2	dolbuur-u	_	NOUN	_	Case=Acc	_	_	_	Gloss=shelf-acc
+3	kinige-lee-te	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=book-LAA-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146286 | Trans: #`It towned.
+1	#Kuorat-taa-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=Town-verb-past.3
+2	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146287 | Trans: It snowed.
+1	Xaar-daa-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=Snow-verb-past.3
+2	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146288 | Trans: Kesha went to the/a town.
+1	Kesha	_	PROPN	_	_	_	_	_	Gloss=Kesha
+2	kuorat-taa-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=town-verb-past.3
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146289 | Trans: Kesha presented Misha with a book.
+1	Kesha	_	PROPN	_	_	_	_	_	Gloss=Kesha
+2	Misha-qa	_	PROPN	_	Case=Dat	_	_	_	Gloss=Misha-dat
+3	kinige-ni	_	NOUN	_	Case=Acc	_	_	_	Gloss=book-acc
+4	belex-tee-te	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=gift-verb-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146306 | Trans: What did you do with my coat?
+1	En	_	PROPN	_	_	_	_	_	Gloss=You
+2	sommun	_	NOUN	_	Case=Acc	_	_	_	Gloss=my.coat-acc
+3	tuox-taa-ty-	_	VERB	_	Person=2|Number=Sing|Tense=Past	_	_	_	Gloss=what-LAA-past-2sg
+4	?	?	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146307 | Trans: Where did Mende go?
+1	Mende	_	PROPN	_	_	_	_	_	Gloss=Mende
+2	xanna-laa-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=where-LAA-past.3
+3	?	?	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146308 | Trans: How much of your work have you finished?
+1	Üleqin	_	NOUN	_	Case=Acc	_	_	_	Gloss=Your.work-acc
+2	töhö-löö-tü-	_	ADV	_	Person=2|Number=Sing|Tense=Past	_	_	_	Gloss=how.much-LAA-past-2sg
+3	?	?	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146311 | Trans: Misha cleared the courtyard from the snow.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	telgehe-ni	_	NOUN	_	Case=Acc	_	_	_	Gloss=courtyard-acc
+3	xaar-daa-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=snow-verb-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146312 | Trans: Father gave the child a whip' (provide with N)
+1	Aqa	_	NOUN	_	_	_	_	_	Gloss=Father
+2	oqo-nu	_	NOUN	_	Case=Acc	_	_	_	Gloss=child-acc
+3	kymnjyy-laa-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=whip-verb-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146313 | Trans: Father gave the children long whips' (provide with N)
+1	Aqa	_	NOUN	_	_	_	_	_	Gloss=Father
+2	oqo-lor-u	_	NOUN	_	Case=Acc|Number=Plur	_	_	_	Gloss=child-pl-acc
+3	uhun	_	ADJ	_	_	_	_	_	Gloss=long
+4	kymnjyy-lar-daa-ta	_	NOUN	_	Person=3|Number=Plur|Tense=Past	_	_	_	Gloss=whip-pl-verb-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146314 | Trans: Sargy gave Mende coins.
+1	Sargy	_	PROPN	_	_	_	_	_	Gloss=Sargy
+2	Mende-ni	_	PROPN	_	Case=Acc	_	_	_	Gloss=Mende-acc
+3	timir	_	NOUN	_	_	_	_	_	Gloss=iron
+4	xarcy-laa-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=money-verb-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146315 | Trans: Sargy gave the children red, yellow, blue/green balloons.
+1	Sargy	_	PROPN	_	_	_	_	_	Gloss=Sargy
+2	oqo-lor-u	_	NOUN	_	Case=Acc|Number=Plur	_	_	_	Gloss=child-pl-acc
+3	kyhyl	_	ADJ	_	_	_	_	_	Gloss=red,
+4	,	,	PUNCT	_	_	_	punct	_	_
+5	saharxaj	_	ADJ	_	_	_	_	_	Gloss=yellow,
+6	,	,	PUNCT	_	_	_	punct	_	_
+7	küöx	_	ADJ	_	_	_	_	_	Gloss=blue/green
+8	sharik-tar-daa-ta	_	VERB	_	Person=3|Number=Plur|Tense=Past	_	_	_	Gloss=balloon-pl-verb-past.3
+9	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146318 | Trans: Mende removed the dirty skin.
+1	Mende	_	PROPN	_	_	_	_	_	Gloss=Mende
+2	kirdeex	_	ADJ	_	_	_	_	_	Gloss=dirty
+3	xaq-y	_	NOUN	_	Case=Acc	_	_	_	Gloss=skin-acc
+4	xax-taa-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=skin-verb-past.3
+
+# 		igt: i146321 | Trans: Sardaana babysitted Misha.
+1	Sardaana	_	PROPN	_	_	_	_	_	Gloss=Sardaana
+2	Misha-ny	_	PROPN	_	Case=Acc	_	_	_	Gloss=Misha-acc
+3	oqo-loo-to	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=child-verb-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146324 | Trans: Ookko smoked imported tobacco.
+1	Ookko	_	PROPN	_	_	_	_	_	Gloss=Ookko
+2	omuk	_	ADJ	_	_	_	_	_	Gloss=foreign
+3	tabaq-yn	_	NOUN	_	Person=3|Case=Acc	_	_	_	Gloss=tobacco-3.acc
+4	tabax-taa-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=tobacco-verb-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146327 | Trans: Mende went to a southern country.
+1	Mende	_	PROPN	_	_	_	_	_	Gloss=Mende
+2	soquruu	_	ADJ	_	_	_	_	_	Gloss=southern
+3	dojdu-laa-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=country-verb-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146328 | Trans: The hen laid a large egg.
+1	Kuurussa	_	NOUN	_	_	_	_	_	Gloss=Hen
+2	ulaxan	_	ADJ	_	_	_	_	_	Gloss=big
+3	symyyt-y	_	NOUN	_	Case=Acc	_	_	_	Gloss=egg-acc
+4	symyyt-taa-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=egg-verb-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146329 | Trans: The hen laid a golden egg/eggs.
+1	Kuurussa	_	NOUN	_	_	_	_	_	Gloss=Hen
+2	kyhyl	_	ADJ	_	_	_	_	_	Gloss=red
+3	kömüs	_	ADJ	_	_	_	_	_	Gloss=gold
+4	symyyt-taa-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=egg-verb-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146331 | Trans: The mare gave birth to a deficient foal.
+1	Bie	_	NOUN	_	_	_	_	_	Gloss=Mare
+2	kulun-naa-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=foal-verb-past.3
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146346 | Trans: Kesha killed mosquitoes around/on Misha
+1	Kesha	_	PROPN	_	_	_	_	_	Gloss=Kesha
+2	Mishany	_	PROPN	_	Case=Acc	_	_	_	Gloss=Misha-acc
+3	byrdax-taa-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=mosquito-verb-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146347 | Trans: Kesha killed mosquitoes around/on himself.
+1	Kesha	_	PROPN	_	_	_	_	_	Gloss=Kesha
+2	beje-tin	_	PRON	_	Person=3|Case=Acc	_	_	_	Gloss=self-3.acc
+3	byrdax-taa-ta	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=mosquito-verb-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146349 | Trans: Kesha nursed (babysitted, pampered) Misha.
+1	Kesha	_	PROPN	_	_	_	_	_	Gloss=Kesha
+2	Misha-ny	_	PROPN	_	Case=Acc	_	_	_	Gloss=Misha-acc
+3	oqo-loo-to	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=child-verb-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146350 | Trans: Kesha pampered himself.
+1	Kesha	_	PROPN	_	_	_	_	_	Gloss=Kesha
+2	beje-tin	_	PRON	_	Person=3|Case=Acc	_	_	_	Gloss=self-3.acc
+3	oqo-loo-to	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=child-verb-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146351 | Trans: *'Kesha pampered himself.
+1	Kesha	_	PROPN	_	_	_	_	_	Gloss=Kesha
+2	oqo-lo-n-no	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=child-verb-refl-past.3
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146353 | Trans: Misha salted his soup.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	miin-in	_	NOUN	_	Person=3|Case=Acc	_	_	_	Gloss=soup-3.acc
+3	tuus-ta-n-na	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=salt-verb-refl-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146354 | Trans: Misha put patches on (mended) his clothes.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	taah-yn	_	NOUN	_	Person=3|Case=Acc	_	_	_	Gloss=clothes-3.acc
+3	abyrax-ta-n-na	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=patch-verb-refl-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146356 | Trans: Misha cured his wound.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	baah-yn	_	NOUN	_	Person=3|Case=Acc	_	_	_	Gloss=wound-3.acc
+3	em-te-n-ne	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=medicine-verb-refl-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146357 | Trans: Misha killed mosquitoes on his leg.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	ataq-yn	_	NOUN	_	Person=3|Case=Acc	_	_	_	Gloss=leg-3.acc
+3	byrdax-ta-n-na	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=mosquito-verb-refl-past.3
+
+# 		igt: i146358 | Trans: Misha removed snow from himself.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	beje-tin	_	PRON	_	Person=3|Case=Acc	_	_	_	Gloss=self-3.acc
+3	xaar-da-n-na	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=snow-verb-refl-past.3
+
+# 		igt: i146361 | Trans: *'Kesha pampered himself.
+1	Kesha	_	PROPN	_	_	_	_	_	Gloss=Kesha
+2	oqo-lo-n-no	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=child-verb-refl-past.3
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146364 | Trans: Life made Misha come to his senses.
+1	Olox	_	NOUN	_	_	_	_	_	Gloss=Life
+2	Misha-ny	_	PROPN	_	Case=Acc	_	_	_	Gloss=Misha-acc
+3	öj-dö-n-nör-dö	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=intelligence-verb-refl-caus-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146366 | Trans: Poverty made Misha work.
+1	Kyhalqa	_	NOUN	_	_	_	_	_	Gloss=Need
+2	Misha-ny	_	PROPN	_	Case=Acc	_	_	_	Gloss=Misha-acc
+3	üle-le-t-te	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=work-verb-caus-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146367 | Trans: Ice prevented from fishing.
+1	Muus	_	NOUN	_	_	_	_	_	Gloss=Ice
+2	balyk-ta-p-pa-ta	_	VERB	_	Person=3|Polarity=Neg|Tense=Past	_	_	_	Gloss=fish-verb-caus-neg-past.3
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146368 | Trans: Cinema helps understand life.
+1	Kiine	_	NOUN	_	_	_	_	_	Gloss=Cinema
+2	oloq-u	_	NOUN	_	Case=Acc	_	_	_	Gloss=life-acc
+3	öj-dö-t-ör	_	VERB	_	Tense=Aor	_	_	_	Gloss=intelligence-verb-caus-aor
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146369 | Trans: Misha and Masha understand each other.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	uonna	_	CCONJ	_	_	_	_	_	Gloss=and
+3	Masha	_	PROPN	_	_	_	_	_	Gloss=Masha
+4	beje	_	PRON	_	_	_	_	_	Gloss=self
+5	beje-ler-in	_	PRON	_	Person=3|Case=Acc|Number=Plur	_	_	_	Gloss=self-pl-3.acc
+6	öj-dö-h-öl-lör	_	VERB	_	Voice=Rcp|Number=Plur|Tense=Aor	_	_	_	Gloss=intelligence-verb-rec-aor-pl
+7	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146370 | Trans: Misha and Masha salted each other's soup.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	uonna	_	CCONJ	_	_	_	_	_	Gloss=and
+3	Masha	_	PROPN	_	_	_	_	_	Gloss=Masha
+4	miin-ner-in	_	NOUN	_	Person=3|Case=Acc|Number=Plur	_	_	_	Gloss=soup-pl-3.acc
+5	tuus-ta-s-ty-lar	_	VERB	_	Voice=Rcp|Number=Plur|Tense=Past	_	_	_	Gloss=salt-verb-rec-past-pl
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146371 | Trans: Misha and Masha made pancakes for each other's children.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	uonna	_	CCONJ	_	_	_	_	_	Gloss=and
+3	Masha	_	PROPN	_	_	_	_	_	Gloss=Masha
+4	oqo-lor-ugar	_	NOUN	_	Person=3|Case=Dat|Number=Plur	_	_	_	Gloss=child-pl-3.dat
+5	alaadjy-la-s-ty-lar	_	VERB	_	Voice=Rcp|Number=Plur|Tense=Past	_	_	_	Gloss=pancake-verb-rec-past-pl
+6	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146374 | Trans: Misha became annoyed.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	aba-tyj-da	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=bitterness-verb-past.3
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146375 | Trans: Greed turned into bitterness.
+1	Ise	_	NOUN	_	_	_	_	_	Gloss=Greed
+2	aba-tyj-da	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=bitterness-verb-past.3
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146376 | Trans: Misha is pretentiously behaving like a wise old man.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	myndyr	_	ADJ	_	_	_	_	_	Gloss=wise
+3	oqonnjor-suj-ar	_	VERB	_	Tense=Aor	_	_	_	Gloss=old.man-verb-aor
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146377 | Trans: The wound is exuding bad pus.
+1	Baas	_	NOUN	_	_	_	_	_	Gloss=wound
+2	kuhaqan	_	ADJ	_	_	_	_	_	Gloss=bad
+3	irie-tij-bit	_	VERB	_	Tense=Past	_	_	_	Gloss=pus-verb-past
+
+# 		igt: i146378 | Trans: Though a grown-up adult, Misha became like a small child.
+1	Ulaxan	_	ADJ	_	_	_	_	_	Gloss=Big
+2	kihi	_	NOUN	_	_	_	_	_	Gloss=person
+3	er-eeri	_	AUX	_	VerbForm=Ger	_	_	_	Gloss=aux-ger
+4	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+5	kyra	_	ADJ	_	_	_	_	_	Gloss=small
+6	oqo-tuj-but	_	VERB	_	Tense=Past	_	_	_	Gloss=child-verb-past
+7	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146379 | Trans: The iron casserole became rusty.
+1	Timir	_	NOUN	_	_	_	_	_	Gloss=Iron
+2	ihit	_	NOUN	_	_	_	_	_	Gloss=casserole
+3	djebin-nij-bit	_	VERB	_	Tense=Past	_	_	_	Gloss=rust-verb-past
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146380 | Trans: The iron casserole became covered with red rust.
+1	Timir	_	NOUN	_	_	_	_	_	Gloss=Iron
+2	ihit	_	NOUN	_	_	_	_	_	Gloss=casserole
+3	kyhyl	_	ADJ	_	_	_	_	_	Gloss=red
+4	djebin-nij-bit	_	VERB	_	Tense=Past	_	_	_	Gloss=rust-verb-past
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146381 | Trans: Misha behaves like a dear guest at Lena's place.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	Lena-laax-xa	_	PROPN	_	Case=Dat	_	_	_	Gloss=Lena-assoc-dat
+3	maany	_	ADJ	_	_	_	_	_	Gloss=dear
+4	yaldjyt-ymsyj-ar	_	VERB	_	Tense=Aor	_	_	_	Gloss=guest-verb-aor
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146382 | Trans: Misha behaves like a big cheese towards the children.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	üöreneecci-ler-ge	_	NOUN	_	Case=Dat|Number=Plur	_	_	_	Gloss=pupil-pl-dat
+3	ulaxan	_	ADJ	_	_	_	_	_	Gloss=big
+4	tojo-msuj-ar	_	VERB	_	Tense=Aor	_	_	_	Gloss=boss-verb-aor
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146383 | Trans: Stop acting naïve (like a stupid calf)!
+1	Akaary	_	ADJ	_	_	_	_	_	Gloss=Stupid
+2	njire-msij-ime	_	VERB	_	Polarity=Neg	_	_	_	Gloss=calf-verb-neg
+3	!	!	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146384 | Trans: 
+1	Bihigi	_	PRON	_	_	_	_	_	Gloss=We
+2	uhun	_	ADJ	_	_	_	_	_	Gloss=long
+3	suol-u	_	NOUN	_	Case=Acc	_	_	_	Gloss=road-acc
+4	xaam-ty-byt	_	VERB	_	Person=1|Number=Plur|Tense=Past	_	_	_	Gloss=walk-past-1pl
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146385 | Trans: 
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	ikki	_	NUM	_	_	_	_	_	Gloss=two
+3	kilometr-y	_	NOUN	_	Case=Acc	_	_	_	Gloss=kilometer-acc
+4	süür-de	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=run-past.3
+5	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146386 | Trans: 
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	Masha-ny	_	NOUN	_	Case=Acc	_	_	_	Gloss=Masha-acc
+3	kül-le	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=laugh-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146387 | Trans: 
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	yrya-ny	_	NOUN	_	Case=Acc	_	_	_	Gloss=song-acc
+3	ihiir-de	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=whistle-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146403 | Trans: `Misha ran over a small surface.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	süür-eke-lee-te	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=run-dimin-verb-past.3
+3	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146404 | Trans: `Misha ran over a small field.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	xonuu-nu	_	NOUN	_	Case=Acc	_	_	_	Gloss=field-acc
+3	süür-eke-lee-te	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=run-dimin-verb-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
+# 		igt: i146405 | Trans: Misha ran around a small field in short bouts.
+1	Misha	_	PROPN	_	_	_	_	_	Gloss=Misha
+2	xonuu-ka-ny	_	NOUN	_	Case=Acc	_	_	_	Gloss=field-dimin-acc
+3	süür-eke-lee-te	_	VERB	_	Person=3|Tense=Past	_	_	_	Gloss=run-dimin-verb-past.3
+4	.	.	PUNCT	_	_	_	punct	_	_
+
