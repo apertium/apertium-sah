@@ -14,6 +14,7 @@
 /configure.ac -text
 dev/Makefile -text
 dev/countstems.sh -text
+dev/sah.lat-cyrl.freq -text
 dev/sah.lat-cyrl.lexc -text
 dev/sah.lat-cyrl.twol -text
 /modes.xml -text

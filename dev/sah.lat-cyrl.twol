@@ -1,7 +1,7 @@
 Alphabet
 
 ü:ү ö:ө ï:ы y:ы x:х v:в u:у t:т s:с r:р q:к p:п o:о n:н m:м l:л k:к j:й 
-i:и h:х g:г f:ф e:э d:д c:ц b:б a:а š:ш h:һ g:ҕ
+i:и h:х g:г f:ф e:э d:д c:ц b:б a:а š:ш h:һ g:ҕ č:ч 
 
 %-:0
 %=:0
@@ -15,6 +15,14 @@ Vow = ü ö ï y o u e a i ;
 
 Rules
 
-"Delete following 'h'"
-h:0 <=> s: _ ;
+"Delete 'h' in ш, ч"
+h:0 <=> [ :х | :ш | :ч ] _ ;
 
+"Nasal ҥ (1)"
+g:0 <=> :ҥ _ ; 
+
+"Nasal ҥ (2)"
+n:ҥ <=> _ g: ; 
+
+"softsign after n/d"
+j:ь <=> [ :д | :н ] _ ;
