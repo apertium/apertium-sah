@@ -12,7 +12,10 @@
 /apertium-sah.sah.twol -text
 /autogen.sh -text
 /configure.ac -text
+dev/Makefile -text
 dev/countstems.sh -text
+dev/sah.lat-cyrl.lexc -text
+dev/sah.lat-cyrl.twol -text
 /modes.xml -text
 /sah.prob -text svneol=unset#unset
 tests/aorist.yaml -text

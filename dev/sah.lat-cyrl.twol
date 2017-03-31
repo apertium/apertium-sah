@@ -1,0 +1,20 @@
+Alphabet
+
+ü:ү ö:ө ï:ы y:ы x:х v:в u:у t:т s:с r:р q:к p:п o:о n:н m:м l:л k:к j:й 
+i:и h:х g:г f:ф e:э d:д c:ц b:б a:а š:ш h:һ g:ҕ
+
+%-:0
+%=:0
+
+
+; 
+
+Sets 
+
+Vow = ü ö ï y o u e a i ;
+
+Rules
+
+"Delete following 'h'"
+h:0 <=> s: _ ;
+
