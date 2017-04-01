@@ -1,11 +1,13 @@
 Alphabet
 
-ü:ү ö:ө ï:ы y:ы x:х v:в u:у t:т s:с r:р q:к p:п o:о n:н m:м l:л k:к j:й 
-i:и h:х g:г f:ф e:э d:д c:ц b:б a:а š:ш h:һ g:ҕ č:ч 
+ a:а b:б c:ц č:ч d:д e:э e:е f:ф h:х h:һ i:и ï:ы j:й l:л m:м n:н o:о ö:ө p:п r:р s:с š:ш t:т u:у ü:ү v:в x:х y:ы 
+
+ g:г g:ҕ
+ k:к k:ҕ
+ q:к q:ҕ q:х
 
 %-:0
 %=:0
-
 
 ; 
 
@@ -13,10 +15,20 @@ Sets
 
 Vow = ü ö ï y o u e a i ;
 
+CyrlVow = а э и о у ы ү ө ;
+
 Rules
 
 "Delete 'h' in ш, ч"
 h:0 <=> [ :х | :ш | :ч ] _ ;
+
+"Fricatives"
+Cx:Cy <=> _ h: ;
+   where Cx in ( s k c )
+         Cy in ( ш х ч ) 
+   matched ; 
+
+!@ k:х h:0 a:а a:а m:м a:а q:к y:ы t:т
 
 "Nasal ҥ (1)"
 g:0 <=> :ҥ _ ; 
@@ -26,3 +38,22 @@ n:ҥ <=> _ g: ;
 
 "softsign after n/d"
 j:ь <=> [ :д | :н ] _ ;
+
+"enforce к after к"
+k:к <= k: _ \h: ; 
+
+"enforce к after к (II)"
+k:к <= _ k: \h: ; 
+
+"enforce э after э"
+e:э <= e: _  ; 
+
+"enforce э after э (II)"
+e:э <= _ e:  ; 
+
+
+"k is к before т"
+k:к <= _ :т ; 
+
+"i is й after vowel"
+i:й <=> :CyrlVow _ ;

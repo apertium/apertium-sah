@@ -50,12 +50,12 @@ d:d AlphaLoop "weight: 10.0" ;
 c:c AlphaLoop "weight: 10.0" ; 
 b:b AlphaLoop "weight: 10.0" ; 
 a:a AlphaLoop "weight: 10.0" ; 
-kh:x AlphaLoop "weight: 10.0" ;
-kh:kh AlphaLoop "weight: 10.0" ;
-sh:š AlphaLoop "weight: 10.0" ;
-sh:sh AlphaLoop "weight: 10.0" ;
-ch:ch AlphaLoop "weight: 10.0" ;
-ch:č AlphaLoop "weight: 10.0" ;
+!kh:x AlphaLoop "weight: 10.0" ;
+!kh:kh AlphaLoop "weight: 10.0" ;
+!sh:š AlphaLoop "weight: 10.0" ;
+!sh:sh AlphaLoop "weight: 10.0" ;
+!ch:č AlphaLoop "weight: 10.0" ;
+!ch:ch AlphaLoop "weight: 10.0" ;
 %]:0 AlphaLoop "weight: 10.0" ; 
 %[:0 AlphaLoop "weight: 10.0" ; 
 
