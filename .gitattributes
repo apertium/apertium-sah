@@ -26,3 +26,8 @@ tests/necessitative.yaml -text
 tests/possessives.yaml -text
 tests/russian.yaml -text
 texts/puupankki/puupankki.sah.conllu -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
