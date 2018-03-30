@@ -205,15 +205,15 @@ LEXICON CASES-NOM
 
 %<nom%>: # ; 
 
-LEXICON POSS-JNW
-
-CASES-ETC ;
-%<px1sg%>:%>%{i%}%{М%}%{ы%} CASES-NOM ;
-%<px2sg%>:%>%{i%}%{Ҥ%} CASES-NOM ;
-%<px3sp%>:%>%{t%}%{A%} CASES-NOM ;
-%<px1pl%>:%>%{B%}%{I%}т%{ы%} CASES-NOM ;
-%<px2pl%>:%>%{G%}%{I%}т%{ы%} CASES-NOM ;
-%<px3pl%>:%>%{L%}%{A%}р%{ы%} CASES-ETC ;
+!LEXICON POSS-JNW
+!
+!CASES-ETC ;
+!%<px1sg%>:%>%{i%}%{М%}%{ы%} CASES-NOM ;
+!%<px2sg%>:%>%{i%}%{Ҥ%} CASES-NOM ;
+!%<px3sp%>:%>%{t%}%{A%} CASES-NOM ;
+!%<px1pl%>:%>%{B%}%{I%}т%{ы%} CASES-NOM ;
+!%<px2pl%>:%>%{G%}%{I%}т%{ы%} CASES-NOM ;
+!%<px3pl%>:%>%{L%}%{A%}р%{ы%} CASES-ETC ;
 
 LEXICON POSS-OBL
 
@@ -497,14 +497,14 @@ LEXICON PRON-KINILER
 
 LEXICON PRON-DEM-BU-COMMON
 
-бу%<prn%>%<dem%>%<sg%>%<dat%>:маныаха # ;
-бу%<prn%>%<dem%>%<sg%>%<acc%>:маны # ;
-бу%<prn%>%<dem%>%<sg%>%<abl%>:мантан # ;
-бу%<prn%>%<dem%>%<sg%>%<ins%>:манан # ;
-бу%<prn%>%<dem%>%<sg%>%<com%>:манныын # ;
-бу%<prn%>%<dem%>%<sg%>%<comp%>:маннааҕар # ;
+бу%<prn%>%<dem%>%<dat%>:маныаха # ;
+бу%<prn%>%<dem%>%<acc%>:маны # ;
+бу%<prn%>%<dem%>%<abl%>:мантан # ;
+бу%<prn%>%<dem%>%<ins%>:манан # ;
+бу%<prn%>%<dem%>%<com%>:манныын # ;
+бу%<prn%>%<dem%>%<comp%>:маннааҕар # ;
 
-бу%<prn%>%<dem%>%<sg%>%<loc%>:манна # ; ! FIXME: is this an adverb ?
+бу%<prn%>%<dem%>%<loc%>:манна # ; ! FIXME: is this an adverb ?
 
 бу%<prn%>%<dem%>%<pl%>%<nom%>:ба%>лар # ;
 бу%<prn%>%<dem%>%<pl%>%<dat%>:ба%>ларга # ;
@@ -517,23 +517,23 @@ LEXICON PRON-DEM-BU-COMMON
 LEXICON PRON-DEM-BU
 
 PRON-DEM-BU-COMMON ;
-бу%<prn%>%<dem%>%<sg%>%<nom%>:бу # ;
+бу%<prn%>%<dem%>%<nom%>:бу # ;
 
 LEXICON PRON-DEM-SUBU
 
 су:са PRON-DEM-BU-COMMON ;
-субу%<prn%>%<dem%>%<sg%>%<nom%>:субу # ;
+субу%<prn%>%<dem%>%<nom%>:субу # ;
 
 LEXICON PRON-DEM-OL-COMMON
 
-%<prn%>%<dem%>%<sg%>%<nom%>:л # ;
-%<prn%>%<dem%>%<sg%>%<dat%>:нуоха # ;
-%<prn%>%<dem%>%<sg%>%<acc%>:ну # ;
-%<prn%>%<dem%>%<sg%>%<abl%>:нтон # ;
-%<prn%>%<dem%>%<sg%>%<com%>:ннуун # ;
-%<prn%>%<dem%>%<sg%>%<comp%>:оннооҕор # ;
+%<prn%>%<dem%>%<nom%>:л # ;
+%<prn%>%<dem%>%<dat%>:нуоха # ;
+%<prn%>%<dem%>%<acc%>:ну # ;
+%<prn%>%<dem%>%<abl%>:нтон # ;
+%<prn%>%<dem%>%<com%>:ннуун # ;
+%<prn%>%<dem%>%<comp%>:оннооҕор # ;
 
-%<prn%>%<dem%>%<sg%>%<loc%>:нно # ; ! FIXME: is this an adverb?
+%<prn%>%<dem%>%<loc%>:нно # ; ! FIXME: is this an adverb?
 
 %<prn%>%<dem%>%<pl%>%<nom%>:лор # ;
 %<prn%>%<dem%>%<pl%>%<dat%>:лорго # ;
@@ -555,15 +555,15 @@ PRON-DEM-OL-COMMON ;
 
 LEXICON PRON-DEM-ITI
 
-%<prn%>%<dem%>%<sg%>%<nom%>: # ;
-%<prn%>%<dem%>%<sg%>%<dat%>:%>ниэхэ # ;
-%<prn%>%<dem%>%<sg%>%<acc%>:%>ни # ;
-%<prn%>%<dem%>%<sg%>%<abl%>:%>нтэн # ;
-%<prn%>%<dem%>%<sg%>%<ins%>:%>нэн # ;
-%<prn%>%<dem%>%<sg%>%<com%>:%>нниин # ;
-%<prn%>%<dem%>%<sg%>%<comp%>:%>ннээҕэр # ;
+%<prn%>%<dem%>%<nom%>: # ;
+%<prn%>%<dem%>%<dat%>:%>ниэхэ # ;
+%<prn%>%<dem%>%<acc%>:%>ни # ;
+%<prn%>%<dem%>%<abl%>:%>нтэн # ;
+%<prn%>%<dem%>%<ins%>:%>нэн # ;
+%<prn%>%<dem%>%<com%>:%>нниин # ;
+%<prn%>%<dem%>%<comp%>:%>ннээҕэр # ;
 
-%<prn%>%<dem%>%<sg%>%<loc%>:%>ннэ # ; ! FIXME: is this an adverb ?
+%<prn%>%<dem%>%<loc%>:%>ннэ # ; ! FIXME: is this an adverb ?
 
 %<prn%>%<dem%>%<pl%>%<nom%>:%>лэр # ;
 %<prn%>%<dem%>%<pl%>%<dat%>:%>лэр%>гэ # ;
@@ -688,6 +688,8 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 LEXICON V-COMMON
 
 V-FINITE-REGULAR_NEGATIVE ;
+%<neg%>:%>%{B%}%{A%} V-FINITE-REGULAR_NEGATIVE ;
+
 
 V-FINITE-IRREGULAR_NEGATIVE ;
 
@@ -789,8 +791,10 @@ LEXICON Conjunctions
 биитэр:биитэр CC ; ! "или"
 
 даҕаны:даҕаны CC ; ! "both... and ..."
+ол% гынан:ол% гынан CC ; ! "" ! Use/MT ! Dir/RL
 
 эбит:эбит CA ; ! "если"
+
 
 LEXICON Postpositions
 ! FIXME: These should all be checked for compositionality
@@ -5036,8 +5040,9 @@ LEXICON Adverbs
 
 LEXICON Verbs
 
-! сыт:сыт V-AUX ; ! "do something for a moment"
 эр:эр V-AUX ; ! ""
+сыт:сыт V-AUX ; ! "do something for a moment"
+эт:эт V-AUX ; ! ""
 
 буол:буол V-IV ; ! "быть"
 сылдьы:сылдьы V-IV ; ! "быть"
