@@ -930,6 +930,7 @@ XXI:XXI NUM-ROMAN ; ! ""
 LEXICON Nouns 
 
 уст:уст N1 ; ! ""
+!анна:анна N1 ; ! ""
 туһ:туһ N1 ; ! ""
 атт:атт N1 ; ! "" ! FIXME
 орто:орто N1 ; ! "middle"
