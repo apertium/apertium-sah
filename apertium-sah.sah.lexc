@@ -586,6 +586,19 @@ LEXICON PRON-ITG-TUOH
 !%<prn%>%<itg%>%<com%>: # ; 
 !%<prn%>%<itg%>%<comp%>: # ; 
 
+LEXICON PRON-NEG-TUOH_DA
+! FIXME: imcomplete paradigm
+
+%<prn%>%<neg%>%<nom%>:ох% да # ; 
+%<prn%>%<neg%>%<dat%>:охха% да # ; 
+%<prn%>%<neg%>%<acc%>:гу% да # ; 
+%<prn%>%<neg%>%<abl%>:охтан% да # ; 
+!%<prn%>%<neg%>%<ins%>:% да # ; 
+!%<prn%>%<neg%>%<com%>:% да # ; 
+!%<prn%>%<neg%>%<comp%>:% да # ; 
+
+
+
 LEXICON PRON-ITG 
 
 %<prn%>%<itg%>: FULL-NOMINAL-INFLECTION ;
@@ -839,6 +852,8 @@ PRON-DEM-SUBU ; ! ""
 ким:ким PRON-ITG ; ! ""
 туох:ту PRON-ITG-TUOH ; ! ""
 төһө:төһө PRON-ITG ; ! "" FIXME: check
+
+туох% да:ту PRON-NEG-TUOH_DA ; ! ""
 
 LEXICON Determiners
 
