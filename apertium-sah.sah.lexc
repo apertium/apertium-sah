@@ -576,26 +576,24 @@ LEXICON PRON-DEM-ITI
 %<prn%>%<dem%>%<pl%>%<comp%>:%>лэр%>дээҕэр # ;
 
 LEXICON PRON-ITG-TUOH
-! FIXME: imcomplete paradigm
 
 %<prn%>%<itg%>%<nom%>:ох # ; 
 %<prn%>%<itg%>%<dat%>:охха # ; 
 %<prn%>%<itg%>%<acc%>:гу # ; 
 %<prn%>%<itg%>%<abl%>:охтан # ; 
-!%<prn%>%<itg%>%<ins%>: # ; 
-!%<prn%>%<itg%>%<com%>: # ; 
-!%<prn%>%<itg%>%<comp%>: # ; 
+%<prn%>%<itg%>%<ins%>:гунан # ; 
+%<prn%>%<itg%>%<com%>:охтуун # ; 
+%<prn%>%<itg%>%<comp%>:охтааҕар # ; 
 
 LEXICON PRON-NEG-TUOH_DA
-! FIXME: imcomplete paradigm
 
 %<prn%>%<neg%>%<nom%>:ох% да # ; 
 %<prn%>%<neg%>%<dat%>:охха% да # ; 
 %<prn%>%<neg%>%<acc%>:гу% да # ; 
 %<prn%>%<neg%>%<abl%>:охтан% да # ; 
-!%<prn%>%<neg%>%<ins%>:% да # ; 
-!%<prn%>%<neg%>%<com%>:% да # ; 
-!%<prn%>%<neg%>%<comp%>:% да # ; 
+%<prn%>%<neg%>%<ins%>:гунан% да # ; 
+%<prn%>%<neg%>%<com%>:охтуун% да # ; 
+%<prn%>%<neg%>%<comp%>:охтааҕар% да # ; 
 
 
 
