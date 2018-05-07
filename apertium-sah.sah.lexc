@@ -827,6 +827,12 @@ LEXICON Postpositions
 өттүгэр:өттүгэр POST ; ! ""
 тэҥэ:тэҥэ POST ; ! "как"
 
+атын:атын POST ; ! "кроме, besides, except"
+ураты:ураты POST ; ! "кроме, besides, except"
+быһыытынан:быһыытынан POST ; ! "согласно, по; according to; в качестве; as"
+туһунан:туһунан POST ; ! "про; about"
+уҥуор:уҥуор POST ; ! "по ту сторону: на противоположной стороне"
+
 
 LEXICON Pronouns
 
@@ -3571,6 +3577,8 @@ yy:yy N1 ; ! "вода"
 күн-дьыл:күн-дьыл N1 ; ! "weather"
 таһырдьа:таһырдьа N1 ; ! "garden, street; outside"
 
+туһа:туһа N1 ; ! "польза; benefit"
+
 LEXICON ProperNouns
 
 Михаил:Михаил NP-ANT-M ; ! ""
@@ -4983,6 +4991,8 @@ LEXICON Adjectives
 хотугу:хотугу A4 ; ! "northern, north"
 
 дьэҥкэ:дьэҥкэ A4 ; ! "ясный, отчётливый, логичный, убедительный; clear"
+атын:атын A4 ; ! "другой; other, another, different"
+саҥа:саҥа A4 ; ! "новый; new"
 
 LEXICON Adverbs 
 
@@ -5066,6 +5076,11 @@ LEXICON Adverbs
 биллэн% турар:биллэн% турар ADV ; ! "" ! Use/MT ! Dir/RL
 ол% иһин:ол% иһин ADV ; ! "" ! Use/MT ! Dir/RL
 түргэнник:түргэнник ADV ; ! "быстро; fastly"
+
+итиитик:итиитик ADV ; ! "горячо; hotly"
+сылаастык:сылаастык ADV ; ! "тепло; warmly"
+ичигэстик:ичигэстик ADV ; ! "тепло; warmly"
+ордук:ордук ADV ; ! "особенно, especially"
 
 LEXICON Verbs
 
