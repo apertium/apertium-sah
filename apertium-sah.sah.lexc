@@ -3578,6 +3578,7 @@ yy:yy N1 ; ! "вода"
 таһырдьа:таһырдьа N1 ; ! "garden, street; outside"
 
 туһа:туһа N1 ; ! "польза; benefit"
+оҥоруу:оҥоруу N1; ! "сири оҥоруу - возделывание земли; эти оҥоруу - производство мяса"
 
 LEXICON ProperNouns
 
@@ -4198,6 +4199,8 @@ Ypyмэччи:Ypyмэччи NP-ANT-F ; ! ""
 Ленин:Ленин NP-COG-IN ; ! ""
 Сталин:Сталин NP-COG-IN ; ! ""
 Путин:Путин NP-COG-IN ; ! ""
+
+Каженкин:Каженкин NP-COG-IN ; ! ""
 
 Ойуунускай:Ойуунускай NP-COG-M ; ! ""
 
@@ -5081,6 +5084,8 @@ LEXICON Adverbs
 сылаастык:сылаастык ADV ; ! "тепло; warmly"
 ичигэстик:ичигэстик ADV ; ! "тепло; warmly"
 ордук:ордук ADV ; ! "особенно, especially"
+салгыы:салгыы ADV ; ! "последовательно, дальше; consistently, next"
+элбэхтик:элбэхтик ADV ; ! "много; a lot"
 
 LEXICON Verbs
 
@@ -5238,7 +5243,7 @@ LEXICON Verbs
 туур:туур V-TV ; ! "handle, heft;  pull out"
 умай:умай V-IV ; ! "burn"
 !уй:уй V-XV ; ! "support, support the weight of"
-!улаат:улаат V-XV ; ! "grow"
+улаат:улаат V-IV ; ! "расти; to grow"
 умай:умай V-IV ; ! "burn;"
 умат:умат V-TV ; ! "make/cause burn" ! Mor/Caus
 уҥ:уҥ V-IV ; ! "faint"
@@ -5405,6 +5410,11 @@ LEXICON Verbs
 сөбүлээ:сөбүлээ V-TV ; ! "нравится; to like"
 
 инньэ% гын:инньэ% гын V-TV ; ! "делать так" ! Use/MT ! Dir/RL
+
+сырыт:сырыт V-IV ; ! "заходить куда-л., к кому-л., посещать, навещать; to go"
+сайын:сайын V-IV ; ! "развиваться; become developed"
+үөскээ:үөскээ V-IV ; ! "рождаться, порождаться"
+үөскэт:үөскэт V-IV ; ! "рождать, порождать"
 
 LEXICON Interjections
 
