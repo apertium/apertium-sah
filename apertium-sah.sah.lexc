@@ -875,6 +875,8 @@ LEXICON Determiners
 итинник:итинник DET-DEM ; ! "такой"
 маннык:маннык DET-DEM ; ! "такой"
 
+хас% да:хас% да DET-QNT ; ! "несколько; several"
+
 LEXICON Numerals
 
 нуул:нуул NUM ; ! ""
@@ -5087,6 +5089,8 @@ LEXICON Adverbs
 ордук:ордук ADV ; ! "особенно, especially"
 маҥнай:маҥнай ADV ; ! "вначале, сначала; initially"
 салгыы:салгыы ADV ; ! "последовательно, дальше; consistently, next"
+уопсайынан:уопсайынан ADV ; ! "в целом; generally"
+чуумпутук:чуумпутук ADV ; ! "тихо, спокойно; quietly"
 элбэхтик:элбэхтик ADV ; ! "много; a lot"
 
 LEXICON Verbs
