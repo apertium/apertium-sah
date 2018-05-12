@@ -182,7 +182,7 @@ LEXICON CASES-OBL
 %<abl%>:%>%{t%}т%{A%}н # ;
 %<ins%>:%>%{i%}н%{A%}н # ;
 %<com%>:%>%{L%}%{I%}%{I%}н # ;
-!%<comp%>:%> # ;
+%<comp%>:%>%{T%}%{A%}%{A%}ҕ%{A%}р # ;
 
 LEXICON CASES-POSS-3SP
 
@@ -192,7 +192,7 @@ LEXICON CASES-POSS-3SP
 %<abl%>:%>тт%{A%}н # ;
 %<ins%>:%>н%{A%}н # ;
 %<com%>:%>н%{I%}н # ;
-!%<comp%>:%> # ;
+%<comp%>:%>н%{A%}%{A%}ҕ%{A%}р # ;
 
 LEXICON CASES-POSS-12SG
 
@@ -201,7 +201,7 @@ LEXICON CASES-POSS-12SG
 %<abl%>:%>тт%{A%}н # ;
 %<ins%>:%>н%{A%}н # ;
 %<com%>:%>н%{I%}н # ;
-!%<comp%>:%> # ;
+%<comp%>:%>н%{A%}%{A%}ҕ%{A%}р # ;
 
 LEXICON CASES-NOM
 
