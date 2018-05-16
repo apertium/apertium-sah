@@ -62,6 +62,7 @@ Multichar_Symbols
 %<dem%>            !
 %<ind%>            !
 %<itg%>            !
+%<qnt%>            ! Quantifier
 %<ord%>            !
 %<coll%>           !
 
@@ -601,6 +602,10 @@ LEXICON PRON-ITG
 
 %<prn%>%<itg%>: FULL-NOMINAL-INFLECTION ;
 
+LEXICON PRON-QNT
+
+%<prn%>%<qnt%>: FULL-NOMINAL-INFLECTION ;
+
 LEXICON V-PERS-S1
 
 %<p1%>%<sg%>:%>%{B%}%{I%}н CLITICS-NO-COP ;
@@ -869,6 +874,7 @@ PRON-DEM-SUBU ; ! ""
 туох:ту PRON-ITG-TUOH ; ! ""
 төһө:төһө PRON-ITG ; ! "" FIXME: check
 
+бары:бары PRON-QNT ; ! "все, everything"
 туох% да:ту PRON-NEG-TUOH_DA ; ! ""
 
 LEXICON Determiners
@@ -5159,6 +5165,7 @@ LEXICON Adverbs
 уопсайынан:уопсайынан ADV ; ! "в целом; generally"
 чуумпутук:чуумпутук ADV ; ! "тихо, спокойно; quietly"
 элбэхтик:элбэхтик ADV ; ! "много; a lot"
+эрэ:эрэ ADV ; ! "только, едва, лишь"
 
 LEXICON Verbs
 
@@ -5384,7 +5391,7 @@ LEXICON Verbs
 
 бас:бас V-TV ; ! "fetch"
 баай:баай V-TV ; ! "tie, bind"
-сайын:сайын V-IV ; ! "develop, become developed"
+сайын:сайд V-IV ; ! "develop, become developed" -- is it fine to do so?
 уот:уот V-TV ; ! "make fat, fatten"
 аал:аал V-TV ; ! "rub"
 сиир:сиир V-TV ; ! "tear"
@@ -5485,6 +5492,7 @@ LEXICON Verbs
 
 инньэ% гын:инньэ% гын V-TV ; ! "делать так" ! Use/MT ! Dir/RL
 
+ааттан:ааттан V-IV ; ! "быть названным"
 баан:баан V-IV ; ! "привязать себя к чему-л."
 баалын:баалын V-IV ; ! "прикрепиться к чему-л."
 билсис:билсис V-IV ; ! "общаться, связаться"
@@ -5494,6 +5502,7 @@ LEXICON Verbs
 толуй:толуй V-TV ; ! "возместить, искупить"
 үөскээ:үөскээ V-IV ; ! "рождаться, порождаться"
 үөскэт:үөскэт V-IV ; ! "рождать, порождать"
+хайаа:хайаа V-IV ; ! "делать, поступать каким-л. образом"
 
 LEXICON Interjections
 
