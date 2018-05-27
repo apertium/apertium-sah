@@ -14,7 +14,8 @@ Multichar_Symbols
 %<adv%>            ! 
 %<vaux%>           ! 
 %<ij%>             ! 
-%<cnjadv%>         ! 
+%<cnjadv%>         !
+%<cnjsub%>         ! Подчинительный союз; Sub-ordinating conjunction
 %<num%>            ! Число
 %<prn%>            ! Местоимение
 %<v%>              ! Глагол
@@ -757,6 +758,10 @@ LEXICON CA
 
 %<cnjadv%>: # ;
 
+LEXICON CS
+
+%<cnjsub%>: # ;
+
 LEXICON POST 
 
 %<post%>: # ; 
@@ -815,6 +820,9 @@ LEXICON Conjunctions
 
 буоллаҕына:буоллаҕына CC ; ! "а, но"
 онон:онон CA ; ! "поэтому" - check
+өскө:өскө CS ; ! "если" - check
+өскөтө:өскөтө CS ; ! "если" - check
+өскөтүн:өскөтүн CS ; ! "если" - check
 сороҕор:сороҕор CC ; ! "союз разделит.-перечисл. то..., то" - check
 эбит:эбит CA ; ! "если"
 эрээри:эрээри CC ; ! "хотя, хоть"
