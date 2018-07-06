@@ -102,6 +102,9 @@ Cx:Cy <=> :Nasal [ :0 - т: ]* _ ;
 
 "Assimilation after high-sonority obstruents"
 Cx:Cy <=> :HighSonCns/:0 _ ;
+!      except
+!          %{р%}:/:0* _ ;          ! not necessary apparently
+
       where Cx in ( %{L%} %{T%} )
             Cy in (   д     д   )
       matched ;
