@@ -60,3 +60,15 @@ Tests:
 
   "Aorist negative back vowel, vowel stem":
     сатаа<v><tv><neg><aor><p3><sg> : сатаабат
+
+  "Verbs with epenthetic vowel":
+    уһун<v><iv><aor><p3><sg> : устар
+    уһун<v><iv><ifi><p1><sg> : уһуннум 
+    сырыт<v><iv><aor><p3><sg> : сылдьар
+    сырыт<v><iv><ifi><p1><sg> : сырыттым
+    иһит<v><iv><aor><p3><sg> : истэр
+    иһит<v><tv><ifi><p1><sg> : иһиттим
+
+  "Verbs with с/һ alternation":
+    таҕыс<v><iv><aor><p3><sg> : тахсар
+    таҕыс<v><iv><ifi><p1><sg> : таҕыстым
