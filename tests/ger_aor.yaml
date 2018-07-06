@@ -1,0 +1,37 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../sah.autogen.hfst
+    Morph: ../sah.automorf.hfst
+
+Tests:
+
+  "диэ": 
+    диэ<v><tv><ger_aor><nom> : диир
+    диэ<v><tv><ger_aor><par> : диирдэ
+    диэ<v><tv><ger_aor><dat> : дииргэ
+    диэ<v><tv><ger_aor><acc> : диири
+    диэ<v><tv><ger_aor><abl> : дииртэн
+    диэ<v><tv><ger_aor><ins> : дииринэн
+    диэ<v><tv><ger_aor><com> : диирдиин
+    диэ<v><tv><ger_aor><comp> : диирдээҕэр
+
+  "көр":
+    көр<v><tv><ger_aor><nom> : көрөр
+    көр<v><tv><ger_aor><par> : көрөрдө
+    көр<v><tv><ger_aor><dat> : көрөргө
+    көр<v><tv><ger_aor><acc> : көрөрү
+    көр<v><tv><ger_aor><abl> : көрөртөн
+    көр<v><tv><ger_aor><ins> : көрөрүнэн
+    көр<v><tv><ger_aor><com> : көрөрдүүн
+    көр<v><tv><ger_aor><comp> : көрөрдөөҕөр
+
+  "олор": 
+    олор<v><tv><ger_aor><nom> : олорор
+    олор<v><tv><ger_aor><par> : олорордо
+    олор<v><tv><ger_aor><dat> : олорорго
+    олор<v><tv><ger_aor><acc> : олорору
+    олор<v><tv><ger_aor><abl> : олорортон
+    олор<v><tv><ger_aor><ins> : олорорунан
+    олор<v><tv><ger_aor><com> : олорордуун
+    олор<v><tv><ger_aor><comp> : олорордооҕор
