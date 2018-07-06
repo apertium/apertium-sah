@@ -708,7 +708,7 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 %<gna_nond%>:%>%{A%}% илик CLITICS-NO-COP ; ! FIXME: check
 
 !%<ger_pros%>:%>%{I%}%{A%}х SUBST ; 
-%<ger_aor%>:%>%{A%}%{р%} SUBST ; 
+%<ger_aor%>:%>%{A%}р SUBST ; 
 %<neg%>%<ger_aor%>:%>%{B%}%{A%}т SUBST ; 
 
 LEXICON V-COMMON
