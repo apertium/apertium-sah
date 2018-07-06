@@ -27,11 +27,11 @@ Tests:
     көр<v><tv><ger_aor><comp> : көрөрдөөҕөр
 
   "олор": 
-    олор<v><tv><ger_aor><nom> : олорор
-    олор<v><tv><ger_aor><par> : олорордо
-    олор<v><tv><ger_aor><dat> : олорорго
-    олор<v><tv><ger_aor><acc> : олорору
-    олор<v><tv><ger_aor><abl> : олорортон
-    олор<v><tv><ger_aor><ins> : олорорунан
-    олор<v><tv><ger_aor><com> : олорордуун
-    олор<v><tv><ger_aor><comp> : олорордооҕор
+    олор<v><iv><ger_aor><nom> : олорор
+    олор<v><iv><ger_aor><par> : олорордо
+    олор<v><iv><ger_aor><dat> : олорорго
+    олор<v><iv><ger_aor><acc> : олорору
+    олор<v><iv><ger_aor><abl> : олорортон
+    олор<v><iv><ger_aor><ins> : олорорунан
+    олор<v><iv><ger_aor><com> : олорордуун
+    олор<v><iv><ger_aor><comp> : олорордооҕор
