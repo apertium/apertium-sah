@@ -64,8 +64,8 @@ Tests:
   "Verbs with epenthetic vowel and simple assimilation issues":
     умун<v><iv><aor><p3><sg> : умнар
     умун<v><iv><ifi><p1><sg> : умуннум
-    үтүгүн<v><iv><aor><p3><sg> : үтүктэр
-    үтүгүн<v><iv><ifi><p1><sg> : үтүгүннүм
+    үтүгүн<v><tv><aor><p3><sg> : үтүктэр
+    үтүгүн<v><tv><ifi><p1><sg> : үтүгүннүм
     эбилин<v><iv><aor><p3><sg> : эбиллэр
     эбилин<v><iv><ifi><p1><sg> : эбилинним
     сайын<v><iv><aor><p3><sg> : сайдар
