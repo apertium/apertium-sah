@@ -61,12 +61,35 @@ Tests:
   "Aorist negative back vowel, vowel stem":
     сатаа<v><tv><neg><aor><p3><sg> : сатаабат
 
-  "Verbs with epenthetic vowel":
+  "Verbs with epenthetic vowel and simple assimilation issues":
+    умун<v><iv><aor><p3><sg> : умнар
+    умун<v><iv><ifi><p1><sg> : умуннум
+    үтүгүн<v><iv><aor><p3><sg> : үтүктэр
+    үтүгүн<v><iv><ifi><p1><sg> : үтүгүннүм
+    эбилин<v><iv><aor><p3><sg> : эбиллэр
+    эбилин<v><iv><ifi><p1><sg> : эбилинним
+    сайын<v><iv><aor><p3><sg> : сайдар
+    сайын<v><iv><ifi><p1><sg> : сайынным
+
+  "Verbs with epenthetic vowel and с/һ alternation":
     уһун<v><iv><aor><p3><sg> : устар
-    уһун<v><iv><ifi><p1><sg> : уһуннум 
-    сырыт<v><iv><aor><p3><sg> : сылдьар
-    сырыт<v><iv><ifi><p1><sg> : сырыттым
+    уһун<v><iv><ifi><p1><sg> : уһуннум
     иһит<v><tv><aor><p3><sg> : истэр
     иһит<v><tv><ifi><p1><sg> : иһиттим
+    сыһын<v><tv><aor><p3><sg> : сыстар
+    сыһын<v><tv><ifi><p1><sg> : сыһынным
+
+  "Verbs with epenthetic vowel and х/ҕ alternation":
     таҕыс<v><iv><aor><p3><sg> : тахсар
     таҕыс<v><iv><ifi><p1><sg> : таҕыстым
+    оҕус<v><iv><aor><p3><sg> : охсор
+    оҕус<v><iv><ifi><p1><sg> : оҕустым
+    араҕыс<v><iv><aor><p3><sg> : арахсар
+    араҕыс<v><iv><ifi><p1><sg> : араҕыстым
+
+  "Verbs with epenthetic vowel and р/л alternation":
+    сырыт<v><iv><aor><p3><sg> : сылдьар
+    сырыт<v><iv><ifi><p1><sg> : сырыттым
+    ыарый<v><iv><aor><p3><sg> : ыалдьар
+    ыарый<v><iv><ifi><p1><sg> : ыарыйдым
+
