@@ -12,6 +12,7 @@ Multichar_Symbols
 %<post%>           ! 
 %<det%>            ! 
 %<adv%>            ! 
+%<postadv%>        !
 %<vaux%>           ! 
 %<ij%>             ! 
 %<cnjadv%>         !
@@ -754,6 +755,10 @@ LEXICON ADV-DIK
 ! Adverb derived with -DIK
 
 %<adv%>: CLITICS-INCL-COP ;
+
+LEXICON POSTADV
+
+%<postadv%>: # ;
 
 LEXICON CC 
 
@@ -2173,7 +2178,7 @@ yy:yy N1 ; ! "вода"
 дьаралык:дьаралык N1 ; ! "comp. icon"
 дьаһал:дьаһал N1 ; ! "management;"
 дьаһалта:дьаһалта N1 ; ! "order, command"
-дьахтар:дьахта%{р%} N1 ; ! "женщина, female"
+дьахтар:дьахтар N1 ; ! "женщина, female"
 дьиссипилиннэ:дьиссипилиннэ N1 ; ! "discipline"
 дьиэ:дьиэ N1 ; ! "house, home;"
 дьиэ% сууйааччы:дьиэ% сууйааччы N1 ; ! "cleaner;"
@@ -5906,6 +5911,8 @@ LEXICON Adjectives
 промышленнай:промышленнай A9 ; ! ""
 
 LEXICON Adverbs 
+
+соҕус:соҕус POSTADV ; ! "enough (?)"
 
 ханна:ханна ADV-ITG ; ! "где"
 тоҕо:тоҕо ADV-ITG ; ! "почему"
