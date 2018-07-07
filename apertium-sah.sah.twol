@@ -32,6 +32,8 @@ Alphabet
    %{☭%}:0
    %{ъ%}:0
 
+   %{рл%}:р ! р except before л, then л
+
    %>:0 ; 
 
 
@@ -83,6 +85,9 @@ Rules
 
 "{р} → л before л"
 %{р%}:л <=> _ [ :л | [ %{L%}: - :Obs ] ]/:0 ;
+
+"{рл} → л before л"
+%{рл%}:л <=> _ [ :л | [ %{L%}: - :Obs ] ]/:0 ;
 
 
 ! FIXME: These two rules should probably be generalised

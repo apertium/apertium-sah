@@ -128,6 +128,7 @@ Multichar_Symbols
 %{y%}              !
 %{a%}              ! 
 %{р%}              ! 
+%{рл%}             ! р except before л, then л
 
 %{☭%}              ! Used to tell the phonology about a Russian word
 %{ъ%}              ! 
@@ -2178,7 +2179,7 @@ yy:yy N1 ; ! "вода"
 дьаралык:дьаралык N1 ; ! "comp. icon"
 дьаһал:дьаһал N1 ; ! "management;"
 дьаһалта:дьаһалта N1 ; ! "order, command"
-дьахтар:дьахтар N1 ; ! "женщина, female"
+дьахтар:дьахта%{рл%} N1 ; ! "женщина, female"
 дьиссипилиннэ:дьиссипилиннэ N1 ; ! "discipline"
 дьиэ:дьиэ N1 ; ! "house, home;"
 дьиэ% сууйааччы:дьиэ% сууйааччы N1 ; ! "cleaner;"
