@@ -62,8 +62,8 @@ Tests:
     сатаа<v><tv><neg><aor><p3><sg> : сатаабат
 
   "Verbs with epenthetic vowel and simple assimilation issues":
-    умун<v><iv><aor><p3><sg> : умнар
-    умун<v><iv><ifi><p1><sg> : умуннум
+    умун<v><tv><aor><p3><sg> : умнар
+    умун<v><tv><ifi><p1><sg> : умуннум
     үтүгүн<v><tv><aor><p3><sg> : үтүктэр
     үтүгүн<v><tv><ifi><p1><sg> : үтүгүннүм
     эбилин<v><iv><aor><p3><sg> : эбиллэр
