@@ -99,10 +99,16 @@ Rules
 
 "н→т desonorisation"
 н:т <=> :VoicelessCns %{y%}:0 _ :Vow/:0* ;
-! Having :Vow/:0* at the end ensures that it doesn't conflict with above rules
+!@ у с {y}:0 н:т >:0 {A}:а {р}:р
+
+"н→д desonorisation"
+н:д <=> :HighSonCns %{y%}:0 _ :Vow/:0* ;
+!@ с а й {y}:0 н:д >:0 {A}:а {р}:р
+
+! Having :Vow/:0* at the end of the above rules
+! ensures that they don't conflict with н→ҥ and н→м rules
 ! ... even though it's more specific than it really needs to be.
 
-!@ у с {y}:0 н:т >:0 {A}:а {р}:р
 
 !!!== progressive assimilation ==!!!
 
