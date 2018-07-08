@@ -37,6 +37,7 @@ Alphabet
    %{D%}:т ! д before a vowel, otherwise т
 
    %{н%}:н ! Reflexive н that deletes before passive
+   %{й%}:й ! Verb-stem-final й that deletes before passive
 
    %>:0 ; 
 
@@ -162,8 +163,8 @@ Cx:Cy <=> :VoicelessCns/:0 _ ;
 %{р%}:0 <=> _ :Obs/:0 ;
 
 
-"й deletes at end of stem before passive"
-й:0 <=> _ %>: %{i%}: :л ;
+"{й} deletes at end of stem before passive"
+%{й%}:0 <=> _ %>: %{i%}: :л ;
 
 "{н} deletes at end of stem before passive"
 %{н%}:0 <=> _ %>: %{i%}: :л ;

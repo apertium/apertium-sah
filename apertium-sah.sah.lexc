@@ -132,6 +132,7 @@ Multichar_Symbols
 %{рл%}             ! р except before л, then л
 %{D%}              ! д/т alternation at the end of some verbs (cf. тарт)
 %{н%}              ! Reflexive н that deletes before passive
+%{й%}              ! Verb-stem-final й that deletes before passive
 
 %{☭%}              ! Used to tell the phonology about a Russian word
 %{ъ%}              ! 
@@ -6499,7 +6500,8 @@ LEXICON Verbs
 көрдөр:көрдөр V-TV ; ! "показывать" ! Mor/Caus
 диэ:диэ V-TV ; ! "говорить"
 
-кыай:кыай V-TV ; ! "be able;  win, succeed, overcome, conquer, destroy;"
+кыай:кыа%{й%} V-TV ; ! "be able;  win, succeed, overcome, conquer, destroy;"
+! FIXME: the "be able" form might be vaux?
 тур:тур V-IV ;  ! "stand"
 күл:күл  V-IV ; ! "laugh"
 өл:өл  V-IV ; ! "die"
@@ -6556,7 +6558,7 @@ LEXICON Verbs
 анан:анан V-IV ; ! ""
 көт:көт V-IV ; ! "летать"
 көс:көс V-IV ; ! "переходить"
-тэрий:тэрий V-TV ; ! "организовать"
+тэрий:тэри%{й%} V-TV ; ! "организовать"
 тэрилин:тэрилин V-IV ; ! "" ! Mor/Pass
 сай:сай V-IV ; ! ""
 түс:түс V-IV ; ! ""
@@ -6698,7 +6700,6 @@ LEXICON Verbs
 бытарыт:бытарыт V-TV; ! "to crumble"
 долгуй:долгуй V-IV ; ! " surge, rise in waves, be agitated;"
 дьаһай:дьаһай V-TV ; ! " manage, govern;"
-кыай:кыай V-TV ; ! " be able;  win, succeed, overcome, conquer, destroy;"
 кыайтар:кыайтар V-IV ; ! " lose;"
 олохсуй:олохсуй V-IV ; ! " settle"
 саҕалаа:саҕалаа V-TV ; ! " begin"
@@ -7113,7 +7114,6 @@ LEXICON Verbs
 күһэй:күһэй V-TV ; ! ""
 киллэр:киллэр V-TV ; ! ""
 араартаа:араартаа V-TV ; ! ""
-тэрий:тэрий V-TV ; ! ""
 сиэ:сиэ V-TV ; ! ""
 олохтоо:олохтоо V-TV ; ! ""
 бэлиэтээ:бэлиэтээ V-TV ; ! ""
@@ -7157,7 +7157,6 @@ LEXICON Verbs
 бэрилин:бэрилин V-IV ; ! ""
 төҥүн:төҥүн V-IV ; ! ""
 үөскээ:үөскээ V-IV ; ! ""
-кыай:кыай V-IV ; ! ""
 өл:өл V-IV ; ! ""
 тут:тут V-IV ; ! ""
 иҥэр:иҥэр V-IV ; ! ""
@@ -7203,7 +7202,6 @@ LEXICON Verbs
 сайын:сайын V-IV ; ! ""
 киллэр:киллэр V-IV ; ! ""
 тулуй:тулуй V-IV ; ! ""
-тэрий:тэрий V-IV ; ! ""
 сатан:сатан V-IV ; ! ""
 үөр:үөр V-IV ; ! ""
 түс:түс V-IV ; ! ""
