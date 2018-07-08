@@ -18,7 +18,7 @@ Tests:
 
   "Verbs where final н deletes in passive":
     мунньун<v><tv><pass><imp><p2><sg> : мунньулун
-    мунньун<v><tv><pass><imp><p2><sg> : мунньун
+    мунньун<v><tv><imp><p2><sg> : мунньун
 
   "Verbs where final н does not delete in passive":
     туһан<v><tv><pass><imp><p2><sg> : туһанылын
