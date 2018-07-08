@@ -1,0 +1,25 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../sah.autogen.hfst
+    Morph: ../sah.automorf.hfst
+
+Tests:
+
+  "Verbs where final й deletes in passive":
+    кыай<v><tv><pass><imp><p2><sg> : кыалын
+    кыай<v><tv><ifi><p1><sg> : кыайдым
+    тэрий<v><tv><pass><imp><p2><sg> : тэрилин
+    тэрий<v><tv><ifi><p1><sg> : тэрийдим
+
+  "Verbs where final й does not delete in passive":
+    баай<v><tv><pass><imp><p2><sg> : баайылын
+    баай<v><tv><ifi><p1><sg> : баайдым
+
+  "Verbs where final н deletes in passive":
+    аҕын<v><tv><pass><imp><p2><sg> : ахтылын
+    аҕын<v><tv><ifi><p1><sg> : аҕынным
+
+  "Verbs where final н does not delete in passive":
+    туһан<v><tv><pass><imp><p2><sg> : туһанылын
+    туһан<v><tv><ifi><p1><sg> : туһанным
