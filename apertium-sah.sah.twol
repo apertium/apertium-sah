@@ -36,6 +36,8 @@ Alphabet
 
    %{D%}:т ! д before a vowel, otherwise т
 
+   %{н%}:н ! Reflexive н that deletes before passive
+
    %>:0 ; 
 
 
@@ -162,6 +164,9 @@ Cx:Cy <=> :VoicelessCns/:0 _ ;
 
 "й deletes at end of stem before passive"
 й:0 <=> _ %>: %{i%}: :л ;
+
+"{н} deletes at end of stem before passive"
+%{н%}:0 <=> _ %>: %{i%}: :л ;
 
 
 !!!== epenthesis ==!!!
