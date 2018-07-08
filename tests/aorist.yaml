@@ -61,9 +61,13 @@ Tests:
   "Aorist negative back vowel, vowel stem":
     сатаа<v><tv><neg><aor><p3><sg> : сатаабат
 
-  "Verbs with epenthetic vowel and simple assimilation issues":
+  "Verbs with epenthetic vowel and no additional alternations":
     умун<v><tv><aor><p3><sg> : умнар
     умун<v><tv><ifi><p1><sg> : умуннум
+    төнүн<v><iv><aor><p3><sg> : төннөр
+    төнүн<v><iv><ifi><p1><sg> : төнүннүм 
+
+  "Verbs with epenthetic vowel and simple desonorisation or assimilation issues":
     үтүгүн<v><tv><aor><p3><sg> : үтүктэр
     үтүгүн<v><tv><ifi><p1><sg> : үтүгүннүм
     эбилин<v><iv><aor><p3><sg> : эбиллэр
@@ -80,6 +84,8 @@ Tests:
     талылын<v><iv><aor><p3><sg> : талылынным
     туһанылын<v><iv><aor><p3><sg> : туһаныллар
     туһанылын<v><iv><aor><p3><sg> : туһанылынным
+    кытын<v><iv><aor><p3><sg> : кыттар
+    кытын<v><iv><ifi><p1><sg> : кытынным
 
   "Verbs with epenthetic vowel and с/һ alternation":
     уһун<v><iv><aor><p3><sg> : устар
@@ -103,16 +109,11 @@ Tests:
     ыарый<v><iv><aor><p3><sg> : ыалдьар
     ыарый<v><iv><ifi><p1><sg> : ыарыйдым
 
-  "Other":
-    төнүн<v><iv><aor><p3><sg> : төннөр
-    төнүн<v><iv><ifi><p1><sg> : төнүннүм 
-    кытын<v><iv><aor><p3><sg> : кыттар
-    кытын<v><iv><ifi><p1><sg> : кытынным
+  "Verbs with voicing of final coronals":
     орт<v><iv><aor><p3><sg> : ордор
     орт<v><iv><ifi><p1><sg> : ордуннум
     тарт<v><iv><aor><p3><sg> : тардар
     тарт<v><iv><ifi><p1><sg> : тардым
     тириэрт<v><tv><aor><p3><sg> : тириэрдэр
     тириэрт<v><tv><ifi><p1><sg> : тириэрдим
-    сыһын<v><iv><aor><p3><sg> : сыстар
-    сыһын<v><iv><ifi><p1><sg> : сыһынным
+

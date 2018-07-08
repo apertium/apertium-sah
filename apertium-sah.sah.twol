@@ -97,6 +97,9 @@ Rules
 "н→м assimilation"
 н:м <=> _ %>: %{B%}: ; 
 
+"н→л assimilation"
+н:л <=> :л %{y%}:0 _ :Vow/:0* ;
+
 "н→т desonorisation"
 н:т <=> :VoicelessCns %{y%}:0 _ :Vow/:0* ;
 !@ у с {y}:0 н:т >:0 {A}:а {р}:р
