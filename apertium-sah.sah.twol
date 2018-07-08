@@ -152,6 +152,10 @@ Cx:Cy <=> :VoicelessCns/:0 _ ;
 %{р%}:0 <=> _ :Obs/:0 ;
 
 
+"й deletes at end of stem before passive"
+й:0 <=> _ %>: %{i%}: :л ;
+
+
 !!!== epenthesis ==!!!
 
 "т after a vowel"
@@ -294,6 +298,7 @@ Vx:Vy <=> :RealVow _ %>: %{A%}: ;
             :л/:0 _ ;  
 
 !@ с ы л >:0 {G}:г {A}:а
+
 
 "vowel harmony for {A} after уо etc."
 ! shouldn't need a rule because it's the default а, but doesn't seem to work without one
