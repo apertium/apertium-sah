@@ -10,12 +10,15 @@ Alphabet
 һ:һ
 h:h   һ:h
 
-! FIXME: This one should probably go in an error model
+! FIXME: These should probably go in an error model
 у:у
 ү:ү   ү:у
 
 5:5
 ҕ:ҕ   ҕ:5
+
+ь:ь
+һ:һ   һ:ь
 
 ; 
 
