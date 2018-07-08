@@ -111,12 +111,12 @@ Tests:
 
   "Verbs with voicing of final coronals":
     орт<v><iv><aor><p3><sg> : ордор
-    орт<v><iv><ifi><p1><sg> : ордуннум
-    орт<v><tv><ifi><p3><sg> : орто
-    тарт<v><iv><aor><p3><sg> : тардар
-    тарт<v><iv><ifi><p1><sg> : тардым
+    орт<v><iv><ifi><p1><sg> : орттум
+    орт<v><iv><ifi><p3><sg> : орто
+    тарт<v><tv><aor><p3><sg> : тардар
+    тарт<v><tv><ifi><p1><sg> : тартым
     тарт<v><tv><ifi><p3><sg> : тарта
     тириэрт<v><tv><aor><p3><sg> : тириэрдэр
-    тириэрт<v><tv><ifi><p1><sg> : тириэрдим
+    тириэрт<v><tv><ifi><p1><sg> : тириэртим
     тириэрт<v><tv><ifi><p3><sg> : тириэртэ
 
