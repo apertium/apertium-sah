@@ -34,6 +34,8 @@ Alphabet
 
    %{рл%}:р ! р except before л, then л
 
+   %{D%}:т ! д before a vowel, otherwise т
+
    %>:0 ; 
 
 
@@ -111,6 +113,12 @@ Rules
 ! Having :Vow/:0* at the end of the above rules
 ! ensures that they don't conflict with н→ҥ and н→м rules
 ! ... even though it's more specific than it really needs to be.
+
+!"{D} to т before consonant or end of word"
+!%{D%}:т <=> _ :0* :Cons ;
+!            _ :0* .#. ;
+"{D} as д before a vowel"
+%{D%}:д <=> _ :0* :Vow ;
 
 
 !!!== progressive assimilation ==!!!
