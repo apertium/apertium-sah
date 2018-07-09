@@ -54,8 +54,8 @@ Tests:
 
   "Aorist round vowel stems":
     төрөө<v><iv><aor><p3><sg> : төрүүр
-    өйдүө<v><tv><aor><p3><sg> : өйдүүр
-    өйдүө<v><tv><aor><p3><pl> : өйдүүллэр
+    өйдөө<v><tv><aor><p3><sg> : өйдүүр
+    өйдөө<v><tv><aor><p3><pl> : өйдүүллэр
     холоо<v><tv><aor><p3><sg> : холуур
 
   "Aorist negative back vowel, vowel stem":
