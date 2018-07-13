@@ -38,6 +38,7 @@ Alphabet
 
    %{н%}:н ! Reflexive н that deletes before passive
    %{й%}:й ! Verb-stem-final й that deletes before passive
+	%{ь%}:0 ! disappearing ь
 
    %>:0 ; 
 

@@ -133,6 +133,7 @@ Multichar_Symbols
 %{D%}              ! д/т alternation at the end of some verbs (cf. тарт)
 %{н%}              ! Reflexive н that deletes before passive
 %{й%}              ! Verb-stem-final й that deletes before passive
+%{ь%}              ! Disappearing ь
 
 %{☭%}              ! Used to tell the phonology about a Russian word
 %{ъ%}              ! 
@@ -8329,7 +8330,7 @@ LEXICON Verbs
 ситис:ситис V-TV ; ! "достигать, добиваться чего-л.; to succeed, achieve"
 сыаналаа:сыаналаа V-TV ; ! ""
 сылтаа:сылтаа V-IV ; ! "находить повод"
-сырыт:сы%{рл%}%{y%}т V-IV ; ! "заходить куда-л., к кому-л., посещать, навещать; to go" -- fix сырытар
+сырыт:сы%{рл%}%{y%}т%{ь%} V-IV ; ! "заходить куда-л., к кому-л., посещать, навещать; to go" -- fix сырытар
 сыһын:сыс%{y%}н V-IV ; ! "прикрепиться" -- fix сыһынар
 сэриилэс:сэриилэс V-IV ; ! "совм.-взаимн. от сэриилээ= воевать, сражаться с кем-л."
 сэриилээ:сэриилээ V-TV ; ! "идти войной; совершать вооружённое нападение"
