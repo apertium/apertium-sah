@@ -11,14 +11,14 @@ Tests:
     кыай<v><tv><ifi><p1><sg> : кыайдым
     тэрий<v><tv><pass><imp><p2><sg> : тэрилин
     тэрий<v><tv><ifi><p1><sg> : тэрийдим
-
-  "Verbs where final й does not delete in passive":
-    баай<v><tv><pass><imp><p2><sg> : баайылын
-    баай<v><tv><ifi><p1><sg> : баайдым
     арый<v><tv><pass><imp><p2><sg> : арылын
     арый<v><tv><ifi><p1><sg> : арыйдым
     эрчий<v><tv><pass><imp><p2><sg> : эрчилин
     эрчий<v><tv><ifi><p1><sg> : эрчийдим
+
+  "Verbs where final й does not delete in passive":
+    баай<v><tv><pass><imp><p2><sg> : баайылын
+    баай<v><tv><ifi><p1><sg> : баайдым
 
   "Verbs where final н deletes in passive":
     мунньун<v><tv><pass><imp><p2><sg> : мунньулун
@@ -29,4 +29,8 @@ Tests:
     туһан<v><tv><ifi><p1><sg> : туһанным
     аҕын<v><tv><pass><imp><p2><sg> : ахтылын
     аҕын<v><tv><ifi><p1><sg> : аҕынным
+
+  "Other random passives":
+    иҥэр<v><tv><pass><aor><p3><sg> : иҥэриллэр
+    иҥэр<v><tv><pass><ifi><p1><sg> : иҥэрилинним
 
