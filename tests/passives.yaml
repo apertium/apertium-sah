@@ -19,6 +19,8 @@ Tests:
   "Verbs where final й does not delete in passive":
     баай<v><tv><pass><imp><p2><sg> : баайылын
     баай<v><tv><ifi><p1><sg> : баайдым
+    тиий<v><iv><pass><imp><p2><sg> : тиийилин
+    тиий<v><iv><ifi><p1><sg> : тиийдим
 
   "Verbs where final н deletes in passive":
     мунньун<v><tv><pass><imp><p2><sg> : мунньулун
