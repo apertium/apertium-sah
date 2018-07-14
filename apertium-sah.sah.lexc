@@ -79,7 +79,7 @@ Multichar_Symbols
 %<f%>              !
 %<m%>              !
 
-%<evid%>           !
+%<evid%>           ! Evidential, a.k.a. "indirect" / non-eyewitness / hearsay
 %<aor%>            !
 %<ifi%>            !
 %<past%>           !
@@ -88,7 +88,6 @@ Multichar_Symbols
 %<epis%>           !
 %<resl%>           !
 %<nec%>            !	
-%<evid%>      	   ! Evidential, a.k.a. "indirect" / non-eyewitness / hearsay
 
 %<gna_perf%>       ! 
 %<gna_cond%>       ! 
