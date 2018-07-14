@@ -87,7 +87,8 @@ Multichar_Symbols
 %<pros%>           !
 %<epis%>           !
 %<resl%>           !
-%<nec%>           !
+%<nec%>            !	
+%<evid%>      	   ! Evidential, a.k.a. "indirect" / non-eyewitness / hearsay
 
 %<gna_perf%>       ! 
 %<gna_cond%>       ! 
@@ -687,6 +688,8 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 
 %<resl%>:%>%{B%}%{I%}т V-PERS-S1 ; ! FIXME: check
 %<neg%>%<resl%>:%>%{B%}%{A%}т%{A%}х V-PERS-S1 ; ! FIXME: check -S1 or -S2 ?
+
+%<past%>%<evid%>:%>%{B%}%{I%}т% эбит V-PERS-S1 ; !
 
 LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
