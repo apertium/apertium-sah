@@ -92,8 +92,10 @@ Rules
 "{р} → л before л"
 %{р%}:л <=> _ [ :л | [ %{L%}: - :Obs ] ]/:0 ;
 
-"{рл} → л before л"
+"{рл} → л before л and other random contexts"
 %{рл%}:л <=> _ [ :л | [ %{L%}: - :Obs ] ]/:0 ;
+             _ %{y%}:0 ;
+!@ с ы {рл}:л {y}:0 т:д {ь}:ь >:0 {A}:а {р}:р
 
 
 ! FIXME: These two rules should probably be generalised
@@ -157,6 +159,10 @@ Cx:Cy <=> :VoicelessCns/:0 _ ;
 "{G} after voiceless consonants besides х"
 %{G%}:к <=> [ :VoicelessCns - :х]/:0 _ ;
 
+"some consonats turn to д for дь stuff"
+Cx:д <=> %{рл%}:л %{y%}:0 _ %{ь%}: ;
+     where Cx in ( й т ) ;
+
 
 !!!== deletion ==!!!
 
@@ -180,6 +186,12 @@ Cx:Cy <=> :VoicelessCns/:0 _ ;
 %{n%}:н <=> :Vow/:0 _ ;
             !@ и д е я >:0 {n}:н {I}:ы
 
+"disappearing ь appears when part of дь"
+!!%{ь%}:ь <=> [ %{y%}:0 :Cons* :Cons ]/[ :0 - %{y%}: ]* _ ;
+!!%{ь%}:ь <=> %{y%}: :д _ ;
+%{ь%}:ь <=> [ \д ]:д _ ;
+
+!@ с ы {рл}:л {y}:0 т:д {ь}:ь >:0 {A}:а {р}:р
 
 !!!== lenition ==!!!
 
@@ -215,7 +227,7 @@ Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
 "vowel harmony for {y}"
 %{y%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
          except 
-             _ [ :Cons :Vow ]/:0* ;
+             _ [ :Cons :Vow ]/[ :0 | :ь ]* ;
              !@ ис{y}т
          where Vx in ( а о ы у э е и ө ү я )
                Vy in ( ы у ы у и и и ү ү ы )
@@ -238,7 +250,7 @@ Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
 !@ б у о л >:0 {I}:у {A}:а х >:0 т {A}:а {A}:а х
 
 "vowel harmony for {A} except after уо and үө"
-%{A%}:Vy <=> :Vx [ :Cons* :Cons ]/[ :0 - %{☭%}: ]* _ ;
+%{A%}:Vy <=> :Vx [ :Cons* :Cons ]/[ [ :0 - %{☭%}: ] | :ь ]* _ ;
              ! :Cons :Vx _ ;  ! FIXME: When does this happen?
              %{A%}:Vx _ ;
          except
