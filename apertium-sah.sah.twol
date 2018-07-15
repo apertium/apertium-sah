@@ -297,7 +297,7 @@ Vx:Vy <=> :RealVow _ %>: %{A%}: ;
       matched ;
 
 "vowel harmony for {a} except after уо and үө"
-%{a%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
+%{a%}:Vy <=> :Vx [ :Cons* :Cons ]/[ :0 | :ь ]* _ ;
          except
              :ү :ө [ :Cons* :Cons]/:0* _ ;
              :у :о [ :Cons* :Cons]/:0* _ ;
