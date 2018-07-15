@@ -87,7 +87,10 @@ Multichar_Symbols
 %<pros%>           !
 %<epis%>           !
 %<resl%>           !
-%<nec%>            !	
+%<nec%>            !
+%<pii%>            !
+%<fut%>            !
+%<unac%>           !
 
 %<gna_perf%>       ! 
 %<gna_cond%>       ! 
@@ -95,14 +98,17 @@ Multichar_Symbols
 %<gna_caus%>       ! -BIччI
 %<gna_goal%>       ! -AAрI
 %<gna_nond%>       ! -A илик
+%<gna_fut%>        !
 
 %<ger_pros%>       ! -IEх
 %<ger_aor%>        ! -Ar
 
 %<gpr_aor%>        ! 
+%<gpr_fut%>        !
 
 %<prc_aor%>        ! 
 %<prc_impf%>       ! 
+%<prc_fut%>        !
 
 %<qst%>            !
 %<mod_ass%>        !
@@ -633,8 +639,8 @@ LEXICON V-PERS-S2
 %<p1%>%<sg%>:%>%{I%}м CLITICS-NO-COP ;
 %<p2%>%<sg%>:%>%{I%}ҥ CLITICS-NO-COP ;
 %<p3%>%<sg%>:%>%{A%} CLITICS-NO-COP ;
-%<p1%>%<pl%>:%>б%{I%}т CLITICS-NO-COP ;
-%<p2%>%<pl%>:%>г%{I%}т CLITICS-NO-COP ;
+%<p1%>%<pl%>:%>%{B%}%{I%}т CLITICS-NO-COP ;
+%<p2%>%<pl%>:%>%{G%}%{I%}т CLITICS-NO-COP ;
 %<p3%>%<pl%>:%>%{L%}%{A%}р%>%{A%} CLITICS-NO-COP ; ! FIXME: Check
 
 LEXICON V-PERS-IFI
@@ -646,6 +652,14 @@ LEXICON V-PERS-IFI
 %<p1%>%<pl%>:%>%{I%}б%{I%}т CLITICS-NO-COP ;
 %<p2%>%<pl%>:%>%{I%}г%{I%}т CLITICS-NO-COP ;
 %<p3%>%<pl%>:%>%{I%}%{L%}%{A%}р CLITICS-NO-COP ; ! FIXME: Check
+
+LEXICON V-PERS-NEGFUT
+%<p1%>%<sg%>:%>м% суоҕа # ;
+%<p2%>%<sg%>:%>ҥ% суоҕа # ;
+%<p3%>%<sg%>:% суоҕа # ;
+%<p1%>%<pl%>:%>хпыт% суоҕа # ;
+%<p2%>%<pl%>:%>ххыт% суоҕа # ;
+%<p3%>%<pl%>:%>хтара% суоҕа # ;
 
 LEXICON V-FINITE-REGULAR_NEGATIVE
 
@@ -676,7 +690,7 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 %<pii%>:%>%{A%}%{р%} V-PERS-S2 ;
 %<neg%>%<pii%>:%>%{B%}%{A%}т V-PERS-S2 ; 
 
-%<pros%>:%>%{I%}%{A%}%{G%} V-PERS-S2 ; ! FIXME: check
+!%<pros%>:%>%{I%}%{A%}%{G%} V-PERS-S2 ; ! FIXME: check
 !  -IAG суоҕа (-ыа(х)-P2 суоҕа) 
 
 %<epis%>:%>%{B%}%{I%}тт%{A%}%{A%}х V-PERS-S1 ; ! FIXME: check
@@ -689,6 +703,9 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 %<neg%>%<resl%>:%>%{B%}%{A%}т%{A%}х V-PERS-S1 ; ! FIXME: check -S1 or -S2 ?
 
 %<past%>%<evid%>:%>%{B%}%{I%}т% эбит V-PERS-S1 ; !
+
+%<fut%>:%>%{I%}%{A%}х V-PERS-S2 ; ! future
+%<neg%>%<fut%>:%>%{I%}%{A%} V-PERS-NEGFUT ; ! future
 
 LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
@@ -719,6 +736,12 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 !%<ger_pros%>:%>%{I%}%{A%}х SUBST ; 
 %<ger_aor%>:%>%{A%}р SUBST ; 
 %<neg%>%<ger_aor%>:%>%{B%}%{A%}т SUBST ; 
+
+!!!! FIXME: NEW STUFF TO CHECK
+%<gna_fut%>:%>%{I%}%{A%} # ;
+%<prc_fut%>:%>%{I%}%{A%} # ;
+%<gpr_fut%>:%>%{I%}%{A%}х # ;
+
 
 LEXICON V-COMMON
 

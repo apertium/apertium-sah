@@ -1,0 +1,25 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../sah.autogen.hfst
+    Morph: ../sah.automorf.hfst
+
+Tests:
+
+  "Future affirmative бар":
+    бар<v><iv><fut><p1><sg> : барыаҕым
+    бар<v><iv><fut><p2><sg> : барыаҕыҥ
+    бар<v><iv><fut><p3><sg> : барыаҕа
+    бар<v><iv><fut><p1><pl> : барыахпыт
+    бар<v><iv><fut><p2><pl> : барыаххыт
+    бар<v><iv><fut><p3><pl> : барыахтара
+
+  "Future negative бар":
+    бар<v><iv><neg><fut><p1><sg> : барыам суоҕа
+    бар<v><iv><neg><fut><p2><sg> : барыаҥ суоҕа
+    бар<v><iv><neg><fut><p3><sg> : барыа суоҕа
+    бар<v><iv><neg><fut><p1><pl> : барыахпыт суоҕа
+    бар<v><iv><neg><fut><p2><pl> : барыаххыт суоҕа
+    бар<v><iv><neg><fut><p3><pl> : барыахтара суоҕа
+
+
