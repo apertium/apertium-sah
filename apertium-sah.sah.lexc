@@ -100,8 +100,9 @@ Multichar_Symbols
 %<gna_nond%>       ! -A илик
 %<gna_fut%>        !
 
-%<ger_pros%>       ! -IEх
+%<ger_pros%>       ! -IAх
 %<ger_aor%>        ! -Ar
+%<ger1%>           ! -IAн fixme
 
 %<gpr_aor%>        ! 
 %<gpr_fut%>        !
@@ -736,6 +737,9 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 !%<ger_pros%>:%>%{I%}%{A%}х SUBST ; 
 %<ger_aor%>:%>%{A%}р SUBST ; 
 %<neg%>%<ger_aor%>:%>%{B%}%{A%}т SUBST ; 
+
+%<ger1%>:%>%{I%}%{A%}н # ;
+%<neg%>%<ger1%>:%{i%}м%>%{I%}%{A%}н # ;
 
 !!!! FIXME: NEW STUFF TO CHECK
 %<gna_fut%>:%>%{I%}%{A%} # ;
