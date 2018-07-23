@@ -90,22 +90,23 @@ Multichar_Symbols
 %<nec%>            !
 %<pii%>            !
 %<fut%>            !
-%<unac%>           !
+%<unac%>           ! -A илик
 
 %<gna_perf%>       ! 
 %<gna_cond%>       ! 
 %<gna_abes%>       ! 
 %<gna_caus%>       ! -BIччI
 %<gna_goal%>       ! -AAрI
-%<gna_nond%>       ! -A илик
+!%<gna_nond%>       ! -A илик
 %<gna_fut%>        !
 
 %<ger_pros%>       ! -IAх
 %<ger_aor%>        ! -Ar
-%<ger1%>           ! -IAн fixme
+%<ger1%>           ! -IAн (FIXME: rename)
 
 %<gpr_aor%>        ! 
 %<gpr_fut%>        !
+%<gpr_unac%>       ! -А илик
 
 %<prc_aor%>        ! 
 %<prc_impf%>       ! 
@@ -708,6 +709,9 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 %<fut%>:%>%{I%}%{A%}х V-PERS-S2 ; ! future
 %<neg%>%<fut%>:%>%{I%}%{A%} V-PERS-NEGFUT ; ! future
 
+%<unac%>:%>%{A%}% илик V-PERS-S1 ; ! unaccomplished
+
+
 LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
 ! Imperatives
@@ -732,7 +736,9 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 %<gna_abes%>:%>%{B%}%{A%}кк%{A%} CLITICS-NO-COP ; ! FIXME: check
 %<gna_caus%>:%>%{B%}%{I%}чч%{A%} CLITICS-NO-COP ; ! FIXME: check
 !%<gna_goal%>:%>%{A%}%{A%}р%{I%} CLITICS-NO-COP ; ! "in order to" ! FIXME: check 
-%<gna_nond%>:%>%{A%}% илик CLITICS-NO-COP ; ! FIXME: check
+!%<gna_nond%>:%>%{A%}% илик CLITICS-NO-COP ; ! FIXME: check
+
+%<gpr_unac%>:%>%{A%}% илик CLITICS-NO-COP ; ! unaccomplished
 
 !%<ger_pros%>:%>%{I%}%{A%}х SUBST ; 
 %<ger_aor%>:%>%{A%}р SUBST ; 
@@ -5074,7 +5080,11 @@ LEXICON ProperNouns
 Григорий:Григорий NP-ANT-M ; ! ""
 Илья:Илья NP-ANT-M ; ! ""
 Анатолий:Анатолий NP-ANT-M ; ! ""
-
+Иаков:Иаков NP-ANT-M ; ! "Jacob"
+Иуда:Иуда NP-ANT-M ; ! "Juda"
+Савл:Савл NP-ANT-M ; ! "Saul"
+Павел:Павел NP-ANT-M ; ! "Paul"
+Исаак:Исаак NP-ANT-M ; ! "Isaac"
 
 Анна:Анна NP-ANT-F ; ! ""
 Мария:Мария NP-ANT-F ; ! ""
@@ -6111,6 +6121,7 @@ Ypyмэччи:Ypyмэччи NP-ANT-F ; ! ""
 Тимошенко:Тимошенко NP-COG-MF ; ! ""
 Сибиряков:Сибиряков NP-COG-OB ; ! ""
 Свердловскай:Свердловскай NP-COG-M ; ! ""
+Христос:Христос NP-COG-MF ; ! "Christ"
 
 Сахалин:Сахалин NP-TOP ; ! ""
 
@@ -6170,6 +6181,9 @@ Ypyмэччи:Ypyмэччи NP-ANT-F ; ! ""
 Амстердам:Амстердам NP-TOP ;
 Неделанд:Неделанд NP-TOP-RUS ;
 АХШ:АХШ NP-TOP ;
+Иерусалим:Иерусалим NP-TOP ; ! Jerusalem
+Иордан:Иордан NP-TOP ; ! "Jordan"
+
 
 Нью% Эра% Пабликейшнс% Груп:Нью% Эра% Пабликейшнс% Груп NP-ORG ; !
 
