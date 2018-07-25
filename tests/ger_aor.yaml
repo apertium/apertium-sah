@@ -16,6 +16,51 @@ Tests:
     диэ<v><tv><ger_aor><com> : диирдиин
     диэ<v><tv><ger_aor><comp> : диирдээҕэр
 
+    диэ<v><tv><ger_aor><px1sg><nom> : диирим
+    диэ<v><tv><ger_aor><px1sg><par> : диирбинэ
+    диэ<v><tv><ger_aor><px1sg><dat> : диирбэр
+    диэ<v><tv><ger_aor><px1sg><acc> : диирбин
+    диэ<v><tv><ger_aor><px1sg><abl> : диирбиттэн
+    диэ<v><tv><ger_aor><px1sg><ins> : диирбинэн
+    диэ<v><tv><ger_aor><px1sg><com> : диирбиниин
+    диэ<v><tv><ger_aor><px1sg><comp> : диирбинээҕэр
+
+    диэ<v><tv><ger_aor><px2sg><nom> : диириҥ
+    диэ<v><tv><ger_aor><px2sg><par> : дииргинэ
+    диэ<v><tv><ger_aor><px2sg><dat> : дииргэр
+    диэ<v><tv><ger_aor><px2sg><acc> : дииргин
+    диэ<v><tv><ger_aor><px2sg><abl> : дииргиттэн
+    диэ<v><tv><ger_aor><px2sg><ins> : дииргинэн
+    диэ<v><tv><ger_aor><px2sg><com> : дииргиниин
+    диэ<v><tv><ger_aor><px2sg><comp> : дииргинээҕэр
+
+    диэ<v><tv><ger_aor><px3sp><nom> : диирэ
+    диэ<v><tv><ger_aor><px3sp><par> : дииринэ
+    диэ<v><tv><ger_aor><px3sp><dat> : дииригэр
+    диэ<v><tv><ger_aor><px3sp><acc> : диирин
+    диэ<v><tv><ger_aor><px3sp><abl> : диириттэн
+    диэ<v><tv><ger_aor><px3sp><ins> : дииринэн
+    диэ<v><tv><ger_aor><px3sp><com> : диириниин
+    диэ<v><tv><ger_aor><px3sp><comp> : дииринээҕэр
+
+    диэ<v><tv><ger_aor><px1pl><nom> : диирбит
+    диэ<v><tv><ger_aor><px1pl><par> : диирбитинэ
+    диэ<v><tv><ger_aor><px1pl><dat> : диирбитигэр
+    диэ<v><tv><ger_aor><px1pl><acc> : диирбитин
+    диэ<v><tv><ger_aor><px1pl><abl> : диирбититтэн
+    диэ<v><tv><ger_aor><px1pl><ins> : диирбитинэн
+    диэ<v><tv><ger_aor><px1pl><com> : диирбитиниин
+    диэ<v><tv><ger_aor><px1pl><comp> : диирбитинээҕэр
+
+    диэ<v><tv><ger_aor><px2pl><nom> : дииргит
+    диэ<v><tv><ger_aor><px2pl><par> : дииргитинэ
+    диэ<v><tv><ger_aor><px2pl><dat> : дииргитигэр
+    диэ<v><tv><ger_aor><px2pl><acc> : дииргитин
+    диэ<v><tv><ger_aor><px2pl><abl> : дииргититтэн
+    диэ<v><tv><ger_aor><px2pl><ins> : дииргитинэн
+    диэ<v><tv><ger_aor><px2pl><com> : дииргитиниин
+    диэ<v><tv><ger_aor><px2pl><comp> : дииргитинээҕэр
+
   "көр":
     көр<v><tv><ger_aor><nom> : көрөр
     көр<v><tv><ger_aor><par> : көрөрдө
