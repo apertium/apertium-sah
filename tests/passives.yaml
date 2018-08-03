@@ -15,6 +15,8 @@ Tests:
     арый<v><tv><ifi><p1><sg> : арыйдым
     эрчий<v><tv><pass><imp><p2><sg> : эрчилин
     эрчий<v><tv><ifi><p1><sg> : эрчийдим
+    эрий<v><tv><pass><imp><p2><sg> : эрилин
+    эрий<v><tv><ifi><p1><sg> : эрийдим
 
   "Verbs where final й does not delete in passive":
     баай<v><tv><pass><imp><p2><sg> : баайылын
