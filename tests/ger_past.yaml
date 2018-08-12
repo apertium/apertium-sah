@@ -6,7 +6,7 @@ Config:
 
 Tests:
 
-  "бар": 
+  "p1.sg cases": 
     бар<v><iv><ger_past><p1><sg><nom> : барбытым
     бар<v><iv><ger_past><p1><sg><acc> : барбыппын
     бар<v><iv><ger_past><p1><sg><dat> : барбыппар
@@ -15,6 +15,7 @@ Tests:
     бар<v><iv><ger_past><p1><sg><com> : барбыппыныын
     бар<v><iv><ger_past><p1><sg><comp> : барбыппынааҕар
 
+  "p2.sg cases": 
     бар<v><iv><ger_past><p2><sg><nom> : барбытын
     бар<v><iv><ger_past><p2><sg><acc> : барбыккын
     бар<v><iv><ger_past><p2><sg><dat> : барбыккар
@@ -23,6 +24,7 @@ Tests:
     бар<v><iv><ger_past><p2><sg><com> : барбыккыныын
     бар<v><iv><ger_past><p2><sg><comp> : барбыккынааҕар
 
+  "p3.sg cases": 
     бар<v><iv><ger_past><p3><sg><nom> : барбыта
     бар<v><iv><ger_past><p3><sg><acc> : барбытын
     бар<v><iv><ger_past><p3><sg><dat> : барбытыгар
@@ -31,6 +33,7 @@ Tests:
     бар<v><iv><ger_past><p3><sg><com> : барбытыныын
     бар<v><iv><ger_past><p3><sg><comp> : барбытынааҕар
 
+  "p1.pl cases": 
     бар<v><iv><ger_past><p1><pl><nom> : барбыппыт
     бар<v><iv><ger_past><p1><pl><acc> : барбыппытын
     бар<v><iv><ger_past><p1><pl><dat> : барбыппытыгар
@@ -39,6 +42,7 @@ Tests:
     бар<v><iv><ger_past><p1><pl><com> : барбыппытыныын
     бар<v><iv><ger_past><p1><pl><comp> : барбыппытынааҕар
 
+  "p2.pl cases": 
     бар<v><iv><ger_past><p2><pl><nom> : барбыккыт
     бар<v><iv><ger_past><p2><pl><acc> : барбыккытын
     бар<v><iv><ger_past><p2><pl><dat> : барбыккытыгар
@@ -47,6 +51,7 @@ Tests:
     бар<v><iv><ger_past><p2><pl><com> : барбыккытыныын
     бар<v><iv><ger_past><p2><pl><comp> : барбыккытынааҕар
 
+  "p3.pl cases": 
     бар<v><iv><ger_past><p3><pl><nom> : барбыттара
     бар<v><iv><ger_past><p3><pl><acc> : барбыттарын
     бар<v><iv><ger_past><p3><pl><dat> : барбыттарыгар
