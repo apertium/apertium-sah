@@ -1,0 +1,56 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../sah.autogen.hfst
+    Morph: ../sah.automorf.hfst
+
+Tests:
+
+  "бар": 
+    бар<v><iv><ger_past><p1><sg><nom> : барбытым
+    бар<v><iv><ger_past><p1><sg><acc> : барбыппын
+    бар<v><iv><ger_past><p1><sg><dat> : барбыппар
+    бар<v><iv><ger_past><p1><sg><abl> : барбыппыттан
+    бар<v><iv><ger_past><p1><sg><ins> : барбыппынан
+    бар<v><iv><ger_past><p1><sg><com> : барбыппыныын
+    бар<v><iv><ger_past><p1><sg><comp> : барбыппынааҕар
+
+    бар<v><iv><ger_past><p2><sg><nom> : барбытын
+    бар<v><iv><ger_past><p2><sg><acc> : барбыккын
+    бар<v><iv><ger_past><p2><sg><dat> : барбыккар
+    бар<v><iv><ger_past><p2><sg><abl> : барбыккыттан
+    бар<v><iv><ger_past><p2><sg><ins> : барбыккынан
+    бар<v><iv><ger_past><p2><sg><com> : барбыккыныын
+    бар<v><iv><ger_past><p2><sg><comp> : барбыккынааҕар
+
+    бар<v><iv><ger_past><p3><sg><nom> : барбыта
+    бар<v><iv><ger_past><p3><sg><acc> : барбытын
+    бар<v><iv><ger_past><p3><sg><dat> : барбытыгар
+    бар<v><iv><ger_past><p3><sg><abl> : барбытыттан
+    бар<v><iv><ger_past><p3><sg><ins> : барбытынан
+    бар<v><iv><ger_past><p3><sg><com> : барбытыныын
+    бар<v><iv><ger_past><p3><sg><comp> : барбытынааҕар
+
+    бар<v><iv><ger_past><p1><pl><nom> : барбыппыт
+    бар<v><iv><ger_past><p1><pl><acc> : барбыппытын
+    бар<v><iv><ger_past><p1><pl><dat> : барбыппытыгар
+    бар<v><iv><ger_past><p1><pl><abl> : барбыппытыттан
+    бар<v><iv><ger_past><p1><pl><ins> : барбыппытынан
+    бар<v><iv><ger_past><p1><pl><com> : барбыппытыныын
+    бар<v><iv><ger_past><p1><pl><comp> : барбыппытынааҕар
+
+    бар<v><iv><ger_past><p2><pl><nom> : барбыккыт
+    бар<v><iv><ger_past><p2><pl><acc> : барбыккытын
+    бар<v><iv><ger_past><p2><pl><dat> : барбыккытыгар
+    бар<v><iv><ger_past><p2><pl><abl> : барбыккытыттан
+    бар<v><iv><ger_past><p2><pl><ins> : барбыккытынан
+    бар<v><iv><ger_past><p2><pl><com> : барбыккытыныын
+    бар<v><iv><ger_past><p2><pl><comp> : барбыккытынааҕар
+
+    бар<v><iv><ger_past><p3><pl><nom> : барбыттара
+    бар<v><iv><ger_past><p3><pl><acc> : барбыттарын
+    бар<v><iv><ger_past><p3><pl><dat> : барбыттарыгар
+    бар<v><iv><ger_past><p3><pl><abl> : барбыттарыттан
+    бар<v><iv><ger_past><p3><pl><ins> : барбыттарынан
+    бар<v><iv><ger_past><p3><pl><com> : барбыттарыныын
+    бар<v><iv><ger_past><p3><pl><comp> : барбыттарынааҕар
