@@ -721,7 +721,7 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
 %<prc_impf%>:%>%{A%} CLITICS-NO-COP ; ! FIXME: check
 
-%<gna_cond%>:%>т%{A%}р V-PERS-S2 ;
+%<gna_cond%>:%>%{T%}%{A%}р V-PERS-S1 ;
 
 %<gpr_past%>:%>%{B%}%{I%}т CLITICS-NO-COP ; ! FIXME: check
 
@@ -754,6 +754,14 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 %<gpr_fut%>:%>%{I%}%{A%}х # ;
 
 
+%<ger_past%>:%>%{B%}%{I%}т SUBST ; !
+%<neg%>%<ger_past%>:%>%{B%}%{A%}т%{A%}х SUBST ; !
+
+%<gna_past%>:%>%{B%}%{I%}т CLITICS-NO-COP ; !
+%<neg%>%<gna_past%>:%>%{B%}%{A%}т%{A%}х CLITICS-NO-COP ; !
+
+
+
 LEXICON V-COMMON
 
 V-FINITE-REGULAR_NEGATIVE ;
@@ -763,6 +771,7 @@ V-FINITE-REGULAR_NEGATIVE ;
 V-FINITE-IRREGULAR_NEGATIVE ;
 
 V-NONFINITE-REGULAR_NEGATIVE ;
+%<neg%>:%>%{B%}%{A%} V-NONFINITE-REGULAR_NEGATIVE ;
 
 V-NONFINITE-IRREGULAR_NEGATIVE ;
 
