@@ -7,55 +7,55 @@ Config:
 Tests:
 
   "p1.sg cases": 
-    бар<v><iv><ger_past><p1><sg><nom> : барбытым
-    бар<v><iv><ger_past><p1><sg><acc> : барбыппын
-    бар<v><iv><ger_past><p1><sg><dat> : барбыппар
-    бар<v><iv><ger_past><p1><sg><abl> : барбыппыттан
-    бар<v><iv><ger_past><p1><sg><ins> : барбыппынан
-    бар<v><iv><ger_past><p1><sg><com> : барбыппыныын
-    бар<v><iv><ger_past><p1><sg><comp> : барбыппынааҕар
+    бар<v><iv><ger_past><px1sg><nom> : барбытым
+    бар<v><iv><ger_past><px1sg><acc> : барбыппын
+    бар<v><iv><ger_past><px1sg><dat> : барбыппар
+    бар<v><iv><ger_past><px1sg><abl> : барбыппыттан
+    бар<v><iv><ger_past><px1sg><ins> : барбыппынан
+    бар<v><iv><ger_past><px1sg><com> : барбыппыныын
+    бар<v><iv><ger_past><px1sg><comp> : барбыппынааҕар
 
   "p2.sg cases": 
-    бар<v><iv><ger_past><p2><sg><nom> : барбытын
-    бар<v><iv><ger_past><p2><sg><acc> : барбыккын
-    бар<v><iv><ger_past><p2><sg><dat> : барбыккар
-    бар<v><iv><ger_past><p2><sg><abl> : барбыккыттан
-    бар<v><iv><ger_past><p2><sg><ins> : барбыккынан
-    бар<v><iv><ger_past><p2><sg><com> : барбыккыныын
-    бар<v><iv><ger_past><p2><sg><comp> : барбыккынааҕар
+    бар<v><iv><ger_past><px2sg><nom> : барбытын
+    бар<v><iv><ger_past><px2sg><acc> : барбыккын
+    бар<v><iv><ger_past><px2sg><dat> : барбыккар
+    бар<v><iv><ger_past><px2sg><abl> : барбыккыттан
+    бар<v><iv><ger_past><px2sg><ins> : барбыккынан
+    бар<v><iv><ger_past><px2sg><com> : барбыккыныын
+    бар<v><iv><ger_past><px2sg><comp> : барбыккынааҕар
 
   "p3.sg cases": 
-    бар<v><iv><ger_past><p3><sg><nom> : барбыта
-    бар<v><iv><ger_past><p3><sg><acc> : барбытын
-    бар<v><iv><ger_past><p3><sg><dat> : барбытыгар
-    бар<v><iv><ger_past><p3><sg><abl> : барбытыттан
-    бар<v><iv><ger_past><p3><sg><ins> : барбытынан
-    бар<v><iv><ger_past><p3><sg><com> : барбытыныын
-    бар<v><iv><ger_past><p3><sg><comp> : барбытынааҕар
+    бар<v><iv><ger_past><px3sg><nom> : барбыта
+    бар<v><iv><ger_past><px3sg><acc> : барбытын
+    бар<v><iv><ger_past><px3sg><dat> : барбытыгар
+    бар<v><iv><ger_past><px3sg><abl> : барбытыттан
+    бар<v><iv><ger_past><px3sg><ins> : барбытынан
+    бар<v><iv><ger_past><px3sg><com> : барбытыныын
+    бар<v><iv><ger_past><px3sg><comp> : барбытынааҕар
 
   "p1.pl cases": 
-    бар<v><iv><ger_past><p1><pl><nom> : барбыппыт
-    бар<v><iv><ger_past><p1><pl><acc> : барбыппытын
-    бар<v><iv><ger_past><p1><pl><dat> : барбыппытыгар
-    бар<v><iv><ger_past><p1><pl><abl> : барбыппытыттан
-    бар<v><iv><ger_past><p1><pl><ins> : барбыппытынан
-    бар<v><iv><ger_past><p1><pl><com> : барбыппытыныын
-    бар<v><iv><ger_past><p1><pl><comp> : барбыппытынааҕар
+    бар<v><iv><ger_past><px1pl><nom> : барбыппыт
+    бар<v><iv><ger_past><px1pl><acc> : барбыппытын
+    бар<v><iv><ger_past><px1pl><dat> : барбыппытыгар
+    бар<v><iv><ger_past><px1pl><abl> : барбыппытыттан
+    бар<v><iv><ger_past><px1pl><ins> : барбыппытынан
+    бар<v><iv><ger_past><px1pl><com> : барбыппытыныын
+    бар<v><iv><ger_past><px1pl><comp> : барбыппытынааҕар
 
   "p2.pl cases": 
-    бар<v><iv><ger_past><p2><pl><nom> : барбыккыт
-    бар<v><iv><ger_past><p2><pl><acc> : барбыккытын
-    бар<v><iv><ger_past><p2><pl><dat> : барбыккытыгар
-    бар<v><iv><ger_past><p2><pl><abl> : барбыккытыттан
-    бар<v><iv><ger_past><p2><pl><ins> : барбыккытынан
-    бар<v><iv><ger_past><p2><pl><com> : барбыккытыныын
-    бар<v><iv><ger_past><p2><pl><comp> : барбыккытынааҕар
+    бар<v><iv><ger_past><px2pl><nom> : барбыккыт
+    бар<v><iv><ger_past><px2pl><acc> : барбыккытын
+    бар<v><iv><ger_past><px2pl><dat> : барбыккытыгар
+    бар<v><iv><ger_past><px2pl><abl> : барбыккытыттан
+    бар<v><iv><ger_past><px2pl><ins> : барбыккытынан
+    бар<v><iv><ger_past><px2pl><com> : барбыккытыныын
+    бар<v><iv><ger_past><px2pl><comp> : барбыккытынааҕар
 
   "p3.pl cases": 
-    бар<v><iv><ger_past><p3><pl><nom> : барбыттара
-    бар<v><iv><ger_past><p3><pl><acc> : барбыттарын
-    бар<v><iv><ger_past><p3><pl><dat> : барбыттарыгар
-    бар<v><iv><ger_past><p3><pl><abl> : барбыттарыттан
-    бар<v><iv><ger_past><p3><pl><ins> : барбыттарынан
-    бар<v><iv><ger_past><p3><pl><com> : барбыттарыныын
-    бар<v><iv><ger_past><p3><pl><comp> : барбыттарынааҕар
+    бар<v><iv><ger_past><px3pl><nom> : барбыттара
+    бар<v><iv><ger_past><px3pl><acc> : барбыттарын
+    бар<v><iv><ger_past><px3pl><dat> : барбыттарыгар
+    бар<v><iv><ger_past><px3pl><abl> : барбыттарыттан
+    бар<v><iv><ger_past><px3pl><ins> : барбыттарынан
+    бар<v><iv><ger_past><px3pl><com> : барбыттарыныын
+    бар<v><iv><ger_past><px3pl><comp> : барбыттарынааҕар
