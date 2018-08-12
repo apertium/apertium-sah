@@ -10,8 +10,10 @@ Tests:
     буол<v><iv><gna_cond><p3><sg> : буоллар
     буол<v><iv><neg><gna_cond><p3><sg> : буолбатар
     буол<v><iv><gna_cond><p1><sg> : буолларбын
+    буол<v><iv><neg><gna_cond><p1><sg> : буолбатарбын
 
   "бар":
     бар<v><iv><gna_cond><p3><sg> : бардар
     бар<v><iv><neg><gna_cond><p3><sg> : барбатар
     бар<v><iv><gna_cond><p1><sg> : бардарбын
+    бар<v><iv><neg><gna_cond><p1><sg> : барбатарбын
