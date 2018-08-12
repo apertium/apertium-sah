@@ -1,0 +1,55 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../sah.autogen.hfst
+    Morph: ../sah.automorf.hfst
+
+Tests:
+
+  "Accusative": 
+    бар<v><iv><ger_fut><px1sg><acc> : барыахпын
+    бар<v><iv><ger_fut><px2sg><acc> : барыаххын
+    бар<v><iv><ger_fut><px3sp><acc> : барыаҕын
+    бар<v><iv><ger_fut><px1pl><acc> : барыахпытын
+    бар<v><iv><ger_fut><px2pl><acc> : барыаххытын
+    бар<v><iv><ger_fut><px3sp><acc> : барыахтарын
+
+  "Dative": 
+    бар<v><iv><ger_fut><px1sg><dat> : барыахпар
+    бар<v><iv><ger_fut><px2sg><dat> : барыаххар
+    бар<v><iv><ger_fut><px3sp><dat> : барыаҕар
+    бар<v><iv><ger_fut><px1pl><dat> : барыахпытыгар
+    бар<v><iv><ger_fut><px2pl><dat> : барыаххытыгар
+    бар<v><iv><ger_fut><px3sp><dat> : барыахтарыгар
+
+  "Ablative": 
+    бар<v><iv><ger_fut><px1sg><abl> : барыахпыттан
+    бар<v><iv><ger_fut><px2sg><abl> : барыаххыттан
+    бар<v><iv><ger_fut><px3sp><abl> : барыаҕыттан
+    бар<v><iv><ger_fut><px1pl><abl> : барыахпытыттан
+    бар<v><iv><ger_fut><px2pl><abl> : барыаххытыттан
+    бар<v><iv><ger_fut><px3sp><abl> : барыахтарыттан
+
+  "Instrumental": 
+    бар<v><iv><ger_fut><px1sg><ins> : барыахпынан
+    бар<v><iv><ger_fut><px2sg><ins> : барыаххынан
+    бар<v><iv><ger_fut><px3sp><ins> : барыаҕынан
+    бар<v><iv><ger_fut><px1pl><ins> : барыахпытынан
+    бар<v><iv><ger_fut><px2pl><ins> : барыаххытынан
+    бар<v><iv><ger_fut><px3sp><ins> : барыахтарынан
+
+  "Comitative": 
+    бар<v><iv><ger_fut><px1sg><com> : барыахпыныын
+    бар<v><iv><ger_fut><px2sg><com> : барыаххыныын
+    бар<v><iv><ger_fut><px3sp><com> : барыаҕыныын
+    бар<v><iv><ger_fut><px1pl><com> : барыахпытыныын
+    бар<v><iv><ger_fut><px2pl><com> : барыаххытыныын
+    бар<v><iv><ger_fut><px3sp><com> : барыахтарыныын
+
+  "Comparative": 
+    бар<v><iv><ger_fut><px1sg><comp> : барыахпынааҕар
+    бар<v><iv><ger_fut><px2sg><comp> : барыаххынааҕар
+    бар<v><iv><ger_fut><px3sp><comp> : барыаҕынааҕар
+    бар<v><iv><ger_fut><px1pl><comp> : барыахпытынааҕар
+    бар<v><iv><ger_fut><px2pl><comp> : барыаххытынааҕар
+    бар<v><iv><ger_fut><px3sp><comp> : барыахтарынааҕар
