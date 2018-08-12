@@ -242,20 +242,22 @@ CASES-ETC ;
 %<px1sg%>%<dat%>:%>%{B%}%{A%}р # ;
 %<px2sg%>:%>%{G%}%{I%} CASES-POSS-12SG ;
 %<px2sg%>%<dat%>:%>%{G%}%{A%}р # ; 
-%<px3sp%>:%>%{t%}%{I%} CASES-POSS-3SP ;
+%<px3sp%>:%>%{t%}%{I%} CASES-POSS-3SP ; ! FIXME: check!
+%<px3sg%>:%>%{t%}%{I%} CASES-POSS-3SP ; ! Dir/RL
 %<px1pl%>:%>%{B%}%{I%}т%{I%} CASES-POSS-3SP ;
 %<px2pl%>:%>%{G%}%{I%}т%{I%} CASES-POSS-3SP ;
-!%<px3pl%>:%>%{L%}%{A%}р%{I%} CASES-ETC ;
+%<px3pl%>:%>%{L%}%{A%}р%{I%} CASES-POSS-3SP ;
 
 LEXICON POSS-NOM
 
 CASES-ETC ;
 %<px1sg%>:%>%{i%}м CASES-NOM ;
 %<px2sg%>:%>%{i%}ҥ CASES-NOM ;
-%<px3sp%>:%>%{t%}%{A%} CASES-NOM ;
+%<px3sp%>:%>%{t%}%{A%} CASES-NOM ; ! FIXME: check!
+%<px3sg%>:%>%{t%}%{A%} CASES-NOM ; ! Dir/RL
 %<px1pl%>:%>%{B%}%{I%}т CASES-NOM ;
 %<px2pl%>:%>%{G%}%{I%}т CASES-NOM ;
-!%<px3pl%>:%>%{L%}%{A%}р%{A%} CASES-NOM ;
+%<px3pl%>:%>%{L%}%{A%}р%{A%} CASES-NOM ;
 
 LEXICON ATTR-SUBST 
 
