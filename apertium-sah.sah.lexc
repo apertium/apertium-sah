@@ -86,7 +86,7 @@ Multichar_Symbols
 %<imp%>            !
 %<pros%>           !
 %<epis%>           !
-%<resl%>           !
+!%<resl%>          ! I think this is an old equivalent of <past>? -JNW 2018-08-12
 %<nec%>            !
 %<pii%>            !
 %<fut%>            !
@@ -142,6 +142,7 @@ Multichar_Symbols
 %{н%}              ! Reflexive н that deletes before passive
 %{й%}              ! Verb-stem-final й that deletes before passive
 %{ь%}              ! Disappearing ь
+%{ы%}              ! appears as high vowel before BIт in passive; otherwise 0
 
 %{☭%}              ! Used to tell the phonology about a Russian word
 %{ъ%}              ! 
@@ -701,8 +702,8 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 
 %<nec%>:%>%{I%}%{A%}х%>т%{A%}%{A%}х V-PERS-S1 ; ! FIXME: check
 
-%<resl%>:%>%{B%}%{I%}т V-PERS-S1 ; ! FIXME: check
-%<neg%>%<resl%>:%>%{B%}%{A%}т%{A%}х V-PERS-S1 ; ! FIXME: check -S1 or -S2 ?
+! %<resl%>:%>%{B%}%{I%}т V-PERS-S1 ; ! FIXME: check
+! %<neg%>%<resl%>:%>%{B%}%{A%}т%{A%}х V-PERS-S1 ; ! FIXME: check -S1 or -S2 ?
 
 %<past%>%<evid%>:%>%{B%}%{I%}т% эбит V-PERS-S1 ; !
 
@@ -771,8 +772,8 @@ LEXICON V-DER
 
 LEXICON V-PASS
 
-%<pass%>:%>%{i%}л%{y%}н V-COMMON ;
-%<pass%>:%>%{i%}л%{y%}н V-DER ;
+%<pass%>:%>%{i%}л%{y%}н%{ы%} V-COMMON ;
+%<pass%>:%>%{i%}л%{y%}н%{ы%} V-DER ;
 
 
 LEXICON V-TV
