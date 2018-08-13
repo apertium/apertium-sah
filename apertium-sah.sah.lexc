@@ -435,6 +435,8 @@ LEXICON A2
 LEXICON A3
 
 %<adj%>: # ;
+%<adj%>%<subst%>: FULL-NOMINAL-INFLECTION ;
+! e.g. "тыла суохтар", "хараҕа суохтары", etc.
 
 LEXICON A4
 
@@ -7636,7 +7638,7 @@ Ypyмэччи:Ypyмэччи NP-ANT-F ; ! ""
 LEXICON Adjectives
 
 баар:баар A3 ; ! "есть"
-суох:суох A3 ; ! "нет"
+суох:суох A3 ; ! "нет" 
 
 куһаҕан:куһаҕан  A1 ; ! " bad, evil;"
 улуу:улуу A1 ; ! "большой"
