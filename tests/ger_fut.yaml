@@ -14,6 +14,13 @@ Tests:
     бар<v><iv><ger_fut><px2pl><acc> : барыаххытын
     бар<v><iv><ger_fut><px3sp><acc> : барыахтарын
 
+    бар<v><iv><neg><ger_fut><px1sg><acc> : барымыахпын
+    бар<v><iv><neg><ger_fut><px2sg><acc> : барымыаххын
+    бар<v><iv><neg><ger_fut><px3sp><acc> : барымыаҕын
+    бар<v><iv><neg><ger_fut><px1pl><acc> : барымыахпытын
+    бар<v><iv><neg><ger_fut><px2pl><acc> : барымыаххытын
+    бар<v><iv><neg><ger_fut><px3sp><acc> : барымыахтарын
+
   "Dative": 
     бар<v><iv><ger_fut><px1sg><dat> : барыахпар
     бар<v><iv><ger_fut><px2sg><dat> : барыаххар
@@ -21,6 +28,13 @@ Tests:
     бар<v><iv><ger_fut><px1pl><dat> : барыахпытыгар
     бар<v><iv><ger_fut><px2pl><dat> : барыаххытыгар
     бар<v><iv><ger_fut><px3sp><dat> : барыахтарыгар
+
+    бар<v><iv><neg><ger_fut><px1sg><dat> : барымыахпар
+    бар<v><iv><neg><ger_fut><px2sg><dat> : барымыаххар
+    бар<v><iv><neg><ger_fut><px3sp><dat> : барымыаҕар
+    бар<v><iv><neg><ger_fut><px1pl><dat> : барымыахпытыгар
+    бар<v><iv><neg><ger_fut><px2pl><dat> : барымыаххытыгар
+    бар<v><iv><neg><ger_fut><px3sp><dat> : барымыахтарыгар
 
   "Ablative": 
     бар<v><iv><ger_fut><px1sg><abl> : барыахпыттан
@@ -30,6 +44,13 @@ Tests:
     бар<v><iv><ger_fut><px2pl><abl> : барыаххытыттан
     бар<v><iv><ger_fut><px3sp><abl> : барыахтарыттан
 
+    бар<v><iv><neg><ger_fut><px1sg><abl> : барымыахпыттан
+    бар<v><iv><neg><ger_fut><px2sg><abl> : барымыаххыттан
+    бар<v><iv><neg><ger_fut><px3sp><abl> : барымыаҕыттан
+    бар<v><iv><neg><ger_fut><px1pl><abl> : барымыахпытыттан
+    бар<v><iv><neg><ger_fut><px2pl><abl> : барымыаххытыттан
+    бар<v><iv><neg><ger_fut><px3sp><abl> : барымыахтарыттан
+
   "Instrumental": 
     бар<v><iv><ger_fut><px1sg><ins> : барыахпынан
     бар<v><iv><ger_fut><px2sg><ins> : барыаххынан
@@ -37,6 +58,13 @@ Tests:
     бар<v><iv><ger_fut><px1pl><ins> : барыахпытынан
     бар<v><iv><ger_fut><px2pl><ins> : барыаххытынан
     бар<v><iv><ger_fut><px3sp><ins> : барыахтарынан
+
+    бар<v><iv><ger_fut><px1sg><ins> : барымыахпынан
+    бар<v><iv><ger_fut><px2sg><ins> : барымыаххынан
+    бар<v><iv><ger_fut><px3sp><ins> : барымыаҕынан
+    бар<v><iv><ger_fut><px1pl><ins> : барымыахпытынан
+    бар<v><iv><ger_fut><px2pl><ins> : барымыаххытынан
+    бар<v><iv><ger_fut><px3sp><ins> : барымыахтарынан
 
   "Comitative": 
     бар<v><iv><ger_fut><px1sg><com> : барыахпыныын
@@ -46,6 +74,13 @@ Tests:
     бар<v><iv><ger_fut><px2pl><com> : барыаххытыныын
     бар<v><iv><ger_fut><px3sp><com> : барыахтарыныын
 
+    бар<v><iv><neg><ger_fut><px1sg><com> : барымыахпыныын
+    бар<v><iv><neg><ger_fut><px2sg><com> : барымыаххыныын
+    бар<v><iv><neg><ger_fut><px3sp><com> : барымыаҕыныын
+    бар<v><iv><neg><ger_fut><px1pl><com> : барымыахпытыныын
+    бар<v><iv><neg><ger_fut><px2pl><com> : барымыаххытыныын
+    бар<v><iv><neg><ger_fut><px3sp><com> : барымыахтарыныын
+
   "Comparative": 
     бар<v><iv><ger_fut><px1sg><comp> : барыахпынааҕар
     бар<v><iv><ger_fut><px2sg><comp> : барыаххынааҕар
@@ -53,3 +88,10 @@ Tests:
     бар<v><iv><ger_fut><px1pl><comp> : барыахпытынааҕар
     бар<v><iv><ger_fut><px2pl><comp> : барыаххытынааҕар
     бар<v><iv><ger_fut><px3sp><comp> : барыахтарынааҕар
+
+    бар<v><iv><neg><ger_fut><px1sg><comp> : барымыахпынааҕар
+    бар<v><iv><neg><ger_fut><px2sg><comp> : барымыаххынааҕар
+    бар<v><iv><neg><ger_fut><px3sp><comp> : барымыаҕынааҕар
+    бар<v><iv><neg><ger_fut><px1pl><comp> : барымыахпытынааҕар
+    бар<v><iv><neg><ger_fut><px2pl><comp> : барымыаххытынааҕар
+    бар<v><iv><neg><ger_fut><px3sp><comp> : барымыахтарынааҕар
