@@ -99,10 +99,14 @@ Multichar_Symbols
 %<gna_goal%>       ! -AAрI
 !%<gna_nond%>       ! -A илик
 %<gna_fut%>        !
+%<gna_past%>       ! -BIт
+%<gna_fut%>        ! -IAх
 
 %<ger_pros%>       ! -IAх
 %<ger_aor%>        ! -Ar
 %<ger1%>           ! -IAн (FIXME: rename)
+%<ger_past%>       ! -BIт
+%<ger_fut%>        ! -IAx
 
 %<gpr_aor%>        ! 
 %<gpr_fut%>        !
@@ -242,8 +246,8 @@ CASES-ETC ;
 %<px1sg%>%<dat%>:%>%{B%}%{A%}р # ;
 %<px2sg%>:%>%{G%}%{I%} CASES-POSS-12SG ;
 %<px2sg%>%<dat%>:%>%{G%}%{A%}р # ; 
-%<px3sp%>:%>%{t%}%{I%} CASES-POSS-3SP ; ! FIXME: check!
-%<px3sg%>:%>%{t%}%{I%} CASES-POSS-3SP ; ! Dir/RL
+%<px3sp%>:%>%{t%}%{I%} CASES-POSS-3SP ; ! Dir/LR ! FIXME: check!
+%<px3sg%>:%>%{t%}%{I%} CASES-POSS-3SP ;
 %<px1pl%>:%>%{B%}%{I%}т%{I%} CASES-POSS-3SP ;
 %<px2pl%>:%>%{G%}%{I%}т%{I%} CASES-POSS-3SP ;
 %<px3pl%>:%>%{L%}%{A%}р%{I%} CASES-POSS-3SP ;
@@ -253,8 +257,8 @@ LEXICON POSS-NOM
 CASES-ETC ;
 %<px1sg%>:%>%{i%}м CASES-NOM ;
 %<px2sg%>:%>%{i%}ҥ CASES-NOM ;
-%<px3sp%>:%>%{t%}%{A%} CASES-NOM ; ! FIXME: check!
-%<px3sg%>:%>%{t%}%{A%} CASES-NOM ; ! Dir/RL
+%<px3sp%>:%>%{t%}%{A%} CASES-NOM ; ! Dir/LR ! FIXME: check!
+%<px3sg%>:%>%{t%}%{A%} CASES-NOM ;
 %<px1pl%>:%>%{B%}%{I%}т CASES-NOM ;
 %<px2pl%>:%>%{G%}%{I%}т CASES-NOM ;
 %<px3pl%>:%>%{L%}%{A%}р%{A%} CASES-NOM ;
@@ -762,6 +766,9 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 %<gna_past%>:%>%{B%}%{I%}т CLITICS-NO-COP ; !
 %<neg%>%<gna_past%>:%>%{B%}%{A%}т%{A%}х CLITICS-NO-COP ; !
 
+%<ger_fut%>:%>%{I%}%{A%}х SUBST ; !
+
+%<gna_fut%>:%>%{I%}%{A%}х CLITICS-NO-COP ; !
 
 
 LEXICON V-COMMON
