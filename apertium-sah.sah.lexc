@@ -108,6 +108,7 @@ Multichar_Symbols
 %<ger1%>           ! -IAн (FIXME: rename)
 %<ger_past%>       ! -BIт
 %<ger_fut%>        ! -IAx
+%<ger_cond2%>      ! -ТАх
 
 %<gpr_aor%>        ! 
 %<gpr_fut%>        !
@@ -747,6 +748,8 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
 %<gna_cond%>:%>%{T%}%{A%}р V-PERS-S1 ;
 %<gna_cond2%>:%>%{T%}%{A%}х V-PERS-COND2 ;
+
+%<ger_cond2%>:%>%{T%}%{A%}х SUBST ;
 
 %<gpr_past%>:%>%{B%}%{I%}т CLITICS-NO-COP ; ! FIXME: check
 
