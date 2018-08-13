@@ -196,6 +196,11 @@ LEXICON CLITICS-NO-COP
 LEXICON CLITICS-INCL-COP 
 
 # ;
+COPULA ;
+
+LEXICON COPULA
+
+%+э%<cop%>%<aor%>:%> V-PERS-S1 ;  ! FIXME FIXME FIXME FIXME
 
 LEXICON CASES-OBL
 
@@ -424,27 +429,27 @@ LEXICON NP-AL
 
 LEXICON A1 
 
-%<adj%>: #  ;
+%<adj%>: CLITICS-INCL-COP ;
 %<adj%>%<subst%>: FULL-NOMINAL-INFLECTION ;
 
 LEXICON A2
 
-%<adj%>: # ;
+%<adj%>: CLITICS-INCL-COP ;
 %<adj%>%<subst%>: FULL-NOMINAL-INFLECTION ;
 
 LEXICON A3
 
-%<adj%>: # ;
+%<adj%>: CLITICS-INCL-COP ;
 %<adj%>%<subst%>: FULL-NOMINAL-INFLECTION ;
 ! e.g. "тыла суохтар", "хараҕа суохтары", etc.
 
 LEXICON A4
 
-%<adj%>: # ;
+%<adj%>: CLITICS-INCL-COP ;
 
 LEXICON A9
 
-%<adj%>: # ;
+%<adj%>: CLITICS-INCL-COP ;
 
 LEXICON NUM
 
