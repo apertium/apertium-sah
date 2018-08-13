@@ -80,6 +80,7 @@ Multichar_Symbols
 %<m%>              !
 
 %<evid%>           ! Evidential, a.k.a. "indirect" / non-eyewitness / hearsay
+%<ded%>            ! Deductive: TAҕA
 %<aor%>            !
 %<ifi%>            !
 %<past%>           !
@@ -731,6 +732,7 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 ! %<neg%>%<resl%>:%>%{B%}%{A%}т%{A%}х V-PERS-S1 ; ! FIXME: check -S1 or -S2 ?
 
 %<past%>%<evid%>:%>%{B%}%{I%}т% эбит V-PERS-S1 ; !
+%<past%>%<ded%>:%>%{T%}%{A%}х V-PERS-S2 ; !
 
 %<fut%>:%>%{I%}%{A%}х V-PERS-S2 ; ! future
 %<neg%>%<fut%>:%>%{I%}%{A%} V-PERS-NEGFUT ; ! future
