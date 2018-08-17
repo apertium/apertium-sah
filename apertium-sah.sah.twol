@@ -330,6 +330,17 @@ Vx:Vy <=> :RoundVow _ %>: %{A%}: ;
             Vy in ( у у ү ү )
       matched ;
 
+!@ ү ө с к э:ү э:ү >:0 {A}:0 р
+
+"second element of diphthongs and long vowels immediately before {I}{A} round"
+Vx:Vy <=> :RoundVow _ %>: %{I%}: %{A%}: ;
+      where Vx in ( а э )
+            Vy in ( у ө )
+      matched ;
+
+!@ ү ө с к э:ү э:ө >:0 {I}:0 {A}:0 н
+
+
 "vowel harmony for {a} except after уо and үө"
 %{a%}:Vy <=> :Vx [ :Cons* :Cons ]/[ :0 | :ь ]* _ ;
          except
