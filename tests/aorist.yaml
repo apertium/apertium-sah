@@ -60,6 +60,8 @@ Tests:
 
   "Aorist round + unround vowel stems":
     үөскээ<v><iv><aor><p3><sg> : үөскүүр
+    туораа<v><iv><aor><p3><sg> : туоруур
+    бултаа<v><tv><aor><p3><sg> : бултуур
 
   "Aorist negative back vowel, vowel stem":
     сатаа<v><tv><neg><aor><p3><sg> : сатаабат
