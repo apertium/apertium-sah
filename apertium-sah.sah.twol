@@ -32,6 +32,8 @@ Alphabet
 	%{H%}:һ ! %{H%}:и %{H%}:у %{H%}:ү %{H%}:ы
 
    %{Н%}:н ! %{н%}:0
+   
+	%{m%}:0 ! %{m%}:м
 
    %{р%}:р
 
@@ -219,6 +221,9 @@ Cx:д <=> %{рл%}:л %{y%}:0 _ %{ь%}: ;
 
 !@ с ы {рл}:л {y}:0 т:д {ь}:ь >:0 {A}:а {р}:р
 
+"м after some stems"
+%{m%}:м <=> ы: а: %>: _ ;
+
 !!!== lenition ==!!!
 
 "intervocalic lenition"
@@ -331,7 +336,13 @@ Vx:Vy <=> :RoundVow/[ :Cons | :0 ]* _ :RealVow %>: (%{I%}:) %{A%}: ;
             Vy in ( у у ү ү )
       matched ;
 
+"first element of diphthongs and long vowels immediately before {m}{i}м"
+Vx:Vy <=> _ LowVow: %>: %{m%}: %{i%}: м: ;
+      where Vx in ( а о э ө )
+            Vy in ( ы у и ү )
+      matched ;
 
+!@ а һ а:ы а >:0 {i}:0 м >:0 {I}:ы {A}:а н
 
 !"first element of diphthongs and long vowels immediately before {I}{A}"
 !Vx:Vy <=> _ :RealVow %>: %{I%}: %{A%}: ;

@@ -152,6 +152,7 @@ Multichar_Symbols
 %{ы%}              ! appears as high vowel before BIт in passive; otherwise 0
 %{H%}              ! һ or ы, for -ыы/-һын alternation
 %{Н%}              ! н or 0, for -ыы/-һын alternation
+%{m%}              !
 
 %{☭%}              ! Used to tell the phonology about a Russian word
 %{ъ%}              ! 
@@ -780,7 +781,7 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 %<neg%>%<ger_aor%>:%>%{B%}%{A%}т SUBST ; 
 
 %<ger1%>:%>%{I%}%{A%}н # ;
-%<neg%>%<ger1%>:%{i%}м%>%{I%}%{A%}н # ;
+%<neg%>%<ger1%>:%>%{m%}%{i%}м%>%{I%}%{A%}н # ;
 
 %<ger2%>:%>%{H%}%{I%}%{Н%} # ;
 
