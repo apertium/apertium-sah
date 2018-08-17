@@ -833,6 +833,15 @@ LEXICON V-AUX
 
 %<vaux%>: V-COMMON ;
 
+LEXICON KI
+
+%<attr%>:%>%{G%}%{I%} CLITICS-NO-COP ;
+%<subst%>:%>%{G%}%{I%} FULL-NOMINAL-INFLECTION ;
+
+LEXICON ADV-WITH-KI
+
+ADV ;
+%<adv%>: KI ;
 
 LEXICON ADV-ITG
 
@@ -9041,7 +9050,7 @@ LEXICON Adverbs
 хаһан% да:хаһан% да ADV ; ! "never" ! Use/MT ! Dir/RL
 өссө% даҕаны:өссө% даҕаны ADV ; ! "still" ! Use/MT ! Dir/RL
 
-быйыл:быйыл ADV ; ! "этот год, в этом году"
+быйыл:быйыл ADV-WITH-KI ; ! "этот год, в этом году"
 былырыын:былырыын ADV ; ! "прошлой год, в прошлом году"
 бөлүүн:бөлүүн ADV ; ! "этой ночью"
 
