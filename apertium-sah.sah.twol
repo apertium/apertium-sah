@@ -53,6 +53,12 @@ Vow = Я Ю Ё А О Ы У Э Е И Ө Ү
 RealVow = А О Ы У Э И Ө Ү
           а о ы у э и ө ү ;
 
+RoundVow = О У Ө Ү
+           о у ө ү ;
+
+UnRoundVow = А Ы Э И
+             а ы э и ;
+
 LowVow = Я Ё А О Э Е Ө
          я ё а о э е ө ;
 
@@ -292,11 +298,19 @@ Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
 "{I} deletes after long vowels and diphthongs and triggers other stuff"
 %{I%}:0 <=> :RealVow :RealVow %>: _ ;
 
-"first element of diphthongs and long vowels immediately before ({I}){A}"
-Vx:Vy <=> _ :RealVow %>: (%{I%}:) %{A%}: ;
+"first element of diphthongs and long vowels immediately before ({I}){A} and after unrounded vowels"
+Vx:Vy <=> :UnRoundVow/[ :Cons | :0 ]* _ :RealVow %>: (%{I%}:) %{A%}: ;
       where Vx in ( а о э ө )
             Vy in ( ы у и ү )
       matched ;
+
+"first element of diphthongs and long vowels immediately before ({I}){A} and after rounded vowels"
+Vx:Vy <=> :RoundVow/[ :Cons | :0 ]* _ :RealVow %>: (%{I%}:) %{A%}: ;
+      where Vx in ( а о э ө )
+            Vy in ( у у ү ү )
+      matched ;
+
+
 
 !"first element of diphthongs and long vowels immediately before {I}{A}"
 !Vx:Vy <=> _ :RealVow %>: %{I%}: %{A%}: ;
@@ -304,10 +318,16 @@ Vx:Vy <=> _ :RealVow %>: (%{I%}:) %{A%}: ;
 !            Vy in ( и ы у ү )
 !      matched ;
 
-"second element of diphthongs and long vowels immediately before {A}"
-Vx:Vy <=> :RealVow _ %>: %{A%}: ;
+"second element of diphthongs and long vowels immediately before {A} unround"
+Vx:Vy <=> :UnRoundVow _ %>: %{A%}: ;
       where Vx in ( а о э ө )
             Vy in ( ы у и ү )
+      matched ;
+
+"second element of diphthongs and long vowels immediately before {A} round"
+Vx:Vy <=> :RoundVow _ %>: %{A%}: ;
+      where Vx in ( а о э ө )
+            Vy in ( у у ү ү )
       matched ;
 
 "vowel harmony for {a} except after уо and үө"

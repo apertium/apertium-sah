@@ -56,7 +56,10 @@ Tests:
     төрөө<v><iv><aor><p3><sg> : төрүүр
     өйдөө<v><tv><aor><p3><sg> : өйдүүр
     өйдөө<v><tv><aor><p3><pl> : өйдүүллэр
-    холоо<v><tv><aor><p3><sg> : холуур
+    холоо<v><iv><aor><p3><sg> : холуур
+
+  "Aorist round + unround vowel stems":
+    үөскээ<v><iv><aor><p3><sg> : үөскүүр
 
   "Aorist negative back vowel, vowel stem":
     сатаа<v><tv><neg><aor><p3><sg> : сатаабат
