@@ -150,6 +150,8 @@ Multichar_Symbols
 %{й%}              ! Verb-stem-final й that deletes before passive
 %{ь%}              ! Disappearing ь
 %{ы%}              ! appears as high vowel before BIт in passive; otherwise 0
+%{H%}              ! һ or ы, for -ыы/-һын alternation
+%{Н%}              ! н or 0, for -ыы/-һын alternation
 
 %{☭%}              ! Used to tell the phonology about a Russian word
 %{ъ%}              ! 
@@ -779,6 +781,8 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 
 %<ger1%>:%>%{I%}%{A%}н # ;
 %<neg%>%<ger1%>:%{i%}м%>%{I%}%{A%}н # ;
+
+%<ger2%>:%>%{H%}%{I%}%{Н%} # ;
 
 !!!! FIXME: NEW STUFF TO CHECK
 %<gna_fut%>:%>%{I%}%{A%} # ;
