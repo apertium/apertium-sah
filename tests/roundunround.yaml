@@ -1,0 +1,18 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../sah.autogen.hfst
+    Morph: ../sah.automorf.hfst
+
+Tests:
+
+  "үөскээ":
+    үөскээ<v><iv><aor><p3><sg> : үөскүүр
+    үөскээ<v><iv><ger1> : үөскүөн
+    үөскээ<v><iv><prc_impf> : үөскүү
+
+
+  "туораа":
+    туораа<v><iv><aor><p3><sg> : туоруур
+
+
