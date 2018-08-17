@@ -1,0 +1,23 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../sah.autogen.hfst
+    Morph: ../sah.automorf.hfst
+
+Tests:
+
+  "-ыы": 
+    бар<v><iv><ger2> : барыы
+    олор<v><iv><ger2> : олоруу
+    сыт<v><iv><ger2> :  сытыы
+    күл<v><iv><ger2> : күлүү
+    билсис<v><iv><ger2> : билсиһии
+    харыстан<v><iv><ger2> : харыстаныы
+    биллэр<v><tv><ger2> : биллэрии
+
+  "-һын":
+    бараа<v><tv><ger2> : барааһын
+    ыйаа<v><tv><ger2> : ыйааһын
+    тэрий<v><tv><ger2> : тэрээһин
+    хамнаа<v><iv><ger2> : хамнааһын
+    былааннаа<v><iv><ger2> : былааннааһын
