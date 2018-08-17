@@ -126,7 +126,9 @@ Rules
 !%{D%}:т <=> _ :0* :Cons ;
 !            _ :0* .#. ;
 "{D} as д before a vowel"
-%{D%}:д <=> _ :0* :Vow ;
+%{D%}:д <=> _ [ :0 - %{T%}: ]* :Vow ;
+
+! {T} excluded because of т а р {D}:т > {T}:0 > {A}:а
 
 
 !!!== progressive assimilation ==!!!
@@ -178,6 +180,8 @@ Cx:д <=> %{рл%}:л %{y%}:0 _ %{ь%}: ;
 "{н} deletes at end of stem before passive"
 %{н%}:0 <=> _ %>: %{i%}: :л ;
 
+"{T} deletes after clusters ending in т"
+%{T%}:0 <=> :р [ :т | %{D%}: ] %>: _ ;
 
 !!!== epenthesis ==!!!
 
