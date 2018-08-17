@@ -94,6 +94,7 @@ Tests:
   "Verbs with epenthetic vowel and х/ҕ alternation":
     таҕыс<v><iv><aor><p3><sg> : тахсар
     таҕыс<v><iv><ifi><p1><sg> : таҕыстым
+    таҕыс<v><iv><past><p3><sg> : тахсыбыта
     оҕус<v><tv><aor><p3><sg> : охсор
     оҕус<v><tv><ifi><p1><sg> : оҕустум
     араҕыс<v><iv><aor><p3><sg> : арахсар
