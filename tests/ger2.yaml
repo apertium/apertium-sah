@@ -15,6 +15,123 @@ Tests:
     харыстан<v><iv><ger2> : харыстаныы
     биллэр<v><tv><ger2> : биллэрии
 
+    оҥор<v><tv><ger2><nom> : оҥоруу
+    оҥор<v><tv><ger2><acc> : оҥорууну
+    оҥор<v><tv><ger2><par> : оҥоруута
+    оҥор<v><tv><ger2><dat> : оҥорууга
+    оҥор<v><tv><ger2><abl> : оҥорууттан
+    оҥор<v><tv><ger2><ins> : оҥоруунан
+    оҥор<v><tv><ger2><com> : оҥоруулуун
+    оҥор<v><tv><ger2><comp> : оҥоруутааҕар
+
+    оҥор<v><tv><ger2><px1sg><nom> : оҥоруум
+    оҥор<v><tv><ger2><px1sg><acc> : оҥоруубун
+    оҥор<v><tv><ger2><px1sg><par> : оҥоруубуна
+    оҥор<v><tv><ger2><px1sg><dat> : оҥоруубар
+    оҥор<v><tv><ger2><px1sg><abl> : оҥоруубуттан
+    оҥор<v><tv><ger2><px1sg><ins> : оҥоруубунан
+    оҥор<v><tv><ger2><px1sg><com> : оҥоруубунуун
+    оҥор<v><tv><ger2><px1sg><comp> : оҥоруубунааҕар
+
+    оҥор<v><tv><ger2><px2sg><nom> : оҥорууҥ
+    оҥор<v><tv><ger2><px2sg><acc> : оҥоруугун
+    оҥор<v><tv><ger2><px2sg><par> : оҥоруугуна
+    оҥор<v><tv><ger2><px2sg><dat> : оҥоруугар
+    оҥор<v><tv><ger2><px2sg><abl> : оҥоруугуттан
+    оҥор<v><tv><ger2><px2sg><ins> : оҥоруугунан
+    оҥор<v><tv><ger2><px2sg><com> : оҥоруугунуун
+    оҥор<v><tv><ger2><px2sg><comp> : оҥоруугунааҕар
+    
+    оҥор<v><tv><ger2><px3sg><nom> : оҥоруута
+    оҥор<v><tv><ger2><px3sg><acc> : оҥоруутун
+    оҥор<v><tv><ger2><px3sg><par> : оҥоруутуна
+    оҥор<v><tv><ger2><px3sg><dat> : оҥоруутугар
+    оҥор<v><tv><ger2><px3sg><abl> : оҥоруутуттан
+    оҥор<v><tv><ger2><px3sg><ins> : оҥоруутунан
+    оҥор<v><tv><ger2><px3sg><com> : оҥоруутунуун
+    оҥор<v><tv><ger2><px3sg><comp> : оҥоруутунааҕар
+
+    оҥор<v><tv><ger2><px1pl><nom> : оҥоруубут
+    оҥор<v><tv><ger2><px1pl><acc> : оҥоруубутун
+    оҥор<v><tv><ger2><px1pl><par> : оҥоруубутуна
+    оҥор<v><tv><ger2><px1pl><dat> : оҥоруубутугар
+    оҥор<v><tv><ger2><px1pl><abl> : оҥоруубутуттан
+    оҥор<v><tv><ger2><px1pl><ins> : оҥоруубутунан
+    оҥор<v><tv><ger2><px1pl><com> : оҥоруубутунуун
+    оҥор<v><tv><ger2><px1pl><comp> : оҥоруубутунааҕар
+
+    оҥор<v><tv><ger2><px2pl><nom> : оҥоруугут
+    оҥор<v><tv><ger2><px2pl><acc> : оҥоруугутун
+    оҥор<v><tv><ger2><px2pl><par> : оҥоруугутуна
+    оҥор<v><tv><ger2><px2pl><dat> : оҥоруугутугар
+    оҥор<v><tv><ger2><px2pl><abl> : оҥоруугутуттан
+    оҥор<v><tv><ger2><px2pl><ins> : оҥоруугутунан
+    оҥор<v><tv><ger2><px2pl><com> : оҥоруугутунуун
+    оҥор<v><tv><ger2><px2pl><comp> : оҥоруугутунааҕар
+
+    оҥор<v><tv><ger2><px3pl><nom> : оҥоруулара
+    оҥор<v><tv><ger2><px3pl><acc> : оҥорууларын
+    оҥор<v><tv><ger2><px3pl><par> : оҥорууларына
+    оҥор<v><tv><ger2><px3pl><dat> : оҥорууларыгар
+    оҥор<v><tv><ger2><px3pl><abl> : оҥорууларыттан
+    оҥор<v><tv><ger2><px3pl><ins> : оҥорууларынан
+    оҥор<v><tv><ger2><px3pl><com> : оҥорууларыныын
+    оҥор<v><tv><ger2><px3pl><comp> : оҥорууларынааҕар
+
+    оҥор<v><tv><ger2><pl><px1sg><nom> : оҥорууларым
+    оҥор<v><tv><ger2><pl><px1sg><acc> : оҥорууларбын
+    оҥор<v><tv><ger2><pl><px1sg><par> : оҥорууларбына
+    оҥор<v><tv><ger2><pl><px1sg><dat> : оҥорууларбар
+    оҥор<v><tv><ger2><pl><px1sg><abl> : оҥорууларбыттан
+    оҥор<v><tv><ger2><pl><px1sg><ins> : оҥорууларбынан
+    оҥор<v><tv><ger2><pl><px1sg><com> : оҥорууларбыныын
+    оҥор<v><tv><ger2><pl><px1sg><comp> : оҥорууларбынааҕар
+
+    оҥор<v><tv><ger2><pl><px2sg><nom> : оҥорууларыҥ
+    оҥор<v><tv><ger2><pl><px2sg><acc> : оҥорууларгын
+    оҥор<v><tv><ger2><pl><px2sg><par> : оҥорууларгына
+    оҥор<v><tv><ger2><pl><px2sg><dat> : оҥорууларгар
+    оҥор<v><tv><ger2><pl><px2sg><abl> : оҥорууларгыттан
+    оҥор<v><tv><ger2><pl><px2sg><ins> : оҥорууларгынан
+    оҥор<v><tv><ger2><pl><px2sg><com> : оҥорууларгыныын
+    оҥор<v><tv><ger2><pl><px2sg><comp> : оҥорууларгынааҕар
+
+    оҥор<v><tv><ger2><pl><px3sg><nom> : оҥоруулара
+    оҥор<v><tv><ger2><pl><px3sg><acc> : оҥорууларын
+    оҥор<v><tv><ger2><pl><px3sg><par> : оҥорууларына
+    оҥор<v><tv><ger2><pl><px3sg><dat> : оҥорууларыгар
+    оҥор<v><tv><ger2><pl><px3sg><abl> : оҥорууларыттан
+    оҥор<v><tv><ger2><pl><px3sg><ins> : оҥорууларынан
+    оҥор<v><tv><ger2><pl><px3sg><com> : оҥорууларыныын
+    оҥор<v><tv><ger2><pl><px3sg><comp> : оҥорууларынааҕар
+
+    оҥор<v><tv><ger2><pl><px1pl><nom> : оҥорууларбыт
+    оҥор<v><tv><ger2><pl><px1pl><acc> : оҥорууларбытын
+    оҥор<v><tv><ger2><pl><px1pl><par> : оҥорууларбытына
+    оҥор<v><tv><ger2><pl><px1pl><dat> : оҥорууларбытыгар
+    оҥор<v><tv><ger2><pl><px1pl><abl> : оҥорууларбытыттан
+    оҥор<v><tv><ger2><pl><px1pl><ins> : оҥорууларбытынан
+    оҥор<v><tv><ger2><pl><px1pl><com> : оҥорууларбытыныын
+    оҥор<v><tv><ger2><pl><px1pl><comp> : оҥорууларбытынааҕар
+
+    оҥор<v><tv><ger2><pl><px2pl><nom> : оҥорууларгыт
+    оҥор<v><tv><ger2><pl><px2pl><acc> : оҥорууларгытын
+    оҥор<v><tv><ger2><pl><px2pl><par> : оҥорууларгытына
+    оҥор<v><tv><ger2><pl><px2pl><dat> : оҥорууларгытыгар
+    оҥор<v><tv><ger2><pl><px2pl><abl> : оҥорууларгытыттан
+    оҥор<v><tv><ger2><pl><px2pl><ins> : оҥорууларгытынан
+    оҥор<v><tv><ger2><pl><px2pl><com> : оҥорууларгытыныын
+    оҥор<v><tv><ger2><pl><px2pl><comp> : оҥорууларгытынааҕар
+
+    оҥор<v><tv><ger2><pl><px3pl><nom> : оҥоруулара
+    оҥор<v><tv><ger2><pl><px3pl><acc> : оҥорууларын
+    оҥор<v><tv><ger2><pl><px3pl><par> : оҥорууларына
+    оҥор<v><tv><ger2><pl><px3pl><dat> : оҥорууларыгар
+    оҥор<v><tv><ger2><pl><px3pl><abl> : оҥорууларыттан
+    оҥор<v><tv><ger2><pl><px3pl><ins> : оҥорууларынан
+    оҥор<v><tv><ger2><pl><px3pl><com> : оҥорууларыныын
+    оҥор<v><tv><ger2><pl><px3pl><comp> : оҥорууларынааҕар
+
   "-һын":
     бараа<v><tv><ger2> : барааһын
     ыйаа<v><tv><ger2> : ыйааһын
