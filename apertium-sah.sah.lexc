@@ -908,6 +908,38 @@ LEXICON ABBR
 
 %<abbr%>: # ; 
 
+
+LEXICON ABBR-INIT
+
+%<abbr%>: # ;
+
+%<abbr%>%+:А%. ABBR ; ! ""
+%<abbr%>%+:Б%. ABBR ; ! ""
+%<abbr%>%+:В%. ABBR ; ! ""
+%<abbr%>%+:Г%. ABBR ; ! ""
+%<abbr%>%+:Д%. ABBR ; ! ""
+%<abbr%>%+:Е%. ABBR ; ! ""
+%<abbr%>%+:Ж%. ABBR ; ! ""
+%<abbr%>%+:З%. ABBR ; ! ""
+%<abbr%>%+:И%. ABBR ; ! ""
+%<abbr%>%+:К%. ABBR ; ! ""
+%<abbr%>%+:Л%. ABBR ; ! ""
+%<abbr%>%+:М%. ABBR ; ! ""
+%<abbr%>%+:Н%. ABBR ; ! ""
+%<abbr%>%+:О%. ABBR ; ! ""
+%<abbr%>%+:П%. ABBR ; ! ""
+%<abbr%>%+:Р%. ABBR ; ! ""
+%<abbr%>%+:С%. ABBR ; ! ""
+%<abbr%>%+:Т%. ABBR ; ! ""
+%<abbr%>%+:У%. ABBR ; ! ""
+%<abbr%>%+:Ф%. ABBR ; ! ""
+%<abbr%>%+:Х%. ABBR ; ! ""
+%<abbr%>%+:Ш%. ABBR ; ! ""
+%<abbr%>%+:Э%. ABBR ; ! ""
+%<abbr%>%+:Ю%. ABBR ; ! ""
+%<abbr%>%+:Я%. ABBR ; ! ""
+
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Miscellaneous
@@ -10622,6 +10654,33 @@ LEXICON Abbreviations
 НВК:НВК ABBR ; ! ""
 МТЗ:МТЗ ABBR ; ! ""
 КСК:КСК ABBR ; ! ""
+
+А%.:А%. ABBR-INIT ; 
+Б%.:Б%. ABBR-INIT ; 
+В%.:В%. ABBR-INIT ; 
+Г%.:Г%. ABBR-INIT ; 
+Д%.:Д%. ABBR-INIT ; 
+Е%.:Е%. ABBR-INIT ; 
+Ж%.:Ж%. ABBR-INIT ; 
+З%.:З%. ABBR-INIT ; 
+И%.:И%. ABBR-INIT ; 
+К%.:К%. ABBR-INIT ; 
+Л%.:Л%. ABBR-INIT ; 
+М%.:М%. ABBR-INIT ; 
+Н%.:Н%. ABBR-INIT ; 
+О%.:О%. ABBR-INIT ; 
+П%.:П%. ABBR-INIT ; 
+Р%.:Р%. ABBR-INIT ; 
+С%.:С%. ABBR-INIT ; 
+Т%.:Т%. ABBR-INIT ; 
+У%.:У%. ABBR-INIT ; 
+Ф%.:Ф%. ABBR-INIT ; 
+Х%.:Х%. ABBR-INIT ; 
+Ш%.:Ш%. ABBR-INIT ; 
+Э%.:Э%. ABBR-INIT ; 
+Ю%.:Ю%. ABBR-INIT ; 
+Я%.:Я%. ABBR-INIT ; 
+
 
 LEXICON Punctuation
 
