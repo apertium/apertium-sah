@@ -783,7 +783,7 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 %<ger1%>:%>%{I%}%{A%}н # ;
 %<neg%>%<ger1%>:%>%{m%}%{i%}м%>%{I%}%{A%}н # ;
 
-%<ger2%>:%>%{H%}%{I%}%{Н%} # ;
+%<ger2%>:%>%{H%}%{I%}%{Н%} SUBST ;
 
 !!!! FIXME: NEW STUFF TO CHECK
 %<gna_fut%>:%>%{I%}%{A%} # ;
