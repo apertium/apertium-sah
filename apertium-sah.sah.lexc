@@ -390,6 +390,10 @@ LEXICON NP-COG-MF
 
 %<np%>%<cog%>%<mf%>:%{☭%} NP-COMMON ;
 
+LEXICON NP-PAT-M 
+
+%<np%>%<pat%>%<m%>:%{☭%}  NP-COMMON ; 
+
 
 LEXICON NP-TOP
 
@@ -6129,6 +6133,8 @@ Ypyмэччи:Ypyмэччи NP-ANT-F ; ! ""
 Жаклин:Жаклин NP-ANT-F ; ! ""
 Даарыйа:Даарыйа NP-ANT-F ; ! ""
 Линда:Линда NP-ANT-F ; ! ""
+
+Ильич:Ильич NP-PAT-M ; ! ""
 
 Абидуевич:Абидуе NP-PAT-VICH ; ! ""
 Абрамович:Абрамо NP-PAT-VICH ; ! ""
