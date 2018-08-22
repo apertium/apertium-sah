@@ -267,10 +267,13 @@ Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
 
 "vowel harmony for {ы}"
 %{ы%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ %>: %{B%}: %{I%}: т: ;
+             :Vx [ :Cons* :Cons ]/:0* _ %>: %{B%}: %{A%}: т: ;
          where Vx in ( а о ы у э е и ө ү я )
                Vy in ( ы у ы у и и и ү ү ы )
          matched ;
 
+! оҥоруллубута
+! табыллыбат
 
 
 "vowel harmony for {I}"
