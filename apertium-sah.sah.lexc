@@ -88,7 +88,7 @@ Multichar_Symbols
 %<pros%>           !
 %<epis%>           !
 !%<resl%>          ! I think this is an old equivalent of <past>? -JNW 2018-08-12
-%<nec%>            !
+%<nec%>            ! -IAxтAAх
 %<pii%>            !
 %<fut%>            !
 %<unac%>           ! -A илик
@@ -112,6 +112,7 @@ Multichar_Symbols
 %<ger_fut%>        ! -IAx
 %<ger_cond2%>      ! -ТАх
 %<ger_hab%>        ! -ччI
+%<ger_nec%>        ! -IAxтAAх
 
 %<gpr_aor%>        ! 
 %<gpr_fut%>        !
@@ -806,9 +807,11 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 
 %<ger_fut%>:%>%{I%}%{A%}х SUBST ; !
 
-%<gna_fut%>:%>%{I%}%{A%}х CLITICS-NO-COP ; !
+!%<gna_fut%>:%>%{I%}%{A%}х CLITICS-NO-COP ; !
 
 %<ger_hab%>:%>чч%{I%} SUBST ;
+
+%<ger_nec%>:%>%{I%}%{A%}х%>т%{A%}%{A%}х SUBST ;
 
 LEXICON V-COMMON
 
@@ -7551,6 +7554,7 @@ Ypyмэччи:Ypyмэччи NP-ANT-F ; ! ""
 Кумамото:Кумамото NP-TOP ; ! ""
 Кувейт:Кувейт NP-TOP ; ! ""
 Крымскай:Крымскай NP-TOP ; ! ""
+Буолкалах:Буолкалах NP-TOP ; ! "(river)"
 
 РФ:РФ NP-TOP-ABBR ; ! ""
 КР:КР NP-TOP-ABBR ; ! "Казахстан Республиката"
