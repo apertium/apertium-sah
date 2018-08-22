@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../sah.autogen.hfst
+    Morph: ../sah.automorf.hfst
+
+Tests:
+
+  "affirmative":
+    бараа<v><tv><hab><p1><sg> : барааччыбын
+    бараа<v><tv><hab><p2><sg> : барааччыгын
+    бараа<v><tv><hab><p3><sg> : барааччы
+    бараа<v><tv><hab><p1><pl> : барааччыбыт
+    бараа<v><tv><hab><p2><pl> : барааччыгыт
+    бараа<v><tv><hab><p3><pl> : барааччылар
+
+#  "first set of negatives":
+#    бараа<v><tv><neg><hab><p1><sg> : барааччым суох
+#    бараа<v><tv><neg><hab><p2><sg> : барааччыҥ суох
+#    бараа<v><tv><neg><hab><p3><sg> : барааччыта суох
+#    бараа<v><tv><neg><hab><p1><pl> : барааччыбыт суох
+#    бараа<v><tv><neg><hab><p2><pl> : барааччыгыт суох
+#    бараа<v><tv><neg><hab><p3><pl> : барааччылара суох
+
+  "second set of negatives":
+    бараа<v><tv><neg><hab><p1><sg> : барааччыта суохпун
+    бараа<v><tv><neg><hab><p2><sg> : барааччыта суоххун
+    бараа<v><tv><neg><hab><p3><sg> : барааччыта суох
+    бараа<v><tv><neg><hab><p1><pl> : барааччыта суохпут
+    бараа<v><tv><neg><hab><p2><pl> : барааччыта суоххут
+    бараа<v><tv><neg><hab><p3><pl> : барааччыта суохтар
