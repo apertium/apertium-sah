@@ -92,6 +92,7 @@ Multichar_Symbols
 %<pii%>            !
 %<fut%>            !
 %<unac%>           ! -A илик
+%<hab%>            ! -ччI
 
 %<gna_perf%>       ! 
 %<gna_cond%>       ! -ТАр
@@ -110,6 +111,7 @@ Multichar_Symbols
 %<ger_past%>       ! -BIт
 %<ger_fut%>        ! -IAx
 %<ger_cond2%>      ! -ТАх
+%<ger_hab%>        ! -ччI
 
 %<gpr_aor%>        ! 
 %<gpr_fut%>        !
