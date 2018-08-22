@@ -305,10 +305,21 @@ CASES-NOM ;
 CASES-OBL ;
 ! ABESS ;
 
+
+LEXICON GER-SUBST
+
+! FIXME: check which option is right:
+!N-INFL-COMMON ;
+SUBST ;
+
 LEXICON SUBST
 
 N-INFL-COMMON ;
 %<pl%>:%>%{L%}%{A%}р N-INFL-COMMON ;
+
+LEXICON LII-POSTPOSITION
+
+%+лыы%<post%>:%>%{L%}%{I%}%{I%} CLITICS-NO-COP ;
 
 LEXICON FULL-NOMINAL-INFLECTION
 
@@ -318,6 +329,7 @@ LEXICON N1
 
 %<n%>%<attr%>: # ; 
 %<n%>: SUBST ;
+%<n%>: LII-POSTPOSITION ;
 
 LEXICON N-COMPOUND-PX-COMMON
 
@@ -335,6 +347,7 @@ LEXICON N5
 
 %<n%>%<attr%>: # ; 
 %<n%>:%{☭%} SUBST ;
+%<n%>:%{☭%} LII-POSTPOSITION ;
 
 LEXICON NP-COMMON 
 
@@ -765,7 +778,7 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 %<gna_cond%>:%>%{T%}%{A%}р V-PERS-S1 ;
 %<gna_cond2%>:%>%{T%}%{A%}х V-PERS-COND2 ;
 
-%<ger_cond2%>:%>%{T%}%{A%}х SUBST ;
+%<ger_cond2%>:%>%{T%}%{A%}х GER-SUBST ;
 
 %<gpr_past%>:%>%{B%}%{I%}т CLITICS-NO-COP ; ! FIXME: check
 
@@ -786,32 +799,32 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 %<gpr_unac%>:%>%{A%}% илик CLITICS-NO-COP ; ! unaccomplished
 
 !%<ger_pros%>:%>%{I%}%{A%}х SUBST ; 
-%<ger_aor%>:%>%{A%}р SUBST ; 
-%<neg%>%<ger_aor%>:%>%{B%}%{A%}т SUBST ; 
+%<ger_aor%>:%>%{A%}р GER-SUBST ; 
+%<neg%>%<ger_aor%>:%>%{B%}%{A%}т GER-SUBST ; 
 
 %<ger1%>:%>%{I%}%{A%}н # ;
 %<neg%>%<ger1%>:%>%{m%}%{i%}м%>%{I%}%{A%}н # ;
 
-%<ger2%>:%>%{H%}%{I%}%{Н%} SUBST ;
+%<ger2%>:%>%{H%}%{I%}%{Н%} GER-SUBST ;
 
 !!!! FIXME: NEW STUFF TO CHECK
 %<gna_fut%>:%>%{I%}%{A%} # ;
 %<prc_fut%>:%>%{I%}%{A%} # ;
 %<gpr_fut%>:%>%{I%}%{A%}х # ;
 
-%<ger_past%>:%>%{B%}%{I%}т SUBST ; !
-%<neg%>%<ger_past%>:%>%{B%}%{A%}т%{A%}х SUBST ; !
+%<ger_past%>:%>%{B%}%{I%}т GER-SUBST ; !
+%<neg%>%<ger_past%>:%>%{B%}%{A%}т%{A%}х GER-SUBST ; !
 
 %<gna_past%>:%>%{B%}%{I%}т CLITICS-NO-COP ; !
 %<neg%>%<gna_past%>:%>%{B%}%{A%}т%{A%}х CLITICS-NO-COP ; !
 
-%<ger_fut%>:%>%{I%}%{A%}х SUBST ; !
+%<ger_fut%>:%>%{I%}%{A%}х GER-SUBST ; !
 
 !%<gna_fut%>:%>%{I%}%{A%}х CLITICS-NO-COP ; !
 
-%<ger_hab%>:%>чч%{I%} SUBST ;
+%<ger_hab%>:%>чч%{I%} GER-SUBST ;
 
-%<ger_nec%>:%>%{I%}%{A%}х%>т%{A%}%{A%}х SUBST ;
+%<ger_nec%>:%>%{I%}%{A%}х%>т%{A%}%{A%}х GER-SUBST ;
 
 LEXICON V-COMMON
 
@@ -4244,7 +4257,7 @@ yy:yy N1 ; ! "вода"
 толоруу:толоруу N1 ; ! "и. д. от толор= исполнение; грам. дополнение"
 оҥорооччу:оҥорооччу N1 ; ! "и. д. л. от оҥор="
 детсад:детсад N5 ; ! ""
-грек:грек N5 ; ! ""
+грек:грек N1 ; ! ""  ! should probably be N1 because of forms like гректии?
 министерство:министерство N5 ; ! ""
 госпиталь:госпиталь N5 ; ! "" - check
 ускуустуба:ускуустуба N1 ; ! "N5?"
