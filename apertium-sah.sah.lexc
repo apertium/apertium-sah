@@ -240,7 +240,7 @@ LEXICON CASES-POSS-12SG
 
 LEXICON CASES-NOM
 
-%<nom%>: # ; 
+%<nom%>: CLITICS-INCL-COP ; 
 
 !LEXICON POSS-JNW
 !
@@ -748,6 +748,8 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 
 %<unac%>:%>%{A%}% илик V-PERS-S1 ; ! unaccomplished
 
+%<hab%>:%>чч%{I%} V-PERS-S1 ; ! habitual
+
 
 LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
@@ -794,7 +796,6 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 %<prc_fut%>:%>%{I%}%{A%} # ;
 %<gpr_fut%>:%>%{I%}%{A%}х # ;
 
-
 %<ger_past%>:%>%{B%}%{I%}т SUBST ; !
 %<neg%>%<ger_past%>:%>%{B%}%{A%}т%{A%}х SUBST ; !
 
@@ -805,6 +806,7 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 
 %<gna_fut%>:%>%{I%}%{A%}х CLITICS-NO-COP ; !
 
+%<ger_hab%>:%>чч%{I%} SUBST ;
 
 LEXICON V-COMMON
 
