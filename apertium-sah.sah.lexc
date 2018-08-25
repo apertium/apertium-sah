@@ -123,7 +123,7 @@ Multichar_Symbols
 %<prc_fut%>        !
 
 %<qst%>            !
-%<mod_ass%>        !
+%<mod%>            ! modal particle
 
 %<sent%>           ! Sentence marker
 %<guio%>           ! Дефиз 
@@ -157,12 +157,21 @@ Multichar_Symbols
 %{Н%}              ! н or 0, for -ыы/-һын alternation
 %{m%}              !
 
+%{а%}              ! imaginary back unrounded vowel
+%{э%}              ! imaginary front unrounded vowel
+%{о%}              ! imaginary back rounded vowel
+%{ө%}              ! imaginary front rounded vowel
+
+%{м%}              ! imaginary nasal
+%{с%}              ! imaginary voiceless consonant
+
 %{☭%}              ! Used to tell the phonology about a Russian word
 %{ъ%}              ! 
 
 %                  !
 %-                 !
 %>                 ! Граница морфемы
+%%                 ! Percent sign
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -195,9 +204,10 @@ LEXICON CLIT-EMPH
 LEXICON CLITICS-NO-COP 
 
 %+дуо%<qst%>:%>% дуо # ;
-%+ини%<mod_ass%>:%>% ини # ;
-%+дии%<mod_ass%>:%>% дии # ;
-%+ээ%<mod_ass%>:%>% ээ # ;
+%+ини%<mod%>:%>% ини # ;
+%+дии%<mod%>:%>% дии # ;
+%+ээ%<mod%>:%>% ээ # ;
+%+үһү%<mod%>:%>% үһү # ;  !  "can come after барар, барбыт, барбыта and maybe something else also."  https://github.com/apertium/apertium-sah/issues/8#issuecomment-414264473
 
 # ;
 
@@ -530,6 +540,17 @@ LEXICON NUM
 %<num%>%<subst%>: FULL-NOMINAL-INFLECTION ;
 %<num%>%<ord%>:%>%{i%}с # ;
 %<num%>%<ord%>%<subst%>:%>%{i%}с FULL-NOMINAL-INFLECTION ;
+
+LEXICON NUM-DIGIT
+
+%<num%>%<percent%>%<nom%>:%% # ;
+
+%<num%>%<percent%>:%%%{а%}%{м%}%- SUBST ; ! -NONOM ;
+%<num%>%<percent%>:%%%{а%}%{м%} SUBST ; ! -NONOM ; ! Dir/LR
+%<num%>%<percent%>:%%%{э%}%{с%}%- SUBST ; ! -NONOM ; ! Dir/LR
+%<num%>%<percent%>:%%%{э%}%{с%} SUBST ; ! -NONOM ; ! Dir/LR
+
+
 
 LEXICON NUM-ORD
 
@@ -10796,6 +10817,8 @@ LEXICON Punctuation
 
 ! Temporary numeral lexicon
 <[%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9]+>  DIGITLEX ; ! Use/Circ
+
+NUM-DIGIT ;
 
 LEXICON DIGITLEX
 
