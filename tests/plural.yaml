@@ -1,0 +1,13 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../sah.autogen.hfst
+    Morph: ../sah.automorf.hfst
+
+Tests:
+
+  "the various combinations":
+    куорат<n><px3sg><nom> : куората
+    куорат<n><px3pl><nom> : куораттара
+    куорат<n><pl><px3sg><nom> : куораттара
+    куорат<n><pl><px3pl><nom> : куораттара

@@ -262,22 +262,57 @@ CASES-ETC ;
 %<px1sg%>%<dat%>:%>%{B%}%{A%}р # ;
 %<px2sg%>:%>%{G%}%{I%} CASES-POSS-12SG ;
 %<px2sg%>%<dat%>:%>%{G%}%{A%}р # ; 
-%<px3sp%>:%>%{t%}%{I%} CASES-POSS-3SP ; ! Dir/RL ! FIXME: check!
+!%<px3sp%>:%>%{t%}%{I%} CASES-POSS-3SP ; ! Dir/RL ! FIXME: check!
 %<px3sg%>:%>%{t%}%{I%} CASES-POSS-3SP ;
 %<px1pl%>:%>%{B%}%{I%}т%{I%} CASES-POSS-3SP ;
 %<px2pl%>:%>%{G%}%{I%}т%{I%} CASES-POSS-3SP ;
+
+LEXICON POSS-PX3PL-OBL-SG
+
 %<px3pl%>:%>%{L%}%{A%}р%{I%} CASES-POSS-3SP ;
+
+LEXICON POSS-PX3PL-OBL-PL
+
+%<px3pl%>:%>%{t%}%{I%} CASES-POSS-3SP ;
+
+LEXICON POSS-OBL-PL
+
+POSS-OBL ;
+POSS-PX3PL-OBL-PL ;
+
+LEXICON POSS-OBL-SG
+
+POSS-OBL ;
+POSS-PX3PL-OBL-SG ;
+
 
 LEXICON POSS-NOM
 
 CASES-ETC ;
 %<px1sg%>:%>%{i%}м CASES-NOM ;
 %<px2sg%>:%>%{i%}ҥ CASES-NOM ;
-%<px3sp%>:%>%{t%}%{A%} CASES-NOM ; ! Dir/RL ! FIXME: check!
+!%<px3sp%>:%>%{t%}%{A%} CASES-NOM ; ! Dir/RL ! FIXME: check!
 %<px3sg%>:%>%{t%}%{A%} CASES-NOM ;
 %<px1pl%>:%>%{B%}%{I%}т CASES-NOM ;
 %<px2pl%>:%>%{G%}%{I%}т CASES-NOM ;
+
+LEXICON POSS-PX3PL-NOM-SG
+
 %<px3pl%>:%>%{L%}%{A%}р%{A%} CASES-NOM ;
+
+LEXICON POSS-PX3PL-NOM-PL
+
+%<px3pl%>:%>%{t%}%{A%} CASES-NOM ;
+
+LEXICON POSS-NOM-PL
+
+POSS-NOM ;
+POSS-PX3PL-NOM-PL ;
+
+LEXICON POSS-NOM-SG
+
+POSS-NOM ;
+POSS-PX3PL-NOM-SG ;
 
 LEXICON ATTR-SUBST 
 
@@ -296,15 +331,24 @@ LEXICON CASES-ETC
 ! CASES ;
 GENPOSS-ETC ;
 
-LEXICON N-INFL-COMMON
+LEXICON N-INFL-COMMON-SG
 
-POSS-NOM ;
-POSS-OBL ;
+POSS-NOM-SG ;
+POSS-OBL-SG ;
 !POSS-JNW ;
+CASES ;
+
+LEXICON N-INFL-COMMON-PL
+
+POSS-NOM-PL ;
+POSS-OBL-PL ;
+CASES ;
+
+LEXICON CASES
+
 CASES-NOM ;
 CASES-OBL ;
 ! ABESS ;
-
 
 LEXICON GER-SUBST
 
@@ -314,8 +358,10 @@ SUBST ;
 
 LEXICON SUBST
 
-N-INFL-COMMON ;
-%<pl%>:%>%{L%}%{A%}р N-INFL-COMMON ;
+! The spaghetti starting here is to keep the state of affairs
+! described in plural.yaml
+N-INFL-COMMON-SG ;
+%<pl%>:%>%{L%}%{A%}р N-INFL-COMMON-PL ;
 
 LEXICON LII-POSTPOSITION
 
