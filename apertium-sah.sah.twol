@@ -205,6 +205,13 @@ Cx:д <=> %{рл%}:л %{y%}:0 _ %{ь%}: ;
 "{Н} deletes if prev {H} isn't h"
 %{Н%}:0 <=> [ %{H%}: - :һ ] %{I%}: _ ;
 
+"vowels delete before {A}{A}"
+Vx:0 <=> _ %>: %{A%}: %{A%}: ;
+         _ RealVow: %>: %{A%}: %{A%}: ;
+     where Vx in RealVow ;
+
+!@ с ы л д ь ы:0 >:0 {A}:а {A}:а ч ч {I}:ы
+
 !!!== epenthesis ==!!!
 
 "т after a vowel"
@@ -329,12 +336,16 @@ Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
 
 "first element of diphthongs and long vowels immediately before ({I}){A} and after unrounded vowels"
 Vx:Vy <=> :UnRoundVow/[ :Cons | :0 ]* _ :RealVow %>: (%{I%}:) %{A%}: ;
+      except
+          _ :RealVow %>: %{A%}: %{A%}: ;
       where Vx in ( а о э ө )
             Vy in ( ы у и ү )
       matched ;
 
 "first element of diphthongs and long vowels immediately before ({I}){A} and after rounded vowels"
 Vx:Vy <=> :RoundVow/[ :Cons | :0 ]* _ :RealVow %>: (%{I%}:) %{A%}: ;
+      except
+          _ :RealVow %>: %{A%}: %{A%}: ;
       where Vx in ( а о э ө )
             Vy in ( у у ү ү )
       matched ;
@@ -355,12 +366,16 @@ Vx:Vy <=> _ LowVow: %>: %{m%}: %{i%}: м: ;
 
 "second element of diphthongs and long vowels immediately before {A} unround"
 Vx:Vy <=> :UnRoundVow _ %>: %{A%}: ;
+      except
+          _ %>: %{A%}: %{A%}: ;
       where Vx in ( а о э ө )
             Vy in ( ы у и ү )
       matched ;
 
 "second element of diphthongs and long vowels immediately before {A} round"
 Vx:Vy <=> :RoundVow _ %>: %{A%}: ;
+      except
+          _ %>: %{A%}: %{A%}: ;
       where Vx in ( а о э ө )
             Vy in ( у у ү ү )
       matched ;

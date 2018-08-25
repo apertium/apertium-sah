@@ -92,7 +92,7 @@ Multichar_Symbols
 %<pii%>            !
 %<fut%>            !
 %<unac%>           ! -A илик
-%<hab%>            ! -ччI
+%<hab%>            ! -AAччI
 
 %<gna_perf%>       ! 
 %<gna_cond%>       ! -ТАр
@@ -111,7 +111,7 @@ Multichar_Symbols
 %<ger_past%>       ! -BIт
 %<ger_fut%>        ! -IAx
 %<ger_cond2%>      ! -ТАх
-%<ger_hab%>        ! -ччI
+%<ger_hab%>        ! -AAччI
 %<ger_nec%>        ! -IAxтAAх
 
 %<gpr_aor%>        ! 
@@ -764,7 +764,7 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 
 %<unac%>:%>%{A%}% илик V-PERS-S1 ; ! unaccomplished
 
-%<hab%>:%>чч%{I%} V-PERS-S1 ; ! habitual
+%<hab%>:%>%{A%}%{A%}чч%{I%} V-PERS-S1 ; ! habitual
 
 
 LEXICON V-NONFINITE-REGULAR_NEGATIVE
@@ -822,7 +822,7 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 
 !%<gna_fut%>:%>%{I%}%{A%}х CLITICS-NO-COP ; !
 
-%<ger_hab%>:%>чч%{I%} GER-SUBST ;
+%<ger_hab%>:%>%{A%}%{A%}чч%{I%} GER-SUBST ;
 
 %<ger_nec%>:%>%{I%}%{A%}х%>т%{A%}%{A%}х GER-SUBST ;
 
@@ -1908,7 +1908,7 @@ LEXICON Nouns
 портал:портал N1 ; ! ""
 футбол:футбол N5 ; ! ""
 монгол:монгол N5 ; ! ""
-туризм:туризм N1 ; ! ""
+туризм:туризм N5 ; ! ""
 альбом:альбом N1 ; ! ""
 атом:атом N1 ; ! ""
 океан:океан N1 ; ! ""

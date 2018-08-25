@@ -6,13 +6,29 @@ Config:
 
 Tests:
 
-  "affirmative":
+  "affirmative (long-vowel-final)":
     бараа<v><tv><hab><p1><sg> : барааччыбын
     бараа<v><tv><hab><p2><sg> : барааччыгын
     бараа<v><tv><hab><p3><sg> : барааччы
     бараа<v><tv><hab><p1><pl> : барааччыбыт
     бараа<v><tv><hab><p2><pl> : барааччыгыт
     бараа<v><tv><hab><p3><pl> : барааччылар
+
+  "affirmative (cons-final)":
+    бар<v><iv><hab><p1><sg> : барааччыбын
+    бар<v><iv><hab><p2><sg> : барааччыгын
+    бар<v><iv><hab><p3><sg> : барааччы
+    бар<v><iv><hab><p1><pl> : барааччыбыт
+    бар<v><iv><hab><p2><pl> : барааччыгыт
+    бар<v><iv><hab><p3><pl> : барааччылар
+
+  "affirmative (short-vowel-final)":
+    сылдьы<v><iv><hab><p1><sg> : сылдьааччыбын
+    сылдьы<v><iv><hab><p2><sg> : сылдьааччыгын
+    сылдьы<v><iv><hab><p3><sg> : сылдьааччы
+    сылдьы<v><iv><hab><p1><pl> : сылдьааччыбыт
+    сылдьы<v><iv><hab><p2><pl> : сылдьааччыгыт
+    сылдьы<v><iv><hab><p3><pl> : сылдьааччылар
 
 #  "first set of negatives":
 #    бараа<v><tv><neg><hab><p1><sg> : барааччым суох
