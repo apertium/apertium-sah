@@ -752,6 +752,7 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 !%<nec%>:%>%{А%}р%>д%{A%}%{A%}х V-PERS-S1 ; ! FIXME: check
 
 %<nec%>:%>%{I%}%{A%}х%>т%{A%}%{A%}х V-PERS-S1 ; ! FIXME: check
+%<neg%>%<nec%>:%>%{I%}%{A%}% суох%>т%{A%}%{A%}х V-PERS-S1 ; ! FIXME: check
 
 ! %<resl%>:%>%{B%}%{I%}т V-PERS-S1 ; ! FIXME: check
 ! %<neg%>%<resl%>:%>%{B%}%{A%}т%{A%}х V-PERS-S1 ; ! FIXME: check -S1 or -S2 ?
