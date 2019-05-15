@@ -23,7 +23,7 @@ Alphabet
 
    %{y%}:0 ! %{y%}:и %{y%}:у %{y%}:ү %{y%}:ы
 
-   %{n%}:0 ! %{n%}:н
+   %{n%}:0 %{n%}:н
 
    %{t%}:0 ! %{t%}:т
 
@@ -57,6 +57,7 @@ Alphabet
 	%{м%}:0
 	%{с%}:0
 	%{йр%}:0 ! imaginary й or р
+	%{л%}:0 ! imaginary л
 
    %-:%-
 
@@ -98,11 +99,13 @@ Obs = Б В Г Д Ж З К П Р С Т Ф Х Ц Ч Ш Щ Һ Ҕ
 Cons = Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Һ Ҥ Ҕ
        б в г д ж з й к л м н п р с т ф х ц ч ш щ һ ҥ ҕ ;
 
-Imaginary = %{а%} %{м%} %{с%} %{э%} %{о%} %{ө%} ;
+Imaginary = %{а%} %{м%} %{с%} %{йр%} %{л%} %{э%} %{о%} %{у%} %{ө%} %{ү%} ;
 
-ImaginaryVow = %{а%} %{э%} %{о%} %{ө%} ;
+ImaginaryVow = %{а%} %{э%} %{о%} %{у%} %{ө%} %{ү%} ;
 
-ImaginaryCons = %{м%} %{с%} %{йр%} ;
+ImaginaryCons = %{м%} %{с%} %{йр%} %{л%} ;
+
+ImaginaryHighVow = %{у%} %{ү%} ;
 
 Rules
 
@@ -238,8 +241,12 @@ Vx:0 <=> _ %>: %{A%}: %{A%}: ;
 %{t%}:т <=> :Vow/:0 _ ;
 
 "н after a vowel"
-%{n%}:н <=> :Vow/:0 _ ;
+%{n%}:н <=> [ :Vow | ImaginaryVow: ]/[ [ :0 - Imaginary: ] | %-: ] _ ;
             !@ и д е я >:0 {n}:н {I}:ы
+            !@ 2 {э}:0 - >:0 {n}:н {I}:и
+
+"н after a cons"
+%{n%}:0 <=> [ :Cons | ImaginaryCons: ]/[ [ :0 - Imaginary: ] | %-: ] _ ;
 
 "disappearing ь appears when part of дь"
 !!%{ь%}:ь <=> [ %{y%}:0 :Cons* :Cons ]/[ :0 - %{y%}: ]* _ ;
@@ -273,14 +280,14 @@ Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
 
 "{I} vowel harmony after imaginary stuff"
 %{I%}:Vy <=> Vx: [ :Cons | [ :0 - ImaginaryVow: ] | :%- ]* _ ;
-         where Vx in ( %{а%} %{э%} %{ө%} %{о%} )
-               Vy in (   ы     и     ү     у   )
+         where Vx in ( %{а%} %{э%} %{ө%} %{о%} %{у%} %{ү%} )
+               Vy in (   ы     и     ү     у     у     ү   )
          matched ;
 
 "{A} vowel harmony after imaginary stuff"
 %{A%}:Vy <=> Vx: [ :Cons | [ :0 - ImaginaryVow: ] | :%- ]* _ ;
-         where Vx in ( %{а%} %{э%} %{ө%} %{о%} )
-               Vy in (   а     э     ө     о   )
+         where Vx in ( %{а%} %{э%} %{ө%} %{о%} %{у%} %{ү%} )
+               Vy in (   а     э     ө     о     а     э   )
          matched ;
 
 
@@ -448,9 +455,8 @@ Vx:Vy <=> :RoundVow _ %>: %{I%}: %{A%}: ;
 !!!== Defaults that shouldn't be necessary ==!!!
 
 "{G} after high vowel"
-%{G%}:г <=> :HighVow [ :0 - ImaginaryCons: ]* _ ;
-            :HighSonCns [ :0 - ImaginaryCons: ]*  _ ;
-            :л [ :0 - ImaginaryCons: ]* _ ;  
+%{G%}:г <=> [ :HighVow | ImaginaryHighVow: ] [ :0 - Imaginary: ]* _ ;
+            [ :HighSonCns | л: ] [ :0 - Imaginary: ]*  _ ;
 
 !@ с ы л >:0 {G}:г {A}:а
 
