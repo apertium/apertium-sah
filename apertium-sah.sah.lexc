@@ -159,11 +159,14 @@ Multichar_Symbols
 
 %{а%}              ! imaginary back unrounded vowel
 %{э%}              ! imaginary front unrounded vowel
-%{о%}              ! imaginary back rounded vowel
-%{ө%}              ! imaginary front rounded vowel
+%{о%}              ! imaginary low rounded vowel
+%{у%}              ! imaginary high rounded vowel
+%{ө%}              ! imaginary low front rounded vowel
+%{ү%}              ! imaginary high front rounded vowel
 
 %{м%}              ! imaginary nasal
 %{с%}              ! imaginary voiceless consonant
+%{йр%}             ! imaginary й or р
 
 %{☭%}              ! Used to tell the phonology about a Russian word
 %{ъ%}              ! 
@@ -193,6 +196,7 @@ Verbs ;
 Interjections ; 
 Abbreviations ;
 Punctuation ; 
+Digits ;
 Guesser ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -542,6 +546,13 @@ LEXICON NUM
 %<num%>%<ord%>%<subst%>:%>%{i%}с FULL-NOMINAL-INFLECTION ;
 
 LEXICON NUM-DIGIT
+
+%<num%>: # ;
+%<num%>%<subst%>%<nom%>: # ;
+%<num%>%<subst%>:%- FULL-NOMINAL-INFLECTION ;
+%<num%>%<subst%>: FULL-NOMINAL-INFLECTION ;         ! Dir/LR
+
+! FIXME: ORDINALS?
 
 %<num%>%<percent%>%<nom%>:%% # ;
 
@@ -10814,15 +10825,81 @@ LEXICON Punctuation
 %\%<sent%>:%\ # ;
 %/%<sent%>:%/ # ;
 
-! Temporary numeral lexicon
-<[%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9]+>  DIGITLEX ; ! Use/Circ
+!! Temporary numeral lexicon
+!<[%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9]+>  DIGITLEX ; ! Use/Circ
+!
+!NUM-DIGIT ;
 
-NUM-DIGIT ;
+
+!==============!
+ LEXICON Digits ! Use/Circ
+!==============!
+
+%0:%0 NUM ;  ! Use/Circ
+№:№ DIGITLEX ;  ! Use/Circ
+DIGITLEX ; ! Use/Circ
+LASTDIGIT ; ! Use/Circ
+LASTDIGIT-REST ; ! Use/Circ
+
+LEXICON LASTDIGIT
+
+1:1%{э%}%{йр%}          NUM-DIGIT ; ! "биир"
+2:2%{э%}                NUM-DIGIT ; ! "икки"
+3:3%{ү%}%{с%}           NUM-DIGIT ; ! "үс"
+4:4%{ү%}%{с%}           NUM-DIGIT ; ! "түөрт"
+5:5%{э%}%{с%}           NUM-DIGIT ; ! "биэс"
+6:6%{а%}                NUM-DIGIT ; ! "алта"
+7:7%{э%}                NUM-DIGIT ; ! "сэттэ"
+8:8%{э%}%{с%}           NUM-DIGIT ; ! "аҕыс"
+9:9%{у%}%{с%}           NUM-DIGIT ; ! "тоҕус"
+
+LEXICON LASTDIGIT-REST
+
+1%0:1%0%{у%}%{н%}       NUM-DIGIT ; ! "уон"
+2%0:2%0%{э%}            NUM-DIGIT ; ! "сүүрбэ"
+3%0:3%0%{у%}%{с%}       NUM-DIGIT ; ! "отут"
+4%0:4%0%{у%}%{н%}       NUM-DIGIT ; ! "түөрт уон"
+5%0:5%0%{у%}%{н%}       NUM-DIGIT ; ! "биэс уон"
+6%0:6%0%{у%}%{н%}       NUM-DIGIT ; ! "алта уон"
+7%0:7%0%{у%}%{н%}       NUM-DIGIT ; ! "сэттэ уон"
+8%0:8%0%{у%}%{н%}       NUM-DIGIT ; ! "аҕыс уон"
+9%0:9%0%{у%}%{н%}       NUM-DIGIT ; ! "тоҕус уон"
+
+LEXICON POWERS
+%0%0:%0%0%{ү%}%{с%}     NUM-DIGIT ; ! "сүүс"
+%0%0%0:%0%0%0%{а%}      NUM-DIGIT ; ! "тыһыынча"
+
+LEXICON LOOP
+
+%,:%, DIGITLEX ;
+%.:%. DIGITLEX ;
+%,:%, LASTDIGIT ;
+%.:%. LASTDIGIT ;
+%,:%, LASTDIGIT-REST ;
+%.:%. LASTDIGIT-REST ;
+%,:%, POWERS ;
+%.:%. POWERS ;
+      DIGITLEX ;
+      LASTDIGIT ;
+      LASTDIGIT-REST ;
+      POWERS ;
+
+!NUM-DIGIT ;
+
 
 LEXICON DIGITLEX
 
-%<num%>: # ; 
-!% й%.%<num%>:% й%. # ;  ! "год"
+%0:%0 LOOP ;
+1:1   LOOP ;
+2:2   LOOP ;
+3:3   LOOP ;
+4:4   LOOP ;
+5:5   LOOP ;
+6:6   LOOP ;
+7:7   LOOP ;
+8:8   LOOP ;
+9:9   LOOP ;
+
 
 LEXICON NP-UNK 
 
