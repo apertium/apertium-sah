@@ -1200,8 +1200,8 @@ LEXICON Numerals
 
 
 биэс:бэһис NUM-ORD ; ! "пятый"  ! FIXME: merge ?
-аҕыс:ахсыс NUM ; ! "восьмой"  ! FIXME: ordinal
-уон:онус NUM ; ! "десятый" ! FIXME: check
+аҕыс:ахсыс NUM-ORD ; ! "восьмой"  ! FIXME: ordinal
+уон:онус NUM-ORD ; ! "десятый" ! FIXME: check
 сүүрбэ:сүүрбэһис NUM-ORD ; ! ""
 
 уонча:уонча NUM ; ! "около десяти, с десяток" - check
