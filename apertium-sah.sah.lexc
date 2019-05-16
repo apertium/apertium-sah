@@ -166,6 +166,7 @@ Multichar_Symbols
 
 %{м%}              ! imaginary nasal
 %{с%}              ! imaginary voiceless consonant
+%{х%}              ! imaginary х
 %{йр%}             ! imaginary й or р
 %{л%}              ! imaginary л
 
@@ -10836,7 +10837,7 @@ LEXICON Punctuation
  LEXICON Digits ! Use/Circ
 !==============!
 
-%0:%0%{у%}%{л%} NUM ;  ! Use/Circ
+%0:%0%{у%}%{л%} NUM-DIGIT ;  ! Use/Circ
 №:№ DIGITLEX ;  ! Use/Circ
 DIGITLEX ; ! Use/Circ
 LASTDIGIT ; ! Use/Circ
