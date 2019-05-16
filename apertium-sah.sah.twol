@@ -54,6 +54,7 @@ Alphabet
 	%{ү%}:0
 	%{о%}:0
 	%{у%}:0
+	%{и%}:0
 	%{м%}:0
 	%{с%}:0
 	%{х%}:0
@@ -100,15 +101,15 @@ Obs = Б В Г Д Ж З К П Р С Т Ф Х Ц Ч Ш Щ Һ Ҕ
 Cons = Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ Һ Ҥ Ҕ
        б в г д ж з й к л м н п р с т ф х ц ч ш щ һ ҥ ҕ ;
 
-Imaginary = %{а%} %{м%} %{с%} %{йр%} %{л%} %{э%} %{о%} %{у%} %{ө%} %{ү%} ;
+Imaginary = %{а%} %{м%} %{с%} %{йр%} %{л%} %{э%} %{о%} %{у%} %{ө%} %{ү%} %{и%} ;
 
 ImaginaryVoicelessCns = %{х%} %{с%} ;
 
-ImaginaryVow = %{а%} %{э%} %{о%} %{у%} %{ө%} %{ү%} ;
+ImaginaryVow = %{а%} %{э%} %{о%} %{у%} %{ө%} %{ү%} %{и%} ;
 
 ImaginaryCons = %{м%} %{с%} %{йр%} %{л%} ;
 
-ImaginaryHighVow = %{у%} %{ү%} ;
+ImaginaryHighVow = %{у%} %{ү%} %{и%} ;
 
 ImaginaryLowVow = %{а%} %{э%} %{о%} %{ө%} ;
 
@@ -285,14 +286,14 @@ Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
 
 "{I} vowel harmony after imaginary stuff"
 %{I%}:Vy <=> Vx: [ :Cons | [ :0 - ImaginaryVow: ] | :%- ]* _ ;
-         where Vx in ( %{а%} %{э%} %{ө%} %{о%} %{у%} %{ү%} )
-               Vy in (   ы     и     ү     у     у     ү   )
+         where Vx in ( %{а%} %{э%} %{ө%} %{о%} %{у%} %{ү%} %{и%} )
+               Vy in (   ы     и     ү     у     у     ү     и   )
          matched ;
 
 "{A} vowel harmony after imaginary stuff"
 %{A%}:Vy <=> Vx: [ :Cons | [ :0 - ImaginaryVow: ] | :%- ]* _ ;
-         where Vx in ( %{а%} %{э%} %{ө%} %{о%} %{у%} %{ү%} )
-               Vy in (   а     э     ө     о     а     э   )
+         where Vx in ( %{а%} %{э%} %{ө%} %{о%} %{у%} %{ү%} %{и%} )
+               Vy in (   а     э     ө     о     а     э     э   )
          matched ;
 
 

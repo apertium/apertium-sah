@@ -158,7 +158,8 @@ Multichar_Symbols
 %{m%}              !
 
 %{а%}              ! imaginary back unrounded vowel
-%{э%}              ! imaginary front unrounded vowel
+%{э%}              ! imaginary front low unrounded vowel
+%{и%}              ! imaginary front high unrounded vowel
 %{о%}              ! imaginary low rounded vowel
 %{у%}              ! imaginary high rounded vowel
 %{ө%}              ! imaginary low front rounded vowel
@@ -10846,7 +10847,7 @@ LASTDIGIT-REST ; ! Use/Circ
 LEXICON LASTDIGIT
 
 1:1%{э%}%{йр%}          NUM-DIGIT ; ! "биир"
-2:2%{э%}                NUM-DIGIT ; ! "икки"
+2:2%{и%}                NUM-DIGIT ; ! "икки"
 3:3%{ү%}%{с%}           NUM-DIGIT ; ! "үс"
 4:4%{ү%}%{с%}           NUM-DIGIT ; ! "түөрт"
 5:5%{э%}%{с%}           NUM-DIGIT ; ! "биэс"
