@@ -462,7 +462,7 @@ Vx:Vy <=> :RoundVow _ %>: %{I%}: %{A%}: ;
 
 "{G} after high vowel"
 %{G%}:г <=> [ :HighVow | ImaginaryHighVow: ] [ [ :0 - Imaginary: ] | %-: ]* _ ;
-            [ :HighSonCns | л: ] [ [ :0 - Imaginary: ] | %-: ]*  _ ;
+            [ :HighSonCns | л: | %{л%}: ] [ [ :0 - Imaginary: ] | %-: ]*  _ ;
 
 !@ с ы л >:0 {G}:г {A}:а
 

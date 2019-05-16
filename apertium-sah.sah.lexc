@@ -10846,11 +10846,11 @@ LASTDIGIT-REST ; ! Use/Circ
 
 LEXICON LASTDIGIT
 
-1:1%{э%}%{йр%}          NUM-DIGIT ; ! "биир"
+1:1%{и%}%{йр%}          NUM-DIGIT ; ! "биир"
 2:2%{и%}                NUM-DIGIT ; ! "икки"
 3:3%{ү%}%{с%}           NUM-DIGIT ; ! "үс"
 4:4%{ү%}%{с%}           NUM-DIGIT ; ! "түөрт"
-5:5%{э%}%{с%}           NUM-DIGIT ; ! "биэс"
+5:5%{и%}%{с%}           NUM-DIGIT ; ! "биэс"
 6:6%{а%}                NUM-DIGIT ; ! "алта"
 7:7%{э%}                NUM-DIGIT ; ! "сэттэ"
 8:8%{а%}%{с%}           NUM-DIGIT ; ! "аҕыс"
