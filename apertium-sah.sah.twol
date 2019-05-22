@@ -42,7 +42,7 @@ Alphabet
 
    %{рл%}:р ! р except before л, then л
 
-   %{D%}:т ! д before a vowel, otherwise т
+   %{D%}:т %{D%}:д ! д before a vowel, otherwise т
 
    %{н%}:н ! Reflexive н that deletes before passive
    %{й%}:й ! Verb-stem-final й that deletes before passive
