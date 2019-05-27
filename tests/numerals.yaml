@@ -27,7 +27,7 @@ Tests:
 
   "Cases 4": 
     түөрт<num><subst><acc> : түөрдү
-    түөрт<num><subst><par> : түөрттэ
+    түөрт<num><subst><par> : түөртэ
     түөрт<num><subst><dat> : түөрткэ
 
   "Cases 5": 
