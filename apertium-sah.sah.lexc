@@ -167,6 +167,7 @@ Multichar_Symbols
 
 %{м%}              ! imaginary nasal
 %{с%}              ! imaginary voiceless consonant
+%{d%}              ! imaginary т/д (like {D} but imaginary)
 %{х%}              ! imaginary х
 %{йр%}             ! imaginary й or р
 %{л%}              ! imaginary л
@@ -10852,7 +10853,7 @@ LEXICON LASTDIGIT
 1:1%{и%}%{йр%}          NUM-DIGIT ; ! "биир"
 2:2%{и%}                NUM-DIGIT ; ! "икки"
 3:3%{ү%}%{с%}           NUM-DIGIT ; ! "үс"
-4:4%{ү%}%{с%}           NUM-DIGIT ; ! "түөрт"
+4:4%{ү%}%{d%}           NUM-DIGIT ; ! "түөрт"
 5:5%{и%}%{с%}           NUM-DIGIT ; ! "биэс"
 6:6%{а%}                NUM-DIGIT ; ! "алта"
 7:7%{э%}                NUM-DIGIT ; ! "сэттэ"
