@@ -1298,7 +1298,9 @@ LEXICON Nouns
 туһ:туһ N1 ; ! ""
 атта:атт N1 ; ! ""
 орто:орто N1 ; ! "middle"
-алын:алын N1 ; ! ""
+алын:алын N1 ; ! "under(side)"
+алын%<n%>:анны POSS-NOM-SG "weight: -0.1" ; ! FIXME: CHECK
+алын%<n%>:анны POSS-OBL-SG "weight: -0.1" ; ! FIXME: CHECK
 ис:ис N1 ; ! ""
 илин:илин N1 ; ! ""
 
