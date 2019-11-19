@@ -239,6 +239,11 @@ Cx:д <=> %{рл%}:л %{y%}:0 _ %{ь%}: ;
 "vowels delete before {A}{A}"
 Vx:0 <=> _ %>: %{A%}: %{A%}: ;
          _ RealVow: %>: %{A%}: %{A%}: ;
+     except
+         .#. :Cons (:ь) _ ;
+         .#. :Cons (:ь) RealVow: _ ;
+         .#. RealVow: _ ;
+         .#. _ ;
      where Vx in RealVow ;
 
 !@ с ы л д ь ы:0 >:0 {A}:а {A}:а ч ч {I}:ы
@@ -378,6 +383,10 @@ Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
 
 "{A} deletes after long vowels and diphthongs and triggers other stuff (and as part of {I}{A})"
 %{A%}:0 <=> :RealVow :RealVow %>: (%{I%}:) _ ;
+            .#. :Cons (:ь) _ ;
+            .#. :Cons (:ь) RealVow: _ ;
+            .#. RealVow: _ ;
+            .#. _ ;
 
 "{I} deletes after long vowels and diphthongs and triggers other stuff"
 %{I%}:0 <=> :RealVow :RealVow %>: _ ;
