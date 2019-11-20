@@ -157,6 +157,9 @@ Rules
 н:д <=> :HighSonCns %{y%}:0 _ :Vow/:0* ;
 !@ с а й {y}:0 н:д >:0 {A}:а {р}:р
 
+"т→д voicing"
+т:д <=> %{y%}:0 _ [ :Vow - %{ь%}: ]/[:0 - %{ь%}:]* ;
+
 ! Having :Vow/:0* at the end of the above rules
 ! ensures that they don't conflict with н→ҥ and н→м rules
 ! ... even though it's more specific than it really needs to be.
@@ -212,7 +215,7 @@ Cx:Cy <=> :VoicelessCns [ [ :0 - Imaginary: ] | %-: ]* _ ;
 "{G} after voiceless consonants besides х"
 %{G%}:к <=> [ [ :VoicelessCns - :х ] | [ ImaginaryVoicelessCns: - %{х%}: ] ] [ [ :0 - Imaginary: ] | %-: ]* _ ;
 
-"some consonats turn to д for дь stuff"
+"some consonants turn to д for дь stuff"
 Cx:д <=> %{рл%}:л %{y%}:0 _ %{ь%}: ;
      where Cx in ( й т ) ;
 

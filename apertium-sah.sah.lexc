@@ -1332,7 +1332,10 @@ LEXICON Nouns
 !алын%<n%>:анны POSS-OBL-SG "weight: -0.1" ; ! FIXME: CHECK
 ис:ис N1 ; ! ""
 илин:илин N1 ; ! ""
-кэлин:кэлин N1 ; ! "back , behind"
+кэлин:кэл%{y%}н N1 ; ! "back , behind"
+үрүт:үр%{y%}т N1 ; ! "top"
+өрүт:өр%{y%}т N1 ; ! "side"
+өрүт%<n%>%<px3sg%>%<dat%>:өттүгэр # "weight: 0.1" ; ! contracted form of dative
 
 киһи:киһи N1 ; ! "человек" ! FIXME: irreg dative
 киһи%<n%>%<dat%>:киһиэхэ # "weight: 0.1" ;  
@@ -2948,8 +2951,6 @@ yy:yy N1 ; ! "вода"
 орулуос:орулуос N1 ; ! "golden eye"
 оруос:оруос N1 ; ! "winter rye"
 өрүс:өрүс N1 ; ! " river"
-өрүт:өрүт N1 ; ! "side"
-өрүт%<n%>%<px3sp%>%<dat%>:өттүгэр # "weight: 0.1" ; ! contracted form of dative
 оскуола:оскуола N1 ; ! "school"
 ос:ос N1 ; ! "boot top"
 өс:өс N1 ; ! "spite, hostility, enmity, hate"
@@ -3248,7 +3249,6 @@ yy:yy N1 ; ! "вода"
 уруок:уруок N1 ; ! "lesson"
 ур:ур N1 ; ! "lump, knob"
 үр:үр N1 ; ! "wealth;"
-үрүт:үрүт N1 ; ! "top"
 уруһуй:уруһуй N1 ; ! "painting"
 үр% хамнас:үр% хамнас N1 ; ! "wealth"
 үр% харчы:үр% харчы N1 ; ! "wealth;"
@@ -4450,7 +4450,7 @@ yy:yy N1 ; ! "вода"
 райком:райком N1 ; ! ""
 сииннэрин:сииннэрин N1 ; ! ""
 атаҕар:атаҕар N1 ; ! ""
-төрдүгэр:төрдүгэр N1 ; ! "" FIXME: COMPOSITIONAL
+төрдүгэр:төрдүгэр N1 ; ! "" FIXME: COMPOSITIONAL?
 уокуругар:уокуругар N1 ; ! ""
 сиин:сиин N1 ; ! ""
 атын:атын N1 ; ! ""

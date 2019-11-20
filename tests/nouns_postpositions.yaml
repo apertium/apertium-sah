@@ -26,12 +26,12 @@ Tests:
 
   "Postpositions from nouns with epenthesis issues":
     алын<n><px3sg><dat> : анныгар
-    алын<n><ps3sg><abl> : анныттан
-    үрүт<n><ps3sg><abl> : үрдүттэн
-    үрүт<n><ps3sg><dat> : үрдүгэр
-    үрүт<n><ps3sg><ins> : үрдүнэн
-    кэлин<n><ps3sg><abl> : кэнниттэн
-    кэлин<n><ps3sg><ins> : кэннинэн
+    алын<n><px3sg><abl> : анныттан
+    үрүт<n><px3sg><abl> : үрдүттэн
+    үрүт<n><px3sg><dat> : үрдүгэр
+    үрүт<n><px3sg><ins> : үрдүнэн
+    кэлин<n><px3sg><abl> : кэнниттэн
+    кэлин<n><px3sg><ins> : кэннинэн
     өрүт<n><px3sg><ins> : өттүнэн
     өрүт<n><px3sg><abl> : өттүттэн
     өрүт<n><px3sg><dat> : өттүгэр
