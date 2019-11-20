@@ -156,6 +156,7 @@ Multichar_Symbols
 %{H%}              ! һ or ы, for -ыы/-һын alternation
 %{Н%}              ! н or 0, for -ыы/-һын alternation
 %{m%}              !
+%{Noun%}           ! for noun-specific phonology
 
 %{а%}              ! imaginary back unrounded vowel
 %{э%}              ! imaginary front low unrounded vowel
@@ -1326,13 +1327,13 @@ LEXICON Nouns
 туһ:туһ N1 ; ! ""
 атта:атт N1 ; ! ""
 орто:орто N1 ; ! "middle"
-алын:ал%{y%}н N1 ; ! "under(side)"
+алын:ал%{y%}н%{Noun%} N1 ; ! "under(side)"
 !алын:ал%{y%}н N1 ; ! "lower part, underside, bottom"
 !алын%<n%>:анны POSS-NOM-SG "weight: -0.1" ; ! FIXME: CHECK
 !алын%<n%>:анны POSS-OBL-SG "weight: -0.1" ; ! FIXME: CHECK
 ис:ис N1 ; ! ""
 илин:илин N1 ; ! ""
-кэлин:кэл%{y%}н N1 ; ! "back , behind"
+кэлин:кэл%{y%}н%{Noun%} N1 ; ! "back , behind"
 үрүт:үр%{y%}т N1 ; ! "top"
 өрүт:өр%{y%}т N1 ; ! "side"
 өрүт%<n%>%<px3sg%>%<dat%>:өттүгэр # "weight: 0.1" ; ! contracted form of dative
@@ -11841,7 +11842,7 @@ LEXICON Adverbs
 
 ! needs checking:
 чиҥник:чиҥник ADV ; ! ""
-үрдүттэн:үрдүттэн ADV ; ! ""
+үрдүттэн:үрдүттэн ADV ; ! ""  ! FIXME: CHECK: COMPOSITIONAL?
 тахсыылаахтык:тахсыылаахтык ADV ; ! ""
 кыралаан:кыралаан ADV ; ! ""
 уратытык:уратытык ADV ; ! ""

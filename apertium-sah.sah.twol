@@ -61,6 +61,7 @@ Alphabet
 	%{d%}:0
 	%{йр%}:0 ! imaginary й or р
 	%{л%}:0 ! imaginary л
+	%{Noun%}:0 ! for noun-specific phonology
 
    %-:%-
 
@@ -146,8 +147,12 @@ Rules
 "н→м assimilation"
 н:м <=> _ %>: %{B%}: ; 
 
-"н→л assimilation"
-н:л <=> :л %{y%}:0 _ :Vow/:0* ;
+"н→л assimilation for verbs"
+н:л <=> :л %{y%}:0 _ [ :Vow ]/[:0 - %{Noun%}:]* ;
+
+"л→н assimilation for nouns"
+л:н <=> _ %{y%}:0 н: %{Noun%}: [ :Vow ]/[:0 - %{Noun%}:]* ;
+
 
 "н→т desonorisation"
 н:т <=> :VoicelessCns %{y%}:0 _ :Vow/:0* ;
@@ -474,7 +479,7 @@ Vx:Vy <=> :RoundVow _ %>: %{I%}: %{A%}: ;
 
 "{G} after high vowel"
 %{G%}:г <=> [ :HighVow | ImaginaryHighVow: ] [ [ :0 - Imaginary: ] | %-: ]* _ ;
-            [ :HighSonCns | л: | %{йр%}: | %{л%}: ] [ [ :0 - Imaginary: ] | %-: ]*  _ ;
+            [ [ :HighSonCns | л: | %{йр%}: | %{л%}: ] - :Nasal ] [ [ :0 - Imaginary: ] | %-: ]*  _ ;
 
 !@ с ы л >:0 {G}:г {A}:а
 
