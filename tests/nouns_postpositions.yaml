@@ -5,18 +5,31 @@ Config:
     Morph: ../sah.automorf.hfst
 
 Tests:
-  "Nouns forms": 
+  "Postpositions from misc nouns": 
     ис<n><px3sg><dat> : иһигэр
-    инни<n><px2sg><dat> : иннигэр
-    алын<n><px2sg><dat> : анныгар
-    орто<n><px3sg><dat> : ортотугар
-    атта<n><px3sg><dat> : аттыгар
-    быыс<n><px3sg><dat> : быыһыгар
     ис<n><px3sg><abl> : иһиттэн
-    үрүт<n><ps3sg><abl> : үрдүттэн
-    инни<n><abl> : инниттэн
-    кэлин<n><ps3sg><abl> : кэнниттэн
-    алын<n><ps3sg><abl> : анныттан
+    орто<n><px3sg><dat> : ортотугар
     орто<n><px3sg><abl> : ортотуттан
+    атта<n><px3sg><dat> : аттыгар
     атта<n><px3sg><abl> : аттыттан
+    инни<n><px2sg><dat> : иннигэр
+    инни<n><abl> : инниттэн
+    быыс<n><px3sg><dat> : быыһыгар
     быыс<n><px3sg><abl> : быыһыттан
+    тус<n><px3sg><ins> : туһунан
+    уст<n><px3sg><loc> : устата
+    уст<n><px3sg><acc> : устун
+    уст<n><px3sg><ins> : устунан
+
+  "Postpositions from nouns with epenthesis issues":
+    алын<n><px2sg><dat> : анныгар
+    алын<n><ps3sg><abl> : анныттан
+    үрүт<n><ps3sg><abl> : үрдүттэн
+    үрүт<n><ps3sg><dat> : үрдүгэр
+    үрүт<n><ps3sg><ins> : үрдүнэн
+    кэлин<n><ps3sg><abl> : кэнниттэн
+    кэлин<n><ps3sg><ins> : кэннинэн
+    өрүт<n><px3sg><ins> : өттүнэн
+    өрүт<n><px3sg><abl> : өттүттэн
+    өрүт<n><px3sg><dat> : өттүгэр
+    орун<n><px3sg><dat> : оннугар
