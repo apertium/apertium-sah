@@ -369,6 +369,7 @@ Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
              !    ! for verb stems ending in long vowel or diphthong
              !%{ъ%}: %>: [ :Cons* ]/:0* _ ; 
              %{☭%}: [ :Cons* :Cons ]/:0* _ ;
+             .#. ( :Cons (:ь) ) RealVow: RealVow: %>: (%{A%}:) _ ;
          where Vx in ( а о ы у э е и ө ү я )
                Vy in ( а о а а э э э ө э а )
          matched ;
@@ -383,10 +384,7 @@ Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
 
 "{A} deletes after long vowels and diphthongs and triggers other stuff (and as part of {I}{A})"
 %{A%}:0 <=> :RealVow :RealVow %>: (%{I%}:) _ ;
-            .#. :Cons (:ь) _ ;
-            .#. :Cons (:ь) RealVow: _ ;
-            .#. RealVow: _ ;
-            .#. _ ;
+            .#. ( :Cons (:ь) ) RealVow: RealVow: %>: (%{A%}:) _ ;
 
 "{I} deletes after long vowels and diphthongs and triggers other stuff"
 %{I%}:0 <=> :RealVow :RealVow %>: _ ;
@@ -394,7 +392,7 @@ Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
 "first element of diphthongs and long vowels immediately before ({I}){A} and after unrounded vowels"
 Vx:Vy <=> :UnRoundVow/[ :Cons | :0 ]* _ :RealVow %>: (%{I%}:) %{A%}: ;
       except
-          _ :RealVow %>: %{A%}: %{A%}: ;
+          _ RealVow: %>: %{A%}: %{A%}: ;
       where Vx in ( а о э ө )
             Vy in ( ы у и ү )
       matched ;
@@ -402,7 +400,7 @@ Vx:Vy <=> :UnRoundVow/[ :Cons | :0 ]* _ :RealVow %>: (%{I%}:) %{A%}: ;
 "first element of diphthongs and long vowels immediately before ({I}){A} and after rounded vowels"
 Vx:Vy <=> :RoundVow/[ :Cons | :0 ]* _ :RealVow %>: (%{I%}:) %{A%}: ;
       except
-          _ :RealVow %>: %{A%}: %{A%}: ;
+          _ RealVow: %>: %{A%}: %{A%}: ;
       where Vx in ( а о э ө )
             Vy in ( у у ү ү )
       matched ;
