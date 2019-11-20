@@ -1327,8 +1327,9 @@ LEXICON Nouns
 атта:атт N1 ; ! ""
 орто:орто N1 ; ! "middle"
 алын:ал%{y%}н N1 ; ! "under(side)"
-алын%<n%>:анны POSS-NOM-SG "weight: -0.1" ; ! FIXME: CHECK
-алын%<n%>:анны POSS-OBL-SG "weight: -0.1" ; ! FIXME: CHECK
+!алын:ал%{y%}н N1 ; ! "lower part, underside, bottom"
+!алын%<n%>:анны POSS-NOM-SG "weight: -0.1" ; ! FIXME: CHECK
+!алын%<n%>:анны POSS-OBL-SG "weight: -0.1" ; ! FIXME: CHECK
 ис:ис N1 ; ! ""
 илин:илин N1 ; ! ""
 кэлин:кэлин N1 ; ! "back , behind"
@@ -2169,7 +2170,6 @@ yy:yy N1 ; ! "вода"
 алдьархай:алдьархай N1 ; ! "harm, damage, loss, sorrow"
 алтан% от:алтан% от N1 ; ! "dandelion"
 алтынньы:алтынньы N1 ; ! "October"
-алын:алын N1 ; ! "lower part, underside, bottom"
 алып:алып N1 ; ! "magic"
 алыһар:алыһар N1 ; ! "perch"
 ампаар:ампаар N1 ; ! "granary;"
@@ -4450,7 +4450,7 @@ yy:yy N1 ; ! "вода"
 райком:райком N1 ; ! ""
 сииннэрин:сииннэрин N1 ; ! ""
 атаҕар:атаҕар N1 ; ! ""
-төрдүгэр:төрдүгэр N1 ; ! ""
+төрдүгэр:төрдүгэр N1 ; ! "" FIXME: COMPOSITIONAL
 уокуругар:уокуругар N1 ; ! ""
 сиин:сиин N1 ; ! ""
 атын:атын N1 ; ! ""

@@ -20,6 +20,9 @@ Tests:
     уст<n><px3sg><loc> : устата
     уст<n><px3sg><acc> : устун
     уст<n><px3sg><ins> : устунан
+#Also check:
+#	 төрдүгэр
+#	 төрдүттэн
 
   "Postpositions from nouns with epenthesis issues":
     алын<n><px3sg><dat> : анныгар
