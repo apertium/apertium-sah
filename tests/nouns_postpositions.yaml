@@ -1,0 +1,22 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../sah.autogen.hfst
+    Morph: ../sah.automorf.hfst
+
+Tests:
+  "Nouns forms": 
+    ис<n><px3sg><dat> : иһигэр
+    инни<n><px2sg><dat> : иннигэр
+    алын<n><px2sg><dat> : анныгар
+    орто<n><px3sg><dat> : ортотугар
+    атта<n><px3sg><dat> : аттыгар
+    быыс<n><px3sg><dat> : быыһыгар
+    ис<n><px3sg><abl> : иһиттэн
+    үрүт<n><ps3sg><abl> : үрдүттэн
+    инни<n><abl> : инниттэн
+    кэлин<n><ps3sg><abl> : кэнниттэн
+    алын<n><ps3sg><abl> : анныттан
+    орто<n><px3sg><abl> : ортотуттан
+    атта<n><px3sg><abl> : аттыттан
+    быыс<n><px3sg><abl> : быыһыттан
