@@ -62,6 +62,7 @@ Alphabet
 	%{йр%}:0 ! imaginary й or р
 	%{л%}:0 ! imaginary л
 	%{Noun%}:0 ! for noun-specific phonology
+   %{❗%}:0 ! Weird exceptions
 
    %-:%-
 
@@ -164,6 +165,14 @@ Rules
 
 "т→д voicing"
 т:д <=> %{y%}:0 _ [ :Vow - %{ь%}: ]/[:0 - %{ь%}:]* ;
+    except
+        _ :* %{❗%}: ;
+
+"р→т assimilation"
+р:т <=> _ %{y%}:0 т: %{❗%}: ;
+
+"р→н assimilation"
+р:н <=> _ %{y%}:0 н: ;
 
 ! Having :Vow/:0* at the end of the above rules
 ! ensures that they don't conflict with н→ҥ and н→м rules

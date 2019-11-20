@@ -175,6 +175,7 @@ Multichar_Symbols
 
 %{☭%}              ! Used to tell the phonology about a Russian word
 %{ъ%}              ! 
+%{❗%}              ! Weird exception
 
 %                  !
 %.                 !
@@ -305,6 +306,10 @@ LEXICON POSS-OBL-SG
 POSS-OBL ;
 POSS-PX3PL-OBL-SG ;
 
+!LEXICON N-IRREG-STEM
+!
+!%<n%>: POSS-NOM-SG "weight: -0.1" ;
+!%<n%>: POSS-OBL-SG "weight: -0.1" ;
 
 LEXICON POSS-NOM
 
@@ -1335,8 +1340,9 @@ LEXICON Nouns
 илин:илин N1 ; ! ""
 кэлин:кэл%{y%}н%{Noun%} N1 ; ! "back , behind"
 үрүт:үр%{y%}т N1 ; ! "top"
-өрүт:өр%{y%}т N1 ; ! "side"
-өрүт%<n%>%<px3sg%>%<dat%>:өттүгэр # "weight: 0.1" ; ! contracted form of dative
+өрүт:өр%{y%}т%{❗%} N1 ; ! "side"
+!өрүт%<n%>%<px3sg%>%<dat%>:өттүгэр # "weight: 0.1" ; ! contracted form of dative
+!өрүт:өттү N-IRREG-STEM ;
 
 киһи:киһи N1 ; ! "человек" ! FIXME: irreg dative
 киһи%<n%>%<dat%>:киһиэхэ # "weight: 0.1" ;  
@@ -1822,6 +1828,7 @@ LEXICON Nouns
 төлөн:төлөн N1 ; ! "огонь"
 төлөөһүн:төлөөһүн N1 ; ! "оплата; платёж"
 төннүү:төннүү N1 ; ! "гниение"
+төрүт:төрүт N1 ; ! "origin"
 төрүт:төрүт N1 ; ! "геогр. устье (реки)"
 төрүт:төрүт N1 ; ! "основание, основа, база, опора чего-либо"
 угут:угут N1 ; ! "наводнение"
@@ -3145,7 +3152,6 @@ yy:yy N1 ; ! "вода"
 тоҥсоҕой:тоҥсоҕой N1 ; ! "woodpecker"
 торбос:торбос N1 ; ! "calf"
 төрөппүт:төрөппүт N1 ; ! "parent"
-төрүт:төрүт N1 ; ! "origin"
 төрүччү:төрүччү N1 ; ! "genealogy"
 тот:тот N1 ; ! "full stomach"
 тоһоҕо:тоһоҕо N1 ; ! "nail, tack"
@@ -4435,13 +4441,11 @@ yy:yy N1 ; ! "вода"
 киһи:киһи N1 ; ! ""
 олох:олох N1 ; ! ""
 уол:уол N1 ; ! ""
-өрүт:өрүт N1 ; ! ""
 сир:сир N1 ; ! ""
 субъект:субъект N1 ; ! ""
 призер:призер N1 ; ! ""
 үгүс:үгүс N1 ; ! ""
 иннэ:иннэ N1 ; ! ""
-төрүт:төрүт N1 ; ! ""
 көрүҥ:көрүҥ N1 ; ! ""
 чөл:чөл N1 ; ! ""
 сурук:сурук N1 ; ! ""
