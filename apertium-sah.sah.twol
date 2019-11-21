@@ -270,6 +270,8 @@ Vx:0 <=> _ %>: %{A%}: %{A%}: ;
 "т after a vowel"
 %{t%}:т <=> :Vow/:0 _ ;
 
+!@ у с т >:0 {t}:0 {A}:а
+
 "н after a vowel"
 %{n%}:н <=> [ :Vow | ImaginaryVow: ]/[ [ :0 - Imaginary: ] | %-: ] _ ;
             !@ и д е я >:0 {n}:н {I}:ы
@@ -527,3 +529,5 @@ Vx:Vy <=> :RoundVow _ %>: %{I%}: %{A%}: ;
 
 "Delete т after н or с when not at the end of a word"
 т:0 <=> [ :н | :с | :к ] _ %>:/[ :0 - %>: ] ;
+    except
+        .#. у: с: _ ;
