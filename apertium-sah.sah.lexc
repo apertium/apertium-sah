@@ -918,6 +918,8 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 
 %<ger_nec%>:%>%{I%}%{A%}х%>т%{A%}%{A%}х GER-SUBST ;
 
+%<ger_unac%>:%>%{A%}% илик GER-SUBST ; ! unaccomplished
+
 LEXICON V-COMMON
 
 V-FINITE-REGULAR_NEGATIVE ;
