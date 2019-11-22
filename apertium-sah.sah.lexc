@@ -96,7 +96,7 @@ Multichar_Symbols
 
 %<gna_perf%>       ! 
 %<gna_cond%>       ! -ТАр
-%<gna_cond2%>      ! -ТАх/ТАҕIнА/etc.
+!%<gna_cond2%>      ! -ТАх/ТАҕIнА/etc.
 %<gna_abes%>       ! 
 %<gna_caus%>       ! -BIччI
 %<gna_goal%>       ! -AAрI
@@ -104,22 +104,25 @@ Multichar_Symbols
 %<gna_fut%>        !
 %<gna_past%>       ! -BIт
 %<gna_fut%>        ! -IAх
+%<gna_impf%>       ! -A
 
 %<ger_pros%>       ! -IAх
 %<ger_aor%>        ! -Ar
 %<ger1%>           ! -IAн (FIXME: rename)
 %<ger_past%>       ! -BIт
 %<ger_fut%>        ! -IAx
-%<ger_cond2%>      ! -ТАх
+!%<ger_cond2%>      ! -ТАх
+%<ger_cond%>       ! -ТАх
 %<ger_hab%>        ! -AAччI
 %<ger_nec%>        ! -IAxтAAх
+%<ger_unac%>       ! -А илик
 
 %<gpr_aor%>        ! 
 %<gpr_fut%>        !
 %<gpr_unac%>       ! -А илик
 
 %<prc_aor%>        ! 
-%<prc_impf%>       ! 
+%<prc_impf%>       ! -A
 %<prc_fut%>        !
 
 %<qst%>            !
@@ -787,14 +790,14 @@ LEXICON V-PERS-IFI
 %<p2%>%<pl%>:%>%{I%}г%{I%}т CLITICS-NO-COP ;
 %<p3%>%<pl%>:%>%{I%}%{L%}%{A%}р CLITICS-NO-COP ; ! FIXME: Check
 
-LEXICON V-PERS-COND2
-
-%<p1%>%<sg%>:%>%{B%}%{I%}н%{A%} CLITICS-NO-COP ;
-%<p2%>%<sg%>:%>%{G%}%{I%}н%{A%} CLITICS-NO-COP ;
-%<p3%>%<sg%>:%>%{I%}н%{A%} CLITICS-NO-COP ;
-%<p1%>%<pl%>:%>%{B%}%{I%}т%{I%}н%{A%} CLITICS-NO-COP ;
-%<p2%>%<pl%>:%>%{G%}%{I%}т%{I%}н%{A%} CLITICS-NO-COP ;
-%<p3%>%<pl%>:%>%{L%}%{A%}р%{I%}н%{A%} CLITICS-NO-COP ;        ! FIXME: Check
+!LEXICON V-PERS-COND2
+!
+!%<p1%>%<sg%>:%>%{B%}%{I%}н%{A%} CLITICS-NO-COP ;
+!%<p2%>%<sg%>:%>%{G%}%{I%}н%{A%} CLITICS-NO-COP ;
+!%<p3%>%<sg%>:%>%{I%}н%{A%} CLITICS-NO-COP ;
+!%<p1%>%<pl%>:%>%{B%}%{I%}т%{I%}н%{A%} CLITICS-NO-COP ;
+!%<p2%>%<pl%>:%>%{G%}%{I%}т%{I%}н%{A%} CLITICS-NO-COP ;
+!%<p3%>%<pl%>:%>%{L%}%{A%}р%{I%}н%{A%} CLITICS-NO-COP ;        ! FIXME: Check
 
 
 LEXICON V-PERS-NEGFUT
@@ -865,11 +868,13 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 %<imp%>%<p2%>%<pl%>:%>{I}ҥ CLIT-EMPH ; 
 
 %<prc_impf%>:%>%{A%} CLITICS-NO-COP ; ! FIXME: check
+%<gna_impf%>:%>%{A%} CLITICS-NO-COP ; ! FIXME: check
 
 %<gna_cond%>:%>%{T%}%{A%}р V-PERS-S1 ;
-%<gna_cond2%>:%>%{T%}%{A%}х V-PERS-COND2 ;
-
-%<ger_cond2%>:%>%{T%}%{A%}х GER-SUBST ;
+!%<gna_cond2%>:%>%{T%}%{A%}х V-PERS-COND2 ; ! FIXME: check, rename  ! probably not right, see #5
+!
+!%<ger_cond2%>:%>%{T%}%{A%}х GER-SUBST ;
+%<ger_cond%>:%>%{T%}%{A%}х GER-SUBST ;
 
 %<gpr_past%>:%>%{B%}%{I%}т CLITICS-NO-COP ; ! FIXME: check
 
@@ -893,8 +898,8 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 %<ger_aor%>:%>%{A%}р GER-SUBST ; 
 %<neg%>%<ger_aor%>:%>%{B%}%{A%}т GER-SUBST ; 
 
-%<ger1%>:%>%{I%}%{A%}н # ;
-%<neg%>%<ger1%>:%>%{m%}%{i%}м%>%{I%}%{A%}н # ;
+%<ger1%>%<nom%>:%>%{I%}%{A%}н # ;                        ! FIXME: rename
+%<neg%>%<ger1%>%<nom%>:%>%{m%}%{i%}м%>%{I%}%{A%}н # ;
 
 %<ger2%>:%>%{H%}%{I%}%{Н%} GER-SUBST ;
 
