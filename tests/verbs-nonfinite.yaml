@@ -1,0 +1,47 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../sah.autogen.hfst
+    Morph: ../sah.automorf.hfst
+
+Tests:
+  "{A}р":
+    бар<v><iv><aor><p3><sg> : барар
+    санаа<v><tv><aor><p3><sg> : саныыр
+    бар<v><iv><ger_aor><nom> : барар
+    санаа<v><tv><ger_aor><nom> : саныыр
+    бар<v><iv><gpr_aor> : барар
+    санаа<v><tv><gpr_aor> : саныыр
+
+  "{B}{A}т":
+    бар<v><iv><neg><aor><p3><sg> : барбат
+    санаа<v><tv><neg><aor><p3><sg> : санаабат
+    бар<v><iv><neg><ger_aor><nom> : барбат
+    санаа<v><tv><neg><ger_aor><nom> : санаабат
+    бар<v><iv><neg><gpr_aor> : барбат
+    санаа<v><tv><neg><gpr_aor> : санаабат
+
+  "{B}{I}т":
+    бар<v><iv><past><p3><sg> : барбыта
+    санаа<v><tv><past><p3><sg> : санаабыта
+    бар<v><iv><ger_past><nom> : барбыт
+    санаа<v><tv><ger_past><nom> : санаабыт
+    бар<v><iv><gpr_past> : барбыт
+    санаа<v><tv><gpr_past> : санаабыт
+
+  "{B}{A}т{A}х":
+    бар<v><iv><neg><past><p3><sg> : барбатаҕа
+    санаа<v><tv><neg><past><p3><sg> : санаабатаҕа
+    бар<v><iv><neg><ger_past><nom> : барбатах      # CHECK
+    санаа<v><tv><neg><ger_past><nom> : санаабатах  # CHECK
+    бар<v><iv><neg><gpr_past> : барбатах           # CHECK
+    санаа<v><tv><neg><gpr_past> : санаабатах       # CHECK
+
+  "{I}{A}х":
+    бар<v><iv><fut><p3><sg> : барыаҕа
+    санаа<v><tv><fut><p3><sg> : саныаҕа
+    бар<v><iv><ger_fut><nom> : барыах
+    санаа<v><tv><ger_fut><nom> : саныах
+    бар<v><iv><gpr_fut> : барыах
+    санаа<v><tv><gpr_fut> : саныах
+
