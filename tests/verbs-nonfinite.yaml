@@ -49,9 +49,9 @@ Tests:
     санаа<v><tv><gpr_fut> : саныах
 
   "{I}{A}":
-    бар<v><iv><gna_fut><nom> : барыа
-    буол<v><iv><gna_fut><nom> : буолуо
-    санаа<v><tv><gna_fut><nom> : саныа
+    бар<v><iv><ger_pot><nom> : барыа
+    буол<v><iv><ger_pot><nom> : буолуо
+    санаа<v><tv><ger_pot><nom> : саныа
 
   "{I}{A}н":
     бар<v><iv><ger1><nom> : барыан
@@ -128,8 +128,10 @@ Tests:
     ыл<v><tv><gna_???> : ылымына
 
   "{B}{A}кк{A}":
-    бар<v><iv><abes><p3><sg> : барбакка       # CHECK
-    тэһий<v><iv><abes><p3><sg> : тэһийбэккэ   # CHECK
+    бар<v><iv><abes><p3><sg> : барбакка
+    бар<v><iv><abes><p1><sg> : барбаккабын
+    тэһий<v><iv><abes><p3><sg> : тэһийбэккэ
+    тэһий<v><iv><abes><p1><sg> : тэһийбэккэбин
     бар<v><iv><gna_abes> : барбакка
     тэһий<v><iv><gna_abes> : тэһийбэккэ
 
