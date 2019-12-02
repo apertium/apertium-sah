@@ -93,7 +93,8 @@ Multichar_Symbols
 %<fut%>            !
 %<unac%>           ! -A илик
 %<hab%>            ! -AAччI
-%<abes%>           ! - -BAккA = abessive ("not do something in vain"?)
+%<abes%>           ! -BAккA = abessive ("not do something in vain"?)
+%<cert%>           ! -IмIнA = certaintative ("of course ...")
 
 %<gna_perf%>       ! -Aн
 %<gna_cond%>       ! -ТАр
@@ -870,15 +871,14 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 
 %<abes%>:%>%{B%}%{A%}кк%{A%} V-PERS-S1 ; ! abessive
 
+%<cert%>:%>%{I%}м%{I%}н%{A%} V-PERS-S1 ; ! for expressing certainty in statement
+
 
 LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
 ! Imperatives
 %<imp%>%<p2%>%<sg%>: CLIT-EMPH ;
 %<imp%>%<p2%>%<pl%>:%>{I}ҥ CLIT-EMPH ; 
-
-%<prc_impf%>:%>%{A%} CLITICS-NO-COP ; ! FIXME: check
-%<gna_impf%>:%>%{A%} CLITICS-NO-COP ; ! FIXME: check
 
 %<gna_cond%>:%>%{T%}%{A%}р V-PERS-S1 ;
 !%<gna_cond2%>:%>%{T%}%{A%}х V-PERS-COND2 ; ! FIXME: check, rename  ! probably not right, see #5
@@ -896,8 +896,15 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 %<gpr_aor%>:%>%{A%}%{р%} # ; !FIXME:check
 %<neg%>%<gpr_aor%>:%>%{B%}%{A%}т # ; 
 
+%<prc_impf%>:%>%{A%} CLITICS-NO-COP ; ! FIXME: check
+%<neg%>%<gna_impf%>:%>%{I%}м%{I%}н%{A%} CLITICS-NO-COP ; ! FIXME: check
+%<gna_impf%>:%>%{A%} CLITICS-NO-COP ; ! FIXME: check
+%<neg%>%<prc_impf%>:%>%{I%}м%{I%}н%{A%} CLITICS-NO-COP ; ! FIXME: check
+
 %<gna_perf%>:%>%{a%}н CLITICS-NO-COP ; ! FIXME: check
+%<neg%>%<gna_perf%>:%>%{I%}м%{I%}н%{A%} CLITICS-NO-COP ; ! FIXME: check
 %<prc_perf%>:%>%{a%}н CLITICS-NO-COP ; ! FIXME: check
+%<neg%>%<prc_perf%>:%>%{I%}м%{I%}н%{A%} CLITICS-NO-COP ; ! FIXME: check
 
 %<gna_abes%>:%>%{B%}%{A%}кк%{A%} CLITICS-NO-COP ; ! FIXME: check
 %<gna_caus%>:%>%{B%}%{I%}чч%{A%} CLITICS-NO-COP ; ! FIXME: check

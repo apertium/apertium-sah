@@ -122,10 +122,21 @@ Tests:
     санаа<v><tv><prc_impf> : саныы
 
   "{I}м{I}н{A}":
-    бар<v><iv><???><p3><sg> : барымына
-    ыл<v><tv><???><p3><sg> : ылымына
-    бар<v><iv><gna_???> : барымына
-    ыл<v><tv><gna_???> : ылымына
+    бар<v><iv><cert><p3><sg> : барымына
+    ыл<v><tv><cert><p3><sg> : ылымына
+    санаа<v><tv><cert><p3><sg> : санаамына
+    бар<v><iv><neg><gna_perf> : барымына
+    ыл<v><tv><neg><gna_perf> : ылымына
+    санаа<v><tv><neg><gna_perf> : санаамына
+    бар<v><iv><neg><prc_perf> : барымына
+    ыл<v><tv><neg><prc_perf> : ылымына
+    санаа<v><tv><neg><prc_perf> : санаамына
+    бар<v><iv><neg><gna_impf> : барымына
+    ыл<v><tv><neg><gna_impf> : ылымына
+    санаа<v><tv><neg><gna_impf> : санаамына
+    бар<v><iv><neg><prc_impf> : барымына
+    ыл<v><tv><neg><prc_impf> : ылымына
+    санаа<v><tv><neg><prc_impf> : санаамына
 
   "{B}{A}кк{A}":
     бар<v><iv><abes><p3><sg> : барбакка
