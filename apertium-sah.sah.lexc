@@ -9476,7 +9476,7 @@ LEXICON Adjectives
 үрүҥ:үрүҥ  A4 ; ! " white;"
 үтүө:үтүө  A1 ; ! " good, benevolent, kind, noble;"
 уустук:уустук  A1 ; ! " complicated;"
-уһун:уһун  A4 ; ! " long, tall"
+уһун:уһун  A4 ; ! " long, tall | длинный"
 үчүгиий%-үчүгэй:үчүгиий%-үчүгэй  A4 ; ! " very good;"
 үчүгэй%-үчүгэй:үчүгэй%-үчүгэй  A4 ; ! " very good;"
 үөһээ:үөһээ A2 ; ! "upper, above(?)"
@@ -9539,7 +9539,6 @@ LEXICON Adjectives
 этиһиик:этиһиик  A4 ; ! " quarrelsome, argumentative"
 ээҕий:ээҕий  A4 ; ! " sarcastic"
 
-уһун:уһун A4 ; ! "длинный"
 туйгун:туйгун A4 ; ! "отличный"
 
 хотуҥу:хотуҥу  A4 ; ! " northern, north"
@@ -12130,7 +12129,7 @@ LEXICON Verbs
 түс:түс V-IV ; ! ""
 биллэр:биллэр V-TV ; ! "communicate"
 сир:сир V-TV ; ! "disdain, reject"
-уһун:ус%{y%}н V-IV ; ! "плавать"
+уһун:ус%{y%}н%{i%} V-IV ; ! "плавать"
 тиий:тии%{й%} V-IV ; ! "добираться"
 үлэлээ:үлэлээ V-TV ; ! "работать"
 
