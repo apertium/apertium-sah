@@ -112,6 +112,7 @@ Multichar_Symbols
 %<ger_pros%>       ! -IAх
 %<ger_aor%>        ! -Ar
 %<ger1%>           ! -IAн (FIXME: rename)
+%<ger2%>           ! -НIН (FIXME: rename)
 %<ger_past%>       ! -BIт
 %<ger_fut%>        ! -IAx
 %<ger_pot%>        ! -IA
@@ -887,7 +888,6 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 !%<ger_cond2%>:%>%{T%}%{A%}х GER-SUBST ;
 %<ger_cond%>:%>%{T%}%{A%}х GER-SUBST ;
 
-%<gpr_past%>:%>%{B%}%{I%}т CLITICS-NO-COP ; ! FIXME: check
 
 LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 
@@ -917,7 +917,6 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 
 %<gpr_unac%>:%>%{A%}% илик CLITICS-NO-COP ; ! unaccomplished
 
-!%<ger_pros%>:%>%{I%}%{A%}х SUBST ; 
 %<ger_aor%>:%>%{A%}р GER-SUBST ; 
 %<neg%>%<ger_aor%>:%>%{B%}%{A%}т GER-SUBST ; 
 
@@ -926,28 +925,40 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 
 %<ger2%>:%>%{H%}%{I%}%{Н%} GER-SUBST ;
 
-!!!! FIXME: NEW STUFF TO CHECK
-!%<gna_fut%>:%>%{I%}%{A%} # ;
-!%<prc_fut%>:%>%{I%}%{A%} # ;
 %<gpr_fut%>:%>%{I%}%{A%}х # ;
 
 %<ger_past%>:%>%{B%}%{I%}т GER-SUBST ; !
 %<neg%>%<ger_past%>:%>%{B%}%{A%}т%{A%}х GER-SUBST ; !
 
-%<gna_past%>:%>%{B%}%{I%}т CLITICS-NO-COP ; !
-%<neg%>%<gna_past%>:%>%{B%}%{A%}т%{A%}х CLITICS-NO-COP ; !
+%<gpr_past%>:%>%{B%}%{I%}т CLITICS-NO-COP ; !
+%<neg%>%<gpr_past%>:%>%{B%}%{A%}т%{A%}х CLITICS-NO-COP ; !
 
 %<ger_pot%>:%>%{I%}%{A%} GER-SUBST-NOM ;
 %<ger_fut%>:%>%{I%}%{A%}х GER-SUBST ; !
 %<neg%>%<ger_fut%>:%>%{I%}м%{I%}%{A%}х GER-SUBST ; !
 
-!%<gna_fut%>:%>%{I%}%{A%}х CLITICS-NO-COP ; !
 
 %<ger_hab%>:%>%{A%}%{A%}чч%{I%} GER-SUBST ;
 
 %<ger_nec%>:%>%{I%}%{A%}х%>т%{A%}%{A%}х GER-SUBST ;
 
 %<ger_unac%>:%>%{A%}% илик GER-SUBST ; ! unaccomplished
+
+!! Incorrect(?) non-finite verb forms:
+
+!%<ger_pros%>:%>%{I%}%{A%}х SUBST ; 
+
+!%<gna_fut%>:%>%{I%}%{A%}х CLITICS-NO-COP ; !
+
+!!!! FIXME: NEW STUFF TO CHECK
+!%<gna_fut%>:%>%{I%}%{A%} # ;
+!%<prc_fut%>:%>%{I%}%{A%} # ;
+
+! Apparently not gna
+! %<gna_past%>:%>%{B%}%{I%}т CLITICS-NO-COP ; !
+! %<neg%>%<gna_past%>:%>%{B%}%{A%}т%{A%}х CLITICS-NO-COP ; !
+
+
 
 LEXICON V-COMMON
 
