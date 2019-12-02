@@ -107,6 +107,7 @@ Multichar_Symbols
 %<gna_past%>       ! -BIт
 %<gna_fut%>        ! -IAх
 %<gna_impf%>       ! -A
+%<gna_plan%>       ! -AAрI
 
 %<ger_pros%>       ! -IAх
 %<ger_aor%>        ! -Ar
@@ -897,19 +898,22 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 %<neg%>%<gpr_aor%>:%>%{B%}%{A%}т # ; 
 
 %<prc_impf%>:%>%{A%} CLITICS-NO-COP ; ! FIXME: check
-%<neg%>%<gna_impf%>:%>%{I%}м%{I%}н%{A%} CLITICS-NO-COP ; ! FIXME: check
+%<neg%>%<prc_impf%>:%>%{I%}м%{I%}н%{A%} CLITICS-NO-COP ;
 %<gna_impf%>:%>%{A%} CLITICS-NO-COP ; ! FIXME: check
-%<neg%>%<prc_impf%>:%>%{I%}м%{I%}н%{A%} CLITICS-NO-COP ; ! FIXME: check
+%<neg%>%<gna_impf%>:%>%{I%}м%{I%}н%{A%} CLITICS-NO-COP ;
 
 %<gna_perf%>:%>%{a%}н CLITICS-NO-COP ; ! FIXME: check
-%<neg%>%<gna_perf%>:%>%{I%}м%{I%}н%{A%} CLITICS-NO-COP ; ! FIXME: check
+%<neg%>%<gna_perf%>:%>%{I%}м%{I%}н%{A%} CLITICS-NO-COP ;
 %<prc_perf%>:%>%{a%}н CLITICS-NO-COP ; ! FIXME: check
-%<neg%>%<prc_perf%>:%>%{I%}м%{I%}н%{A%} CLITICS-NO-COP ; ! FIXME: check
+%<neg%>%<prc_perf%>:%>%{I%}м%{I%}н%{A%} CLITICS-NO-COP ;
 
 %<gna_abes%>:%>%{B%}%{A%}кк%{A%} CLITICS-NO-COP ; ! FIXME: check
 %<gna_caus%>:%>%{B%}%{I%}чч%{A%} CLITICS-NO-COP ; ! FIXME: check
-!%<gna_goal%>:%>%{A%}%{A%}р%{I%} CLITICS-NO-COP ; ! "in order to" ! FIXME: check 
-!%<gna_nond%>:%>%{A%}% илик CLITICS-NO-COP ; ! FIXME: check
+
+! FIXME: could be prc_plan as well
+!   see https://github.com/apertium/apertium-sah/issues/5#issuecomment-560482709
+%<gna_plan%>:%>%{A%}%{A%}р%{I%} CLITICS-NO-COP ; ! "in order to"
+%<gna_plan%>:%>%{A%}%{A%}р%{I%} V-PERS-S1 ; ! "in order to"
 
 %<gpr_unac%>:%>%{A%}% илик CLITICS-NO-COP ; ! unaccomplished
 

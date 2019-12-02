@@ -147,5 +147,9 @@ Tests:
     тэһий<v><iv><gna_abes> : тэһийбэккэ
 
   "{a}{a}р{I}":
-    бар<v><iv><gna_???> : бараары
-    диэ<v><tv><gna_???> : диэри
+    бар<v><iv><gna_plan> : бараары
+    диэ<v><tv><gna_plan> : диэри
+    бар<v><iv><gna_plan><p3><sg> : бараары
+    диэ<v><tv><gna_plan><p3><sg> : диэри
+    бар<v><iv><gna_plan><p1><sg> : бараарыбын
+    диэ<v><tv><gna_plan><p1><sg> : диэрибин
