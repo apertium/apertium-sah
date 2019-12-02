@@ -1,0 +1,31 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../sah.autogen.hfst
+    Morph: ../sah.automorf.hfst
+
+Tests:
+
+  "Past tense with epenthetic vowel":
+    уһун<v><iv><past><p3><sg> : устубута
+    сайын<v><iv><past><p3><sg> : сайдыбыта
+    билин<v><iv><past><p3><sg> : биллибита
+    көҺүн<v><iv><past><p3><sg> : көстүбүта
+    эҺин<v><iv><past><p3><sg> : эстибита
+    оҕун<v><iv><past><p3><sg> : охтубута
+    салын<v><iv><past><p3><sg> : саллыбыта
+    эбилин<v><iv><past><p3><sg> : эбиллибита
+    умун<v><tv><past><p3><sg> : умнубута
+
+  "Past tense with epenthetic vowel, pattern 2":
+    тутун<v><tv><past><p3><sg> : тутуммута
+    аҕын<v><tv><past><p3><sg> : аҕыммыта
+
+  "Aorist forms of epenthetic vowel verbs":
+    уһун<v><iv><aor><p3><sg> : устар
+    умун<v><iv><aor><p3><sg> : умнар
+    аҕын<v><tv><aor><p3><sg> : ахтар
+    тутун<v><tv><aor><p3><sg> : туттар
+
+  "Ifi forms of epenthetic vowel verbs":
+    уһун<v><iv><ifi><p3><sg> : уһуннум
