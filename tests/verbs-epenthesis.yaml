@@ -9,12 +9,12 @@ Tests:
   "Past tense with epenthetic vowel":
     уһун<v><iv><past><p3><sg> : устубута
     сайын<v><iv><past><p3><sg> : сайдыбыта
-    билин<v><iv><past><p3><sg> : биллибита
-    көҺүн<v><iv><past><p3><sg> : көстүбүта
-    эҺин<v><iv><past><p3><sg> : эстибита
+    билин<v><iv><past><p3><sg> : биллибитэ
+    көҺүн<v><iv><past><p3><sg> : көстүбүтэ
+    эҺин<v><iv><past><p3><sg> : эстибитэ
     оҕун<v><iv><past><p3><sg> : охтубута
     салын<v><iv><past><p3><sg> : саллыбыта
-    эбилин<v><iv><past><p3><sg> : эбиллибита
+    эбилин<v><iv><past><p3><sg> : эбиллибитэ
     умун<v><tv><past><p3><sg> : умнубута
 
   "Past tense with epenthetic vowel, pattern 2":
@@ -23,13 +23,13 @@ Tests:
 
   "Aorist forms of epenthetic vowel verbs":
     уһун<v><iv><aor><p3><sg> : устар
-    умун<v><iv><aor><p3><sg> : умнар
+    умун<v><tv><aor><p3><sg> : умнар
     аҕын<v><tv><aor><p3><sg> : ахтар
     тутун<v><tv><aor><p3><sg> : туттар
 
   "Ifi forms of epenthetic vowel verbs":
     уһун<v><iv><ifi><p1><sg> : уһуннум
-	 сайын<v><iv><ifi><p3><sg> : сайынна
+    сайын<v><iv><ifi><p3><sg> : сайынна
     билин<v><iv><ifi><p3><sg> : билиннэ
     тутун<v><tv><ifi><p3><sg> : тутунна
     аҕын<v><tv><ifi><p3><sg> : аҕынна
