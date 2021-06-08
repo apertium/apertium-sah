@@ -54,9 +54,9 @@ Tests:
     санаа<v><tv><ger_pot><nom> : саныа
 
   "{I}{A}н":
-    бар<v><iv><ger1><nom> : барыан
-    буол<v><iv><ger1><nom> : буолуон
-    санаа<v><tv><ger1><nom> : саныан
+    бар<v><iv><ger_irre><nom> : барыан
+    буол<v><iv><ger_irre><nom> : буолуон
+    санаа<v><tv><ger_irre><nom> : саныан
 
   "{T}{A}х":
     бар<v><iv><past><ded><p3><sg> : бардаҕа

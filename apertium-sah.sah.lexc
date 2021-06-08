@@ -826,7 +826,7 @@ LEXICON V-IMP  ! Imperatives
 
 %<imp%>: V-IMP-P12 ;
 %<imp%>: V-IMP-P3 ;
-%<neg%>%<imp%>:%>%{I%}м%{A%} V-IMP-P12 ;
+%<neg%>%<imp%>:%>%{i%}м%{A%} V-IMP-P12 ;
 %<neg%>%<imp%>:%>%{B%}%{A%} V-IMP-P3 ;
 
 LEXICON V-IMP-P3
@@ -841,7 +841,7 @@ LEXICON V-IMP-P12
 %<p1%>%<du%>:%>%{I%}%{A%}х CLIT-EMPH ;
 %<p1%>%<pl%>:%>%{I%}%{A%}х%>%{I%}ҥ CLIT-EMPH ;
 %<p1%>%<pl%>:%>%{I%}%{A%}х%{A%}й%{I%}ҥ CLIT-EMPH ; ! Dir/LR
-%<p2%>%<pl%>:%>%{I%}ҥ CLIT-EMPH ; 
+%<p2%>%<pl%>:%>%{i%}ҥ CLIT-EMPH ; 
 
 
 
@@ -942,8 +942,8 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 %<ger_aor%>:%>%{A%}р GER-SUBST ; 
 %<neg%>%<ger_aor%>:%>%{B%}%{A%}т GER-SUBST ; 
 
-%<ger_cond%>%<nom%>:%>%{I%}%{A%}н # ;                        ! FIXME: rename
-%<neg%>%<ger_cond%>%<nom%>:%>%{m%}%{i%}м%>%{I%}%{A%}н # ;
+%<ger_irre%>%<nom%>:%>%{I%}%{A%}н # ;                        ! FIXME: rename
+%<neg%>%<ger_irre%>%<nom%>:%>%{m%}%{i%}м%>%{I%}%{A%}н # ;
 
 %<ger%>:%>%{A%}%{A%}%{H%}%{I%}%{Н%} GER-SUBST ;       ! FIXME: check
 
