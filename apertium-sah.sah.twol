@@ -7,8 +7,8 @@ Alphabet
 
    %{A%}:а %{A%}:э %{A%}:ө %{A%}:о %{A%}:0  ! 0 before {I}{I} etc.
    !%{A%}:а
-   !%{I%}:и %{I%}:у %{I%}:ү %{I%}:ы
-   %{I%}:ы
+   %{I%}:и %{I%}:у %{I%}:ү %{I%}:ы %{I%}:0
+   !%{I%}:ы
 
    %{L%}:л ! %{L%}:т %{L%}:д %{L%}:н
    %{T%}:т %{T%}:д %{T%}:л %{T%}:н
@@ -323,7 +323,7 @@ Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
 !!!== Vowel Harmony ==!!!
 
 "{I} vowel harmony after imaginary stuff"
-%{I%}:Vy <=> Vx: [ :Cons | [ :0 - ImaginaryVow: ] | :%- ]* _ ;
+%{I%}:Vy <= Vx: [ :Cons | [ :0 - ImaginaryVow: ] | :%- ]* _ ;
          except
              %{A%}:0 %>: _ [ %{I%}: | %{A%}: ] ;
          where Vx in ( %{а%} %{э%} %{ө%} %{о%} %{у%} %{ү%} %{и%} )
@@ -372,11 +372,12 @@ Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
 
 
 "vowel harmony for {I}"
-%{I%}:Vy <=> :Vx [ :Cons* :Cons ]/[ :0 - [ %{☭%}: | ImaginaryVow: | %{A%}: ] ]* _ ;
+%{I%}:Vy <= :Vx [ :Cons* :Cons ]/[ :0 - [ %{☭%}: | ImaginaryVow: | %{A%}: ] ]* _ ;
              %{I%}:Vx _ ;
              %{H%}:Vx _ ;
              :Vx [ :Cons* :Cons ]/[ :0 - [ %{☭%}: | ImaginaryVow: | %{A%}: ] ]* %{A%}:0 %>: _ [ %{I%}: | %{A%}: ]  ;
-         except
+             :Vx р: _ ;
+         !except
          !    ! [ %{ъ%}: | %{☭%}: ]  %>: [ :Cons* ]/:0* _ ;
          !    %{☭%}: [ :Cons* :Cons ]/:0* _ ;
          where Vx in ( а о ы у э е и ө ү я )
@@ -503,7 +504,7 @@ Vx:Vy <=> :RoundVow _ %>: %{I%}: %{A%}: ;
 
 !FIXME 
 "vowel harmony for {I} after back harmony marker"
-%{I%}:ы <=> :Vow [ :Cons* :Cons ]/[ :0 - ImaginaryVow: ]* _ ;
+%{I%}:ы <= :Vow [ :Cons* :Cons ]/[ :0 - ImaginaryVow: ]* _ ;
             ! [ %{ъ%}: | %{☭%}: ] %>: [ :Cons* ]/:0* _ ;            
         except
             :Vow [ :Cons* :Cons ]/[ :0 - %{☭%}: ]* _ ;
@@ -546,6 +547,7 @@ Vx:Vy <=> :RoundVow _ %>: %{I%}: %{A%}: ;
             _ %>: %{I%}: [ %{I%}: | %{A%}: ]  ;
 
 !@ б а р >:0 {I}:ы {A}:а н
+!@ д и э >:0 {A}:0 {A}:0 р {I}:и
 
 "vowel harmony for {a} after уо"
 ! shouldn't need a rule because it's the default а, but doesn't seem to work without one
