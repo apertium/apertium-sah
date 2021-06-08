@@ -1,0 +1,15 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../sah.autogen.hfst
+    Morph: ../sah.automorf.hfst
+
+Tests:
+  "{A}р":
+    бар<v><iv><pii><p1><sg> : барарым
+    бар<v><iv><pii><p2><sg> : барарыҥ
+    бар<v><iv><pii><p3><sg> : барара
+    бар<v><iv><pii><p1><pl> : барарбыт
+    бар<v><iv><pii><p2><pl> : барарҕыт
+    бар<v><iv><pii><p3><pl> : бараллара
+
