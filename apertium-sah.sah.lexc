@@ -820,6 +820,31 @@ LEXICON V-PERS-NEGFUT
 %<p2%>%<pl%>:%>ххыт% суоҕа # ;
 %<p3%>%<pl%>:%>хтара% суоҕа # ;
 
+
+LEXICON V-IMP  ! Imperatives
+! Ubryatova et al. (320-321)
+
+%<imp%>: V-IMP-P12 ;
+%<imp%>: V-IMP-P3 ;
+%<neg%>%<imp%>:%>%{I%}м%{A%} V-IMP-P12 ;
+%<neg%>%<imp%>:%>%{B%}%{A%} V-IMP-P3 ;
+
+LEXICON V-IMP-P3
+
+%<p3%>%<sg%>:%>%{T%}%{I%}н CLIT-EMPH ;
+%<p3%>%<pl%>:%>%{T%}%{I%}н%>%{L%}%{A%}р CLIT-EMPH ;
+
+LEXICON V-IMP-P12
+
+%<p1%>%<sg%>:%>%{I%}%{I%}м CLIT-EMPH ;
+%<p2%>%<sg%>: CLIT-EMPH ;
+%<p1%>%<du%>:%>%{I%}%{A%}х CLIT-EMPH ;
+%<p1%>%<pl%>:%>%{I%}%{A%}х%>%{I%}ҥ CLIT-EMPH ;
+%<p1%>%<pl%>:%>%{I%}%{A%}х%{A%}й%{I%}ҥ CLIT-EMPH ; ! Dir/LR
+%<p2%>%<pl%>:%>%{I%}ҥ CLIT-EMPH ; 
+
+
+
 LEXICON V-FINITE-REGULAR_NEGATIVE
 
 %<ifi%>:%>%{T%} V-PERS-IFI ;
@@ -878,10 +903,6 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 
 
 LEXICON V-NONFINITE-REGULAR_NEGATIVE
-
-! Imperatives
-%<imp%>%<p2%>%<sg%>: CLIT-EMPH ;
-%<imp%>%<p2%>%<pl%>:%>{I}ҥ CLIT-EMPH ; 
 
 %<gna_cond%>:%>%{T%}%{A%}р V-PERS-S1 ;
 !%<gna_cond2%>:%>%{T%}%{A%}х V-PERS-COND2 ; ! FIXME: check, rename  ! probably not right, see #5
@@ -945,6 +966,7 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 
 %<ger_unac%>:%>%{A%}% илик GER-SUBST ; ! unaccomplished
 
+
 !! Incorrect(?) non-finite verb forms:
 
 !%<ger_pros%>:%>%{I%}%{A%}х SUBST ; 
@@ -973,6 +995,10 @@ V-NONFINITE-REGULAR_NEGATIVE ;
 %<neg%>:%>%{B%}%{A%} V-NONFINITE-REGULAR_NEGATIVE ;
 
 V-NONFINITE-IRREGULAR_NEGATIVE ;
+
+! Imperatives
+V-IMP ;
+
 
 LEXICON V-DER 
 

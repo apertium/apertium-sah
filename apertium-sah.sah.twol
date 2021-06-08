@@ -5,8 +5,8 @@ Alphabet
 
    !%{E%}:а %{E%}:э %{E%}:ө %{E%}:о
 
-   !%{A%}:а %{A%}:э %{A%}:ө %{A%}:о
-   %{A%}:а
+   %{A%}:а %{A%}:э %{A%}:ө %{A%}:о %{A%}:0  ! 0 before {I}{I} etc.
+   !%{A%}:а
    !%{I%}:и %{I%}:у %{I%}:ү %{I%}:ы
    %{I%}:ы
 
@@ -321,12 +321,16 @@ Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
 
 "{I} vowel harmony after imaginary stuff"
 %{I%}:Vy <=> Vx: [ :Cons | [ :0 - ImaginaryVow: ] | :%- ]* _ ;
+         except
+             %{A%}:0 %>: _ %{I%}: ;
          where Vx in ( %{а%} %{э%} %{ө%} %{о%} %{у%} %{ү%} %{и%} )
                Vy in (   ы     и     ү     у     у     ү     и   )
          matched ;
 
 "{A} vowel harmony after imaginary stuff"
 %{A%}:Vy <=> Vx: [ :Cons | [ :0 - ImaginaryVow: ] | :%- ]* _ ;
+         except
+             _ %>: %{I%}: %{I%}: ;
          where Vx in ( %{а%} %{э%} %{ө%} %{о%} %{у%} %{ү%} %{и%} )
                Vy in (   а     э     ө     о     а     э     э   )
          matched ;
@@ -365,9 +369,10 @@ Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
 
 
 "vowel harmony for {I}"
-%{I%}:Vy <=> :Vx [ :Cons* :Cons ]/[ :0 - [ %{☭%}: | ImaginaryVow: ] ]* _ ;
+%{I%}:Vy <=> :Vx [ :Cons* :Cons ]/[ :0 - [ %{☭%}: | ImaginaryVow: | %{A%}: ] ]* _ ;
              %{I%}:Vx _ ;
              %{H%}:Vx _ ;
+             :Vx [ :Cons* :Cons ]/[ :0 - [ %{☭%}: | ImaginaryVow: | %{A%}: ] ]* %{A%}:0 %>: _ %{I%}: ;
          except
          !    ! [ %{ъ%}: | %{☭%}: ]  %>: [ :Cons* ]/:0* _ ;
          !    %{☭%}: [ :Cons* :Cons ]/:0* _ ;
@@ -398,14 +403,19 @@ Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
              !%{ъ%}: %>: [ :Cons* ]/:0* _ ; 
              %{☭%}: [ :Cons* :Cons ]/:0* _ ;
              .#. ( :Cons (:ь) ) RealVow: RealVow: %>: (%{A%}:) _ ;
+				 _ %>: %{I%}: %{I%}: ;
          where Vx in ( а о ы у э е и ө ү я )
                Vy in ( а о а а э э э ө э а )
          matched ;
+
+"{A} as nothing before {I}{I}"
+%{A%}:0 <=> _ %>: %{I%}: %{I%}: ;
 
 "{A} as part of {I}{A}"
 %{A%}:Vy <=> %{I%}:Vx _ ;
          except
              :RealVow :RealVow %>: %{I%}:Vx _ ;
+             _ %>: %{I%}: %{I%}: ;   ! FIXME: figure out what to do in this context at some point
          where Vx in ( и ү ы у )
                Vy in ( э ө а о )
          matched ;
@@ -413,6 +423,8 @@ Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
 "{A} deletes after long vowels and diphthongs and triggers other stuff (and as part of {I}{A})"
 %{A%}:0 <=> :RealVow :RealVow %>: (%{I%}:) _ ;
             .#. ( :Cons (:ь) ) RealVow: RealVow: %>: (%{A%}:) _ ;
+        except
+            _ %>: %{I%}: %{I%}: ;
 
 "{I} deletes after long vowels and diphthongs and triggers other stuff"
 %{I%}:0 <=> :RealVow :RealVow %>: _ ;
@@ -521,12 +533,14 @@ Vx:Vy <=> :RoundVow _ %>: %{I%}: %{A%}: ;
         except
             :ү :ө [ :Cons* :Cons ]/:0* _ ;
                ! protects against үө forms with %{☭%} (haha!)
+            _ %>: %{I%}: %{I%}: ;
 
 
 "vowel harmony for {A} after үө"
 %{A%}:э <=> :ү :ө [ :Cons* :Cons ]/[ :0 - ImaginaryVow: ]* _ ;
-!         except
+        except
 !             %{ъ%}: %>: [ :Cons* :Cons ]/:0* _ ; 
+            _ %>: %{I%}: %{I%}: ;
 
 "vowel harmony for {a} after уо"
 ! shouldn't need a rule because it's the default а, but doesn't seem to work without one

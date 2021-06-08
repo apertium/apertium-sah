@@ -1,0 +1,28 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../sah.autogen.hfst
+    Morph: ../sah.automorf.hfst
+
+Tests:
+  "[lexd] imp":
+    бар<v><iv><imp><p1><sg> : барыым
+    бар<v><iv><imp><p2><sg> : бар
+    бар<v><iv><imp><p3><sg> : бардын
+    бар<v><iv><imp><p1><du> : барыах
+    бар<v><iv><imp><p1><pl> : барыаҕыҥ , барыахайыг
+    бар<v><iv><imp><p2><pl> : барыҥ
+    бар<v><iv><imp><p3><pl> : бардыннар
+    булкус<v><iv><imp><p2><pl> : булкуһуҥ
+
+  "[lexd] neg.imp":
+    бар<v><iv><neg><imp><p1><sg> : барымыым
+    бар<v><iv><neg><imp><p2><sg> : барыма
+    бар<v><iv><neg><imp><p3><sg> : барбатын
+    бар<v><iv><neg><imp><p1><du> : барымыах
+    бар<v><iv><neg><imp><p1><pl> : барымыаҕыҥ, барымыахайыг
+    бар<v><iv><neg><imp><p2><pl> : барымаҥ
+    бар<v><iv><neg><imp><p3><pl> : барбатыннар
+    булкус<v><iv><neg><imp><p2><pl> : булкуһумаҥ
+
+
