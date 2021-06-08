@@ -110,18 +110,17 @@ Multichar_Symbols
 %<gna_impf%>       ! -A
 %<gna_plan%>       ! -AAрI
 
-%<ger_pros%>       ! -IAх
-%<ger_aor%>        ! -Ar
-%<ger1%>           ! -IAн (FIXME: rename)
-%<ger2%>           ! -НIН (FIXME: rename)
-%<ger_past%>       ! -BIт
-%<ger_fut%>        ! -IAx
-%<ger_pot%>        ! -IA
-!%<ger_cond2%>      ! -ТАх
-%<ger_cond%>       ! -ТАх
-%<ger_hab%>        ! -AAччI
-%<ger_nec%>        ! -IAxтAAх
-%<ger_unac%>       ! -А илик
+%<ger%>            ! -ААНIН   basic gerund
+%<ger_aor%>        ! -Ar      "aorist" gerund
+%<ger_cond%>       ! -ТАх     "conditional" gerund
+%<ger_fut%>        ! -IAx     future gerund
+%<ger_hab%>        ! -AAччI   "habitual" gerund
+%<ger_irre%>       ! -IAн     "irrealis" gerund
+%<ger_nec%>        ! -IAxтAAх "necessitative" gerund
+%<ger_past%>       ! -BIт     past gerund
+%<ger_pot%>        ! -IA      "potential" gerund
+%<ger_pros%>       ! -IAх     "prospective" gerund
+%<ger_unac%>       ! -А илик  "unaccomplished" gerund
 
 %<gpr_aor%>        ! 
 %<gpr_fut%>        !
@@ -921,10 +920,10 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 %<ger_aor%>:%>%{A%}р GER-SUBST ; 
 %<neg%>%<ger_aor%>:%>%{B%}%{A%}т GER-SUBST ; 
 
-%<ger1%>%<nom%>:%>%{I%}%{A%}н # ;                        ! FIXME: rename
-%<neg%>%<ger1%>%<nom%>:%>%{m%}%{i%}м%>%{I%}%{A%}н # ;
+%<ger_cond%>%<nom%>:%>%{I%}%{A%}н # ;                        ! FIXME: rename
+%<neg%>%<ger_cond%>%<nom%>:%>%{m%}%{i%}м%>%{I%}%{A%}н # ;
 
-%<ger2%>:%>%{H%}%{I%}%{Н%} GER-SUBST ;
+%<ger%>:%>%{A%}%{A%}%{H%}%{I%}%{Н%} GER-SUBST ;       ! FIXME: check
 
 %<gpr_fut%>:%>%{I%}%{A%}х # ;
 
