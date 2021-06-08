@@ -36,6 +36,7 @@ Alphabet
 	%{m%}:0 ! %{m%}:м
 
    %{р%}:р
+   %{Р%}:р %{Р%}:л
 
    %{☭%}:0
    %{ъ%}:0
@@ -140,6 +141,9 @@ Rules
              _ %{y%}:0 ;
 !@ с ы {рл}:л {y}:0 т:д {ь}:ь >:0 {A}:а {р}:р
 
+"{Р} as л before л"
+%{Р%}:л <=> _ [ :л | [ %{L%}: - :Obs ] ]/:0 ;
+
 
 ! FIXME: These two rules should probably be generalised
 "н→ҥ assimilation"
@@ -210,8 +214,9 @@ Cx:Cy <=> :Nasal [ [ :0 - [ т: | Imaginary: ] ] | %-: ]* _ ;
 "Assimilation after high-sonority obstruents"
 Cx:Cy <=> :HighSonCns [ [ :0 - Imaginary: ] | %-: ]* _ ;
           %{йр%}: [ [ :0 - ImaginaryCons: ] | %-: ]* _ ;
-!      except
+      except
 !          %{р%}:/:0* _ ;          ! not necessary apparently
+          %{Р%}:/:0* _ ;
 
       where Cx in ( %{L%} %{T%} )
             Cy in (   д     д   )

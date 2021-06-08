@@ -156,6 +156,7 @@ Multichar_Symbols
 %{y%}              !
 %{a%}              ! 
 %{р%}              ! 
+%{Р%}              ! like {р} but doesn't delete
 %{рл%}             ! р except before л, then л
 %{D%}              ! д/т alternation at the end of some verbs (cf. тарт)
 %{н%}              ! Reflexive н that deletes before passive
@@ -842,10 +843,10 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 %<past%>:%>%{B%}%{I%}т V-PERS-S2 ; ! FIXME: check
 %<neg%>%<past%>:%>%{B%}%{A%}т%{A%}х V-PERS-S2 ; ! FIXME: check -S1 or -S2 ?
 
-%<pii%>:%>%{A%}%{р%}% эт V-PERS-S2 ; ! Dir/LR
+%<pii%>:%>%{A%}%{Р%}% эт V-PERS-S2 ; ! Dir/LR
 %<neg%>%<pii%>:%>%{B%}%{A%}т% эт V-PERS-S2 ;  ! Dir/LR
 
-%<pii%>:%>%{A%}%{р%} V-PERS-S2 ;
+%<pii%>:%>%{A%}%{Р%} V-PERS-S2 ;
 %<neg%>%<pii%>:%>%{B%}%{A%}т V-PERS-S2 ; 
 
 !%<pros%>:%>%{I%}%{A%}%{G%} V-PERS-S2 ; ! FIXME: check
