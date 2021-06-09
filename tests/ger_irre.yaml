@@ -1,0 +1,17 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../sah.autogen.hfst
+    Morph: ../sah.automorf.hfst
+
+Tests:
+
+  "ger_cond": 
+    диэ<v><tv><ger_irre><nom> : диэн
+    диэ<v><tv><neg><ger_irre><nom> : диэмиэн
+    аһаа<v><tv><ger_irre><nom> : аһыан
+    аһаа<v><tv><neg><ger_irre><nom> : аһыамыан
+    төрөө<v><iv><ger_irre><nom> : төрүөн
+    төрөө<v><iv><neg><ger_irre><nom> : төрүөмүөн
+    ыа<v><tv><ger_irre><nom> : ыан
+    ыа<v><tv><neg><ger_irre><nom> : ыамымыан
