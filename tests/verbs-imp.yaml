@@ -5,7 +5,7 @@ Config:
     Morph: ../sah.automorf.hfst
 
 Tests:
-  "[lexd] imp":
+  "[lexd] бар imp":
     бар<v><iv><imp><p1><sg> : барыым
     бар<v><iv><imp><p2><sg> : бар
     бар<v><iv><imp><p3><sg> : бардын
@@ -14,6 +14,7 @@ Tests:
     бар<v><iv><imp><p2><pl> : барыҥ
     бар<v><iv><imp><p3><pl> : бардыннар
 
+  "[lexd] булкус imp":
     булкус<v><iv><imp><p1><sg> : булкуһуум
     булкус<v><iv><imp><p2><sg> : булкус
     булкус<v><iv><imp><p3><sg> : булкустун
@@ -22,6 +23,7 @@ Tests:
     булкус<v><iv><imp><p2><pl> : булкуһуҥ
     булкус<v><iv><imp><p3><pl> : булкустунар
 
+  "[lexd] сиэ imp":
     сиэ<v><tv><imp><p1><sg> : сиим
     сиэ<v><tv><imp><p2><sg> : сиэ
     сиэ<v><tv><imp><p3><sg> : сиэтин
@@ -30,6 +32,7 @@ Tests:
     сиэ<v><tv><imp><p2><pl> : сиэҥ
     сиэ<v><tv><imp><p3><pl> : сиэтинэр
 
+  "[lexd] бараа imp":
     бараа<v><tv><imp><p1><sg> : барыым
     бараа<v><tv><imp><p2><sg> : бараа
     бараа<v><tv><imp><p3><sg> : бараатын
@@ -38,6 +41,7 @@ Tests:
     бараа<v><tv><imp><p2><pl> : барааҥ
     бараа<v><tv><imp><p3><pl> : бараатынар
 
+  "[lexd] көм imp":
     көм<v><tv><imp><p1><sg> : көмүүм
     көм<v><tv><imp><p2><sg> : көм
     көм<v><tv><imp><p3><sg> : көмтүн
@@ -46,7 +50,7 @@ Tests:
     көм<v><tv><imp><p2><pl> : көмүҥ
     көм<v><tv><imp><p3><pl> : көмтүнэр
 
-  "[lexd] neg.imp":
+  "[lexd] бар neg.imp":
     бар<v><iv><neg><imp><p1><sg> : барымыым
     бар<v><iv><neg><imp><p2><sg> : барыма
     бар<v><iv><neg><imp><p3><sg> : барбатын
@@ -55,6 +59,7 @@ Tests:
     бар<v><iv><neg><imp><p2><pl> : барымаҥ
     бар<v><iv><neg><imp><p3><pl> : барбатыннар
 
+  "[lexd] булкус neg.imp":
     булкус<v><iv><neg><imp><p1><sg> : булкуһуум
     булкус<v><iv><neg><imp><p2><sg> : булкуһума
     булкус<v><iv><neg><imp><p3><sg> : булкуспатын
@@ -63,6 +68,7 @@ Tests:
     булкус<v><iv><neg><imp><p2><pl> : булкуһумаҥ
     булкус<v><iv><neg><imp><p3><pl> : булкуһуспатынар
 
+  "[lexd] сиэ neg.imp":
     сиэ<v><tv><neg><imp><p1><sg> : сиэмиим
     сиэ<v><tv><neg><imp><p2><sg> : сиэмэ
     сиэ<v><tv><neg><imp><p3><sg> : сиэбэтин
@@ -71,6 +77,7 @@ Tests:
     сиэ<v><tv><neg><imp><p2><pl> : сиэмэҥ
     сиэ<v><tv><neg><imp><p3><pl> : сиэбэтинэр
 
+  "[lexd] бараа neg.imp":
     бараа<v><tv><neg><imp><p1><sg> : бараамыым
     бараа<v><tv><neg><imp><p2><sg> : бараама
     бараа<v><tv><neg><imp><p3><sg> : бараабатын
@@ -79,6 +86,7 @@ Tests:
     бараа<v><tv><neg><imp><p2><pl> : бараамаҥ
     бараа<v><tv><neg><imp><p3><pl> : бараабатынар
 
+  "[lexd] көм neg.imp":
     көм<v><tv><neg><imp><p1><sg> : көмүүмүүм
     көм<v><tv><neg><imp><p2><sg> : көмүүмэ
     көм<v><tv><neg><imp><p3><sg> : көмпөтүн
