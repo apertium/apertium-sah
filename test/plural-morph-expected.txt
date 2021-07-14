@@ -1,0 +1,4 @@
+[LD7p84wm-12S#0] ^куораттара/куорат<n><px3pl><nom>/куорат<n><pl><px3pl><nom>/куорат<n><pl><px3sg><nom>/куорат<n><px3pl><nom>+э<cop><aor><p3><sg>/куорат<n><pl><px3pl><nom>+э<cop><aor><p3><sg>/куорат<n><pl><px3sg><nom>+э<cop><aor><p3><sg>$
+[/LD7p84wm-12S]
+[RxxcjPD-ohYX#0] ^куората/куорат<n><px3sg><nom>/куорат<n><px3sg><nom>+э<cop><aor><p3><sg>$
+[/RxxcjPD-ohYX]

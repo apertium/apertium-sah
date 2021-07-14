@@ -1,0 +1,82 @@
+[-JM6p6C278qo#0] ^уот/уот<n><nom>/уот<n><attr>/уот<v><tv><imp><p2><sg>/уот<n><nom>+э<cop><aor><p3><sg>$
+[/-JM6p6C278qo]
+[35K07JDWQ2ap#0] ^оҕу/ох<n><acc>$
+[/35K07JDWQ2ap]
+[49tuF1mqsLqj#0] ^дьахтардыын/дьахтар<n><com>$
+[/49tuF1mqsLqj]
+[4FwzCJkJeQam#0] ^ийэ/ийэ<n><nom>/ийэ<n><attr>/ийэ<n><nom>+э<cop><aor><p3><sg>$
+[/4FwzCJkJeQam]
+[7bejPNh7y_jO#0] ^дьахталлардааҕар/дьахтар<n><pl><comp>$
+[/7bejPNh7y_jO]
+[C8oPcDNqc3qe#0] ^дьахтар/дьахтар<n><nom>/дьахтар<n><attr>/дьахтар<n><nom>+э<cop><aor><p3><sg>$
+[/C8oPcDNqc3qe]
+[DnHBFqAnQGBM#0] ^ийэтээҕэр/ийэ<n><comp>$
+[/DnHBFqAnQGBM]
+[H7k10hZGvmzO#0] ^дьахтардааҕар/дьахтар<n><comp>$
+[/H7k10hZGvmzO]
+[JdeAHC1rOehD#0] ^дьахталлар/дьахтар<n><nom>+э<cop><aor><p3><pl>/дьахтар<n><pl><nom>/дьахтар<n><pl><nom>+э<cop><aor><p3><sg>$
+[/JdeAHC1rOehD]
+[KUN22lYx0NiH#0] ^уоттааҕар/уот<n><comp>$
+[/KUN22lYx0NiH]
+[O23A1JBVGIGx#0] ^ийэҕэ/ийэ<n><dat>$
+[/O23A1JBVGIGx]
+[Q03EGOeyGNzT#0] ^дьахталлары/дьахтар<n><pl><acc>$
+[/Q03EGOeyGNzT]
+[QSPskIYUlMM1#0] ^уоту/уот<n><acc>$
+[/QSPskIYUlMM1]
+[SkhqCGolCtsT#0] ^ийэни/ийэ<n><acc>$
+[/SkhqCGolCtsT]
+[TQXcwpNihtYo#0] ^кинигэҕэ/кинигэ<n><dat>$
+[/TQXcwpNihtYo]
+[U_O1E16OuUvV#0] ^ийэлиин/ийэ<n><com>$
+[/U_O1E16OuUvV]
+[VO5zPxXH0s3U#0] ^дьахтары/дьахтар<n><acc>$
+[/VO5zPxXH0s3U]
+[bi0X7b32q9Pz#0] ^охтон/ох<n><abl>/оҕун<v><iv><prc_perf>/оҕун<v><iv><gna_perf>$
+[/bi0X7b32q9Pz]
+[cB1pOKnwofpA#0] ^уоттуун/уот<n><com>/уоттаа<v><tv><ger1><nom>$
+[/cB1pOKnwofpA]
+[eedYzg9Ik3Os#0] ^дьахталлардыын/дьахтар<n><pl><com>$
+[/eedYzg9Ik3Os]
+[gCLsB6JwxjHI#0] ^охтуун/ох<n><com>$
+[/gCLsB6JwxjHI]
+[gT3ABwCSKDJ5#0] ^дьахталларынан/дьахтар<n><pl><ins>/дьахтар<n><px3pl><ins>/дьахтар<n><pl><px3pl><ins>/дьахтар<n><pl><px3sg><ins>$
+[/gT3ABwCSKDJ5]
+[g_MHhZlm1HSG#0] ^уотунан/уот<n><ins>/уот<n><px3sg><ins>$
+[/g_MHhZlm1HSG]
+[hTz4mATvyN5Z#0] ^дьахталларда/дьахтар<n><pl><par>$
+[/hTz4mATvyN5Z]
+[hwBw1ODcPLYw#0] ^дьахтартан/дьахтар<n><abl>$
+[/hwBw1ODcPLYw]
+[jmd8ICrc0TWY#0] ^оҕунан/ох<n><ins>/ох<n><px3sg><ins>$
+[/jmd8ICrc0TWY]
+[kEd4mBbswuhW#0] ^уокка/уот<n><dat>$
+[/kEd4mBbswuhW]
+[kooJfhhi07-r#0] ^дьахтарда/дьахтар<n><par>$
+[/kooJfhhi07-r]
+[ku-87O68QWsd#0] ^ийэнэн/ийэ<n><ins>$
+[/ku-87O68QWsd]
+[l2XwC3tey3_5#0] ^ийэттэн/ийэ<n><abl>$
+[/l2XwC3tey3_5]
+[lOKOBHPGObZS#0] ^ох/ох<n><nom>/ох<n><attr>/ох<n><nom>+э<cop><aor><p3><sg>$
+[/lOKOBHPGObZS]
+[nJKgr31o1nHc#0] ^уотта/уот<n><par>/уот<v><tv><ifi><p3><sg>$
+[/nJKgr31o1nHc]
+[pADHK4ua5b9y#0] ^дьахталларга/дьахтар<n><pl><dat>$
+[/pADHK4ua5b9y]
+[r6OtHoh9SoAI#0] ^ийэтэ/ийэ<n><par>/ийэ<n><px3sg><nom>/ийэ<n><px3sg><nom>+э<cop><aor><p3><sg>$
+[/r6OtHoh9SoAI]
+[rFlH4lJvnjhf#0] ^дьахтарга/дьахтар<n><dat>$
+[/rFlH4lJvnjhf]
+[sc4MgDjNMXAd#0] ^охто/ох<n><par>/оҕун<v><iv><gna_impf>/оҕун<v><iv><prc_impf>$
+[/sc4MgDjNMXAd]
+[svg9J0iQvCSe#0] ^охтооҕор/ох<n><comp>$
+[/svg9J0iQvCSe]
+[wmoTA-xAQba9#0] ^дьахтарынан/дьахтар<n><ins>/дьахтар<n><px3sg><ins>$
+[/wmoTA-xAQba9]
+[wsDjQkhvGcjY#0] ^оххо/ох<n><dat>$
+[/wsDjQkhvGcjY]
+[zUzsVuBoTLsi#0] ^уоттан/уот<n><abl>$
+[/zUzsVuBoTLsi]
+[zZ0WoCIyI11-#0] ^дьахталлартан/дьахтар<n><pl><abl>$
+[/zZ0WoCIyI11-]

@@ -1,0 +1,42 @@
+# affirmative (long-vowel-final)
+^бараа<v><tv><hab><p1><sg>$
+^бараа<v><tv><hab><p2><sg>$
+^бараа<v><tv><hab><p3><sg>$
+^бараа<v><tv><hab><p1><pl>$
+^бараа<v><tv><hab><p2><pl>$
+^бараа<v><tv><hab><p3><pl>$
+# affirmative (cons-final)
+^бар<v><iv><hab><p1><sg>$
+^бар<v><iv><hab><p2><sg>$
+^бар<v><iv><hab><p3><sg>$
+^бар<v><iv><hab><p1><pl>$
+^бар<v><iv><hab><p2><pl>$
+^бар<v><iv><hab><p3><pl>$
+# affirmative (short-vowel-final)
+^сылдьы<v><iv><hab><p1><sg>$
+^сылдьы<v><iv><hab><p2><sg>$
+^сылдьы<v><iv><hab><p3><sg>$
+^сылдьы<v><iv><hab><p1><pl>$
+^сылдьы<v><iv><hab><p2><pl>$
+^сылдьы<v><iv><hab><p3><pl>$
+# affirmative (сиэ)
+^сиэ<v><tv><hab><p1><sg>$
+^сиэ<v><tv><hab><p2><sg>$
+^сиэ<v><tv><hab><p3><sg>$
+^сиэ<v><tv><hab><p1><pl>$
+^сиэ<v><tv><hab><p2><pl>$
+^сиэ<v><tv><hab><p3><pl>$
+# affirmative (ыа)
+^ыа<v><tv><hab><p1><sg>$
+^ыа<v><tv><hab><p2><sg>$
+^ыа<v><tv><hab><p3><sg>$
+^ыа<v><tv><hab><p1><pl>$
+^ыа<v><tv><hab><p2><pl>$
+^ыа<v><tv><hab><p3><pl>$
+# second set of negatives
+^бараа<v><tv><neg><hab><p1><sg>$
+^бараа<v><tv><neg><hab><p2><sg>$
+^бараа<v><tv><neg><hab><p3><sg>$
+^бараа<v><tv><neg><hab><p1><pl>$
+^бараа<v><tv><neg><hab><p2><pl>$
+^бараа<v><tv><neg><hab><p3><pl>$

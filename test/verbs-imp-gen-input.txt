@@ -1,0 +1,90 @@
+# [lexd] бар imp
+^бар<v><iv><imp><p1><sg>$
+^бар<v><iv><imp><p2><sg>$
+^бар<v><iv><imp><p3><sg>$
+^бар<v><iv><imp><p1><du>$
+^бар<v><iv><imp><p1><pl>$
+^бар<v><iv><imp><p1><pl>$
+^бар<v><iv><imp><p2><pl>$
+^бар<v><iv><imp><p3><pl>$
+# [lexd] булкус imp
+^булкус<v><iv><imp><p1><sg>$
+^булкус<v><iv><imp><p2><sg>$
+^булкус<v><iv><imp><p3><sg>$
+^булкус<v><iv><imp><p1><du>$
+^булкус<v><iv><imp><p1><pl>$
+^булкус<v><iv><imp><p1><pl>$
+^булкус<v><iv><imp><p2><pl>$
+^булкус<v><iv><imp><p3><pl>$
+# [lexd] сиэ imp
+^сиэ<v><tv><imp><p1><sg>$
+^сиэ<v><tv><imp><p2><sg>$
+^сиэ<v><tv><imp><p3><sg>$
+^сиэ<v><tv><imp><p1><du>$
+^сиэ<v><tv><imp><p1><pl>$
+^сиэ<v><tv><imp><p1><pl>$
+^сиэ<v><tv><imp><p2><pl>$
+^сиэ<v><tv><imp><p3><pl>$
+# [lexd] бараа imp
+^бараа<v><tv><imp><p1><sg>$
+^бараа<v><tv><imp><p2><sg>$
+^бараа<v><tv><imp><p3><sg>$
+^бараа<v><tv><imp><p1><du>$
+^бараа<v><tv><imp><p1><pl>$
+^бараа<v><tv><imp><p1><pl>$
+^бараа<v><tv><imp><p2><pl>$
+^бараа<v><tv><imp><p3><pl>$
+# [lexd] көм imp
+^көм<v><tv><imp><p1><sg>$
+^көм<v><tv><imp><p2><sg>$
+^көм<v><tv><imp><p3><sg>$
+^көм<v><tv><imp><p1><du>$
+^көм<v><tv><imp><p1><pl>$
+^көм<v><tv><imp><p1><pl>$
+^көм<v><tv><imp><p2><pl>$
+^көм<v><tv><imp><p3><pl>$
+# [lexd] бар neg.imp
+^бар<v><iv><neg><imp><p1><sg>$
+^бар<v><iv><neg><imp><p2><sg>$
+^бар<v><iv><neg><imp><p3><sg>$
+^бар<v><iv><neg><imp><p1><du>$
+^бар<v><iv><neg><imp><p1><pl>$
+^бар<v><iv><neg><imp><p1><pl>$
+^бар<v><iv><neg><imp><p2><pl>$
+^бар<v><iv><neg><imp><p3><pl>$
+# [lexd] булкус neg.imp
+^булкус<v><iv><neg><imp><p1><sg>$
+^булкус<v><iv><neg><imp><p2><sg>$
+^булкус<v><iv><neg><imp><p3><sg>$
+^булкус<v><iv><neg><imp><p1><du>$
+^булкус<v><iv><neg><imp><p1><pl>$
+^булкус<v><iv><neg><imp><p1><pl>$
+^булкус<v><iv><neg><imp><p2><pl>$
+^булкус<v><iv><neg><imp><p3><pl>$
+# [lexd] сиэ neg.imp
+^сиэ<v><tv><neg><imp><p1><sg>$
+^сиэ<v><tv><neg><imp><p2><sg>$
+^сиэ<v><tv><neg><imp><p3><sg>$
+^сиэ<v><tv><neg><imp><p1><du>$
+^сиэ<v><tv><neg><imp><p1><pl>$
+^сиэ<v><tv><neg><imp><p1><pl>$
+^сиэ<v><tv><neg><imp><p2><pl>$
+^сиэ<v><tv><neg><imp><p3><pl>$
+# [lexd] бараа neg.imp
+^бараа<v><tv><neg><imp><p1><sg>$
+^бараа<v><tv><neg><imp><p2><sg>$
+^бараа<v><tv><neg><imp><p3><sg>$
+^бараа<v><tv><neg><imp><p1><du>$
+^бараа<v><tv><neg><imp><p1><pl>$
+^бараа<v><tv><neg><imp><p1><pl>$
+^бараа<v><tv><neg><imp><p2><pl>$
+^бараа<v><tv><neg><imp><p3><pl>$
+# [lexd] көм neg.imp
+^көм<v><tv><neg><imp><p1><sg>$
+^көм<v><tv><neg><imp><p2><sg>$
+^көм<v><tv><neg><imp><p3><sg>$
+^көм<v><tv><neg><imp><p1><du>$
+^көм<v><tv><neg><imp><p1><pl>$
+^көм<v><tv><neg><imp><p1><pl>$
+^көм<v><tv><neg><imp><p2><pl>$
+^көм<v><tv><neg><imp><p3><pl>$

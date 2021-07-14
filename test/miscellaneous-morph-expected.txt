@@ -1,0 +1,40 @@
+[-JM6p6C278qo#0] ^уот/уот<n><nom>/уот<n><attr>/уот<v><tv><imp><p2><sg>/уот<n><nom>+э<cop><aor><p3><sg>$
+[/-JM6p6C278qo]
+[3tDxQwMVP3jF#0] ^аты/ат<n><acc>$
+[/3tDxQwMVP3jF]
+[JHID-on3_xwb#0] ^эйэттэн/эйэ<n><abl>$
+[/JHID-on3_xwb]
+[JfP_NeP69jbl#0] ^эйэ/эйэ<n><nom>/эйэ<n><attr>/эйэ<n><nom>+э<cop><aor><p3><sg>$
+[/JfP_NeP69jbl]
+[QSPskIYUlMM1#0] ^уоту/уот<n><acc>$
+[/QSPskIYUlMM1]
+[Sw4YXM80ybil#0] ^эйэлиин/эйэ<n><com>$
+[/Sw4YXM80ybil]
+[W91K1jPMzXk6#0] ^эйэнэн/эйэ<n><ins>$
+[/W91K1jPMzXk6]
+[WhbS300BlWO6#0] ^уоттунан/*уоттунан$
+[/WhbS300BlWO6]
+[XDKh-zLAmbWV#0] ^аттыын/ат<n><com>$
+[/XDKh-zLAmbWV]
+[cB1pOKnwofpA#0] ^уоттуун/уот<n><com>/уоттаа<v><tv><ger1><nom>$
+[/cB1pOKnwofpA]
+[fmNghUMZa-6R#0] ^акка/ат<n><dat>$
+[/fmNghUMZa-6R]
+[hX1IM1ZyzPa-#0] ^аттан/ат<n><abl>$
+[/hX1IM1ZyzPa-]
+[how4ZzjqIPA-#0] ^эйэҕэ/эйэ<n><dat>$
+[/how4ZzjqIPA-]
+[hzKjgv6Buc-v#0] ^эйэтэ/эйэ<n><par>/эйэ<n><px3sg><nom>/эйэ<n><px3sg><nom>+э<cop><aor><p3><sg>$
+[/hzKjgv6Buc-v]
+[kEd4mBbswuhW#0] ^уокка/уот<n><dat>$
+[/kEd4mBbswuhW]
+[k_cFHDpy7rav#0] ^эйэни/эйэ<n><acc>$
+[/k_cFHDpy7rav]
+[l_WJakUvpqR0#0] ^атта/ат<n><par>/атта<n><px3sg><nom>/атта<n><px3sg><nom>+э<cop><aor><p3><sg>$
+[/l_WJakUvpqR0]
+[nJKgr31o1nHc#0] ^уотта/уот<n><par>/уот<v><tv><ifi><p3><sg>$
+[/nJKgr31o1nHc]
+[vxQNKwsDBvXc#0] ^аттынан/атта<n><ins>/атта<n><px3sg><ins>$
+[/vxQNKwsDBvXc]
+[zUzsVuBoTLsi#0] ^уоттан/уот<n><abl>$
+[/zUzsVuBoTLsi]

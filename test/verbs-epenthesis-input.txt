@@ -1,0 +1,30 @@
+# Past tense with epenthetic vowel
+устубута
+сайдыбыта
+биллибитэ
+көстүбүтэ
+эстибитэ
+охтубута
+саллыбыта
+эбиллибитэ
+умнубута
+# Past tense with epenthetic vowel, pattern 2
+тутуммута
+аҕыммыта
+# Aorist forms of epenthetic vowel verbs
+устар
+умнар
+ахтар
+туттар
+# Ifi forms of epenthetic vowel verbs
+уһуннум
+сайынна
+билиннэ
+тутунна
+аҕынна
+көҺүннэ
+эҺиннэ
+оҕунна
+салынна
+эбилиннэ
+умунна

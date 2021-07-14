@@ -1,0 +1,30 @@
+# Past tense with epenthetic vowel
+^уһун<v><iv><past><p3><sg>$
+^сайын<v><iv><past><p3><sg>$
+^билин<v><iv><past><p3><sg>$
+^көҺүн<v><iv><past><p3><sg>$
+^эҺин<v><iv><past><p3><sg>$
+^оҕун<v><iv><past><p3><sg>$
+^салын<v><iv><past><p3><sg>$
+^эбилин<v><iv><past><p3><sg>$
+^умун<v><tv><past><p3><sg>$
+# Past tense with epenthetic vowel, pattern 2
+^тутун<v><tv><past><p3><sg>$
+^аҕын<v><tv><past><p3><sg>$
+# Aorist forms of epenthetic vowel verbs
+^уһун<v><iv><aor><p3><sg>$
+^умун<v><tv><aor><p3><sg>$
+^аҕын<v><tv><aor><p3><sg>$
+^тутун<v><tv><aor><p3><sg>$
+# Ifi forms of epenthetic vowel verbs
+^уһун<v><iv><ifi><p1><sg>$
+^сайын<v><iv><ifi><p3><sg>$
+^билин<v><iv><ifi><p3><sg>$
+^тутун<v><tv><ifi><p3><sg>$
+^аҕын<v><tv><ifi><p3><sg>$
+^көҺүн<v><iv><ifi><p3><sg>$
+^эҺин<v><iv><ifi><p3><sg>$
+^оҕун<v><iv><ifi><p3><sg>$
+^салын<v><iv><ifi><p3><sg>$
+^эбилин<v><iv><ifi><p3><sg>$
+^умун<v><tv><ifi><p3><sg>$

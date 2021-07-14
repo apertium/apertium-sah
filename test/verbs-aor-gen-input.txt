@@ -1,0 +1,94 @@
+# Aorist front vowels, consonant stem
+^көр<v><tv><aor><p1><sg>$
+^көр<v><tv><aor><p2><sg>$
+^көр<v><tv><aor><p3><sg>$
+^көр<v><tv><aor><p1><pl>$
+^көр<v><tv><aor><p2><pl>$
+^көр<v><tv><aor><p3><pl>$
+# Aorist negative back vowels, consonant stem
+^олор<v><iv><neg><aor><p1><sg>$
+^олор<v><iv><neg><aor><p2><sg>$
+^олор<v><iv><neg><aor><p3><sg>$
+^олор<v><iv><neg><aor><p1><pl>$
+^олор<v><iv><neg><aor><p2><pl>$
+^олор<v><iv><neg><aor><p3><pl>$
+# Aorist back vowels, consonant stem
+^олор<v><iv><aor><p1><sg>$
+^олор<v><iv><aor><p2><sg>$
+^олор<v><iv><aor><p3><sg>$
+^олор<v><iv><aor><p1><pl>$
+^олор<v><iv><aor><p2><pl>$
+^олор<v><iv><aor><p3><pl>$
+# Aorist front vowel, vowel stem
+^диэ<v><tv><aor><p1><sg>$
+^диэ<v><tv><aor><p2><sg>$
+^диэ<v><tv><aor><p3><sg>$
+^диэ<v><tv><aor><p3><pl>$
+# Aorist negative front vowel, vowel stem
+^диэ<v><tv><neg><aor><p3><sg>$
+# Aorist back vowel, vowel stem
+^сатаа<v><tv><aor><p1><sg>$
+^сатаа<v><tv><aor><p3><sg>$
+^сатаа<v><tv><aor><p3><pl>$
+# Aorist round vowel stems
+^төрөө<v><iv><aor><p3><sg>$
+^өйдөө<v><tv><aor><p3><sg>$
+^өйдөө<v><tv><aor><p3><pl>$
+^холоо<v><iv><aor><p3><sg>$
+# Aorist round + unround vowel stems
+^үөскээ<v><iv><aor><p3><sg>$
+^туораа<v><iv><aor><p3><sg>$
+^бултаа<v><tv><aor><p3><sg>$
+# Aorist negative back vowel, vowel stem
+^сатаа<v><tv><neg><aor><p3><sg>$
+# Verbs with epenthetic vowel and no additional alternations
+^умун<v><tv><aor><p3><sg>$
+^умун<v><tv><ifi><p1><sg>$
+^төнүн<v><iv><aor><p3><sg>$
+^төнүн<v><iv><ifi><p1><sg>$
+# Verbs with epenthetic vowel and simple desonorisation or assimilation issues
+^үтүгүн<v><tv><aor><p3><sg>$
+^үтүгүн<v><tv><ifi><p1><sg>$
+^эбилин<v><iv><aor><p3><sg>$
+^эбилин<v><iv><ifi><p1><sg>$
+^сайын<v><iv><aor><p3><sg>$
+^сайын<v><iv><ifi><p1><sg>$
+^бэрилин<v><iv><aor><p3><sg>$
+^бэрилин<v><iv><ifi><p1><sg>$
+^иһилин<v><iv><aor><p3><sg>$
+^иһилин<v><iv><ifi><p1><sg>$
+^талылын<v><iv><aor><p3><sg>$
+^талылын<v><iv><ifi><p1><sg>$
+^кытын<v><iv><aor><p3><sg>$
+^кытын<v><iv><ifi><p1><sg>$
+# Verbs with epenthetic vowel and с/һ alternation
+^уһун<v><iv><aor><p3><sg>$
+^уһун<v><iv><ifi><p1><sg>$
+^иһит<v><tv><aor><p3><sg>$
+^иһит<v><tv><aor><p3><pl>$
+^иһит<v><tv><ifi><p1><sg>$
+^сыһын<v><iv><aor><p3><sg>$
+^сыһын<v><iv><ifi><p1><sg>$
+# Verbs with epenthetic vowel and х/ҕ alternation
+^таҕыс<v><iv><aor><p3><sg>$
+^таҕыс<v><iv><ifi><p1><sg>$
+^таҕыс<v><iv><past><p3><sg>$
+^оҕус<v><tv><aor><p3><sg>$
+^оҕус<v><tv><ifi><p1><sg>$
+^араҕыс<v><iv><aor><p3><sg>$
+^араҕыс<v><iv><ifi><p1><sg>$
+# Verbs with epenthetic vowel and р/л alternation
+^сырыт<v><iv><aor><p3><sg>$
+^сырыт<v><iv><ifi><p1><sg>$
+^ыарый<v><iv><aor><p3><sg>$
+^ыарый<v><iv><ifi><p1><sg>$
+# Verbs with voicing of final coronals
+^орт<v><iv><aor><p3><sg>$
+^орт<v><iv><ifi><p1><sg>$
+^орт<v><iv><ifi><p3><sg>$
+^тарт<v><tv><aor><p3><sg>$
+^тарт<v><tv><ifi><p1><sg>$
+^тарт<v><tv><ifi><p3><sg>$
+^тириэрт<v><tv><aor><p3><sg>$
+^тириэрт<v><tv><ifi><p1><sg>$
+^тириэрт<v><tv><ifi><p3><sg>$

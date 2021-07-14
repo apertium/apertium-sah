@@ -1,0 +1,52 @@
+[-4fv6unQvukn#0] ^арылын/арый<v><tv><pass><imp><p2><sg>$
+[/-4fv6unQvukn]
+[-cByizyi_krX#0] ^баайдым/баай<v><tv><ifi><p1><sg>$
+[/-cByizyi_krX]
+[04BMKHYBtWNP#0] ^туһанным/туһан<v><tv><ifi><p1><sg>$
+[/04BMKHYBtWNP]
+[1ySttHTa8len#0] ^тэрийдим/тэрий<v><tv><ifi><p1><sg>$
+[/1ySttHTa8len]
+[2X7z3L-FvJY1#0] ^мунньулун/мунньун<v><tv><pass><imp><p2><sg>$
+[/2X7z3L-FvJY1]
+[2iRkssyJrIOd#0] ^эрчилин/эрчий<v><tv><pass><imp><p2><sg>$
+[/2iRkssyJrIOd]
+[4B25N95W5Wbp#0] ^тиийилин/*тиийилин$
+[/4B25N95W5Wbp]
+[AKXvVoK9GmMC#0] ^оҥоруллубута/оҥор<v><tv><pass><past><p3><sg>/оҥор<v><tv><pass><ger_past><px3sg><nom>/оҥор<v><tv><pass><ger_past><px3sg><nom>+э<cop><aor><p3><sg>$
+[/AKXvVoK9GmMC]
+[B9-ORJNo3tfv#0] ^иҥэриллэр/иҥэр<v><tv><pass><gpr_aor>/иҥэр<v><tv><pass><prc_aor>/иҥэр<v><tv><pass><ger_aor><nom>/иҥэр<v><tv><pass><aor><p3><sg>/иҥэр<v><tv><pass><ger_aor><nom>+э<cop><aor><p3><sg>$
+[/B9-ORJNo3tfv]
+[C-CMxLktBwYL#0] ^кыалын/кыай<v><tv><pass><imp><p2><sg>/кыалын<v><iv><imp><p2><sg>$
+[/C-CMxLktBwYL]
+[Dazu7FrtSbud#0] ^туһанылын/туһан<v><tv><pass><imp><p2><sg>$
+[/Dazu7FrtSbud]
+[OEfnOPzSjKyH#0] ^эрийдим/эрий<v><tv><ifi><p1><sg>$
+[/OEfnOPzSjKyH]
+[RFnTjO0jm_nn#0] ^арыйдым/арый<v><tv><ifi><p1><sg>$
+[/RFnTjO0jm_nn]
+[ROWwUfNB3QUH#0] ^баайылын/баай<v><tv><pass><imp><p2><sg>$
+[/ROWwUfNB3QUH]
+[SslXSz9AVQym#0] ^эрэйдим/эрэй<v><iv><ifi><p1><sg>$
+[/SslXSz9AVQym]
+[VDmKDniX8EKl#0] ^ахтылын/аҕын<v><tv><pass><imp><p2><sg>/ахтылын<v><iv><imp><p2><sg>$
+[/VDmKDniX8EKl]
+[VOyqAAcSqlSt#0] ^тиийдим/тиий<v><iv><ifi><p1><sg>$
+[/VOyqAAcSqlSt]
+[VX4yInAs1GCp#0] ^аҕынным/аҕын<v><tv><ifi><p1><sg>$
+[/VX4yInAs1GCp]
+[VdFgJ3dpCW9S#0] ^оҥоруллар/оҥор<v><tv><pass><gpr_aor>/оҥор<v><tv><pass><prc_aor>/оҥор<v><tv><pass><ger_aor><nom>/оҥор<v><tv><pass><aor><p3><sg>/оҥор<v><tv><pass><ger_aor><nom>+э<cop><aor><p3><sg>$
+[/VdFgJ3dpCW9S]
+[d2i92oLwO77y#0] ^эрэйилин/*эрэйилин$
+[/d2i92oLwO77y]
+[korKEy3hHbgS#0] ^кыайдым/кыай<v><tv><ifi><p1><sg>$
+[/korKEy3hHbgS]
+[lnnzRdYK10zA#0] ^иҥэрилинним/иҥэр<v><tv><pass><ifi><p1><sg>$
+[/lnnzRdYK10zA]
+[m-BruME58nUw#0] ^эрилин/эрий<v><tv><pass><imp><p2><sg>$
+[/m-BruME58nUw]
+[mcb828h3P96L#0] ^эрчийдим/эрчий<v><tv><ifi><p1><sg>$
+[/mcb828h3P96L]
+[uSKn9RQc-0D0#0] ^мунньун/мунньун<v><tv><imp><p2><sg>$
+[/uSKn9RQc-0D0]
+[vZVfi2y1_RBE#0] ^тэрилин/тэрил<n><px3sg><acc>/тэрий<v><tv><pass><imp><p2><sg>/тэрилин<v><iv><imp><p2><sg>$
+[/vZVfi2y1_RBE]

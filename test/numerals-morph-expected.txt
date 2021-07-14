@@ -1,0 +1,72 @@
+[0pB9JBCeMKYG#0] ^биэскэ/биэс<num><subst><dat>$
+[/0pB9JBCeMKYG]
+[2JIfDlQHFGo5#0] ^түөрдү/түөрт<num><subst><acc>$
+[/2JIfDlQHFGo5]
+[3X0UkYX_HHnW#0] ^сэттэни/сэттэ<num><subst><acc>$
+[/3X0UkYX_HHnW]
+[3lLn51pjkluu#0] ^сүүһү/сүүс<n><acc>/сүүс<num><subst><acc>$
+[/3lLn51pjkluu]
+[7f8P8wgriihf#0] ^үстэ/үс<n><par>/үс<num><subst><par>/үстэ<adv>/үстэ<adv>+э<cop><aor><p3><sg>$
+[/7f8P8wgriihf]
+[89Kxm5Qcxg88#0] ^сүүстэ/сүүс<n><par>/сүүс<num><subst><par>/сүүстэ<adv>/сүүстэ<adv>+э<cop><aor><p3><sg>$
+[/89Kxm5Qcxg88]
+[8uJGV9QpFtWR#0] ^алтаҕа/алтах<n><px3sg><nom>/алтах<n><px3sg><nom>+э<cop><aor><p3><sg>/алта<num><subst><dat>$
+[/8uJGV9QpFtWR]
+[ENAry5-hIunQ#0] ^алтаны/алта<num><subst><acc>/алтан<n><acc>$
+[/ENAry5-hIunQ]
+[G296wLW6hQCD#0] ^сүүскэ/сүүс<n><dat>/сүүс<num><subst><dat>$
+[/G296wLW6hQCD]
+[GXnVNLFplfb5#0] ^уоҥҥа/уон<num><subst><dat>$
+[/GXnVNLFplfb5]
+[GZdOCEICG1wb#0] ^биири/биир<num><subst><acc>$
+[/GZdOCEICG1wb]
+[LBoE7sQO-njE#0] ^иккигэ/икки<num><subst><dat>$
+[/LBoE7sQO-njE]
+[PE5BZZUwCabp#0] ^алтата/алта<num><subst><par>/алта<num><subst><px3sg><nom>/алта<num><subst><px3sg><nom>+э<cop><aor><p3><sg>$
+[/PE5BZZUwCabp]
+[SDVvoB5cChpn#0] ^бииргэ/бииргэ<adv>/бииргэ<adv>+э<cop><aor><p3><sg>/биир<num><subst><dat>$
+[/SDVvoB5cChpn]
+[SKlrXFLhD7uP#0] ^аҕыста/аҕыс<num><subst><par>$
+[/SKlrXFLhD7uP]
+[SYEwvuRys35C#0] ^нуулла/нуул<num><subst><par>$
+[/SYEwvuRys35C]
+[XLnv2hqkib93#0] ^түөрткэ/түөрт<num><subst><dat>$
+[/XLnv2hqkib93]
+[ccaaR7_y9cEL#0] ^иккитэ/икки<num><subst><par>/иккитэ<adv>/икки<num><subst><px3sg><nom>/иккитэ<adv>+э<cop><aor><p3><sg>/икки<num><subst><px3sg><nom>+э<cop><aor><p3><sg>$
+[/ccaaR7_y9cEL]
+[i5yK5bOjlKRQ#0] ^нуулга/нуул<num><subst><dat>$
+[/i5yK5bOjlKRQ]
+[inBuW68iqpRw#0] ^биирдэ/биир<num><subst><par>$
+[/inBuW68iqpRw]
+[j8z8qvP1_FN2#0] ^уону/уон<num><subst><acc>$
+[/j8z8qvP1_FN2]
+[j_L2nKQjRZb4#0] ^биэһи/биэс<num><subst><acc>$
+[/j_L2nKQjRZb4]
+[nQYJ2mf6KecF#0] ^үһү/үс<n><acc>/үс<num><subst><acc>/үһү<adv>/үһү<adv>+э<cop><aor><p3><sg>$
+[/nQYJ2mf6KecF]
+[oahlNODXze9g#0] ^үскэ/үс<n><dat>/үс<num><subst><dat>$
+[/oahlNODXze9g]
+[pOAyAeMt5H_E#0] ^тоҕуста/тоҕус<num><subst><par>/тох<v><tv><coop><ifi><p3><sg>/тоҕуста<adv>/тоҕуста<adv>+э<cop><aor><p3><sg>$
+[/pOAyAeMt5H_E]
+[pXjOm62KsKsb#0] ^нуулу/нуул<num><subst><acc>$
+[/pXjOm62KsKsb]
+[pjVsqRLPRDy4#0] ^сэттэтэ/сэттэ<num><subst><par>/сэттэтэ<adv>/сэттэ<num><subst><px3sg><nom>/сэттэтэ<adv>+э<cop><aor><p3><sg>/сэттэ<num><subst><px3sg><nom>+э<cop><aor><p3><sg>$
+[/pjVsqRLPRDy4]
+[q0X4zhIh9wgy#0] ^тоҕуска/тоҕус<num><subst><dat>$
+[/q0X4zhIh9wgy]
+[qXGaSCDnvf5C#0] ^биэстэ/биэс<num><subst><par>$
+[/qXGaSCDnvf5C]
+[qgxQzSa_8bfY#0] ^аҕыһы/аҕыс<num><subst><acc>$
+[/qgxQzSa_8bfY]
+[rI2U5O2jGARe#0] ^иккини/икки<num><subst><acc>$
+[/rI2U5O2jGARe]
+[rflINuqE2ams#0] ^аҕыска/аҕыс<num><subst><dat>$
+[/rflINuqE2ams]
+[s8-d-HGn79Se#0] ^тоҕуһу/тоҕус<num><subst><acc>$
+[/s8-d-HGn79Se]
+[vYlArlD3nIcf#0] ^сэттэҕэ/сэттэ<num><subst><dat>$
+[/vYlArlD3nIcf]
+[wDFi9zhFHVS1#0] ^уонна/уон<num><subst><par>/уонна<adv>/уонна<cnjcoo>/уонна<adv>+э<cop><aor><p3><sg>$
+[/wDFi9zhFHVS1]
+[zgf0msvQfZT7#0] ^түөртэ/түөрт<num><subst><par>$
+[/zgf0msvQfZT7]

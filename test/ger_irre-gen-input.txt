@@ -1,0 +1,9 @@
+# ger_cond
+^диэ<v><tv><ger_irre><nom>$
+^диэ<v><tv><neg><ger_irre><nom>$
+^аһаа<v><tv><ger_irre><nom>$
+^аһаа<v><tv><neg><ger_irre><nom>$
+^төрөө<v><iv><ger_irre><nom>$
+^төрөө<v><iv><neg><ger_irre><nom>$
+^ыа<v><tv><ger_irre><nom>$
+^ыа<v><tv><neg><ger_irre><nom>$

@@ -1,0 +1,12 @@
+[AVPNI0ceR80M#0] ^үөскүү/үөскээ<v><iv><gna_impf>/үөскээ<v><iv><prc_impf>$
+[/AVPNI0ceR80M]
+[MDVNnDst-ynE#0] ^туоруур/туораа<v><iv><gpr_aor>/туораа<v><iv><prc_aor>/туораа<v><iv><ger_aor><nom>/туораа<v><iv><aor><p3><sg>/туораа<v><iv><ger_aor><nom>+э<cop><aor><p3><sg>$
+[/MDVNnDst-ynE]
+[N2yES3nC6Gg_#0] ^үөскүүр/үөскээ<v><iv><gpr_aor>/үөскээ<v><iv><prc_aor>/үөскээ<v><iv><ger_aor><nom>/үөскээ<v><iv><aor><p3><sg>/үөскээ<v><iv><ger_aor><nom>+э<cop><aor><p3><sg>$
+[/N2yES3nC6Gg_]
+[g3WFbxgMJogf#0] ^туоруон/*туоруон$
+[/g3WFbxgMJogf]
+[knQ0nE8dBtqX#0] ^туоруу/туораа<v><iv><gna_impf>/туораа<v><iv><prc_impf>/туораа<v><iv><ger_pot><nom>$
+[/knQ0nE8dBtqX]
+[twZVtMDqXCEX#0] ^үөскүөн/үөскээ<v><iv><ger1><nom>$
+[/twZVtMDqXCEX]

@@ -1,0 +1,5 @@
+# the various combinations
+^куорат<n><px3sg><nom>$
+^куорат<n><px3pl><nom>$
+^куорат<n><pl><px3sg><nom>$
+^куорат<n><pl><px3pl><nom>$

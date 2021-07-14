@@ -1,0 +1,133 @@
+# {A}р
+^бар<v><iv><aor><p3><sg>$
+^санаа<v><tv><aor><p3><sg>$
+^бар<v><iv><ger_aor><nom>$
+^санаа<v><tv><ger_aor><nom>$
+^бар<v><iv><gpr_aor>$
+^санаа<v><tv><gpr_aor>$
+# {B}{A}т
+^бар<v><iv><neg><aor><p3><sg>$
+^санаа<v><tv><neg><aor><p3><sg>$
+^бар<v><iv><neg><ger_aor><nom>$
+^санаа<v><tv><neg><ger_aor><nom>$
+^бар<v><iv><neg><gpr_aor>$
+^санаа<v><tv><neg><gpr_aor>$
+# {B}{I}т
+^бар<v><iv><past><p3><sg>$
+^санаа<v><tv><past><p3><sg>$
+^бар<v><iv><ger_past><nom>$
+^санаа<v><tv><ger_past><nom>$
+^бар<v><iv><gpr_past>$
+^санаа<v><tv><gpr_past>$
+# {B}{A}т{A}х
+^бар<v><iv><neg><past><p3><sg>$
+^санаа<v><tv><neg><past><p3><sg>$
+^бар<v><iv><neg><ger_past><nom>$
+^санаа<v><tv><neg><ger_past><nom>$
+^бар<v><iv><neg><gpr_past>$
+^санаа<v><tv><neg><gpr_past>$
+# {I}{A}х
+^бар<v><iv><fut><p3><sg>$
+^буол<v><iv><fut><p3><sg>$
+^санаа<v><tv><fut><p3><sg>$
+^бар<v><iv><ger_fut><nom>$
+^буол<v><iv><ger_fut><nom>$
+^санаа<v><tv><ger_fut><nom>$
+^бар<v><iv><gpr_fut>$
+^буол<v><iv><gpr_fut>$
+^санаа<v><tv><gpr_fut>$
+# {I}{A}
+^бар<v><iv><ger_pot><nom>$
+^буол<v><iv><ger_pot><nom>$
+^санаа<v><tv><ger_pot><nom>$
+# {I}{A}н
+^бар<v><iv><ger_irre><nom>$
+^буол<v><iv><ger_irre><nom>$
+^санаа<v><tv><ger_irre><nom>$
+# {T}{A}х
+^бар<v><iv><past><ded><p3><sg>$
+^буол<v><iv><past><ded><p3><sg>$
+^санаа<v><tv><past><ded><p3><sg>$
+^бүтэр<v><tv><past><ded><p3><sg>$
+^бар<v><iv><ger_cond><nom>$
+^буол<v><iv><ger_cond><nom>$
+^санаа<v><tv><ger_cond><nom>$
+^бүтэр<v><tv><ger_cond><nom>$
+^бар<v><iv><ger_cond><px3sg><par>$
+^буол<v><iv><ger_cond><px3sg><par>$
+^санаа<v><tv><ger_cond><px3sg><par>$
+^бүтэр<v><tv><ger_cond><px3sg><par>$
+# {A}{A}чч{I}
+^бар<v><iv><hab><p3><sg>$
+^буол<v><iv><hab><p3><sg>$
+^санаа<v><tv><hab><p3><sg>$
+^бүтэр<v><tv><hab><p3><sg>$
+^бар<v><iv><ger_hab><nom>$
+^буол<v><iv><ger_hab><nom>$
+^санаа<v><tv><ger_hab><nom>$
+^бүтэр<v><tv><ger_hab><nom>$
+# {A} илик
+^бар<v><iv><unac><p3><sg>$
+^буол<v><iv><unac><p3><sg>$
+^санаа<v><tv><unac><p3><sg>$
+^бүтэр<v><tv><unac><p3><sg>$
+^бар<v><iv><ger_unac><nom>$
+^буол<v><iv><ger_unac><nom>$
+^санаа<v><tv><ger_unac><nom>$
+^бүтэр<v><tv><ger_unac><nom>$
+^бар<v><iv><gpr_unac>$
+^буол<v><iv><gpr_unac>$
+^санаа<v><tv><gpr_unac>$
+^бүтэр<v><tv><gpr_unac>$
+# {А}н
+^бар<v><iv><gna_perf>$
+^буол<v><iv><gna_perf>$
+^киир<v><iv><gna_perf>$
+^ыа<v><tv><gna_perf>$
+^санаа<v><tv><gna_perf>$
+^бар<v><iv><prc_perf>$
+^буол<v><iv><prc_perf>$
+^киир<v><iv><prc_perf>$
+^ыа<v><tv><prc_perf>$
+^санаа<v><tv><prc_perf>$
+# {А}
+^бар<v><iv><gna_impf>$
+^буол<v><iv><gna_impf>$
+^киир<v><iv><gna_impf>$
+^ыа<v><tv><gna_impf>$
+^санаа<v><tv><gna_impf>$
+^бар<v><iv><prc_impf>$
+^буол<v><iv><prc_impf>$
+^киир<v><iv><prc_impf>$
+^ыа<v><tv><prc_impf>$
+^санаа<v><tv><prc_impf>$
+# {I}м{I}н{A}
+^бар<v><iv><cert><p3><sg>$
+^ыл<v><tv><cert><p3><sg>$
+^санаа<v><tv><cert><p3><sg>$
+^бар<v><iv><neg><gna_perf>$
+^ыл<v><tv><neg><gna_perf>$
+^санаа<v><tv><neg><gna_perf>$
+^бар<v><iv><neg><prc_perf>$
+^ыл<v><tv><neg><prc_perf>$
+^санаа<v><tv><neg><prc_perf>$
+^бар<v><iv><neg><gna_impf>$
+^ыл<v><tv><neg><gna_impf>$
+^санаа<v><tv><neg><gna_impf>$
+^бар<v><iv><neg><prc_impf>$
+^ыл<v><tv><neg><prc_impf>$
+^санаа<v><tv><neg><prc_impf>$
+# {B}{A}кк{A}
+^бар<v><iv><abes><p3><sg>$
+^бар<v><iv><abes><p1><sg>$
+^тэһий<v><iv><abes><p3><sg>$
+^тэһий<v><iv><abes><p1><sg>$
+^бар<v><iv><gna_abes>$
+^тэһий<v><iv><gna_abes>$
+# {a}{a}р{I}
+^бар<v><iv><gna_plan>$
+^диэ<v><tv><gna_plan>$
+^бар<v><iv><gna_plan><p3><sg>$
+^диэ<v><tv><gna_plan><p3><sg>$
+^бар<v><iv><gna_plan><p1><sg>$
+^диэ<v><tv><gna_plan><p1><sg>$

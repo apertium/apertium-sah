@@ -1,0 +1,45 @@
+# Case front-vowel final
+^ийэ<n><nom>$
+^ийэ<n><acc>$
+^ийэ<n><par>$
+^ийэ<n><dat>$
+^ийэ<n><abl>$
+^ийэ<n><ins>$
+^ийэ<n><com>$
+^ийэ<n><comp>$
+^кинигэ<n><dat>$
+# Case back-vowel cons-final
+^уот<n><nom>$
+^уот<n><acc>$
+^уот<n><par>$
+^уот<n><dat>$
+^уот<n><abl>$
+^уот<n><ins>$
+^уот<n><com>$
+^уот<n><comp>$
+# Case back-vowel cons-final 2
+^ох<n><nom>$
+^ох<n><acc>$
+^ох<n><par>$
+^ох<n><dat>$
+^ох<n><abl>$
+^ох<n><ins>$
+^ох<n><com>$
+^ох<n><comp>$
+# дьахтар
+^дьахтар<n><nom>$
+^дьахтар<n><acc>$
+^дьахтар<n><par>$
+^дьахтар<n><dat>$
+^дьахтар<n><abl>$
+^дьахтар<n><ins>$
+^дьахтар<n><com>$
+^дьахтар<n><comp>$
+^дьахтар<n><pl><nom>$
+^дьахтар<n><pl><acc>$
+^дьахтар<n><pl><par>$
+^дьахтар<n><pl><dat>$
+^дьахтар<n><pl><abl>$
+^дьахтар<n><pl><ins>$
+^дьахтар<n><pl><com>$
+^дьахтар<n><pl><comp>$

@@ -1,0 +1,72 @@
+[-gy6N2YKlqKA#0] ^10-на/10<num><subst><par>$
+[/-gy6N2YKlqKA]
+[1B92D7q2DCP8#0] ^6-ҕа/6<num><subst><dat>$
+[/1B92D7q2DCP8]
+[1KruLO6DFM2x#0] ^1-дэ/1<num><subst><par>$
+[/1KruLO6DFM2x]
+[34VtPfIa7rhp#0] ^10-ҥа/10<num><subst><dat>$
+[/34VtPfIa7rhp]
+[4XrHGWmFEoyo#0] ^10-у/10<num><subst><acc>$
+[/4XrHGWmFEoyo]
+[9O7H5ZjOrUf9#0] ^9-у/9<num><subst><acc>$
+[/9O7H5ZjOrUf9]
+[Am6yulDHJwSF#0] ^3-тэ/3<num><subst><par>$
+[/Am6yulDHJwSF]
+[G2u17B2hgfjB#0] ^9-та/9<num><subst><par>$
+[/G2u17B2hgfjB]
+[Gf1wBUC1SU7W#0] ^2-тэ/2<num><subst><par>$
+[/Gf1wBUC1SU7W]
+[GgOdWr49hKBo#0] ^7-ҕэ/7<num><subst><dat>$
+[/GgOdWr49hKBo]
+[KcY1MHteXvPG#0] ^100-ү/100<num><subst><acc>$
+[/KcY1MHteXvPG]
+[KvJqUd4mDcEE#0] ^5-и/5<num><subst><acc>$
+[/KvJqUd4mDcEE]
+[N-pYiY6-GkTz#0] ^7-тэ/7<num><subst><par>$
+[/N-pYiY6-GkTz]
+[N_q9HyWo2zTR#0] ^5-кэ/5<num><subst><dat>$
+[/N_q9HyWo2zTR]
+[Q5b9VXIqd9xu#0] ^0-ла/0<num><subst><par>$
+[/Q5b9VXIqd9xu]
+[SGOl_jo5pYWu#0] ^5-тэ/5<num><subst><par>$
+[/SGOl_jo5pYWu]
+[SsZJpD-FKIjV#0] ^7-ни/7<num><subst><acc>$
+[/SsZJpD-FKIjV]
+[UXh3p3oplYI6#0] ^8-ы/8<num><subst><acc>$
+[/UXh3p3oplYI6]
+[Um2Ry1vjTihl#0] ^0-га/0<num><subst><dat>$
+[/Um2Ry1vjTihl]
+[V4lik2HCW5xg#0] ^6-ны/6<num><subst><acc>$
+[/V4lik2HCW5xg]
+[ZcUg7mOiJ40J#0] ^2-гэ/2<num><subst><dat>$
+[/ZcUg7mOiJ40J]
+[ZdrjgkqFfR1q#0] ^3-ү/3<num><subst><acc>$
+[/ZdrjgkqFfR1q]
+[b5sQDGCGoFaM#0] ^1-гэ/1<num><subst><dat>$
+[/b5sQDGCGoFaM]
+[bxQQlcRuYIPl#0] ^8-та/8<num><subst><par>$
+[/bxQQlcRuYIPl]
+[c5xp7U17pyDA#0] ^9-ка/9<num><subst><dat>$
+[/c5xp7U17pyDA]
+[gguHEmNs0T9Q#0] ^0-у/0<num><subst><acc>$
+[/gguHEmNs0T9Q]
+[hW_K67xcUqy7#0] ^2-ни/2<num><subst><acc>$
+[/hW_K67xcUqy7]
+[hnhBJq3VD29Q#0] ^6-та/6<num><subst><par>$
+[/hnhBJq3VD29Q]
+[jGIaGUbFwQVb#0] ^100-тэ/100<num><subst><par>$
+[/jGIaGUbFwQVb]
+[k5ViIdugwz0C#0] ^8-ка/8<num><subst><dat>$
+[/k5ViIdugwz0C]
+[leGKSsx4eIgW#0] ^3-кэ/3<num><subst><dat>$
+[/leGKSsx4eIgW]
+[thQMbOcxn4A2#0] ^100-кэ/100<num><subst><dat>$
+[/thQMbOcxn4A2]
+[uHkqqbfVhu4o#0] ^4/4<num>/4<num><subst><nom>/4<num><subst><nom>+э<cop><aor><p3><sg>$^-/-<guio>$^тэ/*тэ$
+[/uHkqqbfVhu4o]
+[uxTWUD-Fe1pi#0] ^1-и/1<num><subst><acc>$
+[/uxTWUD-Fe1pi]
+[wrgUAlNBvW-8#0] ^4-кэ/4<num><subst><dat>$
+[/wrgUAlNBvW-8]
+[xauIlga_JnEe#0] ^4-ү/4<num><subst><acc>$
+[/xauIlga_JnEe]

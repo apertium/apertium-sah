@@ -1,0 +1,10 @@
+# буол
+^буол<v><iv><gna_cond><p3><sg>$
+^буол<v><iv><neg><gna_cond><p3><sg>$
+^буол<v><iv><gna_cond><p1><sg>$
+^буол<v><iv><neg><gna_cond><p1><sg>$
+# бар
+^бар<v><iv><gna_cond><p3><sg>$
+^бар<v><iv><neg><gna_cond><p3><sg>$
+^бар<v><iv><gna_cond><p1><sg>$
+^бар<v><iv><neg><gna_cond><p1><sg>$

@@ -1,0 +1,60 @@
+[4Ku1oeCb5eJn#0] ^ыаччы/ыа<v><tv><ger_hab><nom>/ыа<v><tv><hab><p3><sg>/ыа<v><tv><ger_hab><nom>+э<cop><aor><p3><sg>$
+[/4Ku1oeCb5eJn]
+[7mSvkGMiOPLA#0] ^барааччыта/бар<v><iv><ger_hab><par>/бараа<v><tv><ger_hab><par>/бар<v><iv><ger_hab><px3sg><nom>/бараа<v><tv><ger_hab><px3sg><nom>/бар<v><iv><ger_hab><px3sg><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_hab><px3sg><nom>+э<cop><aor><p3><sg>$ ^суох/суох<adj>/суох<adv>/суох<post>/суох<adj><subst><nom>/суох<adj>+э<cop><aor><p3><sg>/суох<adv>+э<cop><aor><p3><sg>/суох<adj><subst><nom>+э<cop><aor><p3><sg>$
+[/7mSvkGMiOPLA]
+[B9wenxnv0eh_#0] ^барааччылар/бар<v><iv><hab><p3><pl>/бараа<v><tv><hab><p3><pl>/бар<v><iv><ger_hab><nom>+э<cop><aor><p3><pl>/бараа<v><tv><ger_hab><nom>+э<cop><aor><p3><pl>/бар<v><iv><ger_hab><pl><nom>/бараа<v><tv><ger_hab><pl><nom>/бар<v><iv><ger_hab><pl><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_hab><pl><nom>+э<cop><aor><p3><sg>$
+[/B9wenxnv0eh_]
+[CbRy8zST8kVt#0] ^ыаччыбын/ыа<v><tv><hab><p1><sg>/ыа<v><tv><ger_hab><nom>+э<cop><aor><p1><sg>/ыа<v><tv><ger_hab><px1sg><acc>$
+[/CbRy8zST8kVt]
+[INwO1IoQFBEA#0] ^сиэччигин/сиэ<v><tv><hab><p2><sg>/сиэ<v><tv><ger_hab><nom>+э<cop><aor><p2><sg>/сиэ<v><tv><ger_hab><px2sg><acc>$
+[/INwO1IoQFBEA]
+[JYOQ-Ic_SBxa#0] ^сылдьааччыбыт/сырыт<v><iv><hab><p1><pl>/сылдьы<v><iv><hab><p1><pl>/сырыт<v><iv><ger_hab><nom>+э<cop><aor><p1><pl>/сылдьы<v><iv><ger_hab><nom>+э<cop><aor><p1><pl>/сылдьааччы<n><nom>+э<cop><aor><p1><pl>/сырыт<v><iv><ger_hab><px1pl><nom>/сылдьы<v><iv><ger_hab><px1pl><nom>/сылдьааччы<n><px1pl><nom>/сырыт<v><iv><ger_hab><px1pl><nom>+э<cop><aor><p3><sg>/сылдьы<v><iv><ger_hab><px1pl><nom>+э<cop><aor><p3><sg>/сылдьааччы<n><px1pl><nom>+э<cop><aor><p3><sg>$
+[/JYOQ-Ic_SBxa]
+[O03mVxm4mpY2#0] ^сиэччилэр/сиэ<v><tv><hab><p3><pl>/сиэ<v><tv><ger_hab><nom>+э<cop><aor><p3><pl>/сиэ<v><tv><ger_hab><pl><nom>/сиэ<v><tv><ger_hab><pl><nom>+э<cop><aor><p3><sg>$
+[/O03mVxm4mpY2]
+[YCVLo_mN-KTI#0] ^барааччыта/бар<v><iv><ger_hab><par>/бараа<v><tv><ger_hab><par>/бар<v><iv><ger_hab><px3sg><nom>/бараа<v><tv><ger_hab><px3sg><nom>/бар<v><iv><ger_hab><px3sg><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_hab><px3sg><nom>+э<cop><aor><p3><sg>$ ^суоххут/суох<adj>+э<cop><aor><p2><pl>/суох<adv>+э<cop><aor><p2><pl>/суох<adj><subst><nom>+э<cop><aor><p2><pl>/суох<adj><subst><px2pl><nom>/суох<adj><subst><px2pl><nom>+э<cop><aor><p3><sg>$
+[/YCVLo_mN-KTI]
+[ambg-pQo8jt4#0] ^барааччыгыт/бар<v><iv><hab><p2><pl>/бараа<v><tv><hab><p2><pl>/бар<v><iv><ger_hab><nom>+э<cop><aor><p2><pl>/бараа<v><tv><ger_hab><nom>+э<cop><aor><p2><pl>/бар<v><iv><ger_hab><px2pl><nom>/бараа<v><tv><ger_hab><px2pl><nom>/бар<v><iv><ger_hab><px2pl><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_hab><px2pl><nom>+э<cop><aor><p3><sg>$
+[/ambg-pQo8jt4]
+[c7Ngx1imeoBW#0] ^сылдьааччыбын/сырыт<v><iv><hab><p1><sg>/сылдьы<v><iv><hab><p1><sg>/сырыт<v><iv><ger_hab><nom>+э<cop><aor><p1><sg>/сылдьы<v><iv><ger_hab><nom>+э<cop><aor><p1><sg>/сылдьааччы<n><nom>+э<cop><aor><p1><sg>/сырыт<v><iv><ger_hab><px1sg><acc>/сылдьы<v><iv><ger_hab><px1sg><acc>/сылдьааччы<n><px1sg><acc>$
+[/c7Ngx1imeoBW]
+[cYFOUnURc95F#0] ^ыаччыгын/ыа<v><tv><hab><p2><sg>/ыа<v><tv><ger_hab><nom>+э<cop><aor><p2><sg>/ыа<v><tv><ger_hab><px2sg><acc>$
+[/cYFOUnURc95F]
+[dImmvIOgbGBJ#0] ^сылдьааччыгын/сырыт<v><iv><hab><p2><sg>/сылдьы<v><iv><hab><p2><sg>/сырыт<v><iv><ger_hab><nom>+э<cop><aor><p2><sg>/сылдьы<v><iv><ger_hab><nom>+э<cop><aor><p2><sg>/сылдьааччы<n><nom>+э<cop><aor><p2><sg>/сырыт<v><iv><ger_hab><px2sg><acc>/сылдьы<v><iv><ger_hab><px2sg><acc>/сылдьааччы<n><px2sg><acc>$
+[/dImmvIOgbGBJ]
+[dyCm8EN50T4u#0] ^барааччыгын/бар<v><iv><hab><p2><sg>/бараа<v><tv><hab><p2><sg>/бар<v><iv><ger_hab><nom>+э<cop><aor><p2><sg>/бараа<v><tv><ger_hab><nom>+э<cop><aor><p2><sg>/бар<v><iv><ger_hab><px2sg><acc>/бараа<v><tv><ger_hab><px2sg><acc>$
+[/dyCm8EN50T4u]
+[ec1MEiP6b6He#0] ^ыаччыбыт/ыа<v><tv><hab><p1><pl>/ыа<v><tv><ger_hab><nom>+э<cop><aor><p1><pl>/ыа<v><tv><ger_hab><px1pl><nom>/ыа<v><tv><ger_hab><px1pl><nom>+э<cop><aor><p3><sg>$
+[/ec1MEiP6b6He]
+[eyMNCUWyhqZW#0] ^сиэччибит/сиэ<v><tv><hab><p1><pl>/сиэ<v><tv><ger_hab><nom>+э<cop><aor><p1><pl>/сиэ<v><tv><ger_hab><px1pl><nom>/сиэ<v><tv><ger_hab><px1pl><nom>+э<cop><aor><p3><sg>$
+[/eyMNCUWyhqZW]
+[f6ZLiFQ4u3rZ#0] ^сиэччигит/сиэ<v><tv><hab><p2><pl>/сиэ<v><tv><ger_hab><nom>+э<cop><aor><p2><pl>/сиэ<v><tv><ger_hab><px2pl><nom>/сиэ<v><tv><ger_hab><px2pl><nom>+э<cop><aor><p3><sg>$
+[/f6ZLiFQ4u3rZ]
+[i5QoUiuneoPD#0] ^барааччыта/бар<v><iv><ger_hab><par>/бараа<v><tv><ger_hab><par>/бар<v><iv><ger_hab><px3sg><nom>/бараа<v><tv><ger_hab><px3sg><nom>/бар<v><iv><ger_hab><px3sg><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_hab><px3sg><nom>+э<cop><aor><p3><sg>$ ^суохтар/суох<adj>+э<cop><aor><p3><pl>/суох<adv>+э<cop><aor><p3><pl>/суох<adj><subst><nom>+э<cop><aor><p3><pl>/суох<adj><subst><pl><nom>/суох<adj><subst><pl><nom>+э<cop><aor><p3><sg>$
+[/i5QoUiuneoPD]
+[i6cleSW2MW9L#0] ^сиэччибин/сиэ<v><tv><hab><p1><sg>/сиэ<v><tv><ger_hab><nom>+э<cop><aor><p1><sg>/сиэ<v><tv><ger_hab><px1sg><acc>$
+[/i6cleSW2MW9L]
+[mnQPNPG7xIBS#0] ^сылдьааччылар/сырыт<v><iv><hab><p3><pl>/сылдьы<v><iv><hab><p3><pl>/сырыт<v><iv><ger_hab><nom>+э<cop><aor><p3><pl>/сылдьы<v><iv><ger_hab><nom>+э<cop><aor><p3><pl>/сылдьааччы<n><nom>+э<cop><aor><p3><pl>/сырыт<v><iv><ger_hab><pl><nom>/сылдьы<v><iv><ger_hab><pl><nom>/сылдьааччы<n><pl><nom>/сырыт<v><iv><ger_hab><pl><nom>+э<cop><aor><p3><sg>/сылдьы<v><iv><ger_hab><pl><nom>+э<cop><aor><p3><sg>/сылдьааччы<n><pl><nom>+э<cop><aor><p3><sg>$
+[/mnQPNPG7xIBS]
+[n5CNRneDI13u#0] ^ыаччыгыт/ыа<v><tv><hab><p2><pl>/ыа<v><tv><ger_hab><nom>+э<cop><aor><p2><pl>/ыа<v><tv><ger_hab><px2pl><nom>/ыа<v><tv><ger_hab><px2pl><nom>+э<cop><aor><p3><sg>$
+[/n5CNRneDI13u]
+[oLtU2C_nJexK#0] ^сылдьааччы/сырыт<v><iv><ger_hab><nom>/сылдьы<v><iv><ger_hab><nom>/сылдьааччы<n><nom>/сылдьааччы<n><attr>/сырыт<v><iv><hab><p3><sg>/сылдьы<v><iv><hab><p3><sg>/сырыт<v><iv><ger_hab><nom>+э<cop><aor><p3><sg>/сылдьы<v><iv><ger_hab><nom>+э<cop><aor><p3><sg>/сылдьааччы<n><nom>+э<cop><aor><p3><sg>$
+[/oLtU2C_nJexK]
+[qPLNmDPwxilg#0] ^сылдьааччыгыт/сырыт<v><iv><hab><p2><pl>/сылдьы<v><iv><hab><p2><pl>/сырыт<v><iv><ger_hab><nom>+э<cop><aor><p2><pl>/сылдьы<v><iv><ger_hab><nom>+э<cop><aor><p2><pl>/сылдьааччы<n><nom>+э<cop><aor><p2><pl>/сырыт<v><iv><ger_hab><px2pl><nom>/сылдьы<v><iv><ger_hab><px2pl><nom>/сылдьааччы<n><px2pl><nom>/сырыт<v><iv><ger_hab><px2pl><nom>+э<cop><aor><p3><sg>/сылдьы<v><iv><ger_hab><px2pl><nom>+э<cop><aor><p3><sg>/сылдьааччы<n><px2pl><nom>+э<cop><aor><p3><sg>$
+[/qPLNmDPwxilg]
+[sK_hkchGnhFm#0] ^барааччыбын/бар<v><iv><hab><p1><sg>/бараа<v><tv><hab><p1><sg>/бар<v><iv><ger_hab><nom>+э<cop><aor><p1><sg>/бараа<v><tv><ger_hab><nom>+э<cop><aor><p1><sg>/бар<v><iv><ger_hab><px1sg><acc>/бараа<v><tv><ger_hab><px1sg><acc>$
+[/sK_hkchGnhFm]
+[sQlxXDQ_APaW#0] ^ыаччылар/ыа<v><tv><hab><p3><pl>/ыа<v><tv><ger_hab><nom>+э<cop><aor><p3><pl>/ыа<v><tv><ger_hab><pl><nom>/ыа<v><tv><ger_hab><pl><nom>+э<cop><aor><p3><sg>$
+[/sQlxXDQ_APaW]
+[uQMGLUe4QKDT#0] ^барааччыта/бар<v><iv><ger_hab><par>/бараа<v><tv><ger_hab><par>/бар<v><iv><ger_hab><px3sg><nom>/бараа<v><tv><ger_hab><px3sg><nom>/бар<v><iv><ger_hab><px3sg><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_hab><px3sg><nom>+э<cop><aor><p3><sg>$ ^суоххун/суох<adj>+э<cop><aor><p2><sg>/суох<adv>+э<cop><aor><p2><sg>/суох<adj><subst><nom>+э<cop><aor><p2><sg>/суох<adj><subst><px2sg><acc>$
+[/uQMGLUe4QKDT]
+[vKuIFB-2o1D2#0] ^барааччы/бар<v><iv><ger_hab><nom>/бараа<v><tv><ger_hab><nom>/бар<v><iv><hab><p3><sg>/бараа<v><tv><hab><p3><sg>/бар<v><iv><ger_hab><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_hab><nom>+э<cop><aor><p3><sg>$
+[/vKuIFB-2o1D2]
+[wL7QNTbEH3RK#0] ^барааччыбыт/бар<v><iv><hab><p1><pl>/бараа<v><tv><hab><p1><pl>/бар<v><iv><ger_hab><nom>+э<cop><aor><p1><pl>/бараа<v><tv><ger_hab><nom>+э<cop><aor><p1><pl>/бар<v><iv><ger_hab><px1pl><nom>/бараа<v><tv><ger_hab><px1pl><nom>/бар<v><iv><ger_hab><px1pl><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_hab><px1pl><nom>+э<cop><aor><p3><sg>$
+[/wL7QNTbEH3RK]
+[xqzEmmQHD-B-#0] ^сиэччи/сиэ<v><tv><ger_hab><nom>/сиэ<v><tv><hab><p3><sg>/сиэ<v><tv><ger_hab><nom>+э<cop><aor><p3><sg>$
+[/xqzEmmQHD-B-]
+[zdwISVfqVYAD#0] ^барааччыта/бар<v><iv><ger_hab><par>/бараа<v><tv><ger_hab><par>/бар<v><iv><ger_hab><px3sg><nom>/бараа<v><tv><ger_hab><px3sg><nom>/бар<v><iv><ger_hab><px3sg><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_hab><px3sg><nom>+э<cop><aor><p3><sg>$ ^суохпут/суох<adj>+э<cop><aor><p1><pl>/суох<adv>+э<cop><aor><p1><pl>/суох<adj><subst><nom>+э<cop><aor><p1><pl>/суох<adj><subst><px1pl><nom>/суох<adj><subst><px1pl><nom>+э<cop><aor><p3><sg>$
+[/zdwISVfqVYAD]
+[zsAn6Oky0-rv#0] ^барааччыта/бар<v><iv><ger_hab><par>/бараа<v><tv><ger_hab><par>/бар<v><iv><ger_hab><px3sg><nom>/бараа<v><tv><ger_hab><px3sg><nom>/бар<v><iv><ger_hab><px3sg><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_hab><px3sg><nom>+э<cop><aor><p3><sg>$ ^суохпун/суох<adj>+э<cop><aor><p1><sg>/суох<adv>+э<cop><aor><p1><sg>/суох<adj><subst><nom>+э<cop><aor><p1><sg>/суох<adj><subst><px1sg><acc>$
+[/zsAn6Oky0-rv]

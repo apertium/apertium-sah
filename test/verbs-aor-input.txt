@@ -1,0 +1,94 @@
+# Aorist front vowels, consonant stem
+көрөбүн
+көрөҕүн
+көрөр
+көрөбүт
+көрөҕүт
+көрөллөр
+# Aorist negative back vowels, consonant stem
+олорбоппун
+олорбоккун
+олорбот
+олорбоппут
+олорбоккут
+олорботтор
+# Aorist back vowels, consonant stem
+олоробун
+олороҕун
+олорор
+олоробут
+олороҕут
+олороллор
+# Aorist front vowel, vowel stem
+диибин
+диигин
+диир
+дииллэр
+# Aorist negative front vowel, vowel stem
+диэбэт
+# Aorist back vowel, vowel stem
+сатыыбын
+сатыыр
+сатыыллар
+# Aorist round vowel stems
+төрүүр
+өйдүүр
+өйдүүллэр
+холуур
+# Aorist round + unround vowel stems
+үөскүүр
+туоруур
+бултуур
+# Aorist negative back vowel, vowel stem
+сатаабат
+# Verbs with epenthetic vowel and no additional alternations
+умнар
+умуннум
+төннөр
+төнүннүм
+# Verbs with epenthetic vowel and simple desonorisation or assimilation issues
+үтүктэр
+үтүгүннүм
+эбиллэр
+эбилинним
+сайдар
+сайынным
+бэриллэр
+бэрилинним
+иһиллэр
+иһилинним
+талыллар
+талылынным
+кыттар
+кытынным
+# Verbs with epenthetic vowel and с/һ alternation
+устар
+уһуннум
+истэр
+истэллэр
+иһиттим
+сыстар
+сыһынным
+# Verbs with epenthetic vowel and х/ҕ alternation
+тахсар
+таҕыстым
+тахсыбыта
+охсор
+оҕустум
+арахсар
+араҕыстым
+# Verbs with epenthetic vowel and р/л alternation
+сылдьар
+сырыттым
+ыалдьар
+ыарыйдым
+# Verbs with voicing of final coronals
+ордор
+ортум
+орто
+тардар
+тартым
+тарта
+тириэрдэр
+тириэртим
+тириэртэ

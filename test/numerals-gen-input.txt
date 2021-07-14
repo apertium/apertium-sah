@@ -1,0 +1,48 @@
+# Cases 0
+^нуул<num><subst><acc>$
+^нуул<num><subst><par>$
+^нуул<num><subst><dat>$
+# Cases 1
+^биир<num><subst><acc>$
+^биир<num><subst><par>$
+^биир<num><subst><dat>$
+# Cases 2
+^икки<num><subst><acc>$
+^икки<num><subst><par>$
+^икки<num><subst><dat>$
+# Cases 3
+^үс<num><subst><acc>$
+^үс<num><subst><par>$
+^үс<num><subst><dat>$
+# Cases 4
+^түөрт<num><subst><acc>$
+^түөрт<num><subst><par>$
+^түөрт<num><subst><dat>$
+# Cases 5
+^биэс<num><subst><acc>$
+^биэс<num><subst><par>$
+^биэс<num><subst><dat>$
+# Cases 6
+^алта<num><subst><acc>$
+^алта<num><subst><par>$
+^алта<num><subst><dat>$
+# Cases 7
+^сэттэ<num><subst><acc>$
+^сэттэ<num><subst><par>$
+^сэттэ<num><subst><dat>$
+# Cases 8
+^аҕыс<num><subst><acc>$
+^аҕыс<num><subst><par>$
+^аҕыс<num><subst><dat>$
+# Cases 9
+^тоҕус<num><subst><acc>$
+^тоҕус<num><subst><par>$
+^тоҕус<num><subst><dat>$
+# Cases 10
+^уон<num><subst><acc>$
+^уон<num><subst><par>$
+^уон<num><subst><dat>$
+# Cases 100
+^сүүс<num><subst><acc>$
+^сүүс<num><subst><par>$
+^сүүс<num><subst><dat>$

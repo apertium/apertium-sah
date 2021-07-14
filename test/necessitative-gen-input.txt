@@ -1,0 +1,20 @@
+# буол
+^буол<v><iv><nec><p1><sg>$
+^буол<v><iv><nec><p2><sg>$
+^буол<v><iv><nec><p3><sg>$
+^буол<v><iv><nec><p1><pl>$
+^буол<v><iv><nec><p2><pl>$
+^буол<v><iv><nec><p3><pl>$
+# кэл
+^кэл<v><iv><nec><p3><sg>$
+^кэл<v><iv><nec><p3><pl>$
+# үлэлээ
+^үлэлээ<v><tv><nec><p2><sg>$
+^үлэлээ<v><tv><nec><p3><sg>$
+^үлэлээ<v><tv><nec><p1><pl>$
+^үлэлээ<v><tv><nec><p3><pl>$
+# көр
+^көр<v><tv><nec><p2><sg>$
+^көр<v><tv><nec><p3><sg>$
+^көр<v><tv><nec><p1><pl>$
+^көр<v><tv><nec><p3><pl>$

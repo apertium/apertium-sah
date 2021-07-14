@@ -1,0 +1,61 @@
+# Accusative
+^бар<v><iv><ger_fut><px1sg><acc>$
+^бар<v><iv><ger_fut><px2sg><acc>$
+^бар<v><iv><ger_fut><px3sp><acc>$
+^бар<v><iv><ger_fut><px1pl><acc>$
+^бар<v><iv><ger_fut><px2pl><acc>$
+^бар<v><iv><neg><ger_fut><px1sg><acc>$
+^бар<v><iv><neg><ger_fut><px2sg><acc>$
+^бар<v><iv><neg><ger_fut><px3sp><acc>$
+^бар<v><iv><neg><ger_fut><px1pl><acc>$
+^бар<v><iv><neg><ger_fut><px2pl><acc>$
+# Dative
+^бар<v><iv><ger_fut><px1sg><dat>$
+^бар<v><iv><ger_fut><px2sg><dat>$
+^бар<v><iv><ger_fut><px3sp><dat>$
+^бар<v><iv><ger_fut><px1pl><dat>$
+^бар<v><iv><ger_fut><px2pl><dat>$
+^бар<v><iv><neg><ger_fut><px1sg><dat>$
+^бар<v><iv><neg><ger_fut><px2sg><dat>$
+^бар<v><iv><neg><ger_fut><px3sp><dat>$
+^бар<v><iv><neg><ger_fut><px1pl><dat>$
+^бар<v><iv><neg><ger_fut><px2pl><dat>$
+# Ablative
+^бар<v><iv><ger_fut><px1sg><abl>$
+^бар<v><iv><ger_fut><px2sg><abl>$
+^бар<v><iv><ger_fut><px3sp><abl>$
+^бар<v><iv><ger_fut><px1pl><abl>$
+^бар<v><iv><ger_fut><px2pl><abl>$
+^бар<v><iv><neg><ger_fut><px1sg><abl>$
+^бар<v><iv><neg><ger_fut><px2sg><abl>$
+^бар<v><iv><neg><ger_fut><px3sp><abl>$
+^бар<v><iv><neg><ger_fut><px1pl><abl>$
+^бар<v><iv><neg><ger_fut><px2pl><abl>$
+# Instrumental
+^бар<v><iv><ger_fut><px1sg><ins>$
+^бар<v><iv><ger_fut><px2sg><ins>$
+^бар<v><iv><ger_fut><px3sp><ins>$
+^бар<v><iv><ger_fut><px1pl><ins>$
+^бар<v><iv><ger_fut><px2pl><ins>$
+# Comitative
+^бар<v><iv><ger_fut><px1sg><com>$
+^бар<v><iv><ger_fut><px2sg><com>$
+^бар<v><iv><ger_fut><px3sp><com>$
+^бар<v><iv><ger_fut><px1pl><com>$
+^бар<v><iv><ger_fut><px2pl><com>$
+^бар<v><iv><neg><ger_fut><px1sg><com>$
+^бар<v><iv><neg><ger_fut><px2sg><com>$
+^бар<v><iv><neg><ger_fut><px3sp><com>$
+^бар<v><iv><neg><ger_fut><px1pl><com>$
+^бар<v><iv><neg><ger_fut><px2pl><com>$
+# Comparative
+^бар<v><iv><ger_fut><px1sg><comp>$
+^бар<v><iv><ger_fut><px2sg><comp>$
+^бар<v><iv><ger_fut><px3sp><comp>$
+^бар<v><iv><ger_fut><px1pl><comp>$
+^бар<v><iv><ger_fut><px2pl><comp>$
+^бар<v><iv><neg><ger_fut><px1sg><comp>$
+^бар<v><iv><neg><ger_fut><px2sg><comp>$
+^бар<v><iv><neg><ger_fut><px3sp><comp>$
+^бар<v><iv><neg><ger_fut><px1pl><comp>$
+^бар<v><iv><neg><ger_fut><px2pl><comp>$
