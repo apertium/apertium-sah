@@ -19,4 +19,7 @@
 /config
 /tests/morphotactics/*.txt.gz
 /*.hfst
+/test/*-output.txt/*.zhfst
+/.DS_Store
+/*-*.prob
 /test/*-output.txt
