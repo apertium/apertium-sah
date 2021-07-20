@@ -1,0 +1,14 @@
+# Future affirmative бар
+^бар<v><iv><fut><p1><sg>$
+^бар<v><iv><fut><p2><sg>$
+^бар<v><iv><fut><p3><sg>$
+^бар<v><iv><fut><p1><pl>$
+^бар<v><iv><fut><p2><pl>$
+^бар<v><iv><fut><p3><pl>$
+# Future negative бар
+^бар<v><iv><neg><fut><p1><sg>$
+^бар<v><iv><neg><fut><p2><sg>$
+^бар<v><iv><neg><fut><p3><sg>$
+^бар<v><iv><neg><fut><p1><pl>$
+^бар<v><iv><neg><fut><p2><pl>$
+^бар<v><iv><neg><fut><p3><pl>$

@@ -1,0 +1,7 @@
+# {A}р
+^бар<v><iv><pii><p1><sg>$
+^бар<v><iv><pii><p2><sg>$
+^бар<v><iv><pii><p3><sg>$
+^бар<v><iv><pii><p1><pl>$
+^бар<v><iv><pii><p2><pl>$
+^бар<v><iv><pii><p3><pl>$

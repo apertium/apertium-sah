@@ -1,0 +1,128 @@
+[-HuyrsqxTglp#0] ^музейы/музей<n><acc>$
+[/-HuyrsqxTglp]
+[1KKKANNXArBF#0] ^искусствонан/искусство<n><ins>$
+[/1KKKANNXArBF]
+[1hP14-qjVFCS#0] ^департамена/департамент<n><px3sg><nom>/департамент<n><px3sg><nom>+э<cop><aor><p3><sg>$
+[/1hP14-qjVFCS]
+[1ss_d5A6-xPD#0] ^колхозка/колхоз<n><dat>$
+[/1ss_d5A6-xPD]
+[2QHNIWcjHzjc#0] ^инженердыын/инженер<n><com>$
+[/2QHNIWcjHzjc]
+[76NK5HRAP576#0] ^гражданинныын/гражданин<n><com>$
+[/76NK5HRAP576]
+[8LnUYzqUViYr#0] ^музейдыын/музей<n><com>$
+[/8LnUYzqUViYr]
+[9K0OB-FlBbGZ#0] ^субъектар/субъект<n><nom>+э<cop><aor><p3><pl>/субъект<n><pl><nom>/субъект<n><pl><nom>+э<cop><aor><p3><sg>$
+[/9K0OB-FlBbGZ]
+[9d9Mj9p77Wb-#0] ^искусствоны/искусство<n><acc>$
+[/9d9Mj9p77Wb-]
+[9rvxvouazt5o#0] ^отделениенан/отделение<n><ins>$
+[/9rvxvouazt5o]
+[DIMfb-LXFrhG#0] ^гражданиннар/гражданин<n><nom>+э<cop><aor><p3><pl>/гражданин<n><pl><nom>/гражданин<n><pl><nom>+э<cop><aor><p3><sg>$
+[/DIMfb-LXFrhG]
+[Dja5DHRqrOG0#0] ^отделениета/отделение<n><par>/отделение<n><px3sg><nom>/отделение<n><px3sg><nom>+э<cop><aor><p3><sg>$
+[/Dja5DHRqrOG0]
+[EDO2PixbO1T8#0] ^отделениетыттан/отделение<n><px3sg><abl>$
+[/EDO2PixbO1T8]
+[FPN9LWP14HyE#0] ^университеттарга/университет<n><pl><dat>$
+[/FPN9LWP14HyE]
+[H4d0CPvOI88M#0] ^коммунистар/коммунист<n><nom>+э<cop><aor><p3><pl>/коммунист<n><pl><nom>/коммунист<n><pl><nom>+э<cop><aor><p3><sg>$
+[/H4d0CPvOI88M]
+[HMh12anRIP-U#0] ^правительстволааҕар/*правительстволааҕар$
+[/HMh12anRIP-U]
+[IfR1_S0TBw9s#0] ^отделениетынан/отделение<n><px3sg><ins>$
+[/IfR1_S0TBw9s]
+[K0VXRLwwsOp9#0] ^инженердар/инженер<n><nom>+э<cop><aor><p3><pl>/инженер<n><pl><nom>/инженер<n><pl><nom>+э<cop><aor><p3><sg>$
+[/K0VXRLwwsOp9]
+[L1FRpbHyKFTQ#0] ^искусствотына/искусство<n><px3sg><par>$
+[/L1FRpbHyKFTQ]
+[LHcvdEpjqFIb#0] ^гражданины/гражданин<n><acc>$
+[/LHcvdEpjqFIb]
+[LX0pot_uVkem#0] ^музейдааҕар/музей<n><comp>$
+[/LX0pot_uVkem]
+[LlVlW2cNsTNw#0] ^искусство/искусство<n><nom>/искусство<n><attr>/искусство<n><nom>+э<cop><aor><p3><sg>$
+[/LlVlW2cNsTNw]
+[MhqHtqaZY6IY#0] ^отделениетыгар/отделение<n><px3sg><dat>$
+[/MhqHtqaZY6IY]
+[NKvZrWd1Nu8F#0] ^отделениетын/отделение<n><px3sg><acc>$
+[/NKvZrWd1Nu8F]
+[NjGNC2gAU3A4#0] ^режиссердар/режиссер<n><nom>+э<cop><aor><p3><pl>/режиссер<n><pl><nom>/режиссер<n><pl><nom>+э<cop><aor><p3><sg>$
+[/NjGNC2gAU3A4]
+[O0-htRdsd8yF#0] ^туризмныын/туризм<n><com>$
+[/O0-htRdsd8yF]
+[QAYbz2d6oSBu#0] ^субъект/субъект<n><nom>/субъект<n><attr>$
+[/QAYbz2d6oSBu]
+[Qa0ydzSFC4lw#0] ^департамент/департамент<n><nom>/департамент<n><attr>$
+[/Qa0ydzSFC4lw]
+[QgyKfLXfsaa0#0] ^университетын/университет<n><px3sg><acc>$
+[/QgyKfLXfsaa0]
+[RMEfeZjMixE8#0] ^искусствотыттан/искусство<n><px3sg><abl>$
+[/RMEfeZjMixE8]
+[TR_21EMGGaZP#0] ^университеткэ/*университеткэ$
+[/TR_21EMGGaZP]
+[TfLsmVIja_zD#0] ^гражданиннааҕар/гражданин<n><comp>$
+[/TfLsmVIja_zD]
+[TyRJmKtM67sN#0] ^искусствотыгар/искусство<n><px3sg><dat>$
+[/TyRJmKtM67sN]
+[U7mlWuFpq0KF#0] ^режиссердыын/режиссер<n><com>$
+[/U7mlWuFpq0KF]
+[XnNktV_mxa8j#0] ^отделениеттан/отделение<n><abl>$
+[/XnNktV_mxa8j]
+[YnHUHrDjfYau#0] ^музейдар/музей<n><nom>+э<cop><aor><p3><pl>/музей<n><pl><nom>/музей<n><pl><nom>+э<cop><aor><p3><sg>$
+[/YnHUHrDjfYau]
+[ZLKvBWSKzZ15#0] ^туризмы/туризм<n><acc>$
+[/ZLKvBWSKzZ15]
+[ZaOvFvFGcegV#0] ^колхоз/колхоз<n><nom>/колхоз<n><attr>/колхоз<n><nom>+э<cop><aor><p3><sg>$
+[/ZaOvFvFGcegV]
+[_WOwYt-_r7-x#0] ^туризымнааҕар/*туризымнааҕар$
+[/_WOwYt-_r7-x]
+[avdbCR2zBZ-C#0] ^искусствоттан/искусство<n><abl>$
+[/avdbCR2zBZ-C]
+[cFReIsHYQHdS#0] ^отделениеҕа/отделение<n><dat>$
+[/cFReIsHYQHdS]
+[e0JZBMup6kkh#0] ^режиссердааҕар/режиссер<n><comp>$
+[/e0JZBMup6kkh]
+[eTlZ87f7kdvT#0] ^университеттар/университет<n><nom>+э<cop><aor><p3><pl>/университет<n><pl><nom>/университет<n><pl><nom>+э<cop><aor><p3><sg>$
+[/eTlZ87f7kdvT]
+[g0mk-IqG-EFp#0] ^университет/университет<n><nom>/университет<n><attr>/университет<n><nom>+э<cop><aor><p3><sg>$
+[/g0mk-IqG-EFp]
+[g3l7TzRQpiX4#0] ^коммунист/коммунист<n><nom>/коммунист<n><attr>$
+[/g3l7TzRQpiX4]
+[gCMT0UCyTey1#0] ^правительстволыын/правительство<n><com>$
+[/gCMT0UCyTey1]
+[hOZgZ3jlziuo#0] ^инженердааҕар/инженер<n><comp>$
+[/hOZgZ3jlziuo]
+[hbjuNQMywoRJ#0] ^искусствоҕа/искусство<n><dat>$
+[/hbjuNQMywoRJ]
+[iWP1gX3buTvH#0] ^колхозтар/колхоз<n><nom>+э<cop><aor><p3><pl>/колхоз<n><pl><nom>/колхоз<n><pl><nom>+э<cop><aor><p3><sg>$
+[/iWP1gX3buTvH]
+[ixQvkdmTruFz#0] ^инженеры/инженер<n><acc>$
+[/ixQvkdmTruFz]
+[kEy0teaiZ4d5#0] ^университетыгар/университет<n><px3sg><dat>$
+[/kEy0teaiZ4d5]
+[lpIyV12VMXRn#0] ^отделение/отделение<n><nom>/отделение<n><attr>/отделение<n><nom>+э<cop><aor><p3><sg>$
+[/lpIyV12VMXRn]
+[nTKqoQXDUhhC#0] ^отделениетына/отделение<n><px3sg><par>$
+[/nTKqoQXDUhhC]
+[nmbqXa6bwsUQ#0] ^режиссеры/режиссер<n><acc>$
+[/nmbqXa6bwsUQ]
+[os2pQE9EWv4R#0] ^колхозтарга/колхоз<n><pl><dat>$
+[/os2pQE9EWv4R]
+[q5hAnR_Bh3Zc#0] ^субъега/*субъега$
+[/q5hAnR_Bh3Zc]
+[raHnBYO3g3kj#0] ^отделениены/отделение<n><acc>$
+[/raHnBYO3g3kj]
+[x3_xjI_v28XU#0] ^правительстволар/правительство<n><nom>+э<cop><aor><p3><pl>/правительство<n><pl><nom>/правительство<n><pl><nom>+э<cop><aor><p3><sg>$
+[/x3_xjI_v28XU]
+[y1XnIQ1zjuBF#0] ^туризмнар/туризм<n><nom>+э<cop><aor><p3><pl>/туризм<n><pl><nom>/туризм<n><pl><nom>+э<cop><aor><p3><sg>$
+[/y1XnIQ1zjuBF]
+[yJlvI6DyJZuE#0] ^искусствота/искусство<n><par>/искусство<n><px3sg><nom>/искусство<n><px3sg><nom>+э<cop><aor><p3><sg>$
+[/yJlvI6DyJZuE]
+[z55R8ElwJ1cL#0] ^правительствоны/правительство<n><acc>$
+[/z55R8ElwJ1cL]
+[zTu-BoE3kSul#0] ^департамента/департамент<n><par>$
+[/zTu-BoE3kSul]
+[zsJvIx4tRi-C#0] ^искусствотын/искусство<n><px3sg><acc>$
+[/zsJvIx4tRi-C]
+[zugxkzUhDvMZ#0] ^искусствотынан/искусство<n><px3sg><ins>$
+[/zugxkzUhDvMZ]

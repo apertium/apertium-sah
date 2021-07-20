@@ -1,0 +1,32 @@
+[-t4AUEMpNgZd#0] ^буолуохтаахпын/буол<v><iv><nec><p1><sg>/буол<v><iv><ger_nec><nom>+э<cop><aor><p1><sg>/буол<v><iv><ger_nec><px1sg><acc>$
+[/-t4AUEMpNgZd]
+[0g3DYaEr_HAP#0] ^үлэлиэхтээх/үлэлээ<v><tv><ger_nec><nom>/үлэлээ<v><tv><nec><p3><sg>/үлэлээ<v><tv><ger_nec><nom>+э<cop><aor><p3><sg>$
+[/0g3DYaEr_HAP]
+[KNrlzH0S9Stk#0] ^көрүөхтээххин/көр<v><tv><nec><p2><sg>/көр<v><tv><ger_nec><nom>+э<cop><aor><p2><sg>/көрүөхтээх<n><nom>+э<cop><aor><p2><sg>/көр<v><tv><ger_nec><px2sg><acc>/көрүөхтээх<n><px2sg><acc>$
+[/KNrlzH0S9Stk]
+[QZZAP65c-_kX#0] ^буолуохтаах/буол<v><iv><ger_nec><nom>/буол<v><iv><nec><p3><sg>/буол<v><iv><ger_nec><nom>+э<cop><aor><p3><sg>$
+[/QZZAP65c-_kX]
+[Vn1zURzpTTMy#0] ^буолуохтааххын/буол<v><iv><nec><p2><sg>/буол<v><iv><ger_nec><nom>+э<cop><aor><p2><sg>/буол<v><iv><ger_nec><px2sg><acc>$
+[/Vn1zURzpTTMy]
+[_9OZjrydigpo#0] ^үлэлиэхтээхпит/үлэлээ<v><tv><nec><p1><pl>/үлэлээ<v><tv><ger_nec><nom>+э<cop><aor><p1><pl>/үлэлээ<v><tv><ger_nec><px1pl><nom>/үлэлээ<v><tv><ger_nec><px1pl><nom>+э<cop><aor><p3><sg>$
+[/_9OZjrydigpo]
+[aEQHfbqdMnQw#0] ^буолуохтааххыт/буол<v><iv><nec><p2><pl>/буол<v><iv><ger_nec><nom>+э<cop><aor><p2><pl>/буол<v><iv><ger_nec><px2pl><nom>/буол<v><iv><ger_nec><px2pl><nom>+э<cop><aor><p3><sg>$
+[/aEQHfbqdMnQw]
+[cED14c9Fxnvl#0] ^көрүөхтээхтэр/көр<v><tv><nec><p3><pl>/көр<v><tv><ger_nec><nom>+э<cop><aor><p3><pl>/көрүөхтээх<n><nom>+э<cop><aor><p3><pl>/көр<v><tv><ger_nec><pl><nom>/көрүөхтээх<n><pl><nom>/көр<v><tv><ger_nec><pl><nom>+э<cop><aor><p3><sg>/көрүөхтээх<n><pl><nom>+э<cop><aor><p3><sg>$
+[/cED14c9Fxnvl]
+[dDFJKod7950d#0] ^үлэлиэхтээхтэр/үлэлээ<v><tv><nec><p3><pl>/үлэлээ<v><tv><ger_nec><nom>+э<cop><aor><p3><pl>/үлэлээ<v><tv><ger_nec><pl><nom>/үлэлээ<v><tv><ger_nec><pl><nom>+э<cop><aor><p3><sg>$
+[/dDFJKod7950d]
+[ec_rTObwQZiC#0] ^буолуохтаахпыт/буол<v><iv><nec><p1><pl>/буол<v><iv><ger_nec><nom>+э<cop><aor><p1><pl>/буол<v><iv><ger_nec><px1pl><nom>/буол<v><iv><ger_nec><px1pl><nom>+э<cop><aor><p3><sg>$
+[/ec_rTObwQZiC]
+[fHQyx6bwUNr2#0] ^кэлиэхтээхтэр/кэл<v><iv><nec><p3><pl>/кэл<v><iv><ger_nec><nom>+э<cop><aor><p3><pl>/кэл<v><iv><ger_nec><pl><nom>/кэл<v><iv><ger_nec><pl><nom>+э<cop><aor><p3><sg>$
+[/fHQyx6bwUNr2]
+[g7eLxljJqkVO#0] ^кэлиэхтээх/кэл<v><iv><ger_nec><nom>/кэл<v><iv><nec><p3><sg>/кэл<v><iv><ger_nec><nom>+э<cop><aor><p3><sg>$
+[/g7eLxljJqkVO]
+[mwIvqkJns3v8#0] ^буолуохтаахтар/буол<v><iv><nec><p3><pl>/буол<v><iv><ger_nec><nom>+э<cop><aor><p3><pl>/буол<v><iv><ger_nec><pl><nom>/буол<v><iv><ger_nec><pl><nom>+э<cop><aor><p3><sg>$
+[/mwIvqkJns3v8]
+[uDeGSTb2mj3u#0] ^көрүөхтээхпит/көр<v><tv><nec><p1><pl>/көр<v><tv><ger_nec><nom>+э<cop><aor><p1><pl>/көрүөхтээх<n><nom>+э<cop><aor><p1><pl>/көр<v><tv><ger_nec><px1pl><nom>/көрүөхтээх<n><px1pl><nom>/көр<v><tv><ger_nec><px1pl><nom>+э<cop><aor><p3><sg>/көрүөхтээх<n><px1pl><nom>+э<cop><aor><p3><sg>$
+[/uDeGSTb2mj3u]
+[xmwKH1XCr8AH#0] ^көрүөхтээх/көр<v><tv><ger_nec><nom>/көрүөхтээх<n><nom>/көрүөхтээх<n><attr>/көр<v><tv><nec><p3><sg>/көр<v><tv><ger_nec><nom>+э<cop><aor><p3><sg>/көрүөхтээх<n><nom>+э<cop><aor><p3><sg>$
+[/xmwKH1XCr8AH]
+[z_g1d0Tvcq3q#0] ^үлэлиэхтээххин/үлэлээ<v><tv><nec><p2><sg>/үлэлээ<v><tv><ger_nec><nom>+э<cop><aor><p2><sg>/үлэлээ<v><tv><ger_nec><px2sg><acc>$
+[/z_g1d0Tvcq3q]

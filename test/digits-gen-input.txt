@@ -1,0 +1,48 @@
+# Cases 0
+^0<num><subst><acc>$
+^0<num><subst><par>$
+^0<num><subst><dat>$
+# Cases 1
+^1<num><subst><acc>$
+^1<num><subst><par>$
+^1<num><subst><dat>$
+# Cases 2
+^2<num><subst><acc>$
+^2<num><subst><par>$
+^2<num><subst><dat>$
+# Cases 3
+^3<num><subst><acc>$
+^3<num><subst><par>$
+^3<num><subst><dat>$
+# Cases 4
+^4<num><subst><acc>$
+^4<num><subst><par>$
+^4<num><subst><dat>$
+# Cases 5
+^5<num><subst><acc>$
+^5<num><subst><par>$
+^5<num><subst><dat>$
+# Cases 6
+^6<num><subst><acc>$
+^6<num><subst><par>$
+^6<num><subst><dat>$
+# Cases 7
+^7<num><subst><acc>$
+^7<num><subst><par>$
+^7<num><subst><dat>$
+# Cases 8
+^8<num><subst><acc>$
+^8<num><subst><par>$
+^8<num><subst><dat>$
+# Cases 9
+^9<num><subst><acc>$
+^9<num><subst><par>$
+^9<num><subst><dat>$
+# Cases 10
+^10<num><subst><acc>$
+^10<num><subst><par>$
+^10<num><subst><dat>$
+# Cases 100
+^100<num><subst><acc>$
+^100<num><subst><par>$
+^100<num><subst><dat>$

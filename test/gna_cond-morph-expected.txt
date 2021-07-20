@@ -1,0 +1,16 @@
+[9HlZ-MkCpoco#0] ^бардарбын/бар<v><iv><gna_cond><p1><sg>$
+[/9HlZ-MkCpoco]
+[9huH1inNUMRm#0] ^барбатар/бар<v><iv><neg><gna_cond><p3><sg>$
+[/9huH1inNUMRm]
+[BaimmZMY5t2D#0] ^буоллар/буол<v><iv><gna_cond><p3><sg>$
+[/BaimmZMY5t2D]
+[RQAriWow2Lks#0] ^буолбатар/буол<v><iv><neg><gna_cond><p3><sg>$
+[/RQAriWow2Lks]
+[Tk1a0f7FwuoB#0] ^барбатарбын/бар<v><iv><neg><gna_cond><p1><sg>$
+[/Tk1a0f7FwuoB]
+[nFdcuIzjveFl#0] ^буолбатарбын/буол<v><iv><neg><gna_cond><p1><sg>$
+[/nFdcuIzjveFl]
+[x9-KXT-MJt8v#0] ^бардар/бар<v><iv><gna_cond><p3><sg>$
+[/x9-KXT-MJt8v]
+[yqMBfGHmh5WX#0] ^буолларбын/буол<v><iv><gna_cond><p1><sg>$
+[/yqMBfGHmh5WX]

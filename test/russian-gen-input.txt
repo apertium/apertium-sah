@@ -1,0 +1,72 @@
+# Vowel harmony in Russian words, -ство
+^искусство<n><nom>$
+^искусство<n><par>$
+^искусство<n><dat>$
+^искусство<n><acc>$
+^искусство<n><abl>$
+^искусство<n><ins>$
+^искусство<n><px3sp><nom>$
+^искусство<n><px3sp><par>$
+^искусство<n><px3sp><dat>$
+^искусство<n><px3sp><acc>$
+^искусство<n><px3sp><abl>$
+^искусство<n><px3sp><ins>$
+# Vowel harmony in Russian words, -ение
+^отделение<n><nom>$
+^отделение<n><par>$
+^отделение<n><dat>$
+^отделение<n><acc>$
+^отделение<n><abl>$
+^отделение<n><ins>$
+^отделение<n><px3sp><nom>$
+^отделение<n><px3sp><par>$
+^отделение<n><px3sp><dat>$
+^отделение<n><px3sp><acc>$
+^отделение<n><px3sp><abl>$
+^отделение<n><px3sp><ins>$
+# Final voiced consonants are unvoiced
+^колхоз<n><nom>$
+^колхоз<n><dat>$
+^колхоз<n><pl><nom>$
+^колхоз<n><pl><dat>$
+# Vowel harmony in Russian words: е followed by cons
+^университет<n><nom>$
+^университет<n><dat>$
+^университет<n><pl><nom>$
+^университет<n><pl><dat>$
+^университет<n><px3sp><dat>$
+^университет<n><px3sp><acc>$
+# Russian loans ending in consonant cluster with т
+^департамент<n><nom>$
+^департамент<n><par>$
+^департамент<n><px3sp><nom>$
+^коммунист<n><nom>$
+^коммунист<n><pl><nom>$
+^субъект<n><nom>$
+^субъект<n><px3sp><nom>$
+^субъект<n><pl><nom>$
+# Misc nouns
+^музей<n><pl><nom>$
+^музей<n><acc>$
+^музей<n><com>$
+^музей<n><comp>$
+^гражданин<n><pl><nom>$
+^гражданин<n><acc>$
+^гражданин<n><com>$
+^гражданин<n><comp>$
+^туризм<n><pl><nom>$
+^туризм<n><acc>$
+^туризм<n><com>$
+^туризм<n><comp>$
+^инженер<n><pl><nom>$
+^инженер<n><acc>$
+^инженер<n><com>$
+^инженер<n><comp>$
+^режиссер<n><pl><nom>$
+^режиссер<n><acc>$
+^режиссер<n><com>$
+^режиссер<n><comp>$
+^правительство<n><pl><nom>$
+^правительство<n><acc>$
+^правительство<n><com>$
+^правительство<n><comp>$

@@ -1,0 +1,12 @@
+[EXUfqj5URhlQ#0] ^барара/бар<v><iv><pii><p3><sg>/бар<v><iv><ger_aor><px3sg><nom>/бар<v><iv><ger_aor><px3sg><nom>+э<cop><aor><p3><sg>$
+[/EXUfqj5URhlQ]
+[JJNeOoUxjx3h#0] ^барарбыт/бар<v><iv><ger_aor><nom>+э<cop><aor><p1><pl>/бар<v><iv><ger_aor><px1pl><nom>/бар<v><iv><ger_aor><px1pl><nom>+э<cop><aor><p3><sg>$
+[/JJNeOoUxjx3h]
+[Ty21K5PEAJ1g#0] ^бараллара/бар<v><iv><pii><p3><pl>$
+[/Ty21K5PEAJ1g]
+[kyJ6CpeIrGHb#0] ^бараргыт/бар<v><iv><ger_aor><nom>+э<cop><aor><p2><pl>/бар<v><iv><ger_aor><px2pl><nom>/бар<v><iv><ger_aor><px2pl><nom>+э<cop><aor><p3><sg>$
+[/kyJ6CpeIrGHb]
+[oBz3N3J7p1uN#0] ^барарыҥ/бар<v><iv><pii><p2><sg>/бар<v><iv><ger_aor><px2sg><nom>/бар<v><iv><ger_aor><px2sg><nom>+э<cop><aor><p3><sg>$
+[/oBz3N3J7p1uN]
+[oVJ3bl2aFi_Z#0] ^барарым/бар<v><iv><pii><p1><sg>/бар<v><iv><ger_aor><px1sg><nom>/бар<v><iv><ger_aor><px1sg><nom>+э<cop><aor><p3><sg>$
+[/oVJ3bl2aFi_Z]

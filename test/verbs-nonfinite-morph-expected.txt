@@ -1,0 +1,130 @@
+[0czDydfemsQ9#0] ^буоллаҕына/буол<v><iv><ger_cond><px3sg><par>/буоллаҕына<cnjcoo>$
+[/0czDydfemsQ9]
+[0fUXa9zUR7FL#0] ^санаабыт/санаа<n><nom>+э<cop><aor><p1><pl>/санаа<n><px1pl><nom>/санаа<v><tv><ger_past><nom>/санаа<v><tv>\<gpr_past\>/санаа<n><px1pl><nom>+э<cop><aor><p3><sg>/санаа<v><tv><ger_past><nom>+э<cop><aor><p3><sg>$
+[/0fUXa9zUR7FL]
+[1QjWtsimwKDK#0] ^саныан/санаа<v><tv><ger1><nom>$
+[/1QjWtsimwKDK]
+[2BU_ah0cgxjw#0] ^буолуо/буол<v><iv><ger_pot><nom>$
+[/2BU_ah0cgxjw]
+[2YT1gnhaDOiI#0] ^барбат/бар<v><iv><neg><gpr_aor>/бар<v><iv><neg><ger_aor><nom>/бар<v><iv><neg><aor><p3><sg>/бар<v><iv><neg><ger_aor><nom>+э<cop><aor><p3><sg>$
+[/2YT1gnhaDOiI]
+[2ySAjeAytm0G#0] ^ыы/ыа<v><tv><gna_impf>/ыа<v><tv><prc_impf>$
+[/2ySAjeAytm0G]
+[3OLMLiz3wcgN#0] ^буоллаҕа/буол<v><iv><past><ded><p3><sg>/буол<v><iv><ger_cond><px3sg><nom>/буол<v><iv><ger_cond><px3sg><nom>+э<cop><aor><p3><sg>$
+[/3OLMLiz3wcgN]
+[5Ywd1qZ4ILeQ#0] ^бардаҕына/бар<v><iv><ger_cond><px3sg><par>$
+[/5Ywd1qZ4ILeQ]
+[5rCusTv2vLKx#0] ^санаамына/санаа<v><tv><neg><prc_perf>/санаа<v><tv><neg><gna_perf>/санаа<v><tv><neg><gna_impf>/санаа<v><tv><neg><prc_impf>/санаа<v><tv><cert><p3><sg>$
+[/5rCusTv2vLKx]
+[6QY4SIcT033B#0] ^буола илик/буол<v><iv><gpr_unac>/буол<v><iv><ger_unac><nom>/буол<v><iv><unac><p3><sg>/буол<v><iv><ger_unac><nom>+э<cop><aor><p3><sg>$
+[/6QY4SIcT033B]
+[7uNcefcHIhRw#0] ^санаатах/санаа<v><tv><ger_cond><nom>/санаа<v><tv><ger_cond><nom>+э<cop><aor><p3><sg>$
+[/7uNcefcHIhRw]
+[7undTPGaX1b8#0] ^ылымына/ыл<v><tv><neg><prc_perf>/ыл<v><tv><neg><gna_perf>/ыл<v><tv><neg><gna_impf>/ыл<v><tv><neg><prc_impf>/ыл<v><tv><cert><p3><sg>$
+[/7undTPGaX1b8]
+[9PJuOra-3Rqe#0] ^барыа/бар<v><iv><ger_pot><nom>/бараа<v><tv><ger_pot><nom>$
+[/9PJuOra-3Rqe]
+[ASqfaOFLoAap#0] ^барбатах/бар<v><iv><neg><ger_past><nom>/бар<v><iv><neg><ger_cond><nom>/бар<v><iv><neg>\<gpr_past\>/бар<v><iv><neg><ger_past><nom>+э<cop><aor><p3><sg>/бар<v><iv><neg><ger_cond><nom>+э<cop><aor><p3><sg>$
+[/ASqfaOFLoAap]
+[CSmmHNsYzbAl#0] ^бара/бар<v><iv><gna_impf>/бар<v><iv><prc_impf>/бара<n><nom>/бара<n><attr>/бара<n><nom>+э<cop><aor><p3><sg>$
+[/CSmmHNsYzbAl]
+[EbdMjeh_78Qs#0] ^баран/бар<v><iv><prc_perf>/бар<v><iv><gna_perf>/баран<post>/баран<n><nom>/баран<n><attr>/баран<v><iv><imp><p2><sg>/баран<n><nom>+э<cop><aor><p3><sg>$
+[/EbdMjeh_78Qs]
+[FJ3-tmIv0V89#0] ^саныаҕа/санаа<v><tv><fut><p3><sg>/санаа<v><tv><ger_fut><px3sg><nom>/санаа<v><tv><ger_fut><px3sg><nom>+э<cop><aor><p3><sg>$
+[/FJ3-tmIv0V89]
+[H6Aal9y0TzUQ#0] ^бараары/бар<v><iv><gna_plan>/бараа<v><tv><gna_plan>/бар<v><iv><gna_plan><p3><sg>/бараа<v><tv><gna_plan><p3><sg>$
+[/H6Aal9y0TzUQ]
+[H7GRzBmxuIhE#0] ^барар/бар<v><iv><gpr_aor>/бар<v><iv><prc_aor>/бар<v><iv><ger_aor><nom>/бар<v><iv><aor><p3><sg>/бар<v><iv><ger_aor><nom>+э<cop><aor><p3><sg>$
+[/H7GRzBmxuIhE]
+[HUe-Y47buTi-#0] ^барымына/бар<v><iv><neg><prc_perf>/бар<v><iv><neg><gna_perf>/бар<v><iv><neg><gna_impf>/бар<v><iv><neg><prc_impf>/бар<v><iv><cert><p3><sg>$
+[/HUe-Y47buTi-]
+[HovbnzZDilYR#0] ^буолуоҕа/буол<v><iv><fut><p3><sg>/буол<v><iv><ger_fut><px3sg><nom>/буол<v><iv><ger_fut><px3sg><nom>+э<cop><aor><p3><sg>$
+[/HovbnzZDilYR]
+[I42C_E-Q65Ht#0] ^барыаҕа/бар<v><iv><fut><p3><sg>/бараа<v><tv><fut><p3><sg>/бар<v><iv><ger_fut><px3sg><nom>/бараа<v><tv><ger_fut><px3sg><nom>/бар<v><iv><ger_fut><px3sg><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_fut><px3sg><nom>+э<cop><aor><p3><sg>$
+[/I42C_E-Q65Ht]
+[KAmF1pHiZ78G#0] ^буолааччы/буол<v><iv><ger_hab><nom>/буол<v><iv><hab><p3><sg>/буол<v><iv><ger_hab><nom>+э<cop><aor><p3><sg>$
+[/KAmF1pHiZ78G]
+[KjwMD7CpIy2E#0] ^диэрибин/диэ<v><tv><gna_plan><p1><sg>$
+[/KjwMD7CpIy2E]
+[MMeOyh_bOCuM#0] ^барбатаҕа/бар<v><iv><neg><past><p3><sg>/бар<v><iv><neg><ger_past><px3sg><nom>/бар<v><iv><neg><ger_cond><px3sg><nom>/бар<v><iv><neg><ger_past><px3sg><nom>+э<cop><aor><p3><sg>/бар<v><iv><neg><ger_cond><px3sg><nom>+э<cop><aor><p3><sg>$
+[/MMeOyh_bOCuM]
+[MWbqaK787wXD#0] ^санаабат/санаа<v><tv><neg><gpr_aor>/санаа<v><tv><neg><ger_aor><nom>/санаа<v><tv><neg><aor><p3><sg>/санаа<v><tv><neg><ger_aor><nom>+э<cop><aor><p3><sg>$
+[/MWbqaK787wXD]
+[N1yFK6gow0wS#0] ^бара илик/бар<v><iv><gpr_unac>/бар<v><iv><ger_unac><nom>/бар<v><iv><unac><p3><sg>/бар<v><iv><ger_unac><nom>+э<cop><aor><p3><sg>$
+[/N1yFK6gow0wS]
+[OJQSioMNudnx#0] ^буоллах/буол<v><iv><ger_cond><nom>/буол<v><iv><ger_cond><nom>+э<cop><aor><p3><sg>$
+[/OJQSioMNudnx]
+[OU58rMYsLqF3#0] ^бүтэрдэҕинэ/бүтэр<v><tv><ger_cond><px3sg><par>$
+[/OU58rMYsLqF3]
+[O_dtC_fnGLmA#0] ^бараарыбын/бар<v><iv><gna_plan><p1><sg>/бараа<v><tv><gna_plan><p1><sg>$
+[/O_dtC_fnGLmA]
+[OlkguijBYLRa#0] ^буолуох/буол<v><iv><gpr_fut>/буол<v><iv><ger_fut><nom>/буол<v><iv><ger_fut><nom>+э<cop><aor><p3><sg>$
+[/OlkguijBYLRa]
+[OuI8Sk5btRiy#0] ^саныы/санаа<v><tv><gna_impf>/санаа<v><tv><prc_impf>$
+[/OuI8Sk5btRiy]
+[P5DGDUq6NaIz#0] ^санааччы/санаа<v><tv><ger_hab><nom>/санааччы<n><nom>/санааччы<n><attr>/санаа<v><tv><hab><p3><sg>/санаа<v><tv><ger_hab><nom>+э<cop><aor><p3><sg>/санааччы<n><nom>+э<cop><aor><p3><sg>$
+[/P5DGDUq6NaIz]
+[Q3pjPtr1kyFE#0] ^тэһийбэккэбин/тэһий<v><iv><abes><p1><sg>$
+[/Q3pjPtr1kyFE]
+[Qql9i7od91bF#0] ^саныыр/санаа<v><tv><gpr_aor>/санаа<v><tv><prc_aor>/санаа<v><tv><ger_aor><nom>/санаа<v><tv><aor><p3><sg>/санаа<v><tv><ger_aor><nom>+э<cop><aor><p3><sg>$
+[/Qql9i7od91bF]
+[Rga-dzXHrFh9#0] ^барбакка/бар<v><iv><gna_abes>/бар<v><iv><abes><p3><sg>/бар<v><iv><neg><ger_aor><dat>$
+[/Rga-dzXHrFh9]
+[UGA4qCYPJVsb#0] ^барыах/бар<v><iv><gpr_fut>/бараа<v><tv><gpr_fut>/бар<v><iv><ger_fut><nom>/бараа<v><tv><ger_fut><nom>/бар<v><iv><ger_fut><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_fut><nom>+э<cop><aor><p3><sg>$
+[/UGA4qCYPJVsb]
+[WRDK80ca4s4f#0] ^саныа/санаа<v><tv><ger_pot><nom>$
+[/WRDK80ca4s4f]
+[WhjOvY4rUpAz#0] ^киирэн/киир<v><iv><prc_perf>/киир<v><iv><gna_perf>$
+[/WhjOvY4rUpAz]
+[YBxTItPs1o-p#0] ^буолан/буол<v><iv><prc_perf>/буол<v><iv><gna_perf>$
+[/YBxTItPs1o-p]
+[ZYv1l06-VRXH#0] ^барбыта/бар<v><iv><past><p3><sg>/бар<v><iv><ger_past><px3sg><nom>/бар<v><iv><ger_past><px3sg><nom>+э<cop><aor><p3><sg>$
+[/ZYv1l06-VRXH]
+[ZmqzGkBCdgEE#0] ^буолуон/буол<v><iv><ger1><nom>$
+[/ZmqzGkBCdgEE]
+[_LhEKE_7jPVm#0] ^ыан/ыа<v><tv><prc_perf>/ыа<v><tv><gna_perf>/ыа<v><tv><ger1><nom>$
+[/_LhEKE_7jPVm]
+[aEVRm_nNtdez#0] ^санаабатаҕа/санаа<v><tv><neg><past><p3><sg>/санаа<v><tv><neg><ger_past><px3sg><nom>/санаа<v><tv><neg><ger_cond><px3sg><nom>/санаа<v><tv><neg><ger_past><px3sg><nom>+э<cop><aor><p3><sg>/санаа<v><tv><neg><ger_cond><px3sg><nom>+э<cop><aor><p3><sg>$
+[/aEVRm_nNtdez]
+[aLBZn5thswM5#0] ^бүтэрдэх/бүтэр<v><tv><ger_cond><nom>/бүтэр<v><tv><ger_cond><nom>+э<cop><aor><p3><sg>$
+[/aLBZn5thswM5]
+[bFjLVkVPgINH#0] ^барыан/бар<v><iv><ger1><nom>/бараа<v><tv><ger1><nom>$
+[/bFjLVkVPgINH]
+[cuHybsdFE9R_#0] ^барбыт/бар<v><iv><ger_past><nom>/бар<v><iv>\<gpr_past\>/бар<v><iv><ger_past><nom>+э<cop><aor><p3><sg>$
+[/cuHybsdFE9R_]
+[e4tkNjQ9cCsR#0] ^бүтэрээччи/бүтэр<v><tv><ger_hab><nom>/бүтэрээччи<n><nom>/бүтэрээччи<n><attr>/бүтэр<v><tv><hab><p3><sg>/бүтэр<v><tv><ger_hab><nom>+э<cop><aor><p3><sg>/бүтэрээччи<n><nom>+э<cop><aor><p3><sg>$
+[/e4tkNjQ9cCsR]
+[f-Lc4f6gL0qq#0] ^бүтэрдэҕэ/бүтэр<v><tv><past><ded><p3><sg>/бүтэр<v><tv><ger_cond><px3sg><nom>/бүтэр<v><tv><ger_cond><px3sg><nom>+э<cop><aor><p3><sg>$
+[/f-Lc4f6gL0qq]
+[g5zo2cIG-FPJ#0] ^саныах/санаа<v><tv><gpr_fut>/санаа<v><tv><ger_fut><nom>/санаа<v><tv><ger_fut><nom>+э<cop><aor><p3><sg>$
+[/g5zo2cIG-FPJ]
+[h6Jrq9YzAR4Z#0] ^саныы илик/санаа<v><tv><gpr_unac>/санаа<v><tv><ger_unac><nom>/санаа<v><tv><unac><p3><sg>/санаа<v><tv><ger_unac><nom>+э<cop><aor><p3><sg>$
+[/h6Jrq9YzAR4Z]
+[hp6qREt9k5N5#0] ^бүтэрэ илик/бүтэр<v><tv><gpr_unac>/бүтэр<v><tv><ger_unac><nom>/бүтэр<v><tv><unac><p3><sg>/бүтэр<v><tv><ger_unac><nom>+э<cop><aor><p3><sg>$
+[/hp6qREt9k5N5]
+[j-O2fX_i9npw#0] ^бардаҕа/бар<v><iv><past><ded><p3><sg>/бар<v><iv><ger_cond><px3sg><nom>/бар<v><iv><ger_cond><px3sg><nom>+э<cop><aor><p3><sg>$
+[/j-O2fX_i9npw]
+[jcyAL3PRY4n0#0] ^диэри/диэ<v><tv><gna_plan>/диэри<post>/диэ<v><tv><gna_plan><p3><sg>$
+[/jcyAL3PRY4n0]
+[k6cuGSadMkUu#0] ^буола/буол<v><iv><gna_impf>/буол<v><iv><prc_impf>/буола<n><nom>/буола<n><attr>/буола<n><nom>+э<cop><aor><p3><sg>$
+[/k6cuGSadMkUu]
+[kv2LH1c1WC8u#0] ^санаатаҕа/санаа<v><tv><past><ded><p3><sg>/санаа<v><tv><ger_cond><px3sg><nom>/санаа<v><tv><ger_cond><px3sg><nom>+э<cop><aor><p3><sg>$
+[/kv2LH1c1WC8u]
+[m6epbKeye3Qm#0] ^барбаккабын/бар<v><iv><abes><p1><sg>$
+[/m6epbKeye3Qm]
+[oW2t7tN2s4Q5#0] ^санаатаҕына/санаа<v><tv><ger_cond><px3sg><par>$
+[/oW2t7tN2s4Q5]
+[olywmJuWL1Kw#0] ^тэһийбэккэ/тэһий<v><iv><gna_abes>/тэһий<v><iv><abes><p3><sg>/тэһий<v><iv><neg><ger_aor><dat>$
+[/olywmJuWL1Kw]
+[pPa3uqVjcCWL#0] ^санаан/санаа<v><tv><prc_perf>/санаа<v><tv><gna_perf>$
+[/pPa3uqVjcCWL]
+[qC9PgfaeWw7V#0] ^санаабатах/санаа<v><tv><neg><ger_past><nom>/санаа<v><tv><neg><ger_cond><nom>/санаа<v><tv><neg>\<gpr_past\>/санаа<v><tv><neg><ger_past><nom>+э<cop><aor><p3><sg>/санаа<v><tv><neg><ger_cond><nom>+э<cop><aor><p3><sg>$
+[/qC9PgfaeWw7V]
+[quKBPLBWcqo5#0] ^санаабыта/санаа<v><tv><past><p3><sg>/санаа<v><tv><ger_past><px3sg><nom>/санаа<v><tv><ger_past><px3sg><nom>+э<cop><aor><p3><sg>$
+[/quKBPLBWcqo5]
+[rD2r2r96fks7#0] ^киирэ/киир<v><iv><gna_impf>/киир<v><iv><prc_impf>$
+[/rD2r2r96fks7]
+[vKuIFB-2o1D2#0] ^барааччы/бар<v><iv><ger_hab><nom>/бараа<v><tv><ger_hab><nom>/бар<v><iv><hab><p3><sg>/бараа<v><tv><hab><p3><sg>/бар<v><iv><ger_hab><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_hab><nom>+э<cop><aor><p3><sg>$
+[/vKuIFB-2o1D2]
+[zzcjq-ZVlVuZ#0] ^бардах/бар<v><iv><ger_cond><nom>/бар<v><iv><ger_cond><nom>+э<cop><aor><p3><sg>$
+[/zzcjq-ZVlVuZ]

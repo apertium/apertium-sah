@@ -1,0 +1,24 @@
+[0QP7boSkIcrg#0] ^барыахтара суоҕа/бар<v><iv><neg><fut><p3><pl>/бараа<v><tv><neg><fut><p3><pl>$
+[/0QP7boSkIcrg]
+[4DYF5NRyWHRT#0] ^барыаххыт/бар<v><iv><fut><p2><pl>/бараа<v><tv><fut><p2><pl>/бар<v><iv><ger_fut><nom>+э<cop><aor><p2><pl>/бараа<v><tv><ger_fut><nom>+э<cop><aor><p2><pl>/бар<v><iv><ger_fut><px2pl><nom>/бараа<v><tv><ger_fut><px2pl><nom>/бар<v><iv><ger_fut><px2pl><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_fut><px2pl><nom>+э<cop><aor><p3><sg>$
+[/4DYF5NRyWHRT]
+[4KlGVSomeC-T#0] ^барыаҕыҥ/бар<v><iv><fut><p2><sg>/бараа<v><tv><fut><p2><sg>/бар<v><iv><ger_fut><px2sg><nom>/бараа<v><tv><ger_fut><px2sg><nom>/бар<v><iv><ger_fut><px2sg><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_fut><px2sg><nom>+э<cop><aor><p3><sg>$
+[/4KlGVSomeC-T]
+[I42C_E-Q65Ht#0] ^барыаҕа/бар<v><iv><fut><p3><sg>/бараа<v><tv><fut><p3><sg>/бар<v><iv><ger_fut><px3sg><nom>/бараа<v><tv><ger_fut><px3sg><nom>/бар<v><iv><ger_fut><px3sg><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_fut><px3sg><nom>+э<cop><aor><p3><sg>$
+[/I42C_E-Q65Ht]
+[aibUg6UWSz4S#0] ^барыахтара/бар<v><iv><fut><p3><pl>/бараа<v><tv><fut><p3><pl>/бар<v><iv><ger_fut><px3pl><nom>/бараа<v><tv><ger_fut><px3pl><nom>/бар<v><iv><ger_fut><pl><px3pl><nom>/бар<v><iv><ger_fut><pl><px3sg><nom>/бараа<v><tv><ger_fut><pl><px3pl><nom>/бараа<v><tv><ger_fut><pl><px3sg><nom>/бар<v><iv><ger_fut><px3pl><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_fut><px3pl><nom>+э<cop><aor><p3><sg>/бар<v><iv><ger_fut><pl><px3pl><nom>+э<cop><aor><p3><sg>/бар<v><iv><ger_fut><pl><px3sg><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_fut><pl><px3pl><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_fut><pl><px3sg><nom>+э<cop><aor><p3><sg>$
+[/aibUg6UWSz4S]
+[cZoskreTo4I3#0] ^барыаҕым/бар<v><iv><fut><p1><sg>/бараа<v><tv><fut><p1><sg>/бар<v><iv><ger_fut><px1sg><nom>/бараа<v><tv><ger_fut><px1sg><nom>/бар<v><iv><ger_fut><px1sg><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_fut><px1sg><nom>+э<cop><aor><p3><sg>$
+[/cZoskreTo4I3]
+[gbuh3sKAk6Cg#0] ^барыам суоҕа/бар<v><iv><neg><fut><p1><sg>/бараа<v><tv><neg><fut><p1><sg>$
+[/gbuh3sKAk6Cg]
+[gl-s0pbq-p18#0] ^барыахпыт суоҕа/бар<v><iv><neg><fut><p1><pl>/бараа<v><tv><neg><fut><p1><pl>$
+[/gl-s0pbq-p18]
+[qe_skOXGcO67#0] ^барыаххыт суоҕа/бар<v><iv><neg><fut><p2><pl>/бараа<v><tv><neg><fut><p2><pl>$
+[/qe_skOXGcO67]
+[s0YyTOBBoMms#0] ^барыахпыт/бар<v><iv><fut><p1><pl>/бараа<v><tv><fut><p1><pl>/бар<v><iv><ger_fut><nom>+э<cop><aor><p1><pl>/бараа<v><tv><ger_fut><nom>+э<cop><aor><p1><pl>/бар<v><iv><ger_fut><px1pl><nom>/бараа<v><tv><ger_fut><px1pl><nom>/бар<v><iv><ger_fut><px1pl><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_fut><px1pl><nom>+э<cop><aor><p3><sg>$
+[/s0YyTOBBoMms]
+[sw_fwkQEfiRe#0] ^барыаҥ суоҕа/бар<v><iv><neg><fut><p2><sg>/бараа<v><tv><neg><fut><p2><sg>$
+[/sw_fwkQEfiRe]
+[u4X2j3g3ADEx#0] ^барыа суоҕа/бар<v><iv><neg><fut><p3><sg>/бараа<v><tv><neg><fut><p3><sg>$
+[/u4X2j3g3ADEx]

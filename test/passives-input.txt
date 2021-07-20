@@ -1,0 +1,32 @@
+# Verbs where final й deletes in passive
+кыалын
+кыайдым
+тэрилин
+тэрийдим
+арылын
+арыйдым
+эрчилин
+эрчийдим
+эрилин
+эрийдим
+# Verbs where final й does not delete in passive
+баайылын
+баайдым
+тиийилин
+тиийдим
+эрэйилин
+эрэйдим
+# Verbs where final н deletes in passive
+мунньулун
+мунньун
+# Verbs where final н does not delete in passive
+туһанылын
+туһанным
+ахтылын
+аҕынным
+# Other random passives
+иҥэриллэр
+иҥэрилинним
+# Regular passive forms
+оҥоруллар
+оҥоруллубута

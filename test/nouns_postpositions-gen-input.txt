@@ -1,0 +1,27 @@
+# Postpositions from misc nouns
+^ис<n><px3sg><dat>$
+^ис<n><px3sg><abl>$
+^орто<n><px3sg><dat>$
+^орто<n><px3sg><abl>$
+^атта<n><px3sg><dat>$
+^атта<n><px3sg><abl>$
+^инни<n><px2sg><dat>$
+^инни<n><abl>$
+^быыс<n><px3sg><dat>$
+^быыс<n><px3sg><abl>$
+^тус<n><px3sg><ins>$
+^уст<n><px3sg><par>$
+^уст<n><px3sg><acc>$
+^уст<n><px3sg><ins>$
+# Postpositions from nouns with epenthesis issues
+^алын<n><px3sg><dat>$
+^алын<n><px3sg><abl>$
+^үрүт<n><px3sg><abl>$
+^үрүт<n><px3sg><dat>$
+^үрүт<n><px3sg><ins>$
+^кэлин<n><px3sg><abl>$
+^кэлин<n><px3sg><ins>$
+^өрүт<n><px3sg><ins>$
+^өрүт<n><px3sg><abl>$
+^өрүт<n><px3sg><dat>$
+^орун<n><px3sg><dat>$

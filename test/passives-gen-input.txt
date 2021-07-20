@@ -1,0 +1,32 @@
+# Verbs where final й deletes in passive
+^кыай<v><tv><pass><imp><p2><sg>$
+^кыай<v><tv><ifi><p1><sg>$
+^тэрий<v><tv><pass><imp><p2><sg>$
+^тэрий<v><tv><ifi><p1><sg>$
+^арый<v><tv><pass><imp><p2><sg>$
+^арый<v><tv><ifi><p1><sg>$
+^эрчий<v><tv><pass><imp><p2><sg>$
+^эрчий<v><tv><ifi><p1><sg>$
+^эрий<v><tv><pass><imp><p2><sg>$
+^эрий<v><tv><ifi><p1><sg>$
+# Verbs where final й does not delete in passive
+^баай<v><tv><pass><imp><p2><sg>$
+^баай<v><tv><ifi><p1><sg>$
+^тиий<v><iv><pass><imp><p2><sg>$
+^тиий<v><iv><ifi><p1><sg>$
+^эрэй<v><iv><pass><imp><p2><sg>$
+^эрэй<v><iv><ifi><p1><sg>$
+# Verbs where final н deletes in passive
+^мунньун<v><tv><pass><imp><p2><sg>$
+^мунньун<v><tv><imp><p2><sg>$
+# Verbs where final н does not delete in passive
+^туһан<v><tv><pass><imp><p2><sg>$
+^туһан<v><tv><ifi><p1><sg>$
+^аҕын<v><tv><pass><imp><p2><sg>$
+^аҕын<v><tv><ifi><p1><sg>$
+# Other random passives
+^иҥэр<v><tv><pass><aor><p3><sg>$
+^иҥэр<v><tv><pass><ifi><p1><sg>$
+# Regular passive forms
+^оҥор<v><tv><pass><aor><p3><sg>$
+^оҥор<v><tv><pass><past><p3><sg>$

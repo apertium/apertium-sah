@@ -1,0 +1,126 @@
+[0WypCAG3yNgq#0] ^диирбинээҕэр/диэ<v><tv><ger_aor><px1sg><comp>$
+[/0WypCAG3yNgq]
+[5X6Ze3pJDKm1#0] ^диирбинэн/диэ<v><tv><ger_aor><px1sg><ins>$
+[/5X6Ze3pJDKm1]
+[5kps1ioX2kNi#0] ^дииргинэ/диэ<v><tv><ger_aor><px2sg><par>$
+[/5kps1ioX2kNi]
+[6Y6nwbI2_bzl#0] ^дииригэр/диэ<v><tv><ger_aor><px3sg><dat>$
+[/6Y6nwbI2_bzl]
+[9aQmeVZKVD5T#0] ^олорордуун/олор<v><iv><ger_aor><com>$
+[/9aQmeVZKVD5T]
+[BMMjxwcSrSq_#0] ^олорорунан/олор<v><iv><ger_aor><ins>/олор<v><iv><ger_aor><px3sg><ins>$
+[/BMMjxwcSrSq_]
+[CFfK-jTNJ4jH#0] ^дииринэ/диэ<v><tv><ger_aor><px3sg><par>$
+[/CFfK-jTNJ4jH]
+[FR8tZqZZHIt_#0] ^олорордооҕор/олор<v><iv><ger_aor><comp>$
+[/FR8tZqZZHIt_]
+[IQoh0BdkgubJ#0] ^дииринэн/диэ<v><tv><ger_aor><ins>/диэ<v><tv><ger_aor><px3sg><ins>$
+[/IQoh0BdkgubJ]
+[LQrMn51Fp-b1#0] ^диирбитиниин/диэ<v><tv><ger_aor><px1pl><com>$
+[/LQrMn51Fp-b1]
+[LRVV0SWLXUBv#0] ^олорору/олор<v><iv><ger_aor><acc>$
+[/LRVV0SWLXUBv]
+[LZGKcL6o-PFL#0] ^диирдээҕэр/диэ<v><tv><ger_aor><comp>$
+[/LZGKcL6o-PFL]
+[M23ZX4H0T-Iv#0] ^дииргин/диэ<v><tv><ger_aor><nom>+э<cop><aor><p2><sg>/диэ<v><tv><ger_aor><px2sg><acc>$
+[/M23ZX4H0T-Iv]
+[MKFE4orX8-l2#0] ^диирбитигэр/диэ<v><tv><ger_aor><px1pl><dat>$
+[/MKFE4orX8-l2]
+[NZBEr_ygGY8g#0] ^дииргитиниин/диэ<v><tv><ger_aor><px2pl><com>$
+[/NZBEr_ygGY8g]
+[OOIMKxZpKCSF#0] ^дииргитинээҕэр/диэ<v><tv><ger_aor><px2pl><comp>$
+[/OOIMKxZpKCSF]
+[OTnkYK6N7ipN#0] ^диирбитинээҕэр/диэ<v><tv><ger_aor><px1pl><comp>$
+[/OTnkYK6N7ipN]
+[QRg3Izeos0R3#0] ^дииргинээҕэр/диэ<v><tv><ger_aor><px2sg><comp>$
+[/QRg3Izeos0R3]
+[TCYNzEMo__Zh#0] ^диирбитин/диэ<v><tv><ger_aor><px1pl><acc>$
+[/TCYNzEMo__Zh]
+[U0rbJhiZBuN8#0] ^дииргитигэр/диэ<v><tv><ger_aor><px2pl><dat>$
+[/U0rbJhiZBuN8]
+[U90AZmk-IhyZ#0] ^көрөрү/көр<v><tv><ger_aor><acc>/көрөр<n><acc>$
+[/U90AZmk-IhyZ]
+[VXxlCw7XiL6k#0] ^диирбинэ/диэ<v><tv><ger_aor><px1sg><par>$
+[/VXxlCw7XiL6k]
+[WQx6LoQe5KUi#0] ^олорорго/олор<v><iv><ger_aor><dat>$
+[/WQx6LoQe5KUi]
+[WtkwytBp16dk#0] ^дииргитинэ/диэ<v><tv><ger_aor><px2pl><par>$
+[/WtkwytBp16dk]
+[Wz0UBu5N94Eb#0] ^көрөрдө/көр<v><tv><ger_aor><par>/көрөр<n><par>$
+[/Wz0UBu5N94Eb]
+[XPoTVYxEH9YO#0] ^диирин/диэ<v><tv><ger_aor><px3sg><acc>$
+[/XPoTVYxEH9YO]
+[XWtHvmXHq9nA#0] ^диир/диэ<v><tv><gpr_aor>/диэ<v><tv><prc_aor>/диэ<v><tv><ger_aor><nom>/диэ<v><tv><aor><p3><sg>/диэ<v><tv><ger_aor><nom>+э<cop><aor><p3><sg>$
+[/XWtHvmXHq9nA]
+[YNp1w1pNqST3#0] ^дииргэ/диэ<v><tv><ger_aor><dat>$
+[/YNp1w1pNqST3]
+[cwtd4MDnspa2#0] ^диирбитинэн/диэ<v><tv><ger_aor><px1pl><ins>$
+[/cwtd4MDnspa2]
+[dYnLTTIEo_Er#0] ^диирбит/диэ<v><tv><ger_aor><nom>+э<cop><aor><p1><pl>/диэ<v><tv><ger_aor><px1pl><nom>/диэ<v><tv><ger_aor><px1pl><nom>+э<cop><aor><p3><sg>$
+[/dYnLTTIEo_Er]
+[d_safxe9WwBn#0] ^диириттэн/диэ<v><tv><ger_aor><px3sg><abl>$
+[/d_safxe9WwBn]
+[dkD33gpP_g7U#0] ^көрөрдөөҕөр/көр<v><tv><ger_aor><comp>/көрөр<n><comp>$
+[/dkD33gpP_g7U]
+[eUIAyIdXD6Zv#0] ^дииргинэн/диэ<v><tv><ger_aor><px2sg><ins>$
+[/eUIAyIdXD6Zv]
+[f4WZvmU-_Z2D#0] ^диирбитинэ/диэ<v><tv><ger_aor><px1pl><par>$
+[/f4WZvmU-_Z2D]
+[f6dYLaWbL6SS#0] ^көрөргө/көр<v><tv><ger_aor><dat>/көрөр<n><dat>$
+[/f6dYLaWbL6SS]
+[f9rZu0cbSfbw#0] ^олорортон/олор<v><iv><ger_aor><abl>$
+[/f9rZu0cbSfbw]
+[fJxXYhLBNuU4#0] ^дииргэр/диэ<v><tv><ger_aor><px2sg><dat>$
+[/fJxXYhLBNuU4]
+[ffzuQ5axnbLz#0] ^дииртэн/диэ<v><tv><ger_aor><abl>$
+[/ffzuQ5axnbLz]
+[gFEsQ0dCSOq0#0] ^диирдиин/диэ<v><tv><ger_aor><com>$
+[/gFEsQ0dCSOq0]
+[gXtYhG9RNhFp#0] ^диириҥ/диэ<v><tv><pii><p2><sg>/диэ<v><tv><ger_aor><px2sg><nom>/диэ<v><tv><ger_aor><px2sg><nom>+э<cop><aor><p3><sg>$
+[/gXtYhG9RNhFp]
+[ge_RP6c4CFv-#0] ^көрөрүнэн/көр<v><tv><ger_aor><ins>/көрөр<n><ins>/көр<v><tv><ger_aor><px3sg><ins>/көрөр<n><px3sg><ins>$
+[/ge_RP6c4CFv-]
+[hwuT_cNiVrxX#0] ^диирбиттэн/диэ<v><tv><ger_aor><px1sg><abl>$
+[/hwuT_cNiVrxX]
+[jUY-kh9UN7Ka#0] ^олорор/олор<v><iv><gpr_aor>/олор<v><iv><prc_aor>/олор<v><iv><ger_aor><nom>/олор<v><iv><aor><p3><sg>/олор<v><iv><ger_aor><nom>+э<cop><aor><p3><sg>$
+[/jUY-kh9UN7Ka]
+[kZmYeLEc3XZf#0] ^дииргиттэн/диэ<v><tv><ger_aor><px2sg><abl>$
+[/kZmYeLEc3XZf]
+[lZvmSgS_Uns9#0] ^диирим/диэ<v><tv><pii><p1><sg>/диэ<v><tv><ger_aor><px1sg><nom>/диэ<v><tv><ger_aor><px1sg><nom>+э<cop><aor><p3><sg>$
+[/lZvmSgS_Uns9]
+[njm1u7fNU2JC#0] ^дииргититтэн/диэ<v><tv><ger_aor><px2pl><abl>$
+[/njm1u7fNU2JC]
+[oBi6KAQfLBbr#0] ^дииринээҕэр/диэ<v><tv><ger_aor><px3sg><comp>$
+[/oBi6KAQfLBbr]
+[pW0QFXnxxxl7#0] ^көрөрдүүн/көр<v><tv><ger_aor><com>/көрөр<n><com>$
+[/pW0QFXnxxxl7]
+[qchCTyUkZFKD#0] ^диирбититтэн/диэ<v><tv><ger_aor><px1pl><abl>$
+[/qchCTyUkZFKD]
+[rjMbe972TW5M#0] ^олорордо/олор<v><iv><ger_aor><par>$
+[/rjMbe972TW5M]
+[rp42NCNlFuva#0] ^дииргитин/диэ<v><tv><ger_aor><px2pl><acc>$
+[/rp42NCNlFuva]
+[s-7YHoqIDASE#0] ^диириниин/диэ<v><tv><ger_aor><px3sg><com>$
+[/s-7YHoqIDASE]
+[tlKrLP-Otf2m#0] ^көрөртөн/көр<v><tv><ger_aor><abl>/көрөр<n><abl>$
+[/tlKrLP-Otf2m]
+[twHY99v49fGa#0] ^дииргитинэн/диэ<v><tv><ger_aor><px2pl><ins>$
+[/twHY99v49fGa]
+[uc9ZM3CQAeg3#0] ^диири/диэ<v><tv><ger_aor><acc>$
+[/uc9ZM3CQAeg3]
+[wgBRHBIV54sy#0] ^диирбин/диэ<v><tv><ger_aor><nom>+э<cop><aor><p1><sg>/диэ<v><tv><ger_aor><px1sg><acc>$
+[/wgBRHBIV54sy]
+[wgIxx6nOktQT#0] ^диирбэр/диэ<v><tv><ger_aor><px1sg><dat>$
+[/wgIxx6nOktQT]
+[wudrpbW-CSJB#0] ^диирдэ/диэ<v><tv><ger_aor><par>$
+[/wudrpbW-CSJB]
+[xndcaveHznF5#0] ^диирэ/диэ<v><tv><pii><p3><sg>/диэ<v><tv><ger_aor><px3sg><nom>/диэ<v><tv><ger_aor><px3sg><nom>+э<cop><aor><p3><sg>$
+[/xndcaveHznF5]
+[yZ_NpLJW1cJc#0] ^диирбиниин/диэ<v><tv><ger_aor><px1sg><com>$
+[/yZ_NpLJW1cJc]
+[ynQB9k9IPMjT#0] ^дииргит/диэ<v><tv><ger_aor><nom>+э<cop><aor><p2><pl>/диэ<v><tv><ger_aor><px2pl><nom>/диэ<v><tv><ger_aor><px2pl><nom>+э<cop><aor><p3><sg>$
+[/ynQB9k9IPMjT]
+[yvxmp-P-eM01#0] ^дииргиниин/диэ<v><tv><ger_aor><px2sg><com>$
+[/yvxmp-P-eM01]
+[zyrNB-WUz7Gr#0] ^көрөр/көр<v><tv><gpr_aor>/көр<v><tv><prc_aor>/көр<v><tv><ger_aor><nom>/көрөр<n><nom>/көрөр<n><attr>/көр<v><tv><aor><p3><sg>/көр<v><tv><ger_aor><nom>+э<cop><aor><p3><sg>/көрөр<n><nom>+э<cop><aor><p3><sg>$
+[/zyrNB-WUz7Gr]

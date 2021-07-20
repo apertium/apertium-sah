@@ -1,0 +1,50 @@
+[-eekXGyo8qfA#0] ^оннугар/орун<n><px3sg><dat>$
+[/-eekXGyo8qfA]
+[3idFaI5guurh#0] ^үрдүттэн/үрүт<n><px3sg><abl>/үрдүттэн<adv>/үрдүттэн<adv>+э<cop><aor><p3><sg>$
+[/3idFaI5guurh]
+[6OX1G-SuQJT_#0] ^өттүттэн/өрүт<n><px3sg><abl>$
+[/6OX1G-SuQJT_]
+[8Z_KAKKDEBDQ#0] ^устун/уст<n><px3sg><acc>$
+[/8Z_KAKKDEBDQ]
+[DBLzUKR6cGiL#0] ^быыһыттан/быыс<n><px3sg><abl>$
+[/DBLzUKR6cGiL]
+[K3_tIOidbU4-#0] ^өттүгэр/өрүт<n><px3sg><dat>$
+[/K3_tIOidbU4-]
+[KJw6tzLCM3GI#0] ^аттыгар/атта<n><px3sg><dat>$
+[/KJw6tzLCM3GI]
+[Pwk8C9YVDl0Z#0] ^инниттэн/инни<n><abl>$
+[/Pwk8C9YVDl0Z]
+[Qlmpf-G9uRoq#0] ^үрдүгэр/үрүт<n><px3sg><dat>$
+[/Qlmpf-G9uRoq]
+[Ug3Va-3MgV2_#0] ^иһиттэн/ис<n><px3sg><abl>/иһит<n><abl>$
+[/Ug3Va-3MgV2_]
+[YmGJha4MYUzr#0] ^ортотугар/орто<n><px3sg><dat>$
+[/YmGJha4MYUzr]
+[YuB4GRTEq8Yl#0] ^аттыттан/атта<n><px3sg><abl>$
+[/YuB4GRTEq8Yl]
+[ZeOYo1z6wZEe#0] ^анныгар/алын<n><px3sg><dat>$
+[/ZeOYo1z6wZEe]
+[_855Mb_uV5xd#0] ^туһунан/туһ<n><ins>/тус<n><ins>/туһ<n><px3sg><ins>/тус<n><px3sg><ins>/туһунан<adv>/туһунан<adv>+э<cop><aor><p3><sg>$
+[/_855Mb_uV5xd]
+[_PwYR6wHbMDu#0] ^үрдүнэн/үрүт<n><ins>/үрүт<n><px3sg><ins>$
+[/_PwYR6wHbMDu]
+[chdykcfMNKNb#0] ^устата/уста<n><par>/уста<n><px3sg><nom>/уста<n><px3sg><nom>+э<cop><aor><p3><sg>$
+[/chdykcfMNKNb]
+[hAZC8VtsEiwO#0] ^иһигэр/ис<n><px3sg><dat>$
+[/hAZC8VtsEiwO]
+[kJIifKR1o_6E#0] ^анныттан/алын<n><px3sg><abl>$
+[/kJIifKR1o_6E]
+[lMdczXUXPNfu#0] ^быыһыгар/быыс<n><px3sg><dat>$
+[/lMdczXUXPNfu]
+[ti_wcT5dW2ae#0] ^устунан/уст<n><ins>/уст<n><px3sg><ins>$
+[/ti_wcT5dW2ae]
+[uDtOvfYJYUx2#0] ^иннигэр/инни<n><px2sg><dat>$
+[/uDtOvfYJYUx2]
+[ukjKIo8-mUjS#0] ^кэнниттэн/кэлин<n><px3sg><abl>$
+[/ukjKIo8-mUjS]
+[xUPuhukYSaC-#0] ^кэннинэн/кэлин<n><ins>/кэлин<n><px3sg><ins>$
+[/xUPuhukYSaC-]
+[y4Z0ivY6N9xD#0] ^ортотуттан/орто<n><px3sg><abl>$
+[/y4Z0ivY6N9xD]
+[yGjn19fL3SaY#0] ^өттүнэн/өрүт<n><ins>/өрүт<n><px3sg><ins>$
+[/yGjn19fL3SaY]

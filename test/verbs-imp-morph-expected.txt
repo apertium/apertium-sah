@@ -1,0 +1,150 @@
+[-1Kce6WZrbE2#0] ^бараамыах/бараа<v><tv><neg><ger_fut><nom>/бараа<v><tv><neg><ger_fut><nom>+э<cop><aor><p3><sg>$
+[/-1Kce6WZrbE2]
+[-ZKf0fOo5fiu#0] ^бар/бар<v><iv><imp><p2><sg>$
+[/-ZKf0fOo5fiu]
+[0gNKeiQFfiop#0] ^булкуһуоҕуҥ/булкус<v><iv><fut><p2><sg>/булкус<v><iv><ger_fut><px2sg><nom>/булкус<v><iv><ger_fut><px2sg><nom>+э<cop><aor><p3><sg>$
+[/0gNKeiQFfiop]
+[2WHUUNfzwcuf#0] ^булкуһумуоххайыҥ/*булкуһумуоххайыҥ$
+[/2WHUUNfzwcuf]
+[2hcB98wHkVaC#0] ^сиэҕиҥ/сиэ<v><tv><fut><p2><sg>/сиэ<v><tv><ger_fut><px2sg><nom>/сиэх<n><px2sg><nom>/сиэ<v><tv><ger_fut><px2sg><nom>+э<cop><aor><p3><sg>/сиэх<n><px2sg><nom>+э<cop><aor><p3><sg>$
+[/2hcB98wHkVaC]
+[49AfK80x_w-0#0] ^булкустун/*булкустун$
+[/49AfK80x_w-0]
+[4KlGVSomeC-T#0] ^барыаҕыҥ/бар<v><iv><fut><p2><sg>/бараа<v><tv><fut><p2><sg>/бар<v><iv><ger_fut><px2sg><nom>/бараа<v><tv><ger_fut><px2sg><nom>/бар<v><iv><ger_fut><px2sg><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_fut><px2sg><nom>+э<cop><aor><p3><sg>$
+[/4KlGVSomeC-T]
+[4bTwMpCVRKD6#0] ^сиэмэ/сиэмэ<n><nom>/сиэмэ<n><attr>/сиэмэ<n><nom>+э<cop><aor><p3><sg>$
+[/4bTwMpCVRKD6]
+[4n1NxMpG5uTp#0] ^көмүөҕуҥ/көм<v><tv><fut><p2><sg>/көм<v><tv><ger_fut><px2sg><nom>/көм<v><tv><ger_fut><px2sg><nom>+э<cop><aor><p3><sg>$
+[/4n1NxMpG5uTp]
+[5acdgySJDLO2#0] ^сиэтинэр/*сиэтинэр$
+[/5acdgySJDLO2]
+[6IkXEZ8VJY90#0] ^бараама/*бараама$
+[/6IkXEZ8VJY90]
+[6SxllkTejm9Z#0] ^булкуһуҥ/булкус<v><iv><imp><p2><pl>$
+[/6SxllkTejm9Z]
+[8OZXDm-_JLFv#0] ^сиэмиэх/сиэ<v><tv><neg><ger_fut><nom>/сиэ<v><tv><neg><ger_fut><nom>+э<cop><aor><p3><sg>$
+[/8OZXDm-_JLFv]
+[8bi_MPG2gylk#0] ^сиэмиим/*сиэмиим$
+[/8bi_MPG2gylk]
+[Aps8ZnW8v6HD#0] ^барааҥ/бараа<v><tv><imp><p2><pl>$
+[/Aps8ZnW8v6HD]
+[BIjhX4tx482s#0] ^сиэ/сиэ<v><tv><ger_pot><nom>/сиэ<v><tv><imp><p2><sg>$
+[/BIjhX4tx482s]
+[CrHFHM1aT9GZ#0] ^бараа/бараа<v><tv><imp><p2><sg>$
+[/CrHFHM1aT9GZ]
+[DgkRCG4FykTM#0] ^көмүөххэйиҥ/*көмүөххэйиҥ$
+[/DgkRCG4FykTM]
+[E7czLmiXr7bO#0] ^барыма/*барыма$
+[/E7czLmiXr7bO]
+[Em-ptLQ_rL-F#0] ^булкуһумуох/булкус<v><iv><neg><ger_fut><nom>/булкус<v><iv><neg><ger_fut><nom>+э<cop><aor><p3><sg>$
+[/Em-ptLQ_rL-F]
+[FFDxRfsEZMUo#0] ^бардыннар/*бардыннар$
+[/FFDxRfsEZMUo]
+[FsC_h86kJ9bv#0] ^барбатын/бар<v><iv><neg><ger_aor><px3sg><acc>$
+[/FsC_h86kJ9bv]
+[GC8f_qTAkEua#0] ^көмүөх/көм<v><tv><gpr_fut>/көм<v><tv><ger_fut><nom>/көм<v><tv><ger_fut><nom>+э<cop><aor><p3><sg>$
+[/GC8f_qTAkEua]
+[GnIUDAI2GfLR#0] ^бараамыаххайыҥ/*бараамыаххайыҥ$
+[/GnIUDAI2GfLR]
+[H6Uje3mP0dbX#0] ^барымыаххайыҥ/*барымыаххайыҥ$
+[/H6Uje3mP0dbX]
+[HqZVLFi_FxbB#0] ^барбатыннар/*барбатыннар$
+[/HqZVLFi_FxbB]
+[Ke9RhIMqVY6K#0] ^көмүүмэ/*көмүүмэ$
+[/Ke9RhIMqVY6K]
+[KjkWC1DxeJ8g#0] ^булкуһуспатынар/*булкуһуспатынар$
+[/KjkWC1DxeJ8g]
+[M0ppPCjY7KjI#0] ^сиэмимиэххэйиҥ/*сиэмимиэххэйиҥ$
+[/M0ppPCjY7KjI]
+[MnSAYhXEm1S7#0] ^көмпөтүн/*көмпөтүн$
+[/MnSAYhXEm1S7]
+[NiaBQa9GPkD4#0] ^сиим/*сиим$
+[/NiaBQa9GPkD4]
+[OZRazCuqmo9c#0] ^барыым/бар<v><iv><ger2><px1sg><nom>/барыы<n><px1sg><nom>/бар<v><iv><ger2><px1sg><nom>+э<cop><aor><p3><sg>/барыы<n><px1sg><nom>+э<cop><aor><p3><sg>$
+[/OZRazCuqmo9c]
+[Q3my1k1Hb9V2#0] ^барымыах/бар<v><iv><neg><ger_fut><nom>/бар<v><iv><neg><ger_fut><nom>+э<cop><aor><p3><sg>$
+[/Q3my1k1Hb9V2]
+[SX6K83siZH8C#0] ^көм/көм<v><tv><imp><p2><sg>$
+[/SX6K83siZH8C]
+[TS3E7yfjvS6H#0] ^көмпөтүнэр/*көмпөтүнэр$
+[/TS3E7yfjvS6H]
+[UGA4qCYPJVsb#0] ^барыах/бар<v><iv><gpr_fut>/бараа<v><tv><gpr_fut>/бар<v><iv><ger_fut><nom>/бараа<v><tv><ger_fut><nom>/бар<v><iv><ger_fut><nom>+э<cop><aor><p3><sg>/бараа<v><tv><ger_fut><nom>+э<cop><aor><p3><sg>$
+[/UGA4qCYPJVsb]
+[VIVFZx2oZkBp#0] ^бараабатын/бараа<v><tv><neg><ger_aor><px3sg><acc>$
+[/VIVFZx2oZkBp]
+[VJhIfrByD4L-#0] ^сиэмимиэҕиҥ/*сиэмимиэҕиҥ$
+[/VJhIfrByD4L-]
+[VUORBrTtXTUU#0] ^сиэбэтинэр/*сиэбэтинэр$
+[/VUORBrTtXTUU]
+[X4V_pARRZczF#0] ^көмүмүөххэйиҥ/*көмүмүөххэйиҥ$
+[/X4V_pARRZczF]
+[Z-Y4Yg3yMftQ#0] ^бараатын/*бараатын$
+[/Z-Y4Yg3yMftQ]
+[ZDJg2-CXrFFM#0] ^барымыым/*барымыым$
+[/ZDJg2-CXrFFM]
+[a9HSrHrsVido#0] ^бараабатынар/*бараабатынар$
+[/a9HSrHrsVido]
+[aTjD6VyQLfQz#0] ^булкустунар/*булкустунар$
+[/aTjD6VyQLfQz]
+[bZF1Y6I0d15z#0] ^сиэмэҥ/сиэмэ<n><px2sg><nom>/сиэмэ<n><px2sg><nom>+э<cop><aor><p3><sg>$
+[/bZF1Y6I0d15z]
+[bd8gzuh-u69K#0] ^барыаххайыҥ/*барыаххайыҥ$
+[/bd8gzuh-u69K]
+[cCM14pDgjfUS#0] ^бардын/*бардын$
+[/cCM14pDgjfUS]
+[d2Y7DBC09TUh#0] ^сиэх/сиэ<v><tv><gpr_fut>/сиэ<v><tv><ger_fut><nom>/сиэх<n><nom>/сиэх<n><attr>/сиэ<v><tv><ger_fut><nom>+э<cop><aor><p3><sg>/сиэх<n><nom>+э<cop><aor><p3><sg>$
+[/d2Y7DBC09TUh]
+[dTLrHpPgBKx1#0] ^барыҥ/бар<v><iv><imp><p2><pl>/бары<prn><qnt><px2sg><nom>/бары<prn><qnt><px2sg><nom>+э<cop><aor><p3><sg>$
+[/dTLrHpPgBKx1]
+[dl6wvUQLmORP#0] ^көмтүнэр/*көмтүнэр$
+[/dl6wvUQLmORP]
+[dvyjBNsDZ1p4#0] ^булкус/булкус<v><iv><imp><p2><sg>$
+[/dvyjBNsDZ1p4]
+[gDa-2ykE3oSy#0] ^сиэҥ/сиэ<v><tv><imp><p2><pl>/сиэҥ<n><nom>/сиэҥ<n><attr>/сиэҥ<n><nom>+э<cop><aor><p3><sg>$
+[/gDa-2ykE3oSy]
+[gM0bCJkEOTHR#0] ^булкуһуум/булкус<v><iv><ger2><px1sg><nom>/булкус<v><iv><ger2><px1sg><nom>+э<cop><aor><p3><sg>$
+[/gM0bCJkEOTHR]
+[gmpZm6G5ZwaV#0] ^бараамаҥ/*бараамаҥ$
+[/gmpZm6G5ZwaV]
+[hp3F5mxlLXTR#0] ^көмүмүөх/көм<v><tv><neg><ger_fut><nom>/көм<v><tv><neg><ger_fut><nom>+э<cop><aor><p3><sg>$
+[/hp3F5mxlLXTR]
+[is2P3dkMeEO1#0] ^сиэххэйиҥ/*сиэххэйиҥ$
+[/is2P3dkMeEO1]
+[jcaSCSuAWqeC#0] ^булкуһуоххайыҥ/*булкуһуоххайыҥ$
+[/jcaSCSuAWqeC]
+[lI7A57tzSSDH#0] ^бараамыым/*бараамыым$
+[/lI7A57tzSSDH]
+[mEvSJvYeATik#0] ^көмтүн/*көмтүн$
+[/mEvSJvYeATik]
+[p2vgbgDSGddG#0] ^булкуһума/*булкуһума$
+[/p2vgbgDSGddG]
+[psB7QbqsibCG#0] ^булкуспатын/булкус<v><iv><neg><ger_aor><px3sg><acc>$
+[/psB7QbqsibCG]
+[ptbzIsAjsstj#0] ^көмүүмүүм/*көмүүмүүм$
+[/ptbzIsAjsstj]
+[qLZgrwTGLKA2#0] ^көмүҥ/көм<v><tv><imp><p2><pl>$
+[/qLZgrwTGLKA2]
+[ryL5kFZL1myR#0] ^булкуһумуоҕуҥ/булкус<v><iv><neg><ger_fut><px2sg><nom>/булкус<v><iv><neg><ger_fut><px2sg><nom>+э<cop><aor><p3><sg>$
+[/ryL5kFZL1myR]
+[sNqqhJoAytr-#0] ^көмүмүөҕуҥ/көм<v><tv><neg><ger_fut><px2sg><nom>/көм<v><tv><neg><ger_fut><px2sg><nom>+э<cop><aor><p3><sg>$
+[/sNqqhJoAytr-]
+[sUVUzuLy5WLI#0] ^сиэтин/*сиэтин$
+[/sUVUzuLy5WLI]
+[t3wrh4CcbX9I#0] ^булкуһуох/булкус<v><iv><gpr_fut>/булкус<v><iv><ger_fut><nom>/булкус<v><iv><ger_fut><nom>+э<cop><aor><p3><sg>$
+[/t3wrh4CcbX9I]
+[tDsNmG9KU2-Z#0] ^көмүүм/көм<v><tv><ger2><px1sg><nom>/көм<v><tv><ger2><px1sg><nom>+э<cop><aor><p3><sg>$
+[/tDsNmG9KU2-Z]
+[tqLmYByYq397#0] ^булкуһумаҥ/*булкуһумаҥ$
+[/tqLmYByYq397]
+[vCPBmtl1kQi1#0] ^сиэбэтин/сиэ<v><tv><neg><ger_aor><px3sg><acc>$
+[/vCPBmtl1kQi1]
+[vu4mASN2SG0C#0] ^барымыаҕыҥ/бар<v><iv><neg><ger_fut><px2sg><nom>/бар<v><iv><neg><ger_fut><px2sg><nom>+э<cop><aor><p3><sg>$
+[/vu4mASN2SG0C]
+[w21yaOa3FFVO#0] ^бараатынар/*бараатынар$
+[/w21yaOa3FFVO]
+[x_eWTzmHe9c6#0] ^барымаҥ/*барымаҥ$
+[/x_eWTzmHe9c6]
+[yriNMZv-0kAc#0] ^бараамыыаҕыҥ/*бараамыыаҕыҥ$
+[/yriNMZv-0kAc]
+[zzV6pw7kPzBJ#0] ^көмүмэҥ/*көмүмэҥ$
+[/zzV6pw7kPzBJ]
