@@ -17,6 +17,10 @@
 /.deps
 /config.in
 /config
-/tests/morphotactics/*.txt.gz
 /*.hfst
+/*.zhfst
+/.DS_Store
+/*-*.prob
+/tests/morphotactics/*.txt.gz
+/test/*-output.txt
 /test/*-output.txt
