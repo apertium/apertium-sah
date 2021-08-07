@@ -515,8 +515,8 @@
 	"өбүгэлээх" adj subst px3pl acc
 
 "<туруорсалларын>"
-	"туруор" v tv coop ger_aor px3pl acc
-  "туруорус" ???
+	"туруор" v tv coop gpr_aor subst pl acc
+	"туруорус" v tv ger_aor pl acc
 
 "<Кыраһын>"
 	"кырадаһын" n nom
@@ -579,7 +579,7 @@
 	"дьиксин" v iv pii p3 sg
 	"дьиксин" v iv ger_aor px3sg nom
 	"дьиксин" v iv ger_aor px3sg nom
-		"э cop aor p3 sg
+		"э" cop aor p3 sg
 
 "<күһэлинниллэр>"
 	"күһэлин" v iv ???
