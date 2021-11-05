@@ -1,6 +1,4 @@
-Sakha
-
-                            apertium-sah
+Sakha: `apertium-sah`
 ===============================================================================
 
 This is an Apertium monolingual language package for Sakha. What
@@ -11,7 +9,7 @@ you can use this language package for:
 * Part-of-speech tagging of Sakha
 
 Requirements
-===============================================================================
+-------------------------------------------------------------------------------
 
 You will need the following software installed:
 
@@ -23,7 +21,7 @@ You will need the following software installed:
 If this does not make any sense, we recommend you look at: apertium.org
 
 Compiling
-===============================================================================
+-------------------------------------------------------------------------------
 
 Given the requirements being installed, you should be able to just run:
 
@@ -31,7 +29,7 @@ $ ./configure
 $ make
 
 You can use ./autogen.sh instead of ./configure if you're compiling
-from SVN.
+from source.
 
 If you're doing development, you don't have to install the data, you
 can use it directly from this directory.
@@ -46,7 +44,7 @@ but make sure to use the same prefix when installing the translation
 pair and any other language packages.
 
 Testing
-===============================================================================
+-------------------------------------------------------------------------------
 
 If you are in the source directory after running make, the following
 commands should work:
@@ -58,15 +56,14 @@ $ echo "TODO: test sentence" | apertium -d . sah-tagger
 TODO: test tagger result
 
 Files and data
-===============================================================================
+-------------------------------------------------------------------------------
 
-* apertium-sah.sah.dix           - Monolingual dictionary
-* apertium-sah.sah.lexc          - Morphotactic dictionary
-* apertium-sah.sah.twol          - Morphophonological rules
-* apertium-sah.sah.rlx           - Constraint Grammar disambiguation rules
-* apertium-sah.post-sah.dix      - Post-generator
-* sah.prob                       - Tagger model
-* modes.xml                      - Translation modes
+* [`apertium-sah.sah.lexc`](apertium-sah.sah.lexc) - Morphotactic dictionary
+* [`apertium-sah.sah.twol`](apertium-sah.sah.twol) - Morphophonological rules
+* [`apertium-sah.sah.rlx`](apertium-sah.sah.rlx) - Constraint Grammar disambiguation rules
+* [`apertium-sah.post-sah.dix`](apertium-sah.post-sah.dix) - Post-generator
+* [`sah.prob`](sah.prob) - Tagger model
+* [`modes.xml`](modes.xml) - Translation modes
 
 For more information
 ===============================================================================
@@ -91,4 +88,3 @@ If you need help using this language pair or data, you can contact:
 * IRC: `#apertium` on irc.oftc.net (irc://irc.oftc.net/#apertium)
 
 See also the file [`AUTHORS`](AUTHORS), included in this distribution.
-
