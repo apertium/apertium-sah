@@ -43,7 +43,7 @@ Apertium translation pair, then do (typically as root / with sudo):
 $ make install
 ```
 
-You can give a --prefix to ./configure to install as a non-root user,
+You can give a `--prefix` to `./configure` to install as a non-root user,
 but make sure to use the same prefix when installing the translation
 pair and any other language packages.
 
@@ -53,11 +53,15 @@ Testing
 If you are in the source directory after running make, the following
 commands should work:
 
+```bash
 $  echo "TODO: test sentence" | apertium -d . sah-morph
 TODO: test analysis result
+```
 
+```bash
 $ echo "TODO: test sentence" | apertium -d . sah-tagger
 TODO: test tagger result
+```
 
 Files and data
 -------------------------------------------------------------------------------
