@@ -102,6 +102,7 @@ Multichar_Symbols
 !%<gna_cond2%>      ! -ТАх/ТАҕIнА/etc.
 %<gna_abes%>       ! -BAккA = abessive verbal adverb ("without doing")
 %<gna_caus%>       ! -BIччI
+%<gna_suc%>        ! -ААт
 %<gna_goal%>       ! -AAрI
 !%<gna_nond%>       ! -A илик
 !%<gna_fut%>        !
@@ -936,6 +937,8 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 !   see https://github.com/apertium/apertium-sah/issues/5#issuecomment-560482709
 %<gna_plan%>:%>%{A%}%{A%}р%{I%} CLITICS-NO-COP ; ! "in order to"
 %<gna_plan%>:%>%{A%}%{A%}р%{I%} V-PERS-S1 ; ! "in order to"
+
+%<gna_suc%>:%>%{A%}%{A%}т CLITICS-NO-COP ; ! "successive" (for lack of a better name; English is "right after doing")
 
 %<gpr_unac%>:%>%{A%}% илик CLITICS-NO-COP ; ! unaccomplished
 
