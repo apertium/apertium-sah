@@ -159,9 +159,11 @@ Rules
 л:н <=> _ %{y%}:0 н: %{Noun%}: [ :Vow ]/[:0 - %{Noun%}:]* ;
 
 
-"н→т desonorisation"
-н:т <=> :VoicelessCns %{y%}:0 _ :Vow/:0* ;
+"н/л→т desonorisation"
+Cx:т <=> :VoicelessCns %{y%}:0 _ :Vow/:0* ;
+     where Cx in ( н л ) ;
 !@ у с {y}:0 н:т >:0 {A}:а {р}:р
+!@ у с {y}:0 л:т >:0 {A}:а {р}:р
 
 "н→д desonorisation"
 н:д <=> :HighSonCns %{y%}:0 _ :Vow/:0* ;
