@@ -34,6 +34,8 @@ Alphabet
    %{Н%}:н ! %{н%}:0
    
 	%{m%}:0 ! %{m%}:м
+	
+	%{О%}:о ! unstressed Russian о that doesn't trigger rounding harmony
 
    %{р%}:р
    %{Р%}:р %{Р%}:л
@@ -225,7 +227,7 @@ Cx:Cy <=> :HighSonCns [ [ :0 - Imaginary: ] | %-: ]* _ ;
       matched ;
 
 "Assimilation after voiceless consonants"
-Cx:Cy <=> :VoicelessCns [ [ :0 - Imaginary: ] | %-: ]* _ ;
+Cx:Cy <=> :VoicelessCns [ [ :0 - Imaginary: ] | %-: | ь: ]* _ ;
           %{с%}: [ [ :0 - Imaginary: ] | %-: ]* _ ;
       where Cx in ( %{L%} %{B%} )
             Cy in (   т     п   )
@@ -374,7 +376,7 @@ Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
 
 
 "vowel harmony for {I}"
-%{I%}:Vy <=  :Vx [ :0 - [ %{☭%}: | ImaginaryVow: ] ]* [ :Cons* :Cons ]/[ :0 - [ %{☭%}: | ImaginaryVow: | %{A%}: ] ]* _ ;
+%{I%}:Vy <=  [ :Vx - %{О%}: ] [ :0 - [ %{☭%}: | ImaginaryVow: ] ]* [ :Cons* :Cons ]/[ :0 - [ %{☭%}: | ImaginaryVow: | %{A%}: ] ]* _ ;
              %{I%}:Vx _ ;
              %{H%}:Vx _ ;
              :Vx [ :Cons* :Cons ]/[ :0 - [ %{☭%}: | ImaginaryVow: | %{A%}: ] ]* %{A%}:0 (%>:) _ [ %{I%}: | %{A%}: ]  ;
@@ -389,6 +391,19 @@ Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
                Vy in ( ы у ы у и и и ү ү ы )
          matched ;
 
+"vowel harmony after {О}"
+Vx:Vy <=  %{О%}: [ :Cons* :Cons ]/[ [ :0 - [ %{☭%}: | ImaginaryVow: | %{A%}: | %{I%}: ] ] | :ь ]* _ ;
+      except
+          ! following exceptions needed to avoid conflicts with {A} harmony
+          :ү :ө [ :Cons* :Cons]/:0* _ ;
+          :у :о [ :Cons* :Cons]/:0* _ ;
+          %{☭%}: [ :Cons* :Cons ]/:0* _ ;
+          .#. ( :Cons (:ь) ) RealVow: RealVow: %>: (%{A%}:) _ ;
+          _ %>: %{I%}: [ %{I%}: | %{A%}: ]  ;
+      where Vx in ( %{A%} %{I%} )
+            Vy in (   а     ы   )
+      matched ;
+
 "vowel harmony for {H}"
 %{H%}:Vy <=> :Vx [ :Cons* :Cons ]/[ :0 - %{☭%}: ]* _ ;
          where Vx in ( а о ы у э е и ө ү я )
@@ -401,7 +416,7 @@ Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
 !@ б у о л >:0 {I}:у {A}:а х >:0 т {A}:а {A}:а х
 
 "vowel harmony for {A} except after уо and үө"
-%{A%}:Vy <=  :Vx [ :Cons* :Cons ]/[ [ :0 - [ %{☭%}: | ImaginaryVow: ] ] | :ь ]* _ ;
+%{A%}:Vy <=  [ :Vx - %{О%}: ] [ :Cons* :Cons ]/[ [ :0 - [ %{☭%}: | ImaginaryVow: ] ] | :ь ]* _ ;
              ! :Cons :Vx _ ;  ! FIXME: When does this happen?
              %{A%}:Vx _ ;
          except
