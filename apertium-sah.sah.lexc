@@ -836,7 +836,8 @@ LEXICON V-IMP  ! Imperatives
 LEXICON V-IMP-P3
 
 %<p3%>%<sg%>:%>%{T%}%{I%}н CLIT-EMPH ;
-%<p3%>%<pl%>:%>%{T%}%{I%}н%>%{L%}%{A%}р CLIT-EMPH ;
+%<p3%>%<pl%>:%>%{T%}%{I%}н%>%{L%}%{A%}р CLIT-EMPH ;  ! Dir/LR FIXME: Check
+%<p3%>%<pl%>:%>%{T%}%{I%}н%{A%}р CLIT-EMPH ;
 
 LEXICON V-IMP-P12
 
@@ -844,7 +845,7 @@ LEXICON V-IMP-P12
 %<p2%>%<sg%>: CLIT-EMPH ;
 %<p1%>%<du%>:%>%{I%}%{A%}х CLIT-EMPH ;
 %<p1%>%<pl%>:%>%{I%}%{A%}х%>%{I%}ҥ CLIT-EMPH ;
-%<p1%>%<pl%>:%>%{I%}%{A%}х%{A%}й%{I%}ҥ CLIT-EMPH ; ! Dir/LR
+%<p1%>%<pl%>:%>%{I%}%{A%}х%>х%{A%}й%>%{I%}ҥ CLIT-EMPH ; ! Dir/LR
 %<p2%>%<pl%>:%>%{i%}ҥ CLIT-EMPH ; 
 
 
