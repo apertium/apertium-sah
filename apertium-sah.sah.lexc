@@ -51,7 +51,7 @@ Multichar_Symbols
 
 %<px1sg%>          !
 %<px2sg%>          !
-!%<px3sp%>          !
+%<px3sp%>          !
 %<px3sg%>          !
 %<px1pl%>          !
 %<px2pl%>          !
@@ -296,17 +296,18 @@ CASES-ETC ;
 %<px2sg%>:%>%{G%}%{I%} CASES-POSS-12SG ;
 %<px2sg%>%<dat%>:%>%{G%}%{A%}р # ; 
 !%<px3sp%>:%>%{t%}%{I%} CASES-POSS-3SP ; ! Dir/RL ! FIXME: check!
-%<px3sg%>:%>%{t%}%{I%} CASES-POSS-3SP ;
+!%<px3sg%>:%>%{t%}%{I%} CASES-POSS-3SP ;
 %<px1pl%>:%>%{B%}%{I%}т%{I%} CASES-POSS-3SP ;
 %<px2pl%>:%>%{G%}%{I%}т%{I%} CASES-POSS-3SP ;
 
 LEXICON POSS-PX3PL-OBL-SG
 
 %<px3pl%>:%>%{L%}%{A%}р%{I%} CASES-POSS-3SP ;
+%<px3sg%>:%>%{t%}%{I%} CASES-POSS-3SP ;
 
 LEXICON POSS-PX3PL-OBL-PL
 
-%<px3pl%>:%>%{t%}%{I%} CASES-POSS-3SP ;
+%<px3sp%>:%>%{t%}%{I%} CASES-POSS-3SP ;
 
 LEXICON POSS-OBL-PL
 
@@ -329,17 +330,18 @@ CASES-ETC ;
 %<px1sg%>:%>%{i%}м CASES-NOM ;
 %<px2sg%>:%>%{i%}ҥ CASES-NOM ;
 !%<px3sp%>:%>%{t%}%{A%} CASES-NOM ; ! Dir/RL ! FIXME: check!
-%<px3sg%>:%>%{t%}%{A%} CASES-NOM ;
+!%<px3sg%>:%>%{t%}%{A%} CASES-NOM ;
 %<px1pl%>:%>%{B%}%{I%}т CASES-NOM ;
 %<px2pl%>:%>%{G%}%{I%}т CASES-NOM ;
 
 LEXICON POSS-PX3PL-NOM-SG
 
 %<px3pl%>:%>%{L%}%{A%}р%{A%} CASES-NOM ;
+%<px3sg%>:%>%{t%}%{A%} CASES-NOM ;
 
 LEXICON POSS-PX3PL-NOM-PL
 
-%<px3pl%>:%>%{t%}%{A%} CASES-NOM ;
+%<px3sp%>:%>%{t%}%{A%} CASES-NOM ;
 
 LEXICON POSS-NOM-PL
 
