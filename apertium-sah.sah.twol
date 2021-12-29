@@ -216,8 +216,8 @@ Cx:Cy <=> :Nasal [ [ :0 - [ т: | Imaginary: ] ] | %-: ]* _ ;
       matched ;
 
 "Assimilation after high-sonority obstruents"
-Cx:Cy <=> :HighSonCns [ [ :0 - Imaginary: ] | %-: ]* _ ;
-          %{йр%}: [ [ :0 - ImaginaryCons: ] | %-: ]* _ ;
+Cx:Cy <=> :HighSonCns [ [ :0 - Imaginary: ] | %-: | :ь ]* _ ;
+          %{йр%}: [ [ :0 - ImaginaryCons: ] | %-: | :ь ]* _ ;
       except
 !          %{р%}:/:0* _ ;          ! not necessary apparently
           %{Р%}:/:0* _ ;
