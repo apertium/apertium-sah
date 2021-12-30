@@ -173,7 +173,7 @@ Cx:т <=> :VoicelessCns %{y%}:0 _ :Vow/:0* ;
 
 "т→д voicing"
 т:д <=> [ :HighSonCns | :Nasal ] %{y%}:0 _ [ :Vow - %{ь%}: ]/[:0 - %{ь%}:]* ;
-        [ :HighSonCns ] _ %{☭%}: %>: (:0*) :Vow ;
+!        [ :HighSonCns ] _ %{☭%}: %>: (:0*) :Vow ;
     except
         _ :* %{❗%}: ;
 
