@@ -173,12 +173,15 @@ Cx:т <=> :VoicelessCns %{y%}:0 _ :Vow/:0* ;
 
 "т→д voicing"
 т:д <=> [ :HighSonCns | :Nasal ] %{y%}:0 _ [ :Vow - %{ь%}: ]/[:0 - %{ь%}:]* ;
+        [ :HighSonCns ] _ %{☭%}: %>: (:0*) :Vow ;
     except
         _ :* %{❗%}: ;
 
 !@ с ы {рл}:л {y}:0 т:д {ь}:ь >:0 {A}:а {р}:р
 ! but not here:
 !@ и с:һ {у}:0 т >:0 {A}:а {р}:л >:0 {L}:л {A}:а р
+
+!@ с п о р т:д {☭}:0 >:0 {n}:0 {I}:у
 
 "р→т assimilation"
 р:т <=> _ %{y%}:0 т: %{❗%}: ;
@@ -342,17 +345,22 @@ Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
                Vy in (   а     э     ө     о     а     э     э   )
          matched ;
 
+"{i} vowel harmony after imaginary staff"
+%{i%}:Vy <= Vx: :Cons [ [ :0 - ImaginaryVow: ] | :%- ]* _ ;
+         except
+            _ %>: %{A%}: ;
+         where Vx in ( %{а%} %{э%} %{ө%} %{о%} %{у%} %{ү%} %{и%} )
+               Vy in (   ы     и     ү     у     у     ү     и   )
+         matched ;
 
 "vowel harmony for {i}"
-%{i%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
+%{i%}:Vy <= :Vx [ :Cons* :Cons ]/[ :0 - [ %{☭%}: | ImaginaryVow: ] ]* _ ;
          except 
              _ %>: %{A%}: ; ! because {i}:0 >:0 {A}: 
                 !@ э:э {T}:т {i}:0 >:0 {A}:э
          where Vx in ( а о ы у э е и ө ү я )
                Vy in ( ы у ы у и и и ү ү ы )
          matched ;
-
-
 
 "vowel harmony for {y}"
 %{y%}:Vy <=> :Vx [ :Cons* :Cons ]/:0* _ ;
@@ -532,10 +540,20 @@ Vx:Vy <=> _ %>: %{I%}: %{I%}: ;
 
 !FIXME 
 "vowel harmony for {I} after back harmony marker"
-%{I%}:ы <= :Vow [ :Cons* :Cons ]/[ :0 - ImaginaryVow: ]* _ ;
+%{I%}:Vy <= :Vx [ :Cons* :Cons ]/[ :0 - ImaginaryVow: ]* _ ;
+            ! [ %{ъ%}: | %{☭%}: ] %>: [ :Cons* ]/:0* _ ;            
+         except
+            :Vow [ :Cons* :Cons ]/[ :0 - %{☭%}: ]* _ ;
+         where Vx in ( а о ы у э е и ө ү я )
+               Vy in ( ы у ы у ы ы ы ы ы ы )
+         matched ;
+
+"vowel harmony for {i} after back harmony marker"
+%{i%}:ы <= :Vow [ :Cons* :Cons ]/[ :0 - ImaginaryVow: ]* _ ;
             ! [ %{ъ%}: | %{☭%}: ] %>: [ :Cons* ]/:0* _ ;            
         except
             :Vow [ :Cons* :Cons ]/[ :0 - %{☭%}: ]* _ ;
+
 
 
 
