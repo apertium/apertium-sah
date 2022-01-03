@@ -965,6 +965,8 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 %<neg%>%<gpr_past%>:%>%{B%}%{A%}т%{A%}х CLITICS-NO-COP ; !
 
 %<ger_pot%>:%>%{I%}%{A%} GER-SUBST-NOM ;
+%<neg%>%<ger_pot%>:%>%{I%}%{A%}% суох GER-SUBST ;
+
 %<ger_fut%>:%>%{I%}%{A%}х GER-SUBST ; !
 %<neg%>%<ger_fut%>:%>%{I%}м%>%{I%}%{A%}х GER-SUBST ; !
 
