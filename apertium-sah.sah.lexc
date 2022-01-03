@@ -944,6 +944,7 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 %<gna_plan%>:%>%{A%}%{A%}р%{I%} V-PERS-S1 ; ! "in order to"
 
 %<gna_suc%>:%>%{A%}%{A%}т CLITICS-NO-COP ; ! "successive" (for lack of a better name; English is "right after doing")
+%<neg%>%<gna_suc%>:%>%{I%}м%>%{A%}%{A%}т CLITICS-NO-COP ; ! "successive" (for lack of a better name; English is "right after doing")
 
 %<gpr_unac%>:%>%{A%}% илик CLITICS-NO-COP ; ! unaccomplished
 
@@ -965,7 +966,7 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
 
 %<ger_pot%>:%>%{I%}%{A%} GER-SUBST-NOM ;
 %<ger_fut%>:%>%{I%}%{A%}х GER-SUBST ; !
-%<neg%>%<ger_fut%>:%>%{I%}м%{I%}%{A%}х GER-SUBST ; !
+%<neg%>%<ger_fut%>:%>%{I%}м%>%{I%}%{A%}х GER-SUBST ; !
 
 
 %<ger_hab%>:%>%{A%}%{A%}чч%{I%} GER-SUBST ;
