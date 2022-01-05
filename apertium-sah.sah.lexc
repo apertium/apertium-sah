@@ -1151,8 +1151,9 @@ LEXICON Miscellaneous
 
 LEXICON Copula
 
-э%<cop%>%<aor%>%<evid%>:эбит V-PERS-S1 ;
-э%<cop%>%<past%>:э%{T%}%{i%} V-PERS-S2 ;
+э%<cop%>%<past%>:э%>%{B%}%{I%}т V-PERS-S2 ;
+э%<cop%>%<get_past%>:э%>%{B%}%{I%}т V-PERS-S2 ;
+э%<cop%>%<ifi%>:э%>%{T%} V-PERS-IFI ;
 
 LEXICON Conjunctions 
 
@@ -10478,6 +10479,9 @@ LEXICON Adjectives
 күүрүүлээх:күүрүүлээх A4 ; ! ""
 куораттаах:куораттаах A4 ; ! ""
 
+ардыларынааҕы:ардыларынааҕы A4 ; ! ""
+сиринээҕи:сиринээҕи A4 ; ! ""
+
 LEXICON Adverbs 
 
 соҕус:соҕус POSTADV ; ! "enough (?)"
@@ -10562,6 +10566,8 @@ LEXICON Adverbs
 биллэн% турар:биллэн% турар ADV ; ! "" ! Use/MT ! Dir/RL
 ол% иһин:ол% иһин ADV ; ! "" ! Use/MT ! Dir/RL
 түргэнник:түргэнник ADV ; ! "быстро; fastly"
+
+илдьэ:илдьэ ADV ; ! "(used as "carrying" in MWE verbs)" ! Use/Multi ! FIXME
 
 аллара:аллара ADV ; ! "внизу"
 ардыгар:ардыгар ADV ; ! "иногда; sometimes"
