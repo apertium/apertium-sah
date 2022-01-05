@@ -421,6 +421,10 @@ LEXICON N1
 %<n%>: SUBST ;
 %<n%>: LII-POSTPOSITION ;
 
+LEXICON N1-IRREG-PL
+
+%<n%>%<pl%>: N-INFL-COMMON-PL ;
+
 LEXICON N-COMPOUND-PX-COMMON
 
 :%>%{t%}%{A%} CASES-NOM ;
@@ -1916,7 +1920,8 @@ LEXICON Nouns
 уйадыйыы:уйадыйыы N1 ; ! "умиление, растроганность"
 уктаа:уктаа N1 ; ! "петля"
 ультиматум:ультиматум N1 ; ! "ультиматум"
-уол:уол N1 ; ! "сын"
+уол:уол N1 ; ! "сын; boy, son"
+уол:уолат%>%{L%}%{A%}р N1-IRREG-PL "weight: -0.1" ; ! irregular plural
 уос:уос N1 ; ! "губа"
 уот:уот N1 ; ! "огонь"
 ураниум:ураниум N1 ; ! "уран"
@@ -3313,7 +3318,6 @@ yy:yy N1 ; ! "вода"
 үҥкүү:үҥкүү N1 ; ! "dance"
 үҥүү:үҥүү N1 ; ! "praying, worshipping"
 уолба:уолба N1 ; ! "subsided"
-уол:уол N1 ; ! "boy, son"
 үөн% көйүүр:үөн% көйүүр N1 ; ! "worms"
 үөн:үөн N1 ; ! "worm;"
 уорба:уорба N1 ; ! "suspicion"
