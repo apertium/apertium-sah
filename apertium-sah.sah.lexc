@@ -875,8 +875,8 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 %<aor%>:%>%{A%}%{р%} V-PERS-S1 ;
 %<neg%>%<aor%>:%>%{B%}%{A%}т V-PERS-S1 ; 
 
-%<past%>:%>%{B%}%{I%}т V-PERS-S2 ; ! FIXME: check
-%<neg%>%<past%>:%>%{B%}%{A%}т%{A%}х V-PERS-S2 ; ! FIXME: check -S1 or -S2 ?
+%<past%>:%>%{B%}%{I%}т V-PERS-S1 ; ! FIXME: check
+%<neg%>%<past%>:%>%{B%}%{A%}т%{A%}х V-PERS-S1 ; ! FIXME: check -S1 or -S2 ?
 
 %<pii%>:%>%{A%}%{Р%}% эт V-PERS-S2 ; ! Dir/LR
 %<neg%>%<pii%>:%>%{B%}%{A%}т% эт V-PERS-S2 ;  ! Dir/LR
@@ -1155,7 +1155,7 @@ LEXICON Miscellaneous
 
 LEXICON Copula
 
-э%<cop%>%<past%>:э%>%{B%}%{I%}т V-PERS-S2 ;
+э%<cop%>%<past%>:э%>%{B%}%{I%}т V-PERS-S1 ;
 э%<cop%>%<ger_past%>:э%>%{B%}%{I%}т GER-SUBST ;
 э%<cop%>%<ifi%>:э%>%{T%} V-PERS-IFI ;
 
