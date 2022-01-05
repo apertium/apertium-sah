@@ -43,3 +43,13 @@ Tests:
   "Regular passive forms":
     оҥор<v><tv><pass><aor><p3><sg> : оҥоруллар
     оҥор<v><tv><pass><past><p3><sg> : оҥоруллубута
+
+  "Passives of forms with {y}":
+    оҥоһун<v><tv><pass><ifi><p1><pl> : оҥоһуллубут
+    оҥоһун<v><tv><pass><imp><p2><sg> : оҥоһулун
+    иһит<v><tv><pass><imp><p2><sg> : иһилин
+    уһул<v><tv><pass><imp><p2><sg> : уһулун
+    оҕус<v><tv><pass><imp><p2><sg> : охсулун
+    тутун<v><tv><pass><imp><p2><sg> : тутулун
+    үтүгүн<v><tv><pass><imp><p2><sg> : үтүгүлүн
+    умун<v><tv><pass><imp><p2><sg> : умулун
