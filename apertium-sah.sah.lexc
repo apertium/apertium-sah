@@ -163,6 +163,7 @@ Multichar_Symbols
 %{D%}              ! д/т alternation at the end of some verbs (cf. тарт)
 %{н%}              ! Reflexive н that deletes before passive
 %{т%}              ! Derivational (caus?) т that deletes before passive
+%{лл%}              ! Derivational л that deletes before passive
 %{й%}              ! Verb-stem-final й that deletes before passive
 %{ь%}              ! Disappearing ь
 %{ы%}              ! appears as high vowel before BIт in passive and some verbs with epenthetic vowels; otherwise 0
@@ -12281,7 +12282,7 @@ LEXICON Verbs
 уурат:уурат V-TV ; ! "dismiss, make stop"
 уһаар:уһаар V-TV ; ! "cause float"
 уһуй:уһуй V-TV ; ! "teach, train, habituate to"
-уһул:ус%{y%}л V-TV ; ! "take off, dismiss"
+уһул:ус%{y%}%{лл%} V-TV ; ! "take off, dismiss"
 хаай:хаай V-TV ; ! "lock up, lock in"
 хаам:хаам V-IV ; ! "walk"
 харай:харай V-TV ; ! "hide away, take good care"
