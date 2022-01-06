@@ -171,11 +171,14 @@ Cx:л <=> :л %{y%}:0 _ [ :Vow ]/[:0 - %{Noun%}:]* ;
 
 "н/л→т desonorisation"
 Cx:т <=> :VoicelessCns %{y%}:0 _ :Vow/:0* ;
-     except
-         _ (%{ы%}:) %>: %{i%}: :л ;
-     where Cx in ( н л %{н%} ) ;
+     where Cx in ( н л ) ;
 !@ у с {y}:0 н:т >:0 {A}:а {р}:р
 !@ у с {y}:0 л:т >:0 {A}:а {р}:р
+"%{н%}→т desonorisation"
+%{н%} <=> :VoicelessCns %{y%}:0 _ :Vow/:0* ;
+      except
+          _ (%{ы%}:) %>: %{i%}: :л ;
+!@ а х {y}:0 н:т >:0 {i}:ы л {y}:ы н {ы}:0
 
 "н→д desonorisation"
 н:д <=> :HighSonCns %{y%}:0 _ :Vow/:0* ;
