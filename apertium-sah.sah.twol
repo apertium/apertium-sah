@@ -45,7 +45,7 @@ Alphabet
 
    %{рл%}:р ! р except before л, then л
 
-   %{D%}:т %{D%}:д ! д before a vowel, otherwise т
+   %{D%}:т %{D%}:д %{D%}:0 ! д before a vowel, otherwise т
 
    %{н%}:н ! Reflexive н that deletes before passive
    %{т%}:т ! Derivational т that deletes before passive
@@ -208,7 +208,10 @@ Cx:т <=> :VoicelessCns %{y%}:0 _ :Vow/:0* ;
 !%{D%}:т <=> _ :0* :Cons ;
 !            _ :0* .#. ;
 "{D} as д before a vowel"
-%{D%}:д <=> _ [ :0 - %{T%}: ]* :Vow ;
+%{D%}:д <=> _ [ :0 - [ %{T%}: | %{G%}: ] ]* :Vow ;
+
+"{D} deletes before certain archiphonemes"
+%{D%}:0 <=> _ [ :0 - Imaginary: ]* [ %{G%}: | %{T%}: ] ;
 
 ! {T} excluded because of т а р {D}:т > {T}:0 > {A}:а
 
@@ -223,15 +226,15 @@ Cx:т <=> :VoicelessCns %{y%}:0 _ :Vow/:0* ;
 !!!== progressive assimilation ==!!!
 
 "Assimilation after nasals"
-Cx:Cy <=> :Nasal [ [ :0 - [ т: | Imaginary: ] ] | %-: ]* _ ;
-          %{м%}: [ [ :0 - Imaginary: ] | %-: ]* _ ;
+Cx:Cy <=> :Nasal [ [ :0 - [ т: | Imaginary: | %{D%}: ] ] | %-: ]* _ ;
+          %{м%}: [ [ :0 - [ Imaginary: | %{D%}: ] ] | %-: ]* _ ;
       where Cx in ( %{L%} %{T%} %{G%} %{B%} )
             Cy in (   н     н     ҥ     м   )
       matched ;
 
 "Assimilation after high-sonority obstruents"
-Cx:Cy <=> :HighSonCns [ [ :0 - Imaginary: ] | %-: | :ь ]* _ ;
-          %{йр%}: [ [ :0 - ImaginaryCons: ] | %-: | :ь ]* _ ;
+Cx:Cy <=> :HighSonCns [ [ :0 - [ Imaginary: | %{D%}: ] ] | %-: | :ь ]* _ ;
+          %{йр%}: [ [ :0 - [ ImaginaryCons: | %{D%}: ] ] | %-: | :ь ]* _ ;
       except
 !          %{р%}:/:0* _ ;          ! not necessary apparently
           %{Р%}:/:0* _ ;
@@ -251,10 +254,11 @@ Cx:Cy <=> :VoicelessCns [ [ :0 - Imaginary: ] | %-: | ь: ]* _ ;
 %{T%}:л <=> [ :л | %{л%}: ] [ [ :0 - Imaginary: ] | %-: ]* _ ; 
 
 "{G} after х"
-%{G%}:х <=> :х [ [ :0 - Imaginary: ] | %-: ]*  _ ;
+%{G%}:х <=> :х [ [ :0 - [ Imaginary: | %{D%}:0 ] ] | %-: ]*  _ ;
 
 "{G} after voiceless consonants besides х"
-%{G%}:к <=> [ [ :VoicelessCns - :х ] | [ ImaginaryVoicelessCns: - %{х%}: ] ] [ [ :0 - Imaginary: ] | %-: ]* _ ;
+%{G%}:к <=> [ [ :VoicelessCns - :х ] | [ ImaginaryVoicelessCns: - %{х%}: ] ] [ [ :0 - [ Imaginary: | %{D%}: ] ] | %-: ]* _ ;
+            %{D%}:0 [ :0 - [ Imaginary: | %{D%}: ] ]* _ ;
 
 "some consonants turn to д for дь stuff"
 Cx:д <=> %{рл%}:л %{y%}:0 _ %{ь%}: ;
@@ -349,7 +353,7 @@ Cx:Cy <=> :Vow/:0* _ [ %>: :Vow]/[ :0 - %>: ]* ;
 
 
 "{G} after low vowel"
-%{G%}:ҕ <=> [ :LowVow | ImaginaryLowVow: ] [ [ :0 - Imaginary: ] | %-: ]* _ ;
+%{G%}:ҕ <=> [ :LowVow | ImaginaryLowVow: ] [ [ :0 - [ Imaginary: | %{D%}: ] ] | %-: ]* _ ;
             !@ Е в р о п а >:0 {G}:ҕ {A}:а
 
 
@@ -587,8 +591,8 @@ Vx:Vy <=> _ %>: %{I%}: %{I%}: ;
 !!!== Defaults that shouldn't be necessary ==!!!
 
 "{G} after high vowel"
-%{G%}:г <=> [ :HighVow | ImaginaryHighVow: ] [ [ :0 - Imaginary: ] | %-: ]* _ ;
-            [ [ :HighSonCns | [ л: - :0 ] | %{йр%}: | %{л%}: ] - :Nasal ] [ [ :0 - Imaginary: ] | %-: ]*  _ ;
+%{G%}:г <=> [ :HighVow | ImaginaryHighVow: ] [ [ :0 - [ Imaginary: | %{D%}: ] ] | %-: ]* _ ;
+            [ [ :HighSonCns | [ л: - :0 ] | %{йр%}: | %{л%}: ] - :Nasal ] [ [ :0 - [ Imaginary: | %{D%}: ] ] | %-: ]*  _ ;
 
 !@ с ы л >:0 {G}:г {A}:а
 
