@@ -150,20 +150,29 @@ Rules
 
 ! FIXME: These two rules should probably be generalised
 "н→ҥ assimilation"
-н:ҥ <=> _ :ҥ/:0 ; 
+Cx:ҥ <=> _ :ҥ/:0 ; 
+     except
+         _ (%{ы%}:) %>: %{i%}: :л ;
+     where Cx in ( н %{н%} ) ;
 
 "н→м assimilation"
-н:м <=> _ (%{☭%}:) %>: %{B%}: ; 
+Cx:м <=> _ (%{☭%}:) %>: %{B%}: ; 
+     where Cx in ( н %{н%} ) ;
 
 "н→л assimilation for verbs"
-н:л <=> :л %{y%}:0 _ [ :Vow ]/[:0 - %{Noun%}:]* ;
+Cx:л <=> :л %{y%}:0 _ [ :Vow ]/[:0 - %{Noun%}:]* ;
+     except
+         _ (%{ы%}:) %>: %{i%}: :л ;
+     where Cx in ( н %{н%} ) ;
 
 "л→н assimilation for nouns"
 л:н <=> _ %{y%}:0 [ н: - :0 ] %{Noun%}: [ :Vow ]/[:0 - %{Noun%}:]* ;
 
 "н/л→т desonorisation"
 Cx:т <=> :VoicelessCns %{y%}:0 _ :Vow/:0* ;
-     where Cx in ( н л ) ;
+     except
+         _ (%{ы%}:) %>: %{i%}: :л ;
+     where Cx in ( н л %{н%} ) ;
 !@ у с {y}:0 н:т >:0 {A}:а {р}:р
 !@ у с {y}:0 л:т >:0 {A}:а {р}:р
 
@@ -296,7 +305,10 @@ Vx:0 <=> _ %>: %{A%}: %{A%}: ;
 
 "shorter passive when consonant deletes"
 н:0 <=> [ %{н%}:0 | %{т%}:0 | %{й%}:0 ]  (%{ы%}:) %>: %{i%}: л: %{y%}: _ %{ы%}: %>: ;
-
+    except
+        _ :ҥ/:0 ;  ! avoid conflict for н→ҥ assimilation
+        :л %{y%}:0 _ [ :Vow ]/[:0 - %{Noun%}:]* ; ! avoid conflict for н→л assimilation
+        :VoicelessCns %{y%}:0 _ :Vow/:0* ; ! avoid conflict for н/л→т desonorisation
 
 !!!== epenthesis ==!!!
 
