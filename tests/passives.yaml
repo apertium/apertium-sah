@@ -23,12 +23,18 @@ Tests:
     баай<v><tv><ifi><p1><sg> : баайдым
     тиий<v><iv><pass><imp><p2><sg> : тиийилин
     тиий<v><iv><ifi><p1><sg> : тиийдим
-    эрэй<v><iv><pass><imp><p2><sg> : эрэйилин
-    эрэй<v><iv><ifi><p1><sg> : эрэйдим
+    эрэй<v><tv><pass><imp><p2><sg> : эрэйилин
+    эрэй<v><tv><ifi><p1><sg> : эрэйдим
 
   "Verbs where final н deletes in passive":
     мунньун<v><tv><pass><imp><p2><sg> : мунньулун
     мунньун<v><tv><imp><p2><sg> : мунньун
+    тутун<v><tv><pass><imp><p2><sg> : тутулун
+    үтүгүн<v><tv><pass><imp><p2><sg> : үтүгүлүн
+    умун<v><tv><pass><ifi><p1><pl> : умуллубут
+    умун<v><tv><pass><imp><p2><sg> : умулун
+    оҥоһун<v><tv><pass><ifi><p1><pl> : оҥоһуллубут
+    оҥоһун<v><tv><pass><imp><p2><sg> : оҥоһулун
 
   "Verbs where final н does not delete in passive":
     туһан<v><tv><pass><imp><p2><sg> : туһанылын
@@ -42,14 +48,10 @@ Tests:
 
   "Regular passive forms":
     оҥор<v><tv><pass><aor><p3><sg> : оҥоруллар
-    оҥор<v><tv><pass><past><p3><sg> : оҥоруллубута
+    оҥор<v><tv><pass><past><p3><sg> : оҥоруллубут
 
-  "Passives of forms with {y}":
-    оҥоһун<v><tv><pass><ifi><p1><pl> : оҥоһуллубут
-    оҥоһун<v><tv><pass><imp><p2><sg> : оҥоһулун
+  "Misc passives of forms with {y}":
     иһит<v><tv><pass><imp><p2><sg> : иһилин
     уһул<v><tv><pass><imp><p2><sg> : уһулун
     оҕус<v><tv><pass><imp><p2><sg> : охсулун
-    тутун<v><tv><pass><imp><p2><sg> : тутулун
-    үтүгүн<v><tv><pass><imp><p2><sg> : үтүгүлүн
-    умун<v><tv><pass><imp><p2><sg> : умулун
+
