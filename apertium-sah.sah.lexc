@@ -84,7 +84,8 @@ Multichar_Symbols
 %<ded%>            ! Deductive: TAҕA
 %<aor%>            !
 %<ifi%>            !
-%<past%>           !
+%<past%>           ! general past, used for -BIт
+%<plu%>            ! "pluperfect", used for -BIтA
 %<imp%>            !
 %<pros%>           !
 %<epis%>           !
@@ -877,8 +878,11 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 %<aor%>:%>%{A%}%{р%} V-PERS-S1 ;
 %<neg%>%<aor%>:%>%{B%}%{A%}т V-PERS-S1 ; 
 
-%<past%>:%>%{B%}%{I%}т V-PERS-S2 ; ! FIXME: check
-%<neg%>%<past%>:%>%{B%}%{A%}т%{A%}х V-PERS-S2 ; ! FIXME: check -S1 or -S2 ?
+%<past%>:%>%{B%}%{I%}т V-PERS-S1 ;              ! "прошедшее результативное / past resultative" (at some point)
+%<neg%>%<past%>:%>%{B%}%{A%}т%{A%}х V-PERS-S1 ; ! "прошедшее результативное / past resultative" (at some point)
+
+%<plu%>:%>%{B%}%{I%}т V-PERS-S2 ;              ! "преждепрошедшее повествовательное / pluperfect narrative" (specific time)
+%<neg%>%<plu%>:%>%{B%}%{A%}т%{A%}х V-PERS-S2 ; ! "преждепрошедшее повествовательное / pluperfect narrative" (specific time)
 
 %<pii%>:%>%{A%}%{Р%}% эт V-PERS-S2 ; ! Dir/LR
 %<neg%>%<pii%>:%>%{B%}%{A%}т% эт V-PERS-S2 ;  ! Dir/LR
@@ -899,8 +903,8 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 ! %<resl%>:%>%{B%}%{I%}т V-PERS-S1 ; ! FIXME: check
 ! %<neg%>%<resl%>:%>%{B%}%{A%}т%{A%}х V-PERS-S1 ; ! FIXME: check -S1 or -S2 ?
 
-%<past%>%<evid%>:%>%{B%}%{I%}т% эбит V-PERS-S1 ; !
-%<past%>%<ded%>:%>%{T%}%{A%}х V-PERS-S2 ; !
+%<past%>%<evid%>:%>%{B%}%{I%}т% эбит V-PERS-S1 ; ! found out
+%<past%>%<ded%>:%>%{T%}%{A%}х V-PERS-S2 ; ! like guessing
 
 %<fut%>:%>%{I%}%{A%}х V-PERS-S2 ; ! future
 %<neg%>%<fut%>:%>%{I%}%{A%} V-PERS-NEGFUT ; ! future
