@@ -49,10 +49,23 @@ Tests:
 
   "Regular passive forms":
     оҥор<v><tv><pass><aor><p3><sg> : оҥоруллар
-    оҥор<v><tv><pass><past><p3><sg> : оҥоруллубута
+    оҥор<v><tv><pass><plu><<p3><sg> : оҥоруллубута
 
   "Misc passives of forms with {y}":
     иһит<v><tv><pass><imp><p2><sg> : иһилин
     уһул<v><tv><pass><imp><p2><sg> : уһулун
     оҕус<v><tv><pass><imp><p2><sg> : охсулун
 
+  "Issue number #17":
+    билин<v><iv><pass><aor><p3><sg> : билиниллэр
+    билин<v><iv><pass><past><p3><sg> : билиниллибит
+    билин<v><iv><pass><aor><p3><pl> : билиниллэллэр
+    сиэ<v><iv><pass><aor><p3><sg> : сиэниллэр
+    сиэ<v><iv><pass><past><p3><sg> : сиэниллибит
+    сиэ<v><iv><pass><past><p3><pl> : сиэниллибиттэр
+    ырастаа<v><tv><pass><aor><p3><sg> : ыраастаныллар
+    өйдөө<v><tv><pass><aor><p3><sg> : өйдөнүллэр
+    ирдээ<v><tv><pass><aor><p3><sg> : ирдэниллэр
+    хаччахтаа<v><tv><pass><aor><p3><sg> : хааччахтаныллар
+    тарҕаа<v><iv><pass><past><p3><sg> : тарҕаныллыбыт
+    баай<v><tv><pass><aor><p3><sg> : бааныллар
