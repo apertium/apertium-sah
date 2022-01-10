@@ -330,6 +330,9 @@ POSS-PX3PL-OBL-SG ;
 LEXICON POSS-NOM
 
 CASES-ETC ;
+POSS-NOM-ENDINGS ;
+
+LEXICON POSS-NOM-ENDINGS
 %<px1sg%>:%>%{i%}м CASES-NOM ;
 %<px2sg%>:%>%{i%}ҥ CASES-NOM ;
 !%<px3sp%>:%>%{t%}%{A%} CASES-NOM ; ! Dir/RL ! FIXME: check!
@@ -401,6 +404,7 @@ SUBST ;
 LEXICON GER-SUBST-NOM  ! when only <nom> comes after a gerund
 
 %<nom%>: # ;
+%<nom%>: POSS-NOM-ENDINGS ;
 
 
 LEXICON SUBST
