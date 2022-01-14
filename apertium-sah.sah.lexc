@@ -90,13 +90,16 @@ Multichar_Symbols
 %<pros%>           !
 %<epis%>           !
 !%<resl%>          ! I think this is an old equivalent of <past>? -JNW 2018-08-12
-%<nec%>            ! -IAxтAAх
+%<nec%>            ! -IAxтAAх (fut) / -AрдAAх (gnomic) = debitative mood
 %<pii%>            !
 %<fut%>            !
 %<unac%>           ! -A илик
 %<hab%>            ! -AAччI
 %<abes%>           ! -BAккA = abessive ("not do something in vain"?)
 %<cert%>           ! -IмIнA = certaintative ("of course ...")
+%<pot%>            ! -IIһI = affirmative mood, <pot> to match <ger_pot> etc.
+%<poss%>           ! -ААйА = possible mood
+%<irre%>           !	 irrealis
 
 %<gna_perf%>       ! -Aн
 %<gna_cond%>       ! -ТАр
@@ -899,10 +902,13 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 
 %<epis%>:%>%{B%}%{I%}тт%{A%}%{A%}х V-PERS-S1 ; ! FIXME: check
 
-!%<nec%>:%>%{А%}р%>д%{A%}%{A%}х V-PERS-S1 ; ! FIXME: check
+%<aor%>%<nec%>:%>%{A%}р%>д%{A%}%{A%}х V-PERS-S1 ;
 
-%<nec%>:%>%{I%}%{A%}х%>т%{A%}%{A%}х V-PERS-S1 ; ! FIXME: check
-%<neg%>%<nec%>:%>%{I%}%{A%}% суох%>т%{A%}%{A%}х V-PERS-S1 ; ! FIXME: check
+%<fut%>%<nec%>:%>%{I%}%{A%}х%>т%{A%}%{A%}х V-PERS-S1 ;
+%<neg%>%<fut%>%<nec%>:%>%{I%}%{A%}% суох%>т%{A%}%{A%}х V-PERS-S1 ;
+
+%<aor%>%<nec%>%<irre%>:%>%{A%}р%>д%{A%}%{A%}х% эт V-PERS-S2 ;
+%<fut%>%<nec%>%<irre%>:%>%{I%}%{A%}х%>т%{A%}%{A%}х% эт V-PERS-S2 ;
 
 ! %<resl%>:%>%{B%}%{I%}т V-PERS-S1 ; ! FIXME: check
 ! %<neg%>%<resl%>:%>%{B%}%{A%}т%{A%}х V-PERS-S1 ; ! FIXME: check -S1 or -S2 ?
@@ -920,6 +926,10 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE
 %<abes%>:%>%{B%}%{A%}кк%{A%} V-PERS-S1 ; ! abessive
 
 %<cert%>:%>%{I%}м%{I%}н%{A%} V-PERS-S1 ; ! for expressing certainty in statement
+
+%<pot%>:%>%{I%}%{I%}һ%{I%} V-PERS-S2 ;  ! for expressing "an action that may be realized, which the speaker affirms with a definite measure of certainty" (https://www.jehsmith.com/1/2021/03/verbal-mood-in-sakha-a-comprehensive-analysis.html)
+%<neg%>%<pot%>:%>%{I%}м%>%{I%}%{I%}һ%{I%} V-PERS-S2 ;
+%<neg%>%<pot%>:%>%{I%}%{A%}% суох V-PERS-S2 ;  ! Dir/LR
 
 
 LEXICON V-NONFINITE-REGULAR_NEGATIVE
