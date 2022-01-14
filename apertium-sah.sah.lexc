@@ -407,7 +407,7 @@ SUBST ;
 LEXICON GER-SUBST-NOM  ! when only <nom> comes after a gerund
 
 %<nom%>: # ;
-%<nom%>: POSS-NOM-ENDINGS ;
+POSS-NOM-ENDINGS ;
 
 
 LEXICON SUBST
