@@ -1189,7 +1189,8 @@ LEXICON Miscellaneous
 
 LEXICON Copula
 
-э%<cop%>%<past%>:э%>%{B%}%{I%}т V-PERS-S2 ;
+э%<cop%>%<past%>:э%>%{B%}%{I%}т V-PERS-S1 ;
+э%<cop%>%<plu%>:э%>%{B%}%{I%}т V-PERS-S2 ;
 э%<cop%>%<ger_past%>:э%>%{B%}%{I%}т GER-SUBST ;
 э%<cop%>%<ifi%>:э%>%{T%} V-PERS-IFI ;
 
