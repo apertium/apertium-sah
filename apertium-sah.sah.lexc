@@ -13,15 +13,15 @@ Multichar_Symbols
 %<post%>           ! Послелог
 %<det%>            ! Детерминатор
 %<adv%>            ! Наречие
-%<postadv%>        !
-%<vaux%>           ! 
-%<ij%>             ! 
+%<postadv%>        ! Посленаречие
+%<vaux%>           ! Помогительный глагол
+%<ij%>             ! Interjection
 %<cnjadv%>         ! Подчинительный союз
 %<cnjsub%>         ! Подчинительный союз; Sub-ordinating conjunction
 %<num%>            ! Число
 %<prn%>            ! Местоимение
-%<abbr%>           ! 
-%<qst%>            ! 
+%<abbr%>           ! Abbreviation
+%<qst%>            ! Question word
 %<cop%>            ! Связка
 %<mod%>            ! modal particle
 
@@ -29,10 +29,10 @@ Multichar_Symbols
 %<p2%>             ! 2. лицо
 %<p3%>             ! 3. лицо
 
-%<hu%>             !
+%<hu%>             ! Human
  
 %<sg%>             ! Единственное число
-%<du%>             !
+%<du%>             ! Dual
 %<pl%>             ! Множественное число
 
 %<iv%>             ! Непереходный
@@ -42,39 +42,39 @@ Multichar_Symbols
 %<pass%>           ! Passive
 
 %<nom%>            ! Именительный падеж
-%<par%>            ! 
+%<par%>            ! Partitive
 %<dat%>            ! Дательный падеж
 %<acc%>            ! Винительный падеж
 %<abl%>            ! Исходный падеж
 %<ins%>            ! Творительный падеж
-%<com%>            ! 
-%<comp%>           !
-%<loc%>            ! FIXME: check
+%<com%>            ! Comitative
+%<comp%>           ! Comparative
+%<loc%>            ! Совместный падеж FIXME: check
 
-%<px1sg%>          !
-%<px2sg%>          !
-%<px3sp%>          !
-%<px3sg%>          !
-%<px1pl%>          !
-%<px2pl%>          !
-%<px3pl%>          !
+%<px1sg%>          ! Possessive 1st person singular
+%<px2sg%>          ! Possessive 2nd person singular
+%<px3sp%>          ! Possessive 3rd person singular/plural
+%<px3sg%>          ! Possessive 3rd person singular
+%<px1pl%>          ! Possessive 1st person plural
+%<px2pl%>          ! Possessive 2nd person plural
+%<px3pl%>          ! Possessive 3rd person plural
 
-%<subst%>          !
-%<attr%>           ! 
+%<subst%>          ! Substantive
+%<attr%>           ! Attributive
 
-%<neg%>            !
+%<neg%>            ! Negative
 
-%<pers%>           ! Личное
-%<dem%>            ! 
-%<ind%>            !
+%<pers%>           ! Личный
+%<dem%>            ! Demonstrative
+%<ind%>            ! Indefinite
 %<itg%>            ! Вопросный
 %<qnt%>            ! Quantifier
-%<ord%>            !
-%<coll%>           !
+%<ord%>            ! Ordinal
+%<coll%>           ! Collective
 
-%<ant%>            !
-%<pat%>            !
-%<cog%>            ! 
+%<ant%>            ! Antroponym
+%<pat%>            ! Patronym
+%<cog%>            ! Cognomen
 %<top%>            ! Название места
 %<al%>             ! Другое
 %<org%>            ! Организация
@@ -84,17 +84,17 @@ Multichar_Symbols
 
 %<evid%>           ! Evidential, a.k.a. "indirect" / non-eyewitness / hearsay
 %<ded%>            ! Deductive: TAҕA
-%<aor%>            !
-%<ifi%>            !
+%<aor%>            ! Aorist
+%<ifi%>            ! Past
 %<past%>           ! general past, used for -BIт
 %<plu%>            ! "pluperfect", used for -BIтA
-%<imp%>            !
-%<pros%>           !
+%<imp%>            ! Imperative
+%<pros%>           ! Prospective
 %<epis%>           !
 !%<resl%>          ! I think this is an old equivalent of <past>? -JNW 2018-08-12
 %<nec%>            ! -IAxтAAх (fut) / -AрдAAх (gnomic) = debitative mood
-%<pii%>            !
-%<fut%>            ! 
+%<pii%>            ! Imperfect
+%<fut%>            ! Future
 %<unac%>           ! -A илик
 %<hab%>            ! -AAччI
 %<abes%>           ! -BAккA = abessive ("not do something in vain"?)
@@ -129,24 +129,24 @@ Multichar_Symbols
 %<ger_pros%>       ! -IAх     "prospective" gerund
 %<ger_unac%>       ! -А илик  "unaccomplished" gerund
 
-%<gpr_aor%>        ! 
-%<gpr_fut%>        !
+%<gpr_aor%>        ! Aorist
+%<gpr_fut%>        ! Future
 %<gpr_unac%>       ! -А илик
 
-%<prc_aor%>        ! 
+%<prc_aor%>        ! Aorist
 %<prc_impf%>       ! -A
 %<prc_perf%>       ! -Aн
-%<prc_fut%>        !
+%<prc_fut%>        ! Future
 
 
-%<sent%>           ! Sentence marker
-%<guio%>           ! Дефиз 
-%<cm%>             ! ,
-%<apos%>           ! '
-%<lquot%>          ! «
-%<rquot%>          ! »
-%<lpar%>           ! (
-%<rpar%>           ! )
+%<sent%>           ! . Sentence marker
+%<guio%>           ! - Дефиз 
+%<cm%>             ! , Comma
+%<apos%>           ! ' Apostrophe
+%<lquot%>          ! « Left quote
+%<rquot%>          ! » Right quote
+%<lpar%>           ! ( Left parenthesis
+%<rpar%>           ! ) Right parenthesis
 
 
 %{L%}              !
