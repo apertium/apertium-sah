@@ -5,26 +5,25 @@
 
 Multichar_Symbols 
 
+%<v%>              ! Глагол
 %<n%>              ! Имя существительное
 %<adj%>            ! Имя прилагательное
-%<np%>             ! 
-%<cnjcoo%>         ! 
-%<post%>           ! 
-%<det%>            ! 
-%<adv%>            ! 
+%<np%>             ! Имя ...
+%<cnjcoo%>         ! Союз
+%<post%>           ! Послелог
+%<det%>            ! Детерминатор
+%<adv%>            ! Наречие
 %<postadv%>        !
 %<vaux%>           ! 
 %<ij%>             ! 
-%<cnjadv%>         !
+%<cnjadv%>         ! Подчинительный союз
 %<cnjsub%>         ! Подчинительный союз; Sub-ordinating conjunction
 %<num%>            ! Число
 %<prn%>            ! Местоимение
-%<v%>              ! Глагол
 %<abbr%>           ! 
 %<qst%>            ! 
-%<cop%>            ! 
-%<coop%>           ! Cooperative
-%<pass%>           ! Passive
+%<cop%>            ! Связка
+%<mod%>            ! modal particle
 
 %<p1%>             ! 1. лицо
 %<p2%>             ! 2. лицо
@@ -36,16 +35,19 @@ Multichar_Symbols
 %<du%>             !
 %<pl%>             ! Множественное число
 
-%<iv%>             ! 
-%<tv%>             ! 
+%<iv%>             ! Непереходный
+%<tv%>             ! Переходный
+
+%<coop%>           ! Cooperative
+%<pass%>           ! Passive
 
 %<nom%>            ! Именительный падеж
-%<par%>            !
-%<dat%>            !
-%<acc%>            !
-%<abl%>            !
-%<ins%>            !
-%<com%>            !
+%<par%>            ! 
+%<dat%>            ! Дательный падеж
+%<acc%>            ! Винительный падеж
+%<abl%>            ! Исходный падеж
+%<ins%>            ! Творительный падеж
+%<com%>            ! 
 %<comp%>           !
 %<loc%>            ! FIXME: check
 
@@ -58,14 +60,14 @@ Multichar_Symbols
 %<px3pl%>          !
 
 %<subst%>          !
-%<attr%>           !
+%<attr%>           ! 
 
 %<neg%>            !
 
-%<pers%>           !
-%<dem%>            !
+%<pers%>           ! Личное
+%<dem%>            ! 
 %<ind%>            !
-%<itg%>            !
+%<itg%>            ! Вопросный
 %<qnt%>            ! Quantifier
 %<ord%>            !
 %<coll%>           !
@@ -77,8 +79,8 @@ Multichar_Symbols
 %<al%>             !
 %<org%>            !
 
-%<f%>              !
-%<m%>              !
+%<f%>              ! Женский
+%<m%>              ! Мужской
 
 %<evid%>           ! Evidential, a.k.a. "indirect" / non-eyewitness / hearsay
 %<ded%>            ! Deductive: TAҕA
@@ -92,7 +94,7 @@ Multichar_Symbols
 !%<resl%>          ! I think this is an old equivalent of <past>? -JNW 2018-08-12
 %<nec%>            ! -IAxтAAх (fut) / -AрдAAх (gnomic) = debitative mood
 %<pii%>            !
-%<fut%>            !
+%<fut%>            ! 
 %<unac%>           ! -A илик
 %<hab%>            ! -AAччI
 %<abes%>           ! -BAккA = abessive ("not do something in vain"?)
@@ -136,17 +138,15 @@ Multichar_Symbols
 %<prc_perf%>       ! -Aн
 %<prc_fut%>        !
 
-%<qst%>            !
-%<mod%>            ! modal particle
 
 %<sent%>           ! Sentence marker
 %<guio%>           ! Дефиз 
-%<cm%>             ! 
-%<apos%>           ! 
-%<rquot%>          ! 
-%<lquot%>          ! 
-%<rpar%>           ! 
-%<lpar%>           ! 
+%<cm%>             ! ,
+%<apos%>           ! '
+%<lquot%>          ! «
+%<rquot%>          ! »
+%<lpar%>           ! (
+%<rpar%>           ! )
 
 
 %{L%}              !
