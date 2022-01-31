@@ -49,7 +49,7 @@ Multichar_Symbols
 %<ins%>            ! Творительный падеж
 %<com%>            ! Comitative
 %<comp%>           ! Comparative
-%<loc%>            ! Совместный падеж FIXME: check
+%<loc%>            ! Местный падеж FIXME: check
 
 %<px1sg%>          ! Possessive 1st person singular
 %<px2sg%>          ! Possessive 2nd person singular
