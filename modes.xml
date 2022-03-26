@@ -40,8 +40,22 @@
       <program name="lt-proc -w">
         <file name="sah.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -w1">
         <file name="sah.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="sah-multi" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="sah.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w1">
+        <file name="sah.rlx.bin"/>
+      </program>
+      <program name="lsx-proc">
+        <file name="sah.autoseq.bin"/>
       </program>
     </pipeline>
   </mode>

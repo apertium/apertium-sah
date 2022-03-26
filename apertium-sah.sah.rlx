@@ -1,15 +1,104 @@
 # Firstly, we need to define what tags should be considered sentence delimiters. For this example, only full stop is set as delimiter.
 DELIMITERS = "<.>" ;
 
-# We can define sets for common tag clusters
-LIST Case = (n s) (n p) ; # A set that matches either a Noun Singular or a Noun Plural
+
+SUBREADINGS = LTR ; # Alternate, left-to-right (main reading on the left)
+
+# ============= #
+# Tags and sets #
+# ============= #
+
+SETS
+
+LIST BOS = (>>>) ;
+LIST EOS = (<<<) ;
+
+# First-level/Parts-of-speech tags
+# ================================
+
+LIST A = adj ;
+LIST Adv = adv ;
+LIST Pron = prn ;
+LIST Pron-Pers = (prn pers) ;
+LIST N = n ;
+LIST IJ = ij ;
+LIST Prop = np ;
+LIST V = v ;
+LIST Vaux = vaux ;
+LIST Cop = cop ;
+LIST Det = det ;
+LIST CC = cnjcoo ;
+LIST CS = cnjsub ;
+LIST Interj = ij ;
+LIST Pres = pres ;
+LIST Num = num ;
+LIST Post = post ;
+LIST Postadv = postadv ;
+LIST FinalClitic = mod_ass mod_emo mod qst emph ;
+LIST Cm = cm ;
+LIST Adv = adv ;
+LIST Rquot = rquot ;
+LIST Excl = "!" ;
+
+
+# POS sub-categories
+# ==================
+
+LIST Interr = itg ;
+
+# Morphosyntactic properties   # if you find yourself embracing the same tag in
+# ==========================   # brackets over and over again, you may want to
+                               # add it here
+
+LIST Nom = nom ;
+LIST Gen = gen ;
+LIST Dat = dat ;
+LIST Acc = acc ;
+LIST Abl = abl ;
+LIST Loc = loc ;
+
+
+LIST Attr = attr ;
+LIST Subst = subst ;
+
+LIST Prc = prc_perf prc_impf ;
+
+
+# Verb sets
+# =========
+
+LIST FiniteVerb = pres aor past ifi ifi_evid fut fut_plan imp opt pih ;
+LIST V-P3 = (v p3) (vaux p3) (cop p3) ;
+LIST Gerund = ger ger_ppot ger_past ger_perf ger_impf ger_abs ger_aor ;
+SET V-NotGerund = V - Gerund ;
+LIST Participle = prc_perf prc_impf prc_cond prc_vol prc_plan ;
+LIST VerbalAdverb = gna_perf gna_cond gna_until gna_after ;
+LIST VerbalAdjective = gpr_past gpr_fut gpr_pot gpr_impf ;
+LIST SubstPl = (subst pl) ;
+
 
 SECTION
-# If there is a singular noun to the right, I cannot be a verb or noun.
-REMOVE (n) OR (v) IF (1 (n s)) ;
 
-# If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
-SELECT $$Case IF (1 (cnjcoo) LINK 1C $$Case) ;
+# unlikely to be an auxiliary
+# if it can be a lexical verb
+# and the thing before it can't be an infinitive
+REMOVE Vaux IF
+	(0 V)
+	(NOT -1 Prc)
+;
+
+# probably not a lexical verb
+# if it can be an auxiliary
+# and the thing before it is an infinitive
+REMOVE V IF
+	(0 Vaux)
+	(-1 Prc)
+;
+
+SELECT Participle IF
+	(0C Participle OR VerbalAdverb)
+	(1 Vaux)
+;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html

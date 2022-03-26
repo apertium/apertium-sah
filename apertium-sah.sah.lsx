@@ -1,0 +1,45 @@
+<dictionary type="sequential">
+	<alphabet>АӘБВГҒДЕЁЖЗИІЙКҚЛМНҢОӨПРСТУҰҮФХҺЦЧШЩЬЫЪЭЮЯаәбвгғдеёжзиійкқлмнңоөпрстуұүфхһцчшщьыъэюя</alphabet>
+	<sdefs>
+		<sdef n="adj"/>
+		<sdef n="adv"/>
+		<sdef n="n"/>
+		<sdef n="nom"/>
+		<sdef n="v"/>
+		<sdef n="vaux"/>
+		<sdef n="tv"/>
+		<sdef n="iv"/>
+		<sdef n="prc_perf"/>
+		<sdef n="cess"/>
+	</sdefs>
+	<pardefs>
+		<pardef n="adj">
+			<e><i><w/><s n="adj"/></i></e>
+			<e><i><w/><s n="adj"/><t/></i></e>
+		</pardef>
+		<pardef n="n">
+			<e><i><w/><s n="n"/><t/><d/></i></e>
+		</pardef>
+		<pardef n="SN">
+			<e><par n="n"/></e>
+			<e><par n="adj"/><par n="n"/></e>
+			<e><par n="adj"/><par n="adj"/><par n="n"/></e>
+		</pardef>
+		<pardef n="TD">
+			<e><i><s n="iv"/></i></e>
+			<e><i><s n="tv"/></i></e>
+		</pardef>
+	</pardefs>
+	<section id="main" type="standard">
+		<e lm="cess" c="cessative: prc_perf + биэр">
+			<i><w/><s n="v"/></i>
+			<par n="TD"/>
+			<i><s n="prc_perf"/></i>
+			<p>
+				<l><d/>биэр<s n="vaux"/></l>
+				<r><s n="cess"/></r>
+			</p>
+			<i><t/><d/></i>
+		</e>
+	</section>
+</dictionary>
