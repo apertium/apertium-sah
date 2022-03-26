@@ -55,7 +55,7 @@
         <file name="sah.rlx.bin"/>
       </program>
       <program name="lsx-proc">
-        <file name="sah.revautoseq.bin"/>
+        <file name="sah.autoseq.bin"/>
       </program>
     </pipeline>
   </mode>
