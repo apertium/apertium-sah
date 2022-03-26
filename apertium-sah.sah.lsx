@@ -11,6 +11,7 @@
 		<sdef n="iv"/>
 		<sdef n="prc_perf"/>
 		<sdef n="cess"/>
+		<sdef n="onom"/>
 	</sdefs>
 	<pardefs>
 		<pardef n="adj">
@@ -29,6 +30,31 @@
 			<e><i><s n="iv"/></i></e>
 			<e><i><s n="tv"/></i></e>
 		</pardef>
+		<pardef n="V.onom">
+			<e><i>ааҥырҕаа<s n="v"/><s n="tv"/></i></e>
+			<e><i>ар<s n="v"/><s n="tv"/></i></e>
+			<e><i>ань-ньаһа<s n="v"/><s n="tv"/></i></e>
+			<e><i>ар-бур<s n="v"/><s n="tv"/></i></e>
+			<e><i>аан-ньаһа<s n="v"/><s n="tv"/></i></e>
+			<e><i>ардырҕаа<s n="v"/><s n="tv"/></i></e>
+			<e><i>бааһырҕаа<s n="v"/><s n="tv"/></i></e>
+			<e><i>бааҕынаа<s n="v"/><s n="tv"/></i></e>
+			<e><i>бааһыгыраа<s n="v"/><s n="tv"/></i></e>
+			<e><i>бабыгыраа<s n="v"/><s n="tv"/></i></e>
+			<e><i>балдьыгыраа<s n="v"/><s n="tv"/></i></e>
+			<e><i>баллырҕаа<s n="v"/><s n="tv"/></i></e>
+			<e><i>баһаарый<s n="v"/><s n="tv"/></i></e>
+			<e><i>боҕурҕаа<s n="v"/><s n="tv"/></i></e>
+			<e><i>биллигирээ<s n="v"/><s n="tv"/></i></e>
+			<e><i>бордурҕаа<s n="v"/><s n="tv"/></i></e>
+			<e><i>бордьугунаа<s n="v"/><s n="tv"/></i></e>
+			<e><i>борулат<s n="v"/><s n="tv"/></i></e>
+			<e><i>бөөҕүнээ<s n="v"/><s n="tv"/></i></e>
+			<e><i>булдьурҕаа<s n="v"/><s n="tv"/></i></e>
+			<e><i>буучугураа<s n="v"/><s n="tv"/></i></e>
+			<e><i>бучугураа<s n="v"/><s n="tv"/></i></e>
+			<e><i>бүл<b/>гын<s n="v"/><s n="tv"/></i></e>
+		</pardef>
 	</pardefs>
 	<section id="main" type="standard">
 		<e lm="cess" c="cessative: prc_perf + биэр">
@@ -37,6 +63,14 @@
 			<p>
 				<l><s n="prc_perf"/><d/>биэр<s n="vaux"/></l>
 				<r><s n="cess"/></r>
+			</p>
+			<i><t/><d/></i>
+		</e>
+		<e lm="onom" c="onomatapoetic verbs">
+			<par n="V.onom"/>
+			<p>
+				<l></l>
+				<r><s n="onom"/></r>
 			</p>
 			<i><t/><d/></i>
 		</e>
