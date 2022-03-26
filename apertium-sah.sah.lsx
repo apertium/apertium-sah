@@ -34,9 +34,8 @@
 		<e lm="cess" c="cessative: prc_perf + биэр">
 			<i><w/><s n="v"/></i>
 			<par n="TD"/>
-			<i><s n="prc_perf"/></i>
 			<p>
-				<l><d/>биэр<s n="vaux"/></l>
+				<l><s n="prc_perf"/><j/>биэр<s n="vaux"/></l>
 				<r><s n="cess"/></r>
 			</p>
 			<i><t/><d/></i>
