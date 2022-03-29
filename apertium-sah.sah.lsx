@@ -7,6 +7,7 @@
 		<sdef n="nom"/>
 		<sdef n="v"/>
 		<sdef n="vaux"/>
+		<sdef n="ij"/>
 		<sdef n="tv"/>
 		<sdef n="iv"/>
 		<sdef n="prc_perf"/>
@@ -2836,6 +2837,9 @@
 			<e><i>эһиэлэн<s n="v"/><s n="iv"/></i></e>
 			<e><i>эһиэхтэн<s n="v"/><s n="iv"/></i></e>
 		</pardef>
+		<pardef n="IJ.onom">
+			<e><i>бах<s n="ij"/></i></e>
+		</pardef>
 	</pardefs>
 	<section id="main" type="standard">
 		<e lm="cess" c="cessative: prc_perf + биэр">
@@ -2848,7 +2852,7 @@
 			<i><t/><d/></i>
 		</e>
 		<e lm="onom" c="onomatapoetic verbs">
-			<par n="V.onom"/>
+ 			<par n="V.onom"/>
 			<p>
 				<l></l>
 				<r><s n="onom"/></r>
@@ -2860,6 +2864,14 @@
 			<p>
 				<l></l>
 				<r><s n="fig"/></r>
+			</p>
+			<i><t/><d/></i>
+		</e>
+		<e lm="onom" c="onomatopoetic interjections">
+			<par n="IJ.onom"/>
+			<p>
+				<l></l>
+				<r><s n="onom"/></r>
 			</p>
 			<i><t/><d/></i>
 		</e>
