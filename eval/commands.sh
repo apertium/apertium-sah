@@ -4,3 +4,6 @@ rm sah-1500.words.txt
 
 # convert raw words list into new reference corpus
 apertium-destxt sah-1500.words.txt | hfst-proc -w ../sah.automorf.hfst  | apertium-retxt | cg-conv -l > sah-1500.reference.txt
+
+# get prec/recall numbers
+precisionRecall sah-1000.reference.txt sah-1000.annotated.txt 
