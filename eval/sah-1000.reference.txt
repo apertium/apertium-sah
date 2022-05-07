@@ -103,7 +103,8 @@
 	"дугда" n nom
 
 "<суруттараары>"
-	"*суруттараары"
+	"суруттар" v tv gna_plan
+	"суруттар" v tv gna_plan p3 sg
 
 "<эмсэҕэлиирин>"
 	"эмсэҕэлээ" v iv ger_aor px3sg acc
@@ -118,6 +119,10 @@
 	"*чыамайыкылары"
 
 "<барыллааһын>"
+	"барыллааһын" n nom
+		"э" cop aor p3 sg
+	"барыллааһын" n attr
+	"барыллааһын" n nom
 	"барыллаа" v iv ger nom
 		"э" cop aor p3 sg
 	"барыллаа" v iv ger nom
@@ -171,8 +176,9 @@
 	"хомуһуннаах" adj
 
 "<дьэбириэйдэрин>"
-	"дьэбириэй" n pl px3sp acc
+	"дьэбириэйдэр" n px3sg acc
 	"дьэбириэй" n px3pl acc
+	"дьэбириэй" n pl px3sp acc
 
 "<санныларыттан>"
 	"*санныларыттан"
@@ -192,7 +198,8 @@
 	"Аркадий" np ant m nom
 
 "<сиэттиһэн>"
-	"*сиэттиһэн"
+	"сиэттис" v iv gna_perf
+	"сиэттис" v iv prc_perf
 
 "<920>"
 	"920" num
@@ -206,8 +213,8 @@
 	"Тюмень" np top nom
 
 "<манньыаттарын>"
-	"манньыат" n pl px3sp acc
 	"манньыат" n px3pl acc
+	"манньыат" n pl px3sp acc
 
 "<53.3%>"
 	"53.3" num percent nom
@@ -257,10 +264,14 @@
 	"салайын" v iv prc_perf
 
 "<сайаапка>"
-	"*сайаапка"
+	"сайаапка" n nom
+		"э" cop aor p3 sg
+	"сайаапка" n attr
+	"сайаапка" n nom
 
 "<угуттаатын>"
-	"*угуттаатын"
+	"угуттаа" v iv imp p3 sg
+	"угуттаа" v tv imp p3 sg
 
 "<быыстапката>"
 	"быыстапка" n px3sg nom
@@ -269,6 +280,7 @@
 	"быыстапка" n par
 
 "<утарааччыларга>"
+	"утарааччы" n pl dat
 	"утар" v tv ger_hab pl dat
 
 "<метрикаҕа>"
@@ -348,8 +360,8 @@
 	"*Доника"
 
 "<Кынаттарыгар>"
-	"кынат" n px3pl dat
 	"кынат" n pl px3sp dat
+	"кынат" n px3pl dat
 
 "<Буруйдарын>"
 	"буруй" n pl px3sp acc
@@ -387,7 +399,13 @@
 	"сыһыаннас" v iv ger_aor px1pl acc
 
 "<аһытыы>"
-	"*аһытыы"
+	"аһыт" v iv ger nom
+		"э" cop aor p3 sg
+	"аһыт" v iv ger nom
+	"аһытыы" n nom
+		"э" cop aor p3 sg
+	"аһытыы" n attr
+	"аһытыы" n nom
 
 "<06.05.2011>"
 	"06.05.2011" num
@@ -428,13 +446,17 @@
 	"тоҥот" n nom
 
 "<ылынааччы>"
+	"ылынааччы" n nom
+		"э" cop aor p3 sg
 	"ылын" v tv ger_hab nom
 		"э" cop aor p3 sg
+	"ылынааччы" n attr
+	"ылынааччы" n nom
 	"ылын" v tv ger_hab nom
 	"ылын" v tv hab p3 sg
 
 "<сарбыйаллар>"
-	"*сарбыйаллар"
+	"сарбый" v tv aor p3 pl
 
 "<чугаһаабытын>"
 	"чугаһаа" v iv ger_past px3sg acc
@@ -446,7 +468,10 @@
 	"кубулуй" v iv plu p3 sg
 
 "<талыыра>"
-	"*талыыра"
+	"талаа" v iv ger_aor px3sg nom
+		"э" cop aor p3 sg
+	"талаа" v iv ger_aor px3sg nom
+	"талаа" v iv pii p3 sg
 
 "<Хордоҕой>"
 	"хордоҕой" n nom
@@ -478,7 +503,10 @@
 	"*туруорсалларын"
 
 "<Кыраһын>"
-	"*Кыраһын"
+	"кыраһын" n nom
+		"э" cop aor p3 sg
+	"кыраһын" n attr
+	"кыраһын" n nom
 
 "<кырамаатыкатынан>"
 	"кырамаатыка" n px3sg ins
@@ -533,7 +561,10 @@
 	"*азанчилар"
 
 "<дьиксинэрэ>"
-	"*дьиксинэрэ"
+	"дьиксин" v iv ger_aor px3sg nom
+		"э" cop aor p3 sg
+	"дьиксин" v iv ger_aor px3sg nom
+	"дьиксин" v iv pii p3 sg
 
 "<күһэлинниллэр>"
 	"*күһэлинниллэр"
@@ -557,13 +588,13 @@
 	"барымтыа" adj
 
 "<ыһыаҕым>"
+	"ыһыах" n px1sg nom
+		"э" cop aor p3 sg
+	"ыһыах" n px1sg nom
 	"ыс" v tv fut p1 sg
 	"ыс" v tv ger_fut px1sg nom
 		"э" cop aor p3 sg
 	"ыс" v tv ger_fut px1sg nom
-	"ыһыах" n px1sg nom
-		"э" cop aor p3 sg
-	"ыһыах" n px1sg nom
 
 "<кэбиһиилээх оту>"
 	"кэбиһиилээх от" n acc
@@ -599,7 +630,8 @@
 	"боппуруос" n dat
 
 "<кэйиэн>"
-	"*кэйиэн"
+	"кэй" v iv ger_irre nom
+	"кэй" v tv ger_irre nom
 
 "<диагностикатын>"
 	"*диагностикатын"
@@ -633,6 +665,11 @@
 
 "<киирэбит>"
 	"киир" v iv aor p1 pl
+	"киирэ" n px1pl nom
+		"э" cop aor p3 sg
+	"киирэ" n nom
+		"э" cop aor p1 pl
+	"киирэ" n px1pl nom
 
 "<көмөлөһөөччү>"
 	"көмөлөһөөччү" n nom
@@ -657,18 +694,23 @@
 "<Ардах>"
 	"ардах" n nom
 		"э" cop aor p3 sg
+	"ар" v tv ger_cond nom
+		"э" cop aor p3 sg
 	"ардах" n attr
 	"ардах" n nom
+	"ар" v tv ger_cond nom
 
 "<көрүллэргэ>"
 	"көр" v tv pass ger_aor dat
 
 "<саалалар>"
-	"саала" n pl nom
-		"э" cop aor p3 sg
-	"саала" n nom
+	"саал" n px3sg nom
 		"э" cop aor p3 pl
 	"саала" n pl nom
+		"э" cop aor p3 sg
+	"саала" n pl nom
+	"саала" n nom
+		"э" cop aor p3 pl
 
 "<сайдыыбытын>"
 	"сайдыы" n px1pl acc
@@ -703,7 +745,8 @@
 	"кандидат" n px3sg ins
 
 "<кылбаҥнаабытынан>"
-	"*кылбаҥнаабытынан"
+	"кылбаҥнаа" v iv ger_past ins
+	"кылбаҥнаа" v iv ger_past px3sg ins
 
 "<курултай>"
 	"*курултай"
@@ -791,6 +834,7 @@
 	"*Ефимовтан"
 
 "<түргэтээһиниттэн>"
+	"түргэтээһин" n px3sg abl
 	"түргэтээ" v iv ger px3sg abl
 
 "<чинчиллэр>"
@@ -807,15 +851,15 @@
 		"э" cop aor p3 sg
 	"сыра" n px3pl nom
 		"э" cop aor p3 sg
-	"сыра" n px3pl nom
 	"сыра" n pl px3sp nom
+	"сыра" n px3pl nom
 
 "<буолуохтун>"
 	"*буолуохтун"
 
 "<тумулларын>"
-	"тумул" n pl px3sp acc
 	"тумул" n px3pl acc
+	"тумул" n pl px3sp acc
 
 "<Бертло>"
 	"*Бертло"
@@ -858,6 +902,7 @@
 	"съезд" n nom
 
 "<суоттааһынтан>"
+	"суоттааһын" n abl
 	"суоттаа" v tv ger abl
 
 "<мечетэ>"
@@ -875,8 +920,8 @@
 	"кыым" n px3sg nom
 
 "<билиилэриттэн>"
-	"билии" n pl px3sp abl
 	"билии" n px3pl abl
+	"билии" n pl px3sp abl
 	"бил" v tv ger pl px3sp abl
 	"бил" v tv ger px3pl abl
 
@@ -893,7 +938,8 @@
 	"сурунаал" n abl
 
 "<бириинсибинэн>"
-	"*бириинсибинэн"
+	"бириинсип" n ins
+	"бириинсип" n px3sg ins
 
 "<Кумчевы>"
 	"*Кумчевы"
@@ -905,11 +951,11 @@
 		"э" cop aor p3 sg
 
 "<баһыйдахтарына>"
-	"баһый" v tv ger_cond pl px3sp par
 	"баһый" v tv ger_cond px3pl par
+	"баһый" v tv ger_cond pl px3sp par
 
 "<үөтэримэ>"
-	"*үөтэримэ"
+	"үөтэр" v tv neg imp p2 sg
 
 "<турсуу>"
 	"*турсуу"
@@ -942,11 +988,11 @@
 	"поляк" n pl abl
 
 "<уопсайынан>"
-	"уопсай" adj subst ins
-	"уопсай" adj subst px3sg ins
 	"уопсайынан" adv
 		"э" cop aor p3 sg
 	"уопсайынан" adv
+	"уопсай" adj subst ins
+	"уопсай" adj subst px3sg ins
 
 "<Галлиполи>"
 	"*Галлиполи"
@@ -955,12 +1001,16 @@
 	"*обкомол"
 
 "<туттарыыта>"
+	"туттарыы" n px3sg nom
+		"э" cop aor p3 sg
 	"туттар" v iv ger px3sg nom
 		"э" cop aor p3 sg
 	"туттар" v tv ger px3sg nom
 		"э" cop aor p3 sg
+	"туттарыы" n px3sg nom
 	"туттар" v iv ger px3sg nom
 	"туттар" v tv ger px3sg nom
+	"туттарыы" n par
 	"туттар" v iv ger par
 	"туттар" v tv ger par
 
@@ -975,10 +1025,10 @@
 		"э" cop aor p3 sg
 	"быһыы" n px3pl nom
 		"э" cop aor p3 sg
+	"быһыы" n px3pl nom
+	"быһыы" n pl px3sp nom
 	"быс" v tv ger pl px3sp nom
 		"э" cop aor p3 sg
-	"быһыы" n pl px3sp nom
-	"быһыы" n px3pl nom
 	"быс" v tv ger px3pl nom
 		"э" cop aor p3 sg
 	"быс" v tv ger pl px3sp nom
@@ -1011,7 +1061,10 @@
 	"*грузина"
 
 "<тыраахтар>"
-	"*тыраахтар"
+	"тыраахтар" n nom
+		"э" cop aor p3 sg
+	"тыраахтар" n attr
+	"тыраахтар" n nom
 
 "<бөҕөргөтүүлэрин>"
 	"бөҕөргөтүү" n px3pl acc
@@ -1079,15 +1132,16 @@
 
 "<биэрэр этэ>"
 	"биэр" v tv pii p3 sg
+	"биэр" vaux pii p3 sg
 
 "<аhатыы>"
-	"аһатыы" n nom
+	"аһат" v tv ger nom
 		"э" cop aor p3 sg
 	"аһат" v tv ger nom
+	"аһатыы" n nom
 		"э" cop aor p3 sg
 	"аһатыы" n attr
 	"аһатыы" n nom
-	"аһат" v tv ger nom
 
 "<уунаҥныыр>"
 	"*уунаҥныыр"
@@ -1167,7 +1221,7 @@
 	"*пазырык"
 
 "<амалый>"
-	"*амалый"
+	"амалый" v iv imp p2 sg
 
 "<хонтуруоллааhын>"
 	"хонтуруоллааһын" n nom
@@ -1194,13 +1248,14 @@
 	"киир" v iv ger_cond dat
 
 "<мэлдьэҕин>"
-	"*мэлдьэҕин"
+	"мэлдьэх" n px3sg acc
 
 "<Кремниц>"
 	"*Кремниц"
 
 "<чыыбыгырыы>"
-	"*чыыбыгырыы"
+	"чыыбыгыраа" v iv gna_impf
+	"чыыбыгыраа" v iv prc_impf
 
 "<үөскэтиэн>"
 	"үөскэт" v tv ger_irre nom
@@ -1276,7 +1331,9 @@
 	"кыһан" v tv prc_impf
 
 "<ылыннарымтыа>"
-	"*ылыннарымтыа"
+	"ылыннарымтыа" adj
+		"э" cop aor p3 sg
+	"ылыннарымтыа" adj
 
 "<ирэригэр>"
 	"ир" v iv ger_aor px3sg dat
@@ -1293,8 +1350,8 @@
 	"кэлтэгэй" adj
 
 "<Алтаны>"
-	"алтан" n acc
 	"алта" num subst acc
+	"алтан" n acc
 
 "<учительскайдаах>"
 	"*учительскайдаах"
@@ -1306,12 +1363,13 @@
 	"араар" v tv pass pii p3 sg
 
 "<Хайдах>"
-	"хай" v tv ger_cond nom
-		"э" cop aor p3 sg
 	"хайдах" adv itg
 		"э" cop aor p3 sg
-	"хай" v tv ger_cond nom
 	"хайдах" adv itg
+	"хайдах" mod
+	"хай" v tv ger_cond nom
+		"э" cop aor p3 sg
+	"хай" v tv ger_cond nom
 
 "<Морозова>"
 	"*Морозова"
@@ -1330,8 +1388,8 @@
 	"тар" n par
 
 "<төннүүтүттэн>"
-	"төнүн" v iv ger px3sg abl
 	"төннүү" n px3sg abl
+	"төнүн" v iv ger px3sg abl
 
 "<намтаатылар>"
 	"намтаа" v iv ifi p3 pl
@@ -1378,6 +1436,7 @@
 	"*Нацуко"
 
 "<хоһулаһыытынан>"
+	"хоһулаһыы" n px3sg ins
 	"хоһулас" v iv ger px3sg ins
 
 "<06.11.2010>"
@@ -1387,7 +1446,14 @@
 		"э" cop aor p3 sg
 
 "<сыыстара>"
-	"*сыыстара"
+	"сыыс" n pl px3sp nom
+		"э" cop aor p3 sg
+	"сыыс" n px3pl nom
+		"э" cop aor p3 sg
+	"сыыс" n pl px3sp nom
+	"сыыс" n px3pl nom
+	"сыыстар" v iv gna_impf
+	"сыыстар" v iv prc_impf
 
 "<бинтиэпкэлэригэр>"
 	"бинтиэпкэ" n px3pl dat
@@ -1414,7 +1480,9 @@
 		"э" cop aor p3 sg
 
 "<сэллээбэккэ>"
-	"*сэллээбэккэ"
+	"сэллээ" v iv gna_abes
+	"сэллээ" v iv abes p3 sg
+	"сэллээ" v iv neg ger_aor dat
 
 "<Каженкины>"
 	"Каженкин" np cog m acc
@@ -1459,8 +1527,8 @@
 	"тутаах" n nom
 
 "<түбэһиини>"
-	"түбэс" v iv ger acc
 	"түбэһии" n acc
+	"түбэс" v iv ger acc
 
 "<хомуйуллубута>"
 	"хомуй" v tv pass ger_past px3sg nom
@@ -1498,8 +1566,13 @@
 "<уоспата>"
 	"уоспа" n px3sg nom
 		"э" cop aor p3 sg
+	"уос" v iv neg ger_aor px3sg nom
+		"э" cop aor p3 sg
 	"уоспа" n px3sg nom
+	"уос" v iv neg ger_aor px3sg nom
+	"уос" v iv neg pii p3 sg
 	"уоспа" n par
+	"уос" v iv neg ifi p3 sg
 
 "<устубуттар>"
 	"уһун" v iv ger_past pl nom
@@ -1551,6 +1624,11 @@
 		"үһү" mod
 	"ай" v tv gpr_past
 		"үһү" mod
+	"айбыт" n nom
+		"э" cop aor p3 sg
+			"үһү" mod
+	"айбыт" n nom
+		"үһү" mod
 
 "<арагонит>"
 	"*арагонит"
@@ -1572,7 +1650,7 @@
 	"*мөлтөхтөрө"
 
 "<сүбэлэт>"
-	"*сүбэлэт"
+	"сүбэлэт" v tv imp p2 sg
 
 "<Ляховкаҕа>"
 	"*Ляховкаҕа"
@@ -1607,14 +1685,15 @@
 	"бюджет" n px3sg nom
 
 "<дьүһүйэн>"
-	"*дьүһүйэн"
+	"дьүһүй" v tv gna_perf
+	"дьүһүй" v tv prc_perf
 
 "<көрбүт үһү>"
-	"көр" n px1pl nom
-		"э" cop aor p3 sg
-			"үһү" mod
 	"көр" n nom
 		"э" cop aor p1 pl
+			"үһү" mod
+	"көр" n px1pl nom
+		"э" cop aor p3 sg
 			"үһү" mod
 	"көр" n px1pl nom
 		"үһү" mod
@@ -1629,12 +1708,15 @@
 		"үһү" mod
 
 "<мүлүрүччү>"
-	"*мүлүрүччү"
+	"мүлүрүччү" adv
+		"э" cop aor p3 sg
+	"мүлүрүччү" adv
 
 "<Барлык>"
 	"*Барлык"
 
 "<суурайыытын>"
+	"суурайыы" n px3sg acc
 	"суурай" v tv ger px3sg acc
 
 "<Сюзанна>"
@@ -1653,6 +1735,7 @@
 
 "<самыыртан>"
 	"самыыр" n abl
+	"самаа" v tv ger_aor abl
 
 "<Газах>"
 	"*Газах"
@@ -1703,16 +1786,18 @@
 	"*оҕолоноллорун"
 
 "<көппүт>"
-	"көп" v iv ger_past nom
-		"э" cop aor p3 sg
+	"көп" adj
+		"э" cop aor p1 pl
 	"көт" v iv ger_past nom
+		"э" cop aor p3 sg
+	"көп" v iv ger_past nom
 		"э" cop aor p3 sg
 	"көт" v iv past p3 sg
-	"көп" v iv ger_past nom
 	"көт" v iv ger_past nom
-	"көп" v iv gpr_past
-	"көп" v iv past p3 sg
 	"көт" v iv gpr_past
+	"көп" v iv ger_past nom
+	"көп" v iv past p3 sg
+	"көп" v iv gpr_past
 
 "<туппут>"
 	"түп" n nom
@@ -1720,14 +1805,21 @@
 	"түп" n px1pl nom
 		"э" cop aor p3 sg
 	"түп" n px1pl nom
+	"түп" v iv ger_past nom
+		"э" cop aor p3 sg
 	"тут" v tv ger_past nom
 		"э" cop aor p3 sg
+	"түп" v iv ger_past nom
+	"түп" v iv past p3 sg
 	"тут" v tv past p3 sg
+	"түп" v iv gpr_past
 	"тут" v tv ger_past nom
 	"тут" v tv gpr_past
 
 "<Киргиллээх>"
-	"*Киргиллээх"
+	"киргиллээх" adj
+		"э" cop aor p3 sg
+	"киргиллээх" adj
 
 "<Чаччыгыныардар>"
 	"чаччыгыныар" n pl nom
@@ -1765,7 +1857,9 @@
 	"бат" v tv neg ger_aor px2sg nom
 
 "<баламат>"
-	"*баламат"
+	"баламат" adj
+		"э" cop aor p3 sg
+	"баламат" adj
 
 "<рейтиҥнаммыттарын>"
 	"*рейтиҥнаммыттарын"
@@ -1787,6 +1881,7 @@
 	"*Старт"
 
 "<Буолан>"
+	"буолан" cnjsub
 	"буол" v iv gna_perf
 	"буол" v iv prc_perf
 
@@ -1818,10 +1913,10 @@
 	"*Анахита"
 
 "<эбиллэн>"
-	"эбилин" v iv gna_perf
-	"эбилин" v iv prc_perf
 	"эп" v tv pass gna_perf
 	"эп" v tv pass prc_perf
+	"эбилин" v iv gna_perf
+	"эбилин" v iv prc_perf
 
 "<5,60>"
 	"5,60" num
@@ -1923,7 +2018,12 @@
 	"*фоннарын"
 
 "<килэрийэр>"
-	"*килэрийэр"
+	"килэрий" v iv ger_aor nom
+		"э" cop aor p3 sg
+	"килэрий" v iv aor p3 sg
+	"килэрий" v iv gpr_aor
+	"килэрий" v iv prc_aor
+	"килэрий" v iv ger_aor nom
 
 "<лигаттан>"
 	"*лигаттан"
@@ -1945,7 +2045,9 @@
 	"*хааччахтаныллар"
 
 "<Алампа>"
-	"*Алампа"
+	"Алампа" np ant m nom
+		"э" cop aor p3 sg
+	"Алампа" np ant m nom
 
 "<киллэриэх>"
 	"киллэр" v tv ger_fut nom
@@ -1969,7 +2071,7 @@
 	"көр" v tv ger px1sg ins
 
 "<бах>"
-	"*бах"
+	"бах" ij
 
 "<көрбөтөххүн>"
 	"көрбөтөх" n nom
@@ -1984,17 +2086,22 @@
 	"көр" v tv neg ger_cond px2sg acc
 
 "<аҕалыыны>"
+	"аҕалыы" n acc
 	"аҕал" v tv ger acc
 
 "<протестааннары>"
 	"*протестааннары"
 
 "<Саһарар>"
+	"саһарар" n nom
+		"э" cop aor p3 sg
+	"саһарар" n attr
+	"саһарар" n nom
 	"саһар" v iv ger_aor nom
 		"э" cop aor p3 sg
-	"саһар" v iv aor p3 sg
 	"саһар" v iv gpr_aor
 	"саһар" v iv prc_aor
+	"саһар" v iv aor p3 sg
 	"саһар" v iv ger_aor nom
 
 "<өҥнөрдөөх>"
@@ -2007,7 +2114,7 @@
 	"аат тыл" n pl abl
 
 "<суханан>"
-	"*суханан"
+	"суха" n ins
 
 "<Картаго>"
 	"*Картаго"
@@ -2018,7 +2125,7 @@
 	"Иванович" np pat f nom
 
 "<ааҥк>"
-	"*ааҥк"
+	"ааҥк" ij
 
 "<шахтер>"
 	"*шахтер"
@@ -2030,7 +2137,7 @@
 		"э" cop aor p3 sg
 
 "<урааҕынан>"
-	"*урааҕынан"
+	"ураа" n px2sg ins
 
 "<Катандзаро>"
 	"*Катандзаро"
@@ -2068,8 +2175,8 @@
 	"*Лээһэҥкэ"
 
 "<кэлиилэрин>"
-	"кэлии" n pl px3sp acc
 	"кэлии" n px3pl acc
+	"кэлии" n pl px3sp acc
 	"кэл" v iv ger pl px3sp acc
 	"кэл" v iv ger px3pl acc
 
@@ -2085,6 +2192,10 @@
 	"*губбюротун"
 
 "<кэпсээччитэ>"
+	"кэпсээччи" n px3sg nom
+		"э" cop aor p3 sg
+	"кэпсээччи" n px3sg nom
+	"кэпсээччи" n par
 	"кэпсээ" v tv ger_hab px3sg nom
 		"э" cop aor p3 sg
 	"кэпсээ" v tv ger_hab px3sg nom
@@ -2144,7 +2255,12 @@
 	"дууһа" n px3pl abl
 
 "<холобурдуур>"
-	"*холобурдуур"
+	"холобурдаа" v tv ger_aor nom
+		"э" cop aor p3 sg
+	"холобурдаа" v tv ger_aor nom
+	"холобурдаа" v tv aor p3 sg
+	"холобурдаа" v tv gpr_aor
+	"холобурдаа" v tv prc_aor
 
 "<Магатырова>"
 	"*Магатырова"
@@ -2198,29 +2314,34 @@
 	"*технологиялаах"
 
 "<эппэппит>"
+	"эп" v tv neg aor p1 pl
+	"эп" v tv neg pii p1 pl
+	"эп" v tv neg ger_aor px1pl nom
+		"э" cop aor p3 sg
+	"эп" v tv neg ger_aor px1pl nom
+	"эппэт" v tv ger_past nom
+		"э" cop aor p3 sg
+	"эппэт" v tv past p3 sg
+	"эппэт" v tv ger_past nom
+	"эппэт" v tv gpr_past
 	"эт" vaux neg aor p1 pl
-	"эт" vaux neg pii p1 pl
 	"эт" v tv neg aor p1 pl
 	"эт" v tv neg pii p1 pl
-	"эт" vaux neg ger_aor px1pl nom
-		"э" cop aor p3 sg
+	"эт" vaux neg pii p1 pl
 	"эт" v tv neg ger_aor px1pl nom
 		"э" cop aor p3 sg
-	"эп" v tv neg aor p1 pl
 	"эт" vaux neg ger_aor px1pl nom
-	"эп" v tv neg pii p1 pl
-	"эт" v tv neg ger_aor px1pl nom
-	"эп" v tv neg ger_aor px1pl nom
 		"э" cop aor p3 sg
-	"эп" v tv neg ger_aor px1pl nom
+	"эт" vaux neg ger_aor px1pl nom
+	"эт" v tv neg ger_aor px1pl nom
 
 "<античнай>"
 	"*античнай"
 
 "<170%>"
 	"170" num percent nom
-	"170" num percent nom
 		"э" cop aor p3 sg
+	"170" num percent nom
 
 "<көрүөҕүн>"
 	"көр" v tv ger_fut px3sg acc
@@ -2250,14 +2371,15 @@
 
 "<тутулуннар>"
 	"тут" v tv pass gna_cond p3 sg
+	"тутулун" v iv gna_cond p3 sg
 
 "<22.1981->"
 	"22.1981" num subst nom
-	"22.1981" num subst nom
 		"э" cop aor p3 sg
+	"22.1981" num subst nom
 
 "<арылынна>"
-	"*арылынна"
+	"ар" v tv pass ifi p3 sg
 
 "<тэнийбитин>"
 	"тэний" v iv ger_past px3sg acc
@@ -2266,7 +2388,10 @@
 	"*зажигалкаҕа"
 
 "<Сокуонньут>"
-	"*Сокуонньут"
+	"сокуонньут" n nom
+		"э" cop aor p3 sg
+	"сокуонньут" n attr
+	"сокуонньут" n nom
 
 "<Аборт>"
 	"*Аборт"
@@ -2281,13 +2406,23 @@
 	"*Захид"
 
 "<үүйэр>"
-	"*үүйэр"
+	"үүй" v tv ger_aor nom
+		"э" cop aor p3 sg
+	"үүй" v tv aor p3 sg
+	"үүй" v tv gpr_aor
+	"үүй" v tv prc_aor
+	"үүй" v tv ger_aor nom
 
 "<Хоҥурбаай>"
 	"*Хоҥурбаай"
 
 "<үбүлүөйдэрэ>"
-	"*үбүлүөйдэрэ"
+	"үбүлүөй" n pl px3sp nom
+		"э" cop aor p3 sg
+	"үбүлүөй" n px3pl nom
+		"э" cop aor p3 sg
+	"үбүлүөй" n px3pl nom
+	"үбүлүөй" n pl px3sp nom
 
 "<Тироксин>"
 	"*Тироксин"
@@ -2335,7 +2470,12 @@
 	"*АГИКИ"
 
 "<ыйыталаһар>"
-	"*ыйыталаһар"
+	"ыйыталас" v tv ger_aor nom
+		"э" cop aor p3 sg
+	"ыйыталас" v tv aor p3 sg
+	"ыйыталас" v tv gpr_aor
+	"ыйыталас" v tv prc_aor
+	"ыйыталас" v tv ger_aor nom
 
 "<минералканы>"
 	"*минералканы"
@@ -2354,7 +2494,13 @@
 	"иит" v tv gna_cond p3 sg
 
 "<намыраабыттара>"
-	"*намыраабыттара"
+	"намыраа" v iv ger_past pl px3sp nom
+		"э" cop aor p3 sg
+	"намыраа" v iv ger_past px3pl nom
+		"э" cop aor p3 sg
+	"намыраа" v iv ger_past px3pl nom
+	"намыраа" v iv ger_past pl px3sp nom
+	"намыраа" v iv plu p3 pl
 
 "<Санджар>"
 	"*Санджар"
@@ -2379,8 +2525,8 @@
 
 "<1940->"
 	"1940" num subst nom
-	"1940" num subst nom
 		"э" cop aor p3 sg
+	"1940" num subst nom
 
 "<олоҕурбут>"
 	"олоҕур" v iv ger_past nom
@@ -2407,7 +2553,7 @@
 	"*микроскоба"
 
 "<халын>"
-	"*халын"
+	"халын" v iv imp p2 sg
 
 "<сүгүрүйэн>"
 	"сүгүрүй" v iv gna_perf
@@ -2423,13 +2569,14 @@
 	"толор" v tv ger_irre nom
 
 "<сөбүлээбэтинэн>"
-	"сөбүлээ" v tv neg ger_aor px3sg ins
 	"сөбүлээ" v tv neg ger_aor ins
+	"сөбүлээ" v tv neg ger_aor px3sg ins
 
 "<сы5арыйаллара>"
 	"сыҕарый" v iv pii p3 pl
 
 "<дьэбириэйдэргэ>"
+	"дьэбириэйдэр" n dat
 	"дьэбириэй" n pl dat
 
 "<народность>"
@@ -2496,15 +2643,15 @@
 		"э" cop aor p3 sg
 	"олор" v iv ger px3pl nom
 		"э" cop aor p3 sg
-	"олоруу" n pl px3sp nom
 	"олоруу" n px3pl nom
+	"олоруу" n pl px3sp nom
 	"олор" v iv ger pl px3sp nom
 	"олор" v iv ger px3pl nom
 
 "<3,9%>"
 	"3,9" num percent nom
-	"3,9" num percent nom
 		"э" cop aor p3 sg
+	"3,9" num percent nom
 
 "<Итэҕэли>"
 	"итэҕэл" n acc
@@ -2525,7 +2672,8 @@
 	"балаҕан" n px3sg dat
 
 "<бастанан>"
-	"*бастанан"
+	"бастан" v tv gna_perf
+	"бастан" v tv prc_perf
 
 "<Кудрявцеваны>"
 	"*Кудрявцеваны"
@@ -2561,6 +2709,7 @@
 	"*макрорегиона"
 
 "<аҕалыыга>"
+	"аҕалыы" n dat
 	"аҕал" v tv ger dat
 
 "<кылгаабыттара>"
@@ -2581,7 +2730,10 @@
 	"*дисплейдаах"
 
 "<оһуута>"
-	"*оһуута"
+	"ос" v iv ger px3sg nom
+		"э" cop aor p3 sg
+	"ос" v iv ger px3sg nom
+	"ос" v iv ger par
 
 "<кылгаһынан>"
 	"*кылгаһынан"
@@ -2623,9 +2775,11 @@
 	"аккаас" n pl acc
 
 "<бэлэстэн>"
+	"бэлэстэн" v tv imp p2 sg
 	"бэлэс" n abl
 
 "<күүтээччилэргэ>"
+	"күүтээччи" n pl dat
 	"күүт" v tv ger_hab pl dat
 
 "<3,11>"
@@ -2713,6 +2867,10 @@
 	"быысаһар" adj
 		"э" cop aor p3 sg
 	"быысаһар" adj
+	"быысаһар" n nom
+		"э" cop aor p3 sg
+	"быысаһар" n attr
+	"быысаһар" n nom
 
 "<Харьяна>"
 	"*Харьяна"
@@ -2773,6 +2931,7 @@
 
 "<таҥнарга>"
 	"таҥ" n pl dat
+	"таҥн" v tv ger_aor dat
 
 "<туруортуурун>"
 	"туруортаа" v tv ger_aor px3sg acc
@@ -2783,9 +2942,12 @@
 "<Таптаабыт>"
 	"таптаа" v tv ger_past nom
 		"э" cop aor p3 sg
+	"таптаабыт" adj
+		"э" cop aor p3 sg
 	"таптаа" v tv ger_past nom
 	"таптаа" v tv past p3 sg
 	"таптаа" v tv gpr_past
+	"таптаабыт" adj
 
 "<сыаналарын>"
 	"сыана" n pl px3sp acc
@@ -2795,7 +2957,8 @@
 	"*гештальт"
 
 "<күлүктээн>"
-	"*күлүктээн"
+	"күлүктээ" v iv gna_perf
+	"күлүктээ" v iv prc_perf
 
 "<кэрэхсэппитэ>"
 	"*кэрэхсэппитэ"
@@ -2807,7 +2970,7 @@
 	"*символикаҕа"
 
 "<Хампаҕа>"
-	"*Хампаҕа"
+	"хампа" n dat
 
 "<тустууттан>"
 	"тустуу" n abl
@@ -2827,11 +2990,11 @@
 	"сыт" vaux ger_past nom
 		"э" cop aor p3 sg
 	"сыт" v iv past p3 sg
+	"сыт" vaux gpr_past
 	"сыт" vaux ger_past nom
 	"сыт" vaux past p3 sg
 	"сыт" v iv ger_past nom
 	"сыт" v iv gpr_past
-	"сыт" vaux gpr_past
 
 "<Дьугдьуур>"
 	"дьугдьуур" n nom
@@ -2861,6 +3024,7 @@
 
 "<тииhин>"
 	"тиис" n px3sg acc
+	"тииһин" v tv imp p2 sg
 
 "<Чемпионнанрынан>"
 	"*Чемпионнанрынан"
@@ -2908,8 +3072,12 @@
 	"Индия" np top com
 
 "<тумук>"
+	"тумук" n nom
+		"э" cop aor p3 sg
 	"түмүк" n nom
 		"э" cop aor p3 sg
+	"тумук" n attr
+	"тумук" n nom
 	"түмүк" n attr
 	"түмүк" n nom
 
@@ -2937,6 +3105,7 @@
 
 "<биэримэ>"
 	"биэр" v tv neg imp p2 sg
+	"биэр" vaux neg imp p2 sg
 
 "<зонд>"
 	"*зонд"
@@ -2965,14 +3134,15 @@
 	"кыаттар" v iv neg ger_cond nom
 
 "<нэчимиэнтэн>"
-	"*нэчимиэнтэн"
+	"нэчимиэн" n abl
 
 "<туустарын>"
-	"туус" n pl px3sp acc
 	"туус" n px3pl acc
+	"туус" n pl px3sp acc
 
 "<өрүкүйүүттэн>"
-	"*өрүкүйүүттэн"
+	"өрүкүйүү" n abl
+	"өрүкүй" v iv ger abl
 
 "<Перстар>"
 	"перс" n pl nom
@@ -3004,7 +3174,9 @@
 	"уос" n px3pl nom
 
 "<Намык>"
-	"*Намык"
+	"намык" adj
+		"э" cop aor p3 sg
+	"намык" adj
 
 "<Хапсаҕайдык>"
 	"хапсаҕайдык" adv
@@ -3104,7 +3276,12 @@
 	"*либреттотыгар"
 
 "<Күөгүлүүр>"
-	"*Күөгүлүүр"
+	"күөгүлээ" v iv ger_aor nom
+		"э" cop aor p3 sg
+	"күөгүлээ" v iv ger_aor nom
+	"күөгүлээ" v iv aor p3 sg
+	"күөгүлээ" v iv gpr_aor
+	"күөгүлээ" v iv prc_aor
 
 "<борохуокка>"
 	"борохуот" n dat
@@ -3123,8 +3300,8 @@
 		"э" cop aor p3 sg
 	"монгуол" n px3pl nom
 		"э" cop aor p3 sg
-	"монгуол" n pl px3sp nom
 	"монгуол" n px3pl nom
+	"монгуол" n pl px3sp nom
 
 "<Дьүкээбил>"
 	"дьүкээбил" n nom
@@ -3169,8 +3346,8 @@
 		"э" cop aor p3 sg
 	"сирдьит" n px3pl nom
 		"э" cop aor p3 sg
-	"сирдьит" n pl px3sp nom
 	"сирдьит" n px3pl nom
+	"сирдьит" n pl px3sp nom
 
 "<джо>"
 	"*джо"
@@ -3185,6 +3362,10 @@
 	"айах" n acc
 
 "<ыра>"
+	"ыра" n nom
+		"э" cop aor p3 sg
+	"ыра" n attr
+	"ыра" n nom
 	"ыр" v iv gna_impf
 	"ыр" v iv prc_impf
 
@@ -3192,10 +3373,14 @@
 	"диэ" v tv ger_pot px1sg nom
 		"э" cop aor p3 sg
 	"диэ" v tv ger_pot px1sg nom
+
 "<баара>"
 	"баар" adj subst px3sg nom
 		"э" cop aor p3 sg
 	"баар" adj subst px3sg nom
+	"баара" cnjcoo
+	"баар" v tv gna_impf
+	"баар" v tv prc_impf
 	"баара" n nom
 		"э" cop aor p3 sg
 	"баара" n attr
@@ -3222,6 +3407,9 @@
 	"эргит" v tv prc_perf
 
 "<ыыгын>"
+	"ыы" n nom
+		"э" cop aor p2 sg
+	"ыы" n px2sg acc
 	"ыа" v tv aor p2 sg
 
 "<барытыттан>"
@@ -3241,7 +3429,10 @@
 	"олук" n px3pl acc
 
 "<холуонньа>"
-	"*холуонньа"
+	"холуонньа" n nom
+		"э" cop aor p3 sg
+	"холуонньа" n attr
+	"холуонньа" n nom
 
 "<чиҥээтэҕинэ>"
 	"чиҥээ" v tv ger_cond px3sg par
@@ -3261,8 +3452,8 @@
 		"э" cop aor p3 sg
 	"майгы" n px3pl nom
 		"э" cop aor p3 sg
-	"майгы" n px3pl nom
 	"майгы" n pl px3sp nom
+	"майгы" n px3pl nom
 
 "<кулгаахтар>"
 	"кулгаах" n pl nom
@@ -3278,7 +3469,7 @@
 	"389" num
 	"389" num subst nom
 	"389" num subst nom
- 	      "э" cop aor p3 sg
+		"э" cop aor p3 sg
 
 "<кинээһигэр>"
 	"кинээс" n px3sg dat
@@ -3339,28 +3530,32 @@
 	"*Мечел"
 
 "<көспут>"
-	"көс" n px1pl nom
-		"э" cop aor p3 sg
+	"көс" adj
+		"э" cop aor p1 pl
+	"көс" adv
+		"э" cop aor p1 pl
 	"көс" n nom
 		"э" cop aor p1 pl
-	"көс" v iv ger_past nom
+	"көс" n px1pl nom
 		"э" cop aor p3 sg
 	"көс" n px1pl nom
 	"көс" v iv ger_past nom
-	"көс" v iv gpr_past
+		"э" cop aor p3 sg
+	"көс" v iv ger_past nom
 	"көс" v iv past p3 sg
+	"көс" v iv gpr_past
 
 "<истиилин>"
 	"истиил" n px3sg acc
 
 "<өһөрөргө>"
-	"*өһөрөргө"
+	"өһөр" v tv ger_aor dat
 
 "<ыйыллаллар>"
 	"ый" v tv pass aor p3 pl
 
 "<чучунааны>"
-	"*чучунааны"
+	"чучунаа" n acc
 
 "<ылбатыгыт>"
 	"ыл" v tv neg ifi p2 pl
@@ -3415,6 +3610,9 @@
 	"*реципиеҥҥа"
 
 "<көх-нэм>"
+	"көх-нэм" adj
+		"э" cop aor p3 sg
+	"көх-нэм" adj
 	"көх-нэм" n nom
 		"э" cop aor p3 sg
 	"көх-нэм" n attr
@@ -3430,7 +3628,7 @@
 	"1802" num
 	"1802" num subst nom
 	"1802" num subst nom
-	       "э" cop aor p3 sg
+		"э" cop aor p3 sg
 
 "<ахтыбаттарыгар>"
 	"*ахтыбаттарыгар"
@@ -3442,8 +3640,8 @@
 	"*сапрофит"
 
 "<көрдөбүллэриттэн>"
-	"көрдөбүл" n pl px3sp abl
 	"көрдөбүл" n px3pl abl
+	"көрдөбүл" n pl px3sp abl
 
 "<Гульсум>"
 	"*Гульсум"
@@ -3467,8 +3665,12 @@
 
 "<былааьын>"
 	"былаас" n px3sg acc
+	"былаа" v iv ger nom
+		"э" cop aor p3 sg
+	"былаа" v iv ger nom
 
 "<кэргэннэниигэ>"
+	"кэргэннэнии" n dat
 	"кэргэннэн" v iv ger dat
 
 "<Мэкчиргэтиҥилэр>"
@@ -3530,14 +3732,14 @@
 	"*Вениамин"
 
 "<уларытыыта>"
-	"уларытыы" n px3sg nom
-		"э" cop aor p3 sg
 	"уларыт" v tv ger px3sg nom
 		"э" cop aor p3 sg
-	"уларытыы" n px3sg nom
 	"уларыт" v tv ger px3sg nom
-	"уларытыы" n par
 	"уларыт" v tv ger par
+	"уларытыы" n px3sg nom
+		"э" cop aor p3 sg
+	"уларытыы" n px3sg nom
+	"уларытыы" n par
 
 "<Муромцевскай>"
 	"*Муромцевскай"
@@ -3563,8 +3765,8 @@
 
 "<26%>"
 	"26" num percent nom
-	"26" num percent nom
 		"э" cop aor p3 sg
+	"26" num percent nom
 
 "<репертуарнай>"
 	"*репертуарнай"
@@ -3580,7 +3782,7 @@
 	"*коэффициенынан"
 
 "<мааскаҕа>"
-	"*мааскаҕа"
+	"мааска" n dat
 
 "<аһаҕастык>"
 	"аһаҕастык" adv
@@ -3606,8 +3808,8 @@
 
 "<67,87%>"
 	"67,87" num percent nom
-	"67,87" num percent nom
 		"э" cop aor p3 sg
+	"67,87" num percent nom
 
 "<кирдээхтэр>"
 	"кирдээх" adj
@@ -3641,13 +3843,18 @@
 	"Вьетнам" np top dat
 
 "<Убаһа>"
-	"*Убаһа"
+	"убаһа" n nom
+		"э" cop aor p3 sg
+	"убаһа" n attr
+	"убаһа" n nom
 
 "<киирбэтэр>"
 	"киир" v iv neg gna_cond p3 sg
 
 "<араа-бараа>"
-	"*араа-бараа"
+	"араа-бараа" adj
+		"э" cop aor p3 sg
+	"араа-бараа" adj
 
 "<Шадринова>"
 	"*Шадринова"
@@ -3656,7 +3863,9 @@
 	"*гербэтигэр"
 
 "<баччааҥҥы>"
-	"*баччааҥҥы"
+	"баччааҥҥы" adj
+		"э" cop aor p3 sg
+	"баччааҥҥы" adj
 
 "<тыыга>"
 	"тыы" n dat
@@ -3665,7 +3874,12 @@
 	"*сайҕанар"
 
 "<Иһиирэр>"
-	"*Иһиирэр"
+	"иһиир" v iv ger_aor nom
+		"э" cop aor p3 sg
+	"иһиир" v iv aor p3 sg
+	"иһиир" v iv gpr_aor
+	"иһиир" v iv prc_aor
+	"иһиир" v iv ger_aor nom
 
 "<Токосов>"
 	"*Токосов"
@@ -3682,8 +3896,8 @@
 	"ааттан" v iv ger_aor nom
 
 "<сыһыарыыларын>"
-	"сыһыарыы" n px3pl acc
 	"сыһыарыы" n pl px3sp acc
+	"сыһыарыы" n px3pl acc
 	"сыһыар" v tv ger pl px3sp acc
 	"сыһыар" v tv ger px3pl acc
 
@@ -3710,7 +3924,11 @@
 		"э" cop aor p3 pl
 
 "<сымсайбат>"
-	"*сымсайбат"
+	"сымсай" v tv neg aor p3 sg
+	"сымсай" v tv neg ger_aor nom
+		"э" cop aor p3 sg
+	"сымсай" v tv neg ger_aor nom
+	"сымсай" v tv neg gpr_aor
 
 "<Кашлык>"
 	"*Кашлык"
@@ -3729,10 +3947,14 @@
 
 "<Сонно>"
 	"сон" n par
+	"сонно" adv
+		"э" cop aor p3 sg
+	"сонно" adv
 	"сол" prn dem loc
 
 "<токуруйан>"
-	"*токуруйан"
+	"токуруй" v iv gna_perf
+	"токуруй" v iv prc_perf
 
 "<сүгүөн>"
 	"сүк" v tv ger_irre nom
@@ -3761,6 +3983,7 @@
 	"бастатан" adv
 		"э" cop aor p3 sg
 	"бастатан" adv
+	"бастатан" mod
 
 "<кэннилэрин>"
 	"*кэннилэрин"
@@ -3769,10 +3992,16 @@
 	"*Тацит"
 
 "<Долоҕой>"
-	"*Долоҕой"
+	"долоҕой" n nom
+		"э" cop aor p3 sg
+	"долоҕой" n attr
+	"долоҕой" n nom
 
 "<Хомурдуос>"
-	"*Хомурдуос"
+	"хомурдуос" n nom
+		"э" cop aor p3 sg
+	"хомурдуос" n attr
+	"хомурдуос" n nom
 
 "<грибогу>"
 	"*грибогу"
@@ -3796,8 +4025,13 @@
 		"э" cop aor p3 sg
 
 "<куораппыт>"
+	"куорап" n nom
+		"э" cop aor p1 pl
+	"куорап" n px1pl nom
+		"э" cop aor p3 sg
 	"куорат" n px1pl nom
 		"э" cop aor p3 sg
+	"куорап" n px1pl nom
 	"куорат" n px1pl nom
 
 "<стрептококктар>"
@@ -3856,8 +4090,11 @@
 "<Иһитиннэрии>"
 	"иһитиннэрии" n nom
 		"э" cop aor p3 sg
+	"иһитиннэр" v tv ger nom
+		"э" cop aor p3 sg
 	"иһитиннэрии" n attr
 	"иһитиннэрии" n nom
+	"иһитиннэр" v tv ger nom
 
 "<дессертациятын>"
 	"*дессертациятын"
@@ -3905,14 +4142,15 @@
 "<Таһаарыы>"
 	"таһаарыы" n nom
 		"э" cop aor p3 sg
+	"таһаар" v tv ger nom
+		"э" cop aor p3 sg
 	"таһаарыы" n attr
 	"таһаарыы" n nom
 	"таһаар" v tv ger nom
-		"э" cop aor p3 sg
-	"таһаар" v tv ger nom
 
 "<үөһүрүүгэ>"
-	"*үөһүрүүгэ"
+	"үөһүрүү" n dat
+	"үөһүр" v iv ger dat
 
 "<25.01.1909->"
 	"25.01.1909" num subst nom
@@ -3932,11 +4170,13 @@
 	"префектура" n nom
 
 "<Кутуйахтыҥылар>"
+	"кутуйахтыҥы" adj
+		"э" cop aor p3 pl
 	"кутуйахтыҥы" n pl nom
 		"э" cop aor p3 sg
-	"кутуйахтыҥы" n pl nom
 	"кутуйахтыҥы" n nom
 		"э" cop aor p3 pl
+	"кутуйахтыҥы" n pl nom
 
 "<Достоевскай>"
 	"Достоевскай" np cog m nom
@@ -3944,13 +4184,17 @@
 	"Достоевскай" np cog m nom
 
 "<сыпсырыйан>"
-	"*сыпсырыйан"
+	"сыпсырый" v iv gna_perf
+	"сыпсырый" v iv prc_perf
 
 "<330-с>"
 	"330" num ord
 
 "<лаппаарыйа>"
-	"*лаппаарыйа"
+	"лаппаарыйа" n nom
+		"э" cop aor p3 sg
+	"лаппаарыйа" n attr
+	"лаппаарыйа" n nom
 
 "<ньаҕайдана>"
 	"*ньаҕайдана"
@@ -3965,15 +4209,16 @@
 	"*Евтюхина"
 
 "<көрүүлэнэн>"
-	"*көрүүлэнэн"
+	"көрүүлэн" v tv gna_perf
+	"көрүүлэн" v tv prc_perf
 
 "<Нууччалар>"
-	"нуучча" adj
-		"э" cop aor p3 pl
 	"нуучча" n pl nom
 		"э" cop aor p3 sg
 	"нуучча" n pl nom
 	"нуучча" n nom
+		"э" cop aor p3 pl
+	"нуучча" adj
 		"э" cop aor p3 pl
 
 "<Дьүлэйэ>"
@@ -4010,7 +4255,10 @@
 	"кылаас" n nom
 
 "<маастардаабыта>"
-	"*маастардаабыта"
+	"маастардаа" v iv ger_past px3sg nom
+		"э" cop aor p3 sg
+	"маастардаа" v iv ger_past px3sg nom
+	"маастардаа" v iv plu p3 sg
 
 "<алфавитыгар>"
 	"*алфавитыгар"
@@ -4025,15 +4273,19 @@
 	"*Дениз"
 
 "<собуор>"
-	"*собуор"
+	"собуор" n nom
+		"э" cop aor p3 sg
+	"собуор" n attr
+	"собуор" n nom
+	"собуор" v tv imp p2 sg
 
 "<Антидиуритическай>"
 	"*Антидиуритическай"
 
 "<үөрэхтээхтэринэн>"
+	"үөрэхтээх" n px3pl ins
 	"үөрэхтээх" n pl ins
 	"үөрэхтээх" n pl px3sp ins
-	"үөрэхтээх" n px3pl ins
 
 "<методическай>"
 	"*методическай"
@@ -4042,10 +4294,14 @@
 	"кризис" n abl
 
 "<эҕэрдэлээбитэ>"
-	"*эҕэрдэлээбитэ"
+	"эҕэрдэлээ" v tv ger_past px3sg nom
+		"э" cop aor p3 sg
+	"эҕэрдэлээ" v tv ger_past px3sg nom
+	"эҕэрдэлээ" v tv plu p3 sg
 
 "<өллөөрү>"
-	"*өллөөрү"
+	"өллөө" v tv gna_plan
+	"өллөө" v tv gna_plan p3 sg
 
 "<ДЬАЬАЛЛАР>"
 	"дьаһал" n pl nom
@@ -4058,11 +4314,11 @@
 	"*Ушанов"
 
 "<куорсуннуу>"
-	"куорсун" n
-		"лыы" post
 	"куорсуннуу" adv
 		"э" cop aor p3 sg
 	"куорсуннуу" adv
+	"куорсун" n
+		"лыы" post
 
 "<Оренбургдааҕы>"
 	"*Оренбургдааҕы"
@@ -4092,7 +4348,9 @@
 	"Бодойбо" np top ins
 
 "<Улаан>"
-	"*Улаан"
+	"улаан" adj
+		"э" cop aor p3 sg
+	"улаан" adj
 
 "<Аҕатыттан>"
 	"аҕа" n px3sg abl
@@ -4100,8 +4358,10 @@
 "<Нью-Йорктааҕы>"
 	"*Нью-Йорктааҕы"
 
+
 "<сыаланнын>"
-	"*сыаланнын"
+	"сыалан" v iv imp p3 sg
 
 "<Туттайыыс>"
 	"*Туттайыыс"
+
