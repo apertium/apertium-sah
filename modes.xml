@@ -69,6 +69,7 @@
       <program name="vislcg3 --trace --grammar">
         <file name="sah.rlx.bin"/>
       </program>
+      <program name="cg-conv -l"/>
     </pipeline>
   </mode>
 
