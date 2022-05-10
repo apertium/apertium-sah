@@ -1,12 +1,15 @@
 #!/bin/bash
 
+#LG=$1
+LG="sah"
+
 declare -a StringArray=("Nouns" "ProperNouns" "Verbs" "Adjectives" "Other");
 echo -n "language	total	stems	";
 for a in "${StringArray[@]}"; do echo -n "$a	"; done
 echo
 
-lexcfilein="./apertium-$1/apertium-$1.$1.lexc"
-lexcfile="/tmp/apertium-$1.$1.lexc"
+lexcfilein="../apertium-$LG.$LG.lexc"
+lexcfile="/tmp/apertium-$LG.$LG.lexc"
 grep -v "^\!" $lexcfilein > $lexcfile
 
 totalcount=$(grep -Eo ":\w+.*;" $lexcfile | grep -v "[<>]" | sort | uniq | wc -l)
@@ -25,7 +28,7 @@ Numerals=$(grep -Eo ":\w+\s+NUM[0-9]*-*.*;" $lexcfile | grep -v "[<>]" | sort | 
 Pronouns=$(grep -Eo ":\w+\s+PRON[0-9]*-*.*;" $lexcfile | grep -v "[<>]" | sort | uniq | wc -l)
 Other=$(echo "$totalcount-($Nouns+$Adjectives+$Verbs+$ProperNouns+$Adverbs+$Dets+$Conjunctions+$Postpositions+$Numerals+$Pronouns+$Ijs)" | calc -p)
 
-echo "$1	$totalcount	$Nouns	$ProperNouns	$Verbs	$Adjectives	$Other";
+echo "$LG	$totalcount	$Nouns	$ProperNouns	$Verbs	$Adjectives	$Other";
 
 echo ""
 
