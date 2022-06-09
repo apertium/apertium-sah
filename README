@@ -53,15 +53,26 @@ Testing
 If you are in the source directory after running make, the following
 commands should work:
 
-```bash
-$  echo "TODO: test sentence" | apertium -d . sah-morph
-TODO: test analysis result
-```
+* Morphological analysis:
 
-```bash
-$ echo "TODO: test sentence" | apertium -d . sah-tagger
-TODO: test tagger result
-```
+	```bash
+	$  echo "Бу сахалыы морфологическай ырытыы." | apertium -d . sah-morph
+	^Бу/бу<prn><dem><nom>/бу<mod>$ ^сахалыы/саха<n>+лыы<post>/сахалыы<adv>+э<cop><aor><p3><sg>/сахалыы<adv>$ ^морфологическай/морфологическай<adj>+э<cop><aor><p3><sg>/морфологическай<adj>$ ^ырытыы/ырытыы<n><nom>+э<cop><aor><p3><sg>/ырытыы<n><nom>/ырытыы<n><attr>/ырыт<v><tv><ger><nom>+э<cop><aor><p3><sg>/ырыт<v><tv><ger><nom>$^./.<sent>$
+	```
+
+* Tagging (analysis + disambiguation):
+
+	```bash
+	$  echo "Бу сахалыы морфологическай ырытыы." | apertium -d . sah-tagger
+	^Бу/Бу<prn><dem><nom>$ ^сахалыы/саха<n>+лыы<post>$ ^морфологическай/морфологическай<adj>$ ^ырытыы/ырытыы<n><nom>+э<cop><aor><p3><sg>$^./.<sent>$
+	```
+
+* Morphological generation:
+
+	```bash
+	$  echo "^бу<prn><dem><nom>$ ^саха<n>+лыы<post>$ ^морфологическай<adj>$ ^ырытыы<n><nom>+э<cop><aor><p3><sg>$" | apertium -d . -f none sah-gener
+	бу сахалыы морфологическай ырытыы
+	```
 
 Files and data
 -------------------------------------------------------------------------------
