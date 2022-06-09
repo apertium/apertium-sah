@@ -60,6 +60,8 @@ commands should work:
 	^Бу/бу<prn><dem><nom>/бу<mod>$ ^сахалыы/саха<n>+лыы<post>/сахалыы<adv>+э<cop><aor><p3><sg>/сахалыы<adv>$ ^морфологическай/морфологическай<adj>+э<cop><aor><p3><sg>/морфологическай<adj>$ ^ырытыы/ырытыы<n><nom>+э<cop><aor><p3><sg>/ырытыы<n><nom>/ырытыы<n><attr>/ырыт<v><tv><ger><nom>+э<cop><aor><p3><sg>/ырыт<v><tv><ger><nom>$^./.<sent>$
 	```
 
+	* Or online at [https://beta.apertium.org](https://beta.apertium.org/index.eng.html#analysis?aLang=sah&aQ=%D0%91%D1%83%20%D1%81%D0%B0%D1%85%D0%B0%D0%BB%D1%8B%D1%8B%20%D0%BC%D0%BE%D1%80%D1%84%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D0%B9%20%D1%8B%D1%80%D1%8B%D1%82%D1%8B%D1%8B.).
+
 * Tagging (analysis + disambiguation):
 
 	```bash
@@ -73,6 +75,8 @@ commands should work:
 	$  echo "^бу<prn><dem><nom>$ ^саха<n>+лыы<post>$ ^морфологическай<adj>$ ^ырытыы<n><nom>+э<cop><aor><p3><sg>$" | apertium -d . -f none sah-gener
 	бу сахалыы морфологическай ырытыы
 	```
+
+	* Or online at [https://beta.apertium.org](https://beta.apertium.org/index.eng.html#generation?gLang=sah&gQ=%5E%D0%B1%D1%83%3Cprn%3E%3Cdem%3E%3Cnom%3E%24%20%5E%D1%81%D0%B0%D1%85%D0%B0%3Cn%3E%2B%D0%BB%D1%8B%D1%8B%3Cpost%3E%24%20%5E%D0%BC%D0%BE%D1%80%D1%84%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D0%B9%3Cadj%3E%24%20%5E%D1%8B%D1%80%D1%8B%D1%82%D1%8B%D1%8B%3Cn%3E%3Cnom%3E%2B%D1%8D%3Ccop%3E%3Caor%3E%3Cp3%3E%3Csg%3E%24).
 
 Files and data
 -------------------------------------------------------------------------------
@@ -96,7 +100,7 @@ Citing
 
 When referencing this work in an academic publication, we ask that you cite the following source:
 
-* Ivanova, Sardana, Jonathan N. Washington, and Francis M. Tyers (2022).  **A Free/Open-Source Morphological Analyser and Generator for Sakha**.  Presented at _LREC 2022_.  (Links to poster and paper to appear.)
+* Ivanova, Sardana, Jonathan N. Washington, and Francis M. Tyers (2022).  **A Free/Open-Source Morphological Analyser and Generator for Sakha**.  Presented at _LREC 2022_.  [Poster](https://github.com/apertium/papers/blob/master/2022-lrec-sahmorph/LREC%202022%20Sakha%20poster.pdf), (link to paper to appear).
 
 The transducer also appeared as the following:
 
