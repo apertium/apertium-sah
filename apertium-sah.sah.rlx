@@ -76,6 +76,8 @@ LIST VerbalAdverb = gna_perf gna_cond gna_until gna_after ;
 LIST VerbalAdjective = gpr_past gpr_fut gpr_pot gpr_impf ;
 LIST SubstPl = (subst pl) ;
 
+SET MARK =  Cm | ("\\") | ("\;") | ("\(") ;
+
 
 SECTION
 
@@ -99,6 +101,17 @@ SELECT Participle IF
 	(0C Participle OR VerbalAdverb)
 	(1 Vaux)
 ;
+
+# probably not a copula if not end of sentence
+REMOVE SUB:1 Cop IF
+	(NOT 1 EOS OR MARK)
+;
+
+REMOVE SUB:1 Cop IF
+	(-1 BOS OR MARK) ## Headings or enumerations
+	(NOT 1 EOS)
+;
+
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
